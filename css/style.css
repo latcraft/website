@@ -493,6 +493,25 @@ section#news {
               background: transparent; }
               #off-canvas .container ul li a:hover {
                 background: #FF4A4A; }
+                #off-canvas .container ul li a:hover.speakerdeck i {
+                  color: #FF4A4A; }
+              #off-canvas .container ul li a.speakerdeck {
+                background: #3ab278;
+                color: #3ab278;
+                padding: 11px 0; }
+                #off-canvas .container ul li a.speakerdeck span {
+                  overflow: hidden;
+                  display: inline-block;
+                  background: #fff;
+                  padding: 0 0px;
+                  -webkit-border-radius: 2px;
+                  border-radius: 2px; }
+                  #off-canvas .container ul li a.speakerdeck span i {
+                    color: #111;
+                    float: left;
+                    font-size: 10px;
+                    line-height: 0.8 !important;
+                    padding: 0 1px; }
               #off-canvas .container ul li a.network {
                 background: #111 !important;
                 margin: 4px 0 0 5px;
@@ -545,18 +564,22 @@ section#news {
           background: #3B5998; }
         #off-canvas ul li a.speakerdeck {
           background: #3ab278;
-          padding: 11px 0; }
+          color: #3ab278;
+          padding: 18px 0; }
           #off-canvas ul li a.speakerdeck span {
             overflow: hidden;
             display: inline-block;
             background: #fff;
-            padding: 0 0px;
+            padding: 2px 2px;
             -webkit-border-radius: 2px;
             border-radius: 2px; }
             #off-canvas ul li a.speakerdeck span i {
-              color: #111;
+              -webkit-transition: 0.4s all ease 0s;
+              -o-transition: 0.4s all ease 0s;
+              transition: 0.4s all ease 0s;
+              color: #3ab278;
               float: left;
-              font-size: 10px;
+              font-size: 14px;
               line-height: 0.8 !important;
               padding: 0 1px; }
         #off-canvas ul li a.youtube {
@@ -568,6 +591,8 @@ section#news {
           font-size: 18px; }
         #off-canvas ul li a:hover {
           background: #000; }
+          #off-canvas ul li a:hover.speakerdeck i {
+            color: #111; }
   #off-canvas .logo {
     display: none; }
   #off-canvas a.open {
@@ -805,7 +830,9 @@ section#speeches a.prev.button, section#speeches a.next.button {
   text-transform: uppercase;
   background: #dedede;
   color: #fff;
-  padding: 8px 18px;
+  height: 240px;
+  padding: 0px 18px;
+  margin: -120px 0 0 0;
   position: absolute;
   text-align: center;
   top: 50%;
@@ -815,8 +842,9 @@ section#speeches a.prev.button, section#speeches a.next.button {
     background: #00CB9F; }
   section#speeches a.prev.button i, section#speeches a.next.button i {
     float: left;
-    line-height: 1.8;
-    padding: 0 10px 0 0; }
+    line-height: 240px;
+    padding: 0 10px 0 0;
+    font-size: 34px; }
 section#speeches a.prev.button {
   left: 0px; }
 section#speeches a.next.button {
@@ -851,6 +879,8 @@ section#speaker {
     color: #fff;
     border-bottom-color: #fff; }
 
+section#challenge .title i {
+  color: #FED34B; }
 section#challenge .description {
   margin-bottom: 40px;
   text-align: center;
@@ -933,8 +963,7 @@ section#challenge .carousel {
         section#challenge .carousel .month:last-child {
           margin-right: 0; } }
     section#challenge .carousel .month h4 {
-      font-size: 20px;
-      color: #fff; }
+      font-size: 20px; }
 section#challenge .awarded {
   overflow: hidden;
   list-style-type: decimal;
