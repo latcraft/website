@@ -1,0 +1,21 @@
+{
+  "name": "latcraft",
+  "version": "1.0.0",
+  "authors": [
+    "Teodors Zeltiņš <teodors.zeltins@gmail.com>"
+  ],
+  "homepage": "http://ejam.lv",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.1",
+    "jquery.validate": "~1.13.0",
+    "modernizr": "~2.8.3",
+    "twitter-fetcher": "*"
+  }
+}

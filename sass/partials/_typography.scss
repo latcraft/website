@@ -1,0 +1,44 @@
+// --------------------------------------------
+// fonts
+
+$primary-font: "Open Sans", sans-serif;
+$secondary-font: "Roboto Slab", serif;
+
+h1, h2, h3,
+h4, h5, h6 {
+    -webkit-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
+    -moz-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
+    -o-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
+    color: $base-header;
+    line-height: 1.15em;
+    margin: 0 0 0.4em 0;
+    font-weight: 700;   
+    font-family: $primary-font;
+}
+
+h1 {
+    font-size: 5rem;
+    letter-spacing: -2px;
+    text-indent: -3px;
+}
+
+h2 {
+    font-size: 3.6rem;
+    letter-spacing: -1px;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+h4 {
+    font-size: 2.5rem;
+}
+
+h5 {
+    font-size: 2rem;
+}
+
+h6 {
+    font-size: 2rem;
+}

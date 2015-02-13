@@ -1,0 +1,13 @@
+section#digest
+	.container
+		h2.title Digest
+		p 
+			| Hello! Your friend 
+			i Weekly Digest
+			|  here. Want to know about latest and greatest trends? 
+			br 
+			| Sign-up and well inform you first!
+		#subscription
+			form(action="" method="post" target="_blank" novalidate="")
+				input(type="email" value="" name="email" placeholder="type your e-mail here..").required.email
+				input(type="submit" value="subscribe" name="subscribe").button.invert

@@ -1,0 +1,36 @@
+section#challenge
+	.container
+		h2.title Challenge
+
+		.description
+			p 
+				| Our join invention with Amazon is something we called 
+				strong Cloudopoly.
+				|  Each month we are having a challenge related to Amazon AWS. Top 3 solutions get prizes. If you get in top 3 for 3 times, you get a special prize.
+				| Check out 
+				a(href="#").text-link official challenge page.
+		
+		.results
+			.carousel
+				ul.holder
+					for challenge in locals.challenges
+						li.month.col-3
+							h4 #{challenge.month}
+							if challenge.completed
+								ol.awarded
+									for person in challenge.awarded
+										li 
+											| #{person.name} 
+											a(href=person.source) GitHub
+								
+							else
+								p This challenge is still in progress. You can still take part.
+
+							a(href="#").text-link challenge details
+
+			a.prev.button(href="#")
+				span.date Prev
+				i.fa.fa-angle-left
+			a.next.button(href="#")
+				span.date Next
+				i.fa.fa-angle-right

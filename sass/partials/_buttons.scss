@@ -1,0 +1,109 @@
+// --------------------------------------------
+// buttons
+
+.button {
+    clear: both;
+    background: $primary;
+    color: #fff;
+    float: left;
+    border: 0;
+    display: block;
+    font-size: 1.8rem;
+    line-height: 1.75em;
+    font-family: $secondary-font;
+    cursor: pointer;
+    font-weight: 400;
+    padding: 8px 16px;   
+
+    &:hover {
+        background: #111;
+        color: #fff;
+    }
+
+    &.effect {
+        overflow: hidden;
+
+        &:hover, &:focus {
+            outline: medium;
+
+            div {
+                transform: translateY(-100%);
+            }
+        }
+
+        div {
+            display: inline-block;
+            position: relative;
+            transition: transform 0.3s ease 0s;
+
+            &:before {
+                content: attr(data-hover);
+                position: absolute;
+                top: 100%;
+                transform: translate3d(0px, 0px, 0px);
+            }  
+        }          
+    }
+
+    
+
+    &.invert {
+        background: #111;
+    }
+
+    &.icon {
+        border: 1px solid #dedede;        
+        background: transparent;
+        overflow:hidden;
+
+        &:hover {
+            border-color: #111;
+            i {
+                color: #111;
+            }
+        }
+
+        i {
+            color: #dedede;
+            font-size: 1.8rem;
+            line-height: 2.95rem;
+        }
+    }
+
+    &.big {
+        padding: 12px 28px;
+
+        @media screen and (max-width: $phone) {
+            width: 100%;
+            text-align: center;
+            height: 80px;
+            line-height: 80px;
+            padding: 0;
+        }
+    }
+}
+
+.button-group {
+    clear: both;
+    text-align: center;
+
+    .button {
+        clear: none;
+    }
+
+    span {
+        font-style: italic;
+        line-height: 47px;
+        padding: 0 10px;
+        float: left;
+    }
+}
+
+.text-link {
+    border-bottom: 2px solid $secondary;
+    font-weight: 700;
+
+    &:hover {
+        border-color: #111;
+    }
+}

@@ -1,0 +1,49 @@
+nav#off-canvas
+	a(href="#").open
+			span 
+			span
+			span
+	
+	.container
+		ul 
+			li: a(href="#header") intro
+			li: a(href="#speeches") speeches
+			li: a(href="#sponsors") sponsors
+			li: a(href="#sharing") stream
+			li: a(href="#challenge") challenge
+			li: a(href="#digest") digest
+			li: a(href="#about") about
+			li: a.twitter.network(href="https://twitter.com/latcraft", target="_blank") 
+				i.fa.fa-twitter
+			li: a.github.network(href="http://github.com", target="_blank") 
+				i.fa.fa-github
+			li: a.facebook.network(href="https://www.facebook.com/groups/latcraft", target="_blank")
+				i.fa.fa-facebook
+			li: a.linkedin.network(href="http://linkedin.com", target="_blank")
+				i.fa.fa-linkedin
+			li: a.youtube.network(href="https://www.youtube.com/channel/UCvzMZyJZZ3XYQwbvOACVYrQ", target="_blank")
+				i.fa.fa-youtube
+			li: a.speakerdeck.network(href="https://speakerdeck.com/latcraft", target="_blank")
+				span
+					i.fa.fa-caret-left
+					i.fa.fa-caret-right
+			
+		.logo
+			a(href="") LatCraft
+
+header#header
+	video#video(autoplay loop poster="img/intro.jpg" muted)
+		source(src="video/intro.webm" type="video/webm")
+		source(src="video/intro.mp4" type="video/mp4")
+	.container
+		.vertical
+			.logo-group
+				#logo
+					a(href="") LatCraft
+
+
+			.info
+				h1 We are about great developers and spectacular speeches.
+				p We are community of awesome Latvian craftsmen. Each month we host an event where we invite amazing speakers from across the world.
+				.button-group
+					a#get-ticket.button.big(href="#") reserve seat

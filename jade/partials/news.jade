@@ -1,0 +1,11 @@
+section#news
+	.container
+		#news-slider
+			h4 Latest updates
+			.carousel
+				.holder
+					for item in locals.news
+						.slide
+							p #{item.title}
+			.pagination
+				ul

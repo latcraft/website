@@ -1,0 +1,55 @@
+[{
+	"month" : "january",
+	"speakers" : [{
+			"name" : "Māris Veiders",
+			"bio" : "Ask.fm",
+			"title" : "Epiphany From A Specialist As Worst CIO Ever",
+			"description" : "Maris will share his empirical findings from two very distinct perspectives of IT Specialist and CIO - how kicking some ice is related to to literally breaking speed limits while going to work, which [just as a side effect] - leads to earning a lot more money too.",
+			"img" : "img/speakers/maris-veiders.jpg",
+			"presentation" : "https://speakerdeck.com/latcraft/epiphany-from-a-specialist-as-worst-cio-ever",
+			"video" : "https://www.youtube.com/watch?v=6jm_SGdbIF4"
+		}, {
+			"name" : "Raimonds Simanovskis",
+			"bio" : "Ask.fm",
+			"title" : "Building Technical Competence",
+			"description" : "Raimonds has been CTO for large software development company and now is CEO/CTO of a small startup. He will talk about several topics and compare from his experience what has been common and what different in large and small teams.",
+			"img" : "img/speakers/raimonds-simanovskis.jpg",
+			"presentation" : "https://speakerdeck.com/latcraft/building-technical-competence",
+			"video" : "https://www.youtube.com/watch?v=6jm_SGdbIF4"
+		}, {
+			"name" : "Jakub Nabrdalik",
+			"bio" : "Ask.fm",
+			"title" : "Game Of Throneware",
+			"description" : "Jakub will reveal how not to get killed when a developer becomes a manager. What happens, when you become a manager? How do you organize teams, workspace? How do you help people? How do you deal with politics, communication? And much more.",
+			"img" : "img/speakers/jakub-nabrdalik.jpg",
+			"presentation" : "https://speakerdeck.com/latcraft/game-of-throneware",
+			"video" : "https://www.youtube.com/watch?v=6jm_SGdbIF4"
+		}]
+}, {
+	"month" : "february",
+	"speakers" : [{
+			"name" : "Andrey Grave",
+			"bio" : "BuyerDeck",
+			"title" : "Growing Teams: Notes of an Amateur Team Gardener",
+			"description" : "Andrey will share his experience and discoveries on the topic of Growing Teams. What does it take to grow a team? What environment facilitates team growth? What distinguishes great teams? What can kill teams? What are characteristics of great team member? And some more.",
+			"img" : "img/speakers/andrey-grave.jpg",
+			"presentation" : "https://speakerdeck.com/latcraft/growing-teams-notes-of-an-amateur-team-gardener",
+			"video" : "https://www.youtube.com/watch?v=6jm_SGdbIF4"
+		}, {
+			"name" : "Romans Karpelcevs ",
+			"bio" : "Ask.fm",
+			"title" : "From Zero to Hero",
+			"description" : "Romans will talk about a developer's journey from college to senior developer. What is wrong with our education? What is wrong with our expectations? Roman will share his idea of the focus points on our path to success as a person and as an industry.",
+			"img" : "img/speakers/romans-karpelcevs.png",
+			"presentation" : "https://speakerdeck.com/latcraft/from-zero-to-hero",
+			"video" : "https://www.youtube.com/watch?v=Gz0s8j3nboU"
+		}, {
+			"name" : "Aleksejs Truhans",
+			"bio" : "Citadele Banka",
+			"title" : "A Personal Journey Into Human and Team Effectiveness",
+			"description" : "Having worked both as developer and as team manager, Aleksej will share his experiences with team, personal and process aspects that facilitate or inhibit productivity. What makes one successful in the eyes of others? How is efectiveness developed and maintained? These and related questions are important to any conscious software craftsman.",
+			"img" : "img/speakers/aleksejs-truhans.jpg",
+			"presentation" : "https://speakerdeck.com/latcraft/team-and-personal-effectiveness",
+			"video" : "https://www.youtube.com/watch?v=Gz0s8j3nboU"
+		}]
+}]
