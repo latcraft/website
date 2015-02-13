@@ -1,0 +1,5 @@
+/*  TEAM  */
+    Creator:            Teodors Zeltiņš
+    Location:           Latvia, Riga
+    Twitter:            @TeodorsZeltins
+    Web:                teodors.lv
