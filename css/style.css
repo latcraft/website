@@ -732,6 +732,11 @@ header#header {
 section#speeches h2 {
   font-weight: 400;
   text-align: center; }
+section#speeches .title-holder {
+  display: block;
+  width: 100%;
+  min-height: 120px;
+  position: relative; }
 section#speeches h3 {
   text-transform: uppercase;
   font-size: 2.4rem;
