@@ -13,7 +13,8 @@
     font-family: $secondary-font;
     cursor: pointer;
     font-weight: 400;
-    padding: 8px 16px;   
+    padding: 8px 16px; 
+    transition: 0.2s all ease 0s;  
 
     &:hover {
         background: #601212;
@@ -91,13 +92,16 @@
         clear: none;
         display: inline-block;
         float: none;
+        text-decoration: none;
+        vertical-align: bottom;
+        white-space: nowrap;
     }
 
     span {
         font-style: italic;
         line-height: 47px;
         padding: 0 10px;
-        float: left;
+        display: inline-block;
     }
 }
 

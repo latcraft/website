@@ -506,11 +506,26 @@ header#header {
             }
         }
 
-        @include media($container) {            
-            .button {
+        .button {
+            &:hover {
+                background: #111;
+
+                span {
+                    color: #565656;
+                }
+            }
+
+            span {
+                color: #fff;
+                transition: 0.2s all ease 0s; 
+                font-style: normal;
+            }
+            
+            @include media($container) {            
                 float: left !important;
             }
         }
+        
     }
 }
 
@@ -889,45 +904,53 @@ section#challenge {
 // --------------------------------------------
 // sharing
 section#sharing {
-    padding: 120px 0 0 0;
+    position: relative;
 
     .container {
-        padding: 0;
+        position: relative;
     }
 
     .twitter, .gallery {
-        position: relative;
         @include span-columns(12 of 12);
 
         @include media($container) {
-            @include span-columns(6);    
+            @include span-columns(6); 
         }
     }
-
-    @include media($container) {
-        padding: 80px 0;        
-    }
-
     .twitter {
         margin-bottom: 80px;
-        padding: 0 10px;
-    }
 
-    @include media($container) {
-        .twitter {
+        @include media($container) {
             margin-bottom: 0px;
-            padding: 0;
+        }
+
+        .button-group {
+            span {
+                display: none;
+
+                @include media($container) {
+                    display: inline-block;
+                }
+            }
+            .button {
+                margin: 0 5px;
+            }
         }
     }
+    .gallery {
+        @include omega();
+        padding: 0;
+        position: relative;
 
-    .info {
-        position: absolute;
-        top: 50%;
-        display: block;
-        margin-top: -70px;
-        left: 0px;
-        right: 0px;
-        z-index: 100;
+        .holder {
+            position: absolute;
+            top: 50%;
+            z-index: 100;
+            right: 0;
+            margin: -70px 0 0 0;    
+            width: 100%;
+        }
+        
 
         h2 {
             color: #fff;
@@ -944,18 +967,20 @@ section#sharing {
     }
 
     #twitter-feed {
-        margin-bottom: 30px;
+        margin: 0 0 30px 0;
+        overflow: hidden;
 
         img {
-            width: 40px;
-            height: 40px;
-            float: left;
+            width: 30px;
+            height: 30px;
             border-radius: 50%;
+            float: left;
+            margin: 0 15px 0 0;
         }
 
         li {
             overflow: hidden;
-            margin: 0 0 30px 0;
+            margin: 0 0 20px 0;
 
             &:last-child {
                 border-bottom: 0;
@@ -966,35 +991,30 @@ section#sharing {
                 }
             }
 
-            p {
-                font-size: 16px;
-                line-height: 1.6;
-            }
-
-            .timePosted, .interact {
-                display: none;
-            }
-
             .user {
                 float: left;
                 display: block;
-                margin: 0; 
+                margin: 0px; 
 
                 a {
-                    color: $accent;
-                    font-weight: 700;
+                    color: #111;
                 }
 
                 a > span {
-                    font-size: 12px;
+                    font-size: 14px;
+                    font-family: $primary-font;
                     line-height: 1.6;
                     float: left;
                     display: block;
-                    line-height: 40px;
-                    padding: 0 10px;
+                    padding: 3px;
 
                     &:nth-child(2) {
-                        display: none;
+                        color: #111;
+                        font-weight: bold;
+                    }
+
+                    &:nth-child(3) {
+                        color: #dedede;
                     }
                 }
             }
@@ -1002,14 +1022,23 @@ section#sharing {
             .tweet {
                 clear: both;
                 float: left;
+                font-size: 14px;
+                margin-bottom: 20px;
                 margin-left: 50px;
-                margin-bottom: 0px;
+                line-height: 1.6;
+
+                a {
+                    color: $accent;
+                }
+            }
+
+            .timePosted, .interact {
+                display: none;
             }
         }
     }
 
-    #flickr-feed {
-        width: 100%;
+    #flickr-feed { 
         ul {
             width: 100%;
             li {
@@ -1017,7 +1046,7 @@ section#sharing {
                 overflow: hidden;
                 display: block;
                 float: left;
-                width: 50%;
+                width: 33.333333%;
 
                 img {
                     width: 100%;
