@@ -47,10 +47,10 @@ $(document).ready(function($) {
 	twitterFetcher.fetch(tweetConfig);
 
 	// digest subscription
-	$('#subscription input[type="submit"').click(function(event) {
-  		event.preventDefault();
+	$('#subscription input[type=submit]').submit(function(e) {
+  		e.preventDefault();
 
-		var email = $('#subscription input[name="email"]').val();
+		var email = $('#subscription input[name=email]').val();
   		var subscribers = new Firebase("https://radiant-fire-3288.firebaseio.com/subscribers");
 		subscribers.push(email, function(error) {
 		  if (error) {
