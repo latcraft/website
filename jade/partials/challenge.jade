@@ -9,8 +9,6 @@ section#challenge
 				| Our join invention with Amazon is something we called 
 				strong Cloudopoly.
 				|  Each month we are having a challenge related to Amazon AWS. Top 3 solutions get prizes. If you get in top 3 for 3 times, you get a special prize.
-				| Check out 
-				a(href="#").text-link official challenge page.
 		
 		.results
 			.carousel
@@ -23,13 +21,14 @@ section#challenge
 									for person in challenge.awarded
 										li 
 											| #{person.name} 
-											a(href=person.source) source
+											if person.source
+												a(href=person.source) source
 								
 							else
 								p This challenge is still in progress. You can still take part.
 
 							.button-group
-								a.button.effect(href="#")
+								a.button.effect(href="#{challenge.details}")
 									div(data-hover="details") details
 
 			a.prev.button(href="#")
