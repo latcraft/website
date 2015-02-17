@@ -125,6 +125,7 @@ section#news {
     position: fixed;
     transform: translate3d(30px, 30px, 0px);
     z-index: 500;
+    overflow: hidden;
     background: rgba(34, 44, 52, 0.9);
     transition: 0.5s all cubic-bezier(0.7, 0, 0.3, 1) 0s;
 
@@ -230,6 +231,31 @@ section#news {
 
                         &:hover {
                             background: $primary;
+                            &.speakerdeck i {
+                                color: $primary;
+                            }
+                        }
+
+                        &.speakerdeck {
+                            background: #3ab278;
+                            color: #3ab278;
+                            padding: 11px 0;
+                
+                            span {
+                                overflow: hidden;
+                                display: inline-block;
+                                background: #fff;
+                                padding: 0 0px;
+                                border-radius: 2px;
+
+                                i {
+                                    color: #111;
+                                    float: left;
+                                    font-size: 10px;   
+                                    line-height: 0.8 !important;
+                                    padding: 0 1px;
+                                }
+                            }
                         }
 
                         &.network {
@@ -298,19 +324,21 @@ section#news {
 
                 &.speakerdeck {
                     background: #3ab278;
-                    padding: 11px 0;
+                    color: #3ab278;
+                    padding: 18px 0;
         
                     span {
                         overflow: hidden;
                         display: inline-block;
                         background: #fff;
-                        padding: 0 0px;
+                        padding: 2px 2px;
                         border-radius: 2px;
 
                         i {
-                            color: #111;
+                            transition: 0.4s all ease 0s;
+                            color: #3ab278;
                             float: left;
-                            font-size: 10px;   
+                            font-size: 14px;   
                             line-height: 0.8 !important;
                             padding: 0 1px;
                         }
@@ -332,6 +360,10 @@ section#news {
 
                 &:hover {
                     background: #000;
+
+                    &.speakerdeck i {
+                        color: #111;
+                    }
                 }
             }
         }
@@ -473,6 +505,12 @@ header#header {
                 text-align: left;
             }
         }
+
+        @include media($container) {            
+            .button {
+                float: left !important;
+            }
+        }
     }
 }
 
@@ -505,6 +543,17 @@ section#speeches {
     h2 {
         font-weight: 400;
         text-align: center;
+    }
+
+    .title-holder {
+        display: block;
+        width: 100%;
+        min-height: auto;
+        position: relative;
+
+        @include media($container) {
+            min-height: 120px;
+        }
     }
 
     h3 {
@@ -601,7 +650,7 @@ section#speeches {
                     border-bottom: 2px solid #b7b7b7;
                 }
                 h5 {
-                    color: $secondary;
+                    color: #800000;
                 }
             }
 
@@ -623,7 +672,9 @@ section#speeches {
         text-transform: uppercase;
         background: #dedede;
         color: #fff;
-        padding: 8px 18px;
+        height: 240px;
+        padding: 0px 18px;
+        margin: -120px 0 0 0;
         position: absolute;
         text-align: center;
         top: 50%;
@@ -636,8 +687,9 @@ section#speeches {
 
         i {
             float: left;
-            line-height: 1.8;
+            line-height: 240px; 
             padding: 0 10px 0 0;
+            font-size: 34px;
         }
     }
 
@@ -700,6 +752,11 @@ section#speaker {
 // --------------------------------------------
 // challenge
 section#challenge {
+    .title {        
+        i {
+            color: #FED34B;
+        }
+    }
     .description {
         margin-bottom: 40px;
         text-align: center;
@@ -734,33 +791,28 @@ section#challenge {
         .holder {
             margin: 0;
             padding: 0;
-            width: 800%;
+            width: 1000%;
             position: relative;
             overflow: hidden;
         }
 
-        a.text-link {
-            width: 100%;
-        }  
-
         .month {
             padding: 40px 20px;
-            border: 3px solid #f5f5f5;
             float: left;
             text-align: center;
-            @include span-columns(12 of 96);            
+            width: 10%;  
+            //- border: 3px solid #f5f5f5
 
             @include media($container) {
-                @include span-columns(6 of 96);
-            }
+                width: 5%;
+            }  
 
-            @include media(960px) {
-                @include span-columns(4 of 96);   
+            @include media($desktop) {
+                width: 3.333333%;   
             }
 
             h4 {
                 font-size: 20px;
-                color: #fff;
             }
         }
     }
@@ -787,11 +839,25 @@ section#challenge {
         background: #dedede;
         color: #fff;
         padding: 8px 18px;
-        position: absolute;
+        float: left;
         text-align: center;
-        top: 65%;
         z-index: 150;
+        clear: none;
+        margin-top: 20px;
         font-family: $primary-font;
+        position: relative;
+        @include span-columns(6 of 12);
+
+        @include media($container) {            
+            @include span-columns(2 of 12);
+        }
+
+        @include media($desktop) {            
+            position: absolute;   
+            width: auto; 
+            margin: 0;
+            bottom: 220px;
+        }
 
         &:hover {
             background: $secondary;
@@ -809,6 +875,7 @@ section#challenge {
     }
 
     a.next.button {
+        float: right;
         right: 0px;
 
         i {            

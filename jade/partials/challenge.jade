@@ -1,6 +1,8 @@
 section#challenge
 	.container
-		h2.title Challenge
+		h2.title 
+			i.fa.fa-trophy
+			|  Challenge
 
 		.description
 			p 
@@ -21,12 +23,14 @@ section#challenge
 									for person in challenge.awarded
 										li 
 											| #{person.name} 
-											a(href=person.source) GitHub
+											a(href=person.source) source
 								
 							else
 								p This challenge is still in progress. You can still take part.
 
-							a(href="#").text-link challenge details
+							.button-group
+								a.button.effect(href="#")
+									div(data-hover="details") details
 
 			a.prev.button(href="#")
 				span.date Prev
