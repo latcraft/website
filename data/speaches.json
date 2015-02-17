@@ -52,4 +52,31 @@
 			"presentation" : "https://speakerdeck.com/latcraft/team-and-personal-effectiveness",
 			"video" : "https://www.youtube.com/watch?v=Gz0s8j3nboU"
 		}]
+}, {
+	"month" : "Mar 2015",
+	"speakers" : [{
+			"name" : "Leonids Maslovs",
+			"bio" : "Galeo Consulting",
+			"title" : "The Sweet Flavour of Rust",
+			"description" : "Every chef now and then uses pinch of his secret spices to make a dish somewhat special and exquisite. This talk will provide introduction into nature of Rust sweetness and will answer to most important questions: Why and When does it make our dishes better? We will iterate over small code snippets and take a look _How_ strong typing and functional thinking can be applied to low level system programming.",
+			"img" : "img/speakers/maslov.png",
+			"presentation" : "",
+			"video" : ""
+		}, {
+			"name" : "Anatoly Ressin",
+			"bio" : "C.T.Co",
+			"title" : "The Way to Go",
+			"description" : "This talk will guide you through the core concepts of the Go. We will cover the type system, memory model, packaging and of course the famous concurrency primitives of the language: goroutines and channels. Small working code snippets will be available on the github for immediate coding experience.",
+			"img" : "img/speakers/ressin.png",
+			"presentation" : "",
+			"video" : ""
+		}, {
+			"name" : "Jurijs Saveljevs",
+			"bio" : "Rubylight",
+			"title" : "There is always Erlang",
+			"description" : "This talk is devoted to giving overall insight on some fundamental problems on how we perceive and perform development of modern software and suggesting plausible cure in Erlang adoption. It has never been easier to address many of never-ending issues with parallel, distributed and fault tolerant computing. Get to know the Erlang-way of fighting against complexity of software world before those problems catch you unprepared!",
+			"img" : "img/speakers/savelyev.png",
+			"presentation" : "",
+			"video" : ""
+		}]
 }]
