@@ -93,7 +93,10 @@ h6 {
   font-family: "Roboto Slab", serif;
   cursor: pointer;
   font-weight: 400;
-  padding: 8px 16px; }
+  padding: 8px 16px;
+  -webkit-transition: 0.2s all ease 0s;
+  -o-transition: 0.2s all ease 0s;
+  transition: 0.2s all ease 0s; }
   .button:hover {
     background: #601212;
     color: #fff; }
@@ -150,12 +153,15 @@ h6 {
   .button-group .button {
     clear: none;
     display: inline-block;
-    float: none; }
+    float: none;
+    text-decoration: none;
+    vertical-align: bottom;
+    white-space: nowrap; }
   .button-group span {
     font-style: italic;
     line-height: 47px;
     padding: 0 10px;
-    float: left; }
+    display: inline-block; }
 
 .text-link {
   font-weight: 700;
@@ -760,6 +766,16 @@ header#header {
         header#header .info p {
           font-size: 1.8rem;
           text-align: left; } }
+    header#header .info .button:hover {
+      background: #111; }
+      header#header .info .button:hover span {
+        color: #565656; }
+    header#header .info .button span {
+      color: #fff;
+      -webkit-transition: 0.2s all ease 0s;
+      -o-transition: 0.2s all ease 0s;
+      transition: 0.2s all ease 0s;
+      font-style: normal; }
     @media screen and (min-width: 690px) {
       header#header .info .button {
         float: left !important; } }
@@ -1066,11 +1082,10 @@ section#challenge a.next.button {
     float: right; }
 
 section#sharing {
-  padding: 120px 0 0 0; }
+  position: relative; }
   section#sharing .container {
-    padding: 0; }
+    position: relative; }
   section#sharing .twitter, section#sharing .gallery {
-    position: relative;
     float: left;
     display: block;
     margin-right: 2.35765%;
@@ -1085,90 +1100,98 @@ section#sharing {
         width: 48.82117%; }
         section#sharing .twitter:last-child, section#sharing .gallery:last-child {
           margin-right: 0; } }
-  @media screen and (min-width: 690px) {
-    section#sharing {
-      padding: 80px 0; } }
   section#sharing .twitter {
-    margin-bottom: 80px;
-    padding: 0 10px; }
-  @media screen and (min-width: 690px) {
-    section#sharing .twitter {
-      margin-bottom: 0px;
-      padding: 0; } }
-  section#sharing .info {
-    position: absolute;
-    top: 50%;
-    display: block;
-    margin-top: -70px;
-    left: 0px;
-    right: 0px;
-    z-index: 100; }
-    section#sharing .info h2 {
+    margin-bottom: 80px; }
+    @media screen and (min-width: 690px) {
+      section#sharing .twitter {
+        margin-bottom: 0px; } }
+    section#sharing .twitter .button-group span {
+      display: none; }
+      @media screen and (min-width: 690px) {
+        section#sharing .twitter .button-group span {
+          display: inline-block; } }
+    section#sharing .twitter .button-group .button {
+      margin: 0 5px; }
+  section#sharing .gallery {
+    margin-right: 0;
+    padding: 0;
+    position: relative; }
+    section#sharing .gallery .holder {
+      position: absolute;
+      top: 50%;
+      z-index: 100;
+      right: 0;
+      margin: -70px 0 0 0;
+      width: 100%; }
+    section#sharing .gallery h2 {
       color: #fff; }
-    section#sharing .info p {
+    section#sharing .gallery p {
       margin: 0;
       color: #f5f5f5;
       text-align: center; }
-    section#sharing .info a:hover {
+    section#sharing .gallery a:hover {
       color: #fff;
       border-bottom-color: #fff; }
   section#sharing #twitter-feed {
-    margin-bottom: 30px; }
+    margin: 0 0 30px 0;
+    overflow: hidden; }
     section#sharing #twitter-feed img {
-      width: 40px;
-      height: 40px;
-      float: left;
+      width: 30px;
+      height: 30px;
       -webkit-border-radius: 50%;
-      border-radius: 50%; }
+      border-radius: 50%;
+      float: left;
+      margin: 0 15px 0 0; }
     section#sharing #twitter-feed li {
       overflow: hidden;
-      margin: 0 0 30px 0; }
+      margin: 0 0 20px 0; }
       section#sharing #twitter-feed li:last-child {
         border-bottom: 0;
         margin-bottom: 0; }
         section#sharing #twitter-feed li:last-child .tweet {
           margin-bottom: 0; }
-      section#sharing #twitter-feed li p {
-        font-size: 16px;
-        line-height: 1.6; }
-      section#sharing #twitter-feed li .timePosted, section#sharing #twitter-feed li .interact {
-        display: none; }
       section#sharing #twitter-feed li .user {
         float: left;
         display: block;
-        margin: 0; }
+        margin: 0px; }
         section#sharing #twitter-feed li .user a {
-          color: #770000;
-          font-weight: 700; }
+          color: #111; }
         section#sharing #twitter-feed li .user a > span {
-          font-size: 12px;
+          font-size: 14px;
+          font-family: "Open Sans", sans-serif;
           line-height: 1.6;
           float: left;
           display: block;
-          line-height: 40px;
-          padding: 0 10px; }
+          padding: 3px; }
           section#sharing #twitter-feed li .user a > span:nth-child(2) {
-            display: none; }
+            color: #111;
+            font-weight: bold; }
+          section#sharing #twitter-feed li .user a > span:nth-child(3) {
+            color: #dedede; }
       section#sharing #twitter-feed li .tweet {
         clear: both;
         float: left;
+        font-size: 14px;
+        margin-bottom: 20px;
         margin-left: 50px;
-        margin-bottom: 0px; }
-  section#sharing #flickr-feed {
+        line-height: 1.6; }
+        section#sharing #twitter-feed li .tweet a {
+          color: #770000; }
+      section#sharing #twitter-feed li .timePosted, section#sharing #twitter-feed li .interact {
+        display: none; }
+  section#sharing #flickr-feed ul {
     width: 100%; }
-    section#sharing #flickr-feed ul {
-      width: 100%; }
-      section#sharing #flickr-feed ul li {
-        background: #000;
-        overflow: hidden;
+    section#sharing #flickr-feed ul li {
+      background: #000;
+      overflow: hidden;
+      display: block;
+      float: left;
+      width: 33.33333%; }
+      section#sharing #flickr-feed ul li img {
+        width: 100%;
+        height: auto;
         display: block;
-        float: left;
-        width: 50%; }
-        section#sharing #flickr-feed ul li img {
-          width: 100%;
-          height: auto;
-          display: block;
-          opacity: 0.4; }
+        opacity: 0.4; }
 
 section#digest {
   background: #00CB9F url(../img/digest-bg.png); }
