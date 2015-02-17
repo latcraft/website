@@ -16,7 +16,7 @@
     padding: 8px 16px;   
 
     &:hover {
-        background: #111;
+        background: #601212;
         color: #fff;
     }
 
@@ -48,7 +48,7 @@
     
 
     &.invert {
-        background: #111;
+        background: #601212;
     }
 
     &.icon {
@@ -57,9 +57,9 @@
         overflow:hidden;
 
         &:hover {
-            border-color: #111;
+            border-color: #601212;
             i {
-                color: #111;
+                color: #601212;
             }
         }
 
@@ -89,6 +89,8 @@
 
     .button {
         clear: none;
+        display: inline-block;
+        float: none;
     }
 
     span {
@@ -100,10 +102,56 @@
 }
 
 .text-link {
-    border-bottom: 2px solid $secondary;
     font-weight: 700;
+    display: inline-block;
+    padding: 2px 6px;
+    margin: 0 0 -2px 0;
+    outline: medium none;
+    position: relative;
+    text-decoration: none;
+    vertical-align: bottom;
+    white-space: nowrap;
+    overflow: hidden;
+    color: $primary;
+    z-index: 2;
+    transition: all 0.3s ease 0s;
+
+    &:before {
+        display: block;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        content: " ";
+        height: 100%;
+        width: 100%;
+        transform: translateY(94%);
+        background: rgba(34, 44, 52, 0.1);
+        transition: all 0.3s ease 0s;
+        z-index: -1;
+        opacity: 1;
+    }
 
     &:hover {
-        border-color: #111;
+        color: #601212;
+
+        &:before {
+            opacity: 1;
+            transform: translateY(0%);
+        }
+    }
+
+    &.invert {
+        color: #fff;
+        &:before {
+            opacity: 0.6;
+            background: #fff;
+        }
+        &:hover {
+            color: $primary !important;
+            &:before {
+                background: #fff;
+                opacity: 1;
+            }            
+        }
     }
 }

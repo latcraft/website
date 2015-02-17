@@ -3,10 +3,8 @@ section#speeches
 		h2 Speeches
 		h4.title @ Jan, 2015
 		a.prev.button(href="#")
-			span.date Dec
 			i.fa.fa-angle-left
 		a.next.button(href="#")
-			span.date Feb
 			i.fa.fa-angle-right
 		.carousel
 			.holder
@@ -15,7 +13,8 @@ section#speeches
 						ul
 							for speaker in speach.speakers
 								li
-									h3 #{speaker.title}
+									.title-holder
+										h3 #{speaker.title}
 									.author
 										img(src=speaker.img, alt="")
 										h5 #{speaker.name}

@@ -168,9 +168,9 @@ $(document).ready(function($) {
 
 	    $(this).parent().toggleClass('active');
 	});
-	$('#off-canvas ul a').click(function(e) {
+	$('#off-canvas ul a, .logo a').click(function(e) {
 		var $this = $(this);
-		if($this.hasClass("twitter") || $this.hasClass("facebook") || $this.hasClass("slideshare")) return;
+		if($this.hasClass("network")) return;
 
 	    var href = $(this).attr("href");
 	    $(href).animatescroll();
@@ -184,7 +184,7 @@ $(document).ready(function($) {
 
 
 	// get github staff
-	$.getJSON("https://api.github.com/orgs/latcraft/members", function(data){
+	$.getJSON("https://api.github.com/orgs/twitter/members", function(data){
 		var newData = "";
 
 		for(user in data) {
