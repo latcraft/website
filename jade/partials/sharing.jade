@@ -3,12 +3,14 @@ section#sharing
 		.twitter
 			h2.title Twitter
 			#twitter-feed
-			a(href="#").button.big tweet #latcraft
+			.button-group
+				a(data-scribe="element:timeline_permalink" href="https://twitter.com/intent/tweet?hashtags=LatCraft&amp;original_referer=https%3A%2F%2Ftwitter.com%2Fsettings%2Fwidgets%2F558200865941909504%2Fedit&amp;query=%23LatCraft&amp;tw_p=embeddedtimeline" class="tweet-box-button web-intent" data-tw-params="true" target="_blank" onclick="window.open('https://twitter.com/intent/tweet?hashtags=LatCraft&amp;original_referer=https%3A%2F%2Ftwitter.com%2Fsettings%2Fwidgets%2F558200865941909504%2Fedit&amp;query=%23LatCraft&amp;tw_p=embeddedtimeline', 'newwindow', 'width=450, height=250'); return false;").button.effect
+					div(data-hover="tweet #latcraft") tweet #latcraft
 		
 		.gallery
-			.info
+			#flickr-feed
+			.holder
 				h2.title Flickr
 				p Memories from last event.
 				p See all photos on 
 					a(href="https://www.flickr.com/photos/latcraft/" target="_blank").text-link.invert Flickr
-			#flickr-feed

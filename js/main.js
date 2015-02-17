@@ -47,10 +47,10 @@ $(document).ready(function($) {
 	twitterFetcher.fetch(tweetConfig);
 
 	// digest subscription
-	$('#subscription input[type="submit"').click(function(event) {
-  		event.preventDefault();
+	$('#subscription input[type=submit]').submit(function(e) {
+  		e.preventDefault();
 
-		var email = $('#subscription input[name="email"]').val();
+		var email = $('#subscription input[name=email]').val();
   		var subscribers = new Firebase("https://radiant-fire-3288.firebaseio.com/subscribers");
 		subscribers.push(email, function(error) {
 		  if (error) {
@@ -78,7 +78,8 @@ $(document).ready(function($) {
 
 		imageCollection += '<ul>';
 		for (var item in data.items) {
-			if(item == 8) break;
+			if(item == 16) break;
+			if(data.items[item].media.m == "http://farm8.staticflickr.com/7381/16470574391_b1bb266ed7_m.jpg") continue;
 			imageCollection += '<li><img src="' + data.items[item].media.m + '" alt=""></li>';
 		}
 		imageCollection += '</ul>';
