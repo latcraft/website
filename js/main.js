@@ -89,7 +89,10 @@ $(document).ready(function($) {
 
 
 	// enable sliders, navigation and pagination
-	$('.carousel').jcarousel();
+	$('.carousel').on('jcarousel:createend', function() {
+		var slideCount = $('.slide').length
+        $(this).jcarousel('scroll', slideCount - 1, false);
+    }).jcarousel();
 
 	$('#news-slider .pagination ul')
         .on('jcarouselpagination:active', 'li', function() {
