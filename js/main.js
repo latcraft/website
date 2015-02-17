@@ -46,6 +46,30 @@ $(document).ready(function($) {
 	};
 	twitterFetcher.fetch(tweetConfig);
 
+	// digest subscription
+	$('#subscription input[type="submit"').click(function(event) {
+  		event.preventDefault();
+
+		var email = $('#subscription input[name="email"]').val();
+  		var subscribers = new Firebase("https://radiant-fire-3288.firebaseio.com/subscribers");
+		subscribers.push(email, function(error) {
+		  if (error) {
+			noty({
+			    text: "Sorry man, but email you provided seems to be invalid",
+			    type: 'error',
+			    timeout: 1000,
+			    modal: true
+			});			
+		  } else {
+			noty({
+			    text: "Well done! We'll keep you in the loop",
+			    type: 'success',
+			    timeout: 1000,
+			    modal: true
+			});			
+		  }
+		});
+	});
 
 	// get flickr
 	var flickrURL = "http://api.flickr.com/services/feeds/photos_public.gne?ids=128548450@N05&format=json&jsoncallback=?";
@@ -134,7 +158,6 @@ $(document).ready(function($) {
 	centerArrow($('#member-nav li:nth-child(2) a')); 
 	$('#member-nav a').click(function(e) {
 		e.preventDefault();
-
 		centerArrow($(this));    
 	});
 
