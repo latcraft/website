@@ -95,7 +95,7 @@ h6 {
   font-weight: 400;
   padding: 8px 16px; }
   .button:hover {
-    background: #111;
+    background: #601212;
     color: #fff; }
   .button.effect {
     overflow: hidden; }
@@ -121,15 +121,15 @@ h6 {
         -o-transform: translate3d(0px, 0px, 0px);
         transform: translate3d(0px, 0px, 0px); }
   .button.invert {
-    background: #111; }
+    background: #601212; }
   .button.icon {
     border: 1px solid #dedede;
     background: transparent;
     overflow: hidden; }
     .button.icon:hover {
-      border-color: #111; }
+      border-color: #601212; }
       .button.icon:hover i {
-        color: #111; }
+        color: #601212; }
     .button.icon i {
       color: #dedede;
       font-size: 1.8rem;
@@ -148,7 +148,9 @@ h6 {
   clear: both;
   text-align: center; }
   .button-group .button {
-    clear: none; }
+    clear: none;
+    display: inline-block;
+    float: none; }
   .button-group span {
     font-style: italic;
     line-height: 47px;
@@ -156,10 +158,57 @@ h6 {
     float: left; }
 
 .text-link {
-  border-bottom: 2px solid #00CB9F;
-  font-weight: 700; }
+  font-weight: 700;
+  display: inline-block;
+  padding: 2px 6px;
+  margin: 0 0 -2px 0;
+  outline: medium none;
+  position: relative;
+  text-decoration: none;
+  vertical-align: bottom;
+  white-space: nowrap;
+  overflow: hidden;
+  color: #FF4A4A;
+  z-index: 2;
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s; }
+  .text-link:before {
+    display: block;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    content: " ";
+    height: 100%;
+    width: 100%;
+    -webkit-transform: translateY(94%);
+    -ms-transform: translateY(94%);
+    -o-transform: translateY(94%);
+    transform: translateY(94%);
+    background: rgba(34, 44, 52, 0.1);
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    z-index: -1;
+    opacity: 1; }
   .text-link:hover {
-    border-color: #111; }
+    color: #601212; }
+    .text-link:hover:before {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+      -ms-transform: translateY(0%);
+      -o-transform: translateY(0%);
+      transform: translateY(0%); }
+  .text-link.invert {
+    color: #fff; }
+    .text-link.invert:before {
+      opacity: 0.6;
+      background: #fff; }
+    .text-link.invert:hover {
+      color: #FF4A4A !important; }
+      .text-link.invert:hover:before {
+        background: #fff;
+        opacity: 1; }
 
 *, *:before, *:after {
   -webkit-user-select: text;
@@ -395,6 +444,7 @@ section#news {
   -o-transform: translate3d(30px, 30px, 0px);
   transform: translate3d(30px, 30px, 0px);
   z-index: 500;
+  overflow: hidden;
   background: rgba(34, 44, 52, 0.9);
   -webkit-transition: 0.5s all cubic-bezier(0.7, 0, 0.3, 1) 0s;
   -o-transition: 0.5s all cubic-bezier(0.7, 0, 0.3, 1) 0s;
@@ -710,6 +760,9 @@ header#header {
         header#header .info p {
           font-size: 1.8rem;
           text-align: left; } }
+    @media screen and (min-width: 690px) {
+      header#header .info .button {
+        float: left !important; } }
 
 #video {
   overflow: hidden;
@@ -735,8 +788,11 @@ section#speeches h2 {
 section#speeches .title-holder {
   display: block;
   width: 100%;
-  min-height: 120px;
+  min-height: auto;
   position: relative; }
+  @media screen and (min-width: 690px) {
+    section#speeches .title-holder {
+      min-height: 120px; } }
 section#speeches h3 {
   text-transform: uppercase;
   font-size: 2.4rem;
@@ -822,7 +878,7 @@ section#speeches .slide {
     section#speeches .slide li:hover h3 {
       border-bottom: 2px solid #b7b7b7; }
     section#speeches .slide li:hover h5 {
-      color: #00CB9F; }
+      color: #800000; }
     section#speeches .slide li:last-child {
       margin-bottom: 0px; }
     section#speeches .slide li .button {
@@ -935,38 +991,20 @@ section#challenge .carousel {
   section#challenge .carousel .holder {
     margin: 0;
     padding: 0;
-    width: 800%;
+    width: 1000%;
     position: relative;
     overflow: hidden; }
-  section#challenge .carousel a.text-link {
-    width: 100%; }
   section#challenge .carousel .month {
     padding: 40px 20px;
-    border: 3px solid #f5f5f5;
     float: left;
     text-align: center;
-    float: left;
-    display: block;
-    margin-right: 0.28875%;
-    width: 12.24734%; }
-    section#challenge .carousel .month:last-child {
-      margin-right: 0; }
+    width: 10%; }
     @media screen and (min-width: 690px) {
       section#challenge .carousel .month {
-        float: left;
-        display: block;
-        margin-right: 0.28875%;
-        width: 5.9793%; }
-        section#challenge .carousel .month:last-child {
-          margin-right: 0; } }
-    @media screen and (min-width: 960px) {
+        width: 5%; } }
+    @media screen and (min-width: 1020px) {
       section#challenge .carousel .month {
-        float: left;
-        display: block;
-        margin-right: 0.28875%;
-        width: 3.88995%; }
-        section#challenge .carousel .month:last-child {
-          margin-right: 0; } }
+        width: 3.33333%; } }
     section#challenge .carousel .month h4 {
       font-size: 20px; }
 section#challenge .awarded {
@@ -985,11 +1023,33 @@ section#challenge a.prev.button, section#challenge a.next.button {
   background: #dedede;
   color: #fff;
   padding: 8px 18px;
-  position: absolute;
+  float: left;
   text-align: center;
-  top: 65%;
   z-index: 150;
-  font-family: "Open Sans", sans-serif; }
+  clear: none;
+  margin-top: 20px;
+  font-family: "Open Sans", sans-serif;
+  position: relative;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 48.82117%; }
+  section#challenge a.prev.button:last-child, section#challenge a.next.button:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 690px) {
+    section#challenge a.prev.button, section#challenge a.next.button {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 14.70196%; }
+      section#challenge a.prev.button:last-child, section#challenge a.next.button:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 1020px) {
+    section#challenge a.prev.button, section#challenge a.next.button {
+      position: absolute;
+      width: auto;
+      margin: 0;
+      bottom: 220px; } }
   section#challenge a.prev.button:hover, section#challenge a.next.button:hover {
     background: #00CB9F; }
   section#challenge a.prev.button i, section#challenge a.next.button i {
@@ -999,6 +1059,7 @@ section#challenge a.prev.button, section#challenge a.next.button {
 section#challenge a.prev.button {
   left: 0px; }
 section#challenge a.next.button {
+  float: right;
   right: 0px; }
   section#challenge a.next.button i {
     padding: 0 0 0 10px;
