@@ -31,9 +31,9 @@ var centerArrow = function (elem) {
 	var itemWidth = elem.width() / 2;
 	var thisPos = elem.position();
 
-	$('#member-nav .arrow').css({
-		"left" : ((thisPos.left + itemWidth - 5)/containerWidth) * 100 + "%"
-	});	 
+	// $('#member-nav .arrow').css({
+	// 	"left" : ((thisPos.left + itemWidth - 5)/containerWidth) * 100 + "%"
+	// });	 
 }
 
 $(document).ready(function($) {
@@ -47,9 +47,7 @@ $(document).ready(function($) {
 	twitterFetcher.fetch(tweetConfig);
 
 	// digest subscription
-	$('#subscription input[type=submit]').submit(function(e) {
-  		e.preventDefault();
-
+	$('#subscription form').submit(function(e) {
 		var email = $('#subscription input[name=email]').val();
   		var subscribers = new Firebase("https://radiant-fire-3288.firebaseio.com/subscribers");
 		subscribers.push(email, function(error) {
@@ -69,6 +67,7 @@ $(document).ready(function($) {
 			});			
 		  }
 		});
+		e.preventDefault();
 	});
 
 	// get flickr
