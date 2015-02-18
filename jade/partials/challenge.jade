@@ -14,8 +14,8 @@ section#challenge
 			.carousel
 				ul.holder
 					for challenge in locals.challenges
-						li.month.col-3
-							h4 #{challenge.month}
+						li.month.slide
+							h3 #{challenge.month}
 							if challenge.completed
 								ol.awarded
 									for person in challenge.awarded

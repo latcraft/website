@@ -1,12 +1,26 @@
-section#speeches
+section#events
 	.container
-		h2 Speeches
+		h2.title Events: March		
 		.carousel
 			.holder
 				for speach in speaches
 					div.slide
-						.description
-							p This talk will guide you through the core concepts of the Go. We will cover the type system, memory model, packaging and of course the famous concurrency primitives of the language: goroutines.
+						.description 
+							h3 #{speach.theme}
+							p #{speach.desc}
+						.bubble
+							ul
+								li 
+									strong date:
+									| #{speach.date}
+								li 
+									strong time:
+									| #{speach.time}
+								li 
+									strong venue: 
+									a(href="#venue") #{speach.venue}
+							a.button.big(href="#") reserve seat
+
 						ul.speakers
 							for speaker in speach.speakers
 								li
