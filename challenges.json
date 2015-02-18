@@ -1,0 +1,33 @@
+[{
+	"month" : "December",
+	"completed" : true,
+	"awarded" : [{
+			"name" : "Eriks Harchevs",
+			"source" : ""
+		}, {
+			"name" : "Teodors Zeltiņš",
+			"source" : ""
+		}, {
+			"name" : "Jurijs Saveljevs",
+			"source" : ""
+		}],
+	"details" : "https://github.com/latcraft/cloudopoly-search"
+}, {
+	"month" : "January",
+	"completed" : true,
+	"awarded" : [{
+			"name" : "Vadims Yagodins",
+			"source" : ""
+		}, {
+			"name" : "Vlad Moiseyenko",
+			"source" : ""
+		}, {
+			"name" : "Sandris Artemjevs",
+			"source" : ""
+		}],
+	"details" : "https://github.com/latcraft/cloudopoly-pics"
+}, {
+	"month" : "February",
+	"completed" : false,
+	"details" : "https://github.com/latcraft/cloudopoly-docker/"
+}]
