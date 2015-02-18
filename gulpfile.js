@@ -122,7 +122,7 @@ gulp.task('live', function () {
     	remoteUrl: "https://github.com/latcraft/latcraft.github.io.git",
     	branch: "master"
     };	
-    return gulp.src(['./www/**/*', './data/**/*'])
+    return gulp.src(['./www/**/*', './data/**/*', 'CNAME'])
         .pipe(deploy(options));
 });
 
