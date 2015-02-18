@@ -15,7 +15,7 @@
       <div class="container">
         <div class="vertical">
           <div class="eventbrite">
-            <p>Eventbrite form goes here.</p>
+            <iframe src="http://www.eventbrite.com/tickets-external?eid=15802826680&amp;ref=etckt&amp;v=2" frameborder="0" height="256" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe>
           </div>
         </div>
       </div>
@@ -52,7 +52,7 @@
           <div class="info">
             <h1>We are about IT professionals and spectacular speeches.</h1>
             <p>We are community of awesome Latvian software craftsmen. Each month we host an event where we invite amazing speakers from across the world.</p>
-            <div class="button-group"><a id="get-ticket" href="#" class="button big inactive">reserve seat<span>@ 5 march</span></a></div>
+            <div class="button-group"><a id="get-ticket" href="#" class="button big inactive">reserve seat @ 3 march</a></div>
           </div>
         </div>
       </div>
@@ -60,12 +60,14 @@
     <!-- include partials/news-->
     <section id="speeches">
       <div class="container">
-        <h2>Speeches</h2><a href="#" class="prev button"><i class="fa fa-angle-left"></i></a><a href="#" class="next button"><i class="fa fa-angle-right"></i></a>
+        <h2>Speeches</h2>
         <div class="carousel">
           <div class="holder">
-            <div class="slide">
-              <h4 class="title">@ Jan 2015	</h4>
-              <ul>
+            <div class="slide">							
+              <div class="description">
+                <p>This talk will guide you through the core concepts of the Go. We will cover the type system, memory model, packaging and of course the famous concurrency primitives of the language: goroutines.</p>
+              </div>
+              <ul class="speakers">
                 <li>
                   <div class="title-holder">
                     <h3>Epiphany From A Specialist As Worst CIO Ever</h3>
@@ -103,10 +105,15 @@
                   </div>
                 </li>
               </ul>
+              <div class="pagination"><span>speakers: </span>
+                <ul></ul>
+              </div>
             </div>
-            <div class="slide">
-              <h4 class="title">@ Feb 2015	</h4>
-              <ul>
+            <div class="slide">							
+              <div class="description">
+                <p>This talk will guide you through the core concepts of the Go. We will cover the type system, memory model, packaging and of course the famous concurrency primitives of the language: goroutines.</p>
+              </div>
+              <ul class="speakers">
                 <li>
                   <div class="title-holder">
                     <h3>Growing Teams: Notes of an Amateur Team Gardener</h3>
@@ -144,10 +151,15 @@
                   </div>
                 </li>
               </ul>
+              <div class="pagination"><span>speakers: </span>
+                <ul></ul>
+              </div>
             </div>
-            <div class="slide">
-              <h4 class="title">@ Mar 2015	</h4>
-              <ul>
+            <div class="slide">							
+              <div class="description">
+                <p>This talk will guide you through the core concepts of the Go. We will cover the type system, memory model, packaging and of course the famous concurrency primitives of the language: goroutines.</p>
+              </div>
+              <ul class="speakers">
                 <li>
                   <div class="title-holder">
                     <h3>The Sweet Flavour of Rust</h3>
@@ -155,7 +167,7 @@
                   <div class="author"><img src="img/speakers/maslov.png" alt=""/>
                     <h5>Leonids Maslovs</h5><span>Galeo Consulting</span>
                   </div>
-                  <p>Every chef now and then uses pinch of his secret spices to make a dish somewhat special and exquisite. This talk will provide introduction into nature of Rust sweetness and will answer to most important questions: Why and When does it make our dishes better? We will iterate over small code snippets and take a look _How_ strong typing and functional thinking can be applied to low level system programming.</p>
+                  <p>Every chef now and then uses pinch of his secret spices to make a dish somewhat special and exquisite. This talk will provide introduction into nature of Rust sweetness and will answer to most important questions: Why and When does it make our dishes better? We will iterate over small code snippets and take a look How strong typing and functional thinking can be applied to low level system programming.</p>
                   <div class="button-group">
                   </div>
                 </li>
@@ -182,15 +194,18 @@
                   </div>
                 </li>
               </ul>
+              <div class="pagination"><span>speakers: </span>
+                <ul></ul>
+              </div>
             </div>
           </div>
-        </div>
+        </div><a href="#" class="prev button"><i class="fa fa-angle-left"></i></a><a href="#" class="next button"><i class="fa fa-angle-right"></i></a>
       </div>
     </section>
     <section id="speaker">
       <div class="bg"></div>
       <div class="container">
-        <p>Think you have what it takes to be a speaker? <a href="#" class="invert text-link">Contact us!</a></p>
+        <p>Want to share your knowledge with like-minded people?<a href="mailto:hello@latcraft.lv" class="invert text-link">Contact us!</a></p>
       </div>
     </section>
     <section id="sponsors">
@@ -200,7 +215,7 @@
           <li><img src="img/sponsors/4finance.png" alt=""/></li>
           <li><img src="img/sponsors/askfm.png" alt=""/></li>
         </ul>
-        <p>Want to become a sponsor? <a href="#" class="text-link">Get in touch!</a></p>
+        <p>Want to become a sponsor? <a href="mailto:hello@latcraft.lv" class="text-link">Get in touch!</a></p>
       </div>
     </section>
     <section id="sharing">
@@ -215,7 +230,7 @@
           <div id="flickr-feed"></div>
           <div class="holder">
             <h2 class="title">Flickr</h2>
-            <p>Memmories from last event.</p>
+            <p>Memories from last event.</p>
             <p>See all photos on <a href="https://www.flickr.com/photos/latcraft/" target="_blank" class="text-link invert">Flickr</a></p>
           </div>
         </div>
@@ -228,66 +243,53 @@
           <p>
              
             Our join invention with Amazon is something we called <strong>Cloudopoly.</strong> Each month we are having a challenge related to Amazon AWS. Top 3 solutions get prizes. If you get in top 3 for 3 times, you get a special prize.
-            Check out <a href="#" class="text-link">official challenge page.</a>
           </p>
         </div>
         <div class="results">
           <div class="carousel">
             <ul class="holder">
               <li class="month col-3">
+                <h4>December</h4>
+                <ol class="awarded">
+                  <li>
+                     
+                    Eriks Harchevs 
+                  </li>
+                  <li>
+                     
+                    Teodors Zeltiņš 
+                  </li>
+                  <li>
+                     
+                    Jurijs Saveljevs 
+                  </li>
+                </ol>
+                <div class="button-group"><a href="https://github.com/latcraft/cloudopoly-search" class="button effect">
+                    <div data-hover="details">details</div></a></div>
+              </li>
+              <li class="month col-3">
                 <h4>January</h4>
                 <ol class="awarded">
                   <li>
                      
-                    Teodors Zeltiņš <a href="#">source</a>
+                    Vadims Yagodins 
                   </li>
                   <li>
                      
-                    Teodors Zeltiņš <a href="#">source</a>
+                    Vlad Moiseyenko 
                   </li>
                   <li>
                      
-                    Teodors Zeltiņš <a href="#">source</a>
+                    Sandris Artemjevs 
                   </li>
                 </ol>
-                <div class="button-group"><a href="#" class="button effect">
+                <div class="button-group"><a href="https://github.com/latcraft/cloudopoly-pics" class="button effect">
                     <div data-hover="details">details</div></a></div>
               </li>
               <li class="month col-3">
                 <h4>February</h4>
-                <ol class="awarded">
-                  <li>
-                     
-                    Vadims Yagodins <a href="#">source</a>
-                  </li>
-                  <li>
-                     
-                    Vlad Moiseyenko <a href="#">source</a>
-                  </li>
-                  <li>
-                     
-                    Sandris <a href="#">source</a>
-                  </li>
-                </ol>
-                <div class="button-group"><a href="#" class="button effect">
-                    <div data-hover="details">details</div></a></div>
-              </li>
-              <li class="month col-3">
-                <h4>March</h4>
                 <p>This challenge is still in progress. You can still take part.</p>
-                <div class="button-group"><a href="#" class="button effect">
-                    <div data-hover="details">details</div></a></div>
-              </li>
-              <li class="month col-3">
-                <h4>April</h4>
-                <p>This challenge is still in progress. You can still take part.</p>
-                <div class="button-group"><a href="#" class="button effect">
-                    <div data-hover="details">details</div></a></div>
-              </li>
-              <li class="month col-3">
-                <h4>May</h4>
-                <p>This challenge is still in progress. You can still take part.</p>
-                <div class="button-group"><a href="#" class="button effect">
+                <div class="button-group"><a href="https://github.com/latcraft/cloudopoly-docker/" class="button effect">
                     <div data-hover="details">details</div></a></div>
               </li>
             </ul>
@@ -315,49 +317,7 @@
         <h2 class="title">Venue</h2>
       </div>
     </section>
-    <section id="about">
-      <div class="container">
-        <div class="info">
-          <h2 class="title">About</h2>
-          <div class="left">
-            <p>Latvian Software Craftsmanship Community is a non-profit backed by the most active representatives of Latvian IT community. Our goal is to nurture top-notch software development culture in Latvia and raise the bar of professional software development by practicing it and helping others learn the craft by example. </p>
-            <p>In pursuing of our goals, we organize recurring events dedicated to broad range of IT professionals who are eager to learn and share. </p>
-            <p><strong>Events run every first Tuesday in the month afterhours. </strong></p>
-            <p>Coffee breaks with snacks and drinks give an excellent chance to socialize and meet like-minded people. </p>
-          </div>
-          <div class="right">
-            <p>Interactive and relevant high quality talks are inevitable part of the event:</p>
-            <ul>
-              <li>IT Trends</li>
-              <li>Techies </li>
-              <li>Engineering Practices</li>
-              <li>Operations</li>
-              <li>Management</li>
-              <li>Leadership</li>
-            </ul>
-            <p>This and a lot more.</p>
-          </div>
-        </div>
-        <div id="member-nav">
-          <ul>
-            <li>check out our cool members on </li>
-            <li><a href="#" class="active">GitHub</a></li>
-            <li><a href="#">Twitter				</a></li>
-            <li><a href="#">Facebook</a></li>
-          </ul>
-          <div class="arrow"> </div>
-        </div>
-        <div id="member-list">
-          <ul class="github active"></ul>
-          <ul class="twitter">
-            <li><a href="#"><img src="https://pbs.twimg.com/profile_images/554027573882011649/hmLhc_-t_400x400.png"/></a>
-              <div class="tip">TeodorsZeltins</div>
-            </li>
-          </ul>
-          <ul class="facebook"></ul>
-        </div>
-      </div>
-    </section>
+    <!-- include partials/about-->
     <section id="contact">
       <div class="container">
         <h2 class="title">Contact</h2>

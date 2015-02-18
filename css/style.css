@@ -317,8 +317,8 @@ section#modal {
     height: 100%; }
   section#modal .eventbrite {
     background: #fff;
-    width: 100%;
-    padding: 40px; }
+    width: 500px;
+    padding: 51px 51px 0 51px; }
   section#modal.open {
     pointer-events: auto;
     opacity: 1;
@@ -801,6 +801,8 @@ header#header {
 section#speeches h2 {
   font-weight: 400;
   text-align: center; }
+section#speeches .description {
+  margin: 0 0 40px 0; }
 section#speeches .title-holder {
   display: block;
   width: 100%;
@@ -871,18 +873,21 @@ section#speeches .slide {
   display: block;
   overflow: hidden;
   float: left;
-  width: 10%; }
+  width: 10%;
+  position: relative; }
+  section#speeches .slide .speakers {
+    overflow: hidden;
+    width: 400%;
+    position: relative; }
+    @media screen and (min-width: 690px) {
+      section#speeches .slide .speakers {
+        width: 100%; } }
   section#speeches .slide li {
     float: left;
     font-size: 16px;
     line-height: 1.6;
     margin-bottom: 80px;
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 100%; }
-    section#speeches .slide li:last-child {
-      margin-right: 0; }
+    width: 25%; }
     @media screen and (min-width: 690px) {
       section#speeches .slide li {
         float: left;
@@ -901,31 +906,93 @@ section#speeches .slide {
       display: inline-block;
       float: none;
       margin: 0 10px 0 0; }
+section#speeches .pagination {
+  width: 100%;
+  margin: 0 0 40px 0;
+  overflow: hidden; }
+  @media screen and (min-width: 690px) {
+    section#speeches .pagination {
+      display: none; } }
+  section#speeches .pagination span {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+    line-height: 30px; }
+  section#speeches .pagination ul {
+    list-style: none;
+    position: relative;
+    float: left;
+    display: block;
+    left: 50%;
+    width: auto; }
+  section#speeches .pagination li {
+    position: relative;
+    float: left;
+    width: auto;
+    display: block;
+    right: 50%;
+    margin: 0 5px; }
+    section#speeches .pagination li a {
+      width: 30px;
+      height: 30px;
+      overflow: hidden;
+      display: block;
+      background: #dedede;
+      text-indent: -9999px; }
+    section#speeches .pagination li.active a {
+      background: #565656; }
 section#speeches a.prev.button, section#speeches a.next.button {
   color: #fff;
   cursor: pointer;
   text-transform: uppercase;
   background: #dedede;
-  color: #fff;
-  height: 240px;
-  padding: 0px 18px;
-  margin: -120px 0 0 0;
+  float: left;
+  clear: none;
+  padding: 8px 18px;
   position: absolute;
   text-align: center;
-  top: 50%;
+  height: auto;
   z-index: 150;
-  font-family: "Open Sans", sans-serif; }
+  font-family: "Open Sans", sans-serif;
+  position: relative;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 48.82117%; }
+  section#speeches a.prev.button:last-child, section#speeches a.next.button:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 690px) {
+    section#speeches a.prev.button, section#speeches a.next.button {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 14.70196%; }
+      section#speeches a.prev.button:last-child, section#speeches a.next.button:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 1020px) {
+    section#speeches a.prev.button, section#speeches a.next.button {
+      position: absolute;
+      width: auto;
+      margin: -120px 0 0 0;
+      top: 50%;
+      height: 240px; } }
   section#speeches a.prev.button:hover, section#speeches a.next.button:hover {
     background: #00CB9F; }
   section#speeches a.prev.button i, section#speeches a.next.button i {
     float: left;
-    line-height: 240px;
-    padding: 0 10px 0 0;
-    font-size: 34px; }
+    line-height: 1.8;
+    padding: 0 10px 0 0; }
+    @media screen and (min-width: 1020px) {
+      section#speeches a.prev.button i, section#speeches a.next.button i {
+        line-height: 240px;
+        font-size: 34px; } }
 section#speeches a.prev.button {
   left: 0px; }
 section#speeches a.next.button {
-  right: 0px; }
+  right: 0px;
+  float: right;
+  margin-right: 0; }
   section#speeches a.next.button i {
     padding: 0 0 0 10px;
     float: right; }
