@@ -9,3 +9,9 @@ This repository contains *Gulp* project that builds **LatCraft** website.
 - Fetch `node.js` modules by running `npm install`.
 - Build website by running `gulp build`.
 - Or just run `gulp` to start local web server on port 9009 and go to <http://localhost:9009> in your browser. There is also a shortcut to start gulp if you are on Windows. 
+
+# How to deploy to staging 
+
+- Run `gulp build deploy`
+- Visit <http://www.latcraft.lv/website> and have fun
+
