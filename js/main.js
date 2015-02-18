@@ -46,6 +46,7 @@ $(document).ready(function($) {
 	};
 	twitterFetcher.fetch(tweetConfig);
 
+
 	// digest subscription
 	$('#subscription form').submit(function(e) {
 		var email = $('#subscription input[name=email]').val();
@@ -70,6 +71,7 @@ $(document).ready(function($) {
 		e.preventDefault();
 	});
 
+
 	// get flickr
 	var flickrURL = "http://api.flickr.com/services/feeds/photos_public.gne?ids=128548450@N05&format=json&jsoncallback=?";
 	$.getJSON(flickrURL, function(data){
@@ -86,7 +88,9 @@ $(document).ready(function($) {
 		$("#flickr-feed").append(imageCollection);
 	});
 
-	$('#speeches .slide').each(function(){
+
+	// display a slider for speakers when using phone
+	$('#events .slide').each(function(){
 		var curSlide = $(this).jcarousel({
 			list: ".speakers"
 		});
@@ -105,15 +109,22 @@ $(document).ready(function($) {
 		});
 	});
 
-	// enable sliders, navigation and pagination
+
+	// create sliders, navigation and pagination
 	$('.carousel').on('jcarousel:createend', function() {
-		var slideCount = $('.slide').length
+		var $this = $(this),
+			slideCount = $('.slide').length;
+
         $(this).jcarousel('scroll', slideCount - 1, false);
     }).jcarousel({
     	'item': '.slide'
-    });
-        
-
+    }).on('jcarousel:targetin', '.slide', function(event, carousel) {
+	    var itemHeight = $(this).height();
+	    $(this).parents('.carousel').css({
+	    	"height" : itemHeight
+	    });
+	});
+     
 	$('.prev').click(function() {
 	    $(this).siblings('.carousel').jcarousel('scroll', '-=1');
 

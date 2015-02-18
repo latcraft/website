@@ -685,6 +685,7 @@ section#events {
         overflow: hidden;
         position: relative;
         width: 100%;
+        transition: 0.3s height cubic-bezier(0.7, 0, 0.3, 1) 0s;
 
         .holder {
             margin: 0;
@@ -712,7 +713,6 @@ section#events {
 
             li {
                 float: left;                
-                margin-bottom: 80px;
                 width: 25%;
 
                 p {
