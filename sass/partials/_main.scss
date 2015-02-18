@@ -495,7 +495,11 @@ header#header {
                 text-align: left;
             }
         }
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> facdc0472fa28006c70a5006b3cf7a28d9682dfc
         p {
             color: #b6b6b6;
             font-size: 14px;
@@ -509,7 +513,11 @@ header#header {
         .button {
             line-height: 1.8;
             vertical-align: middle;
+<<<<<<< HEAD
             
+=======
+
+>>>>>>> facdc0472fa28006c70a5006b3cf7a28d9682dfc
             &:hover {
                 background: #111;
 
@@ -609,6 +617,7 @@ section#events {
 
     .description {
         margin: 0 0 40px 0;
+        padding-right: 20px;
     }
 
     .title-holder {

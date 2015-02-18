@@ -1,6 +1,6 @@
 section#events
 	.container
-		h2.title Events: March		
+		h2.title Events
 		.carousel
 			.holder
 				for event in events
@@ -17,9 +17,17 @@ section#events
 									strong time:
 									| #{event.time}
 								li 
+<<<<<<< HEAD:jade/partials/events.jade
 									strong venue: 
 									a(href="#venue") #{event.venue}
 							a.button.big(href="#") reserve seat
+=======
+									if speach.announced
+										strong venue: 
+										a#goto-map(href="#map") #{speach.venue}
+							if speach.announced
+								a#reserve-seat.button.big book a seat
+>>>>>>> facdc0472fa28006c70a5006b3cf7a28d9682dfc:jade/partials/speeches.jade
 
 						ul.speakers
 							for speaker in event.speakers
