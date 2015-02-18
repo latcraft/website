@@ -11,7 +11,8 @@ var gulp = require('gulp'),
 	plumber = require('gulp-plumber'),
 	concat = require('gulp-concat'),
 	jade = require('gulp-jade'),
-	clean = require('gulp-clean');
+	clean = require('gulp-clean'),
+	deploy = require('gulp-gh-pages');
 
 // link public assets
 var publicDir = "www";
@@ -107,10 +108,13 @@ gulp.task('watch', function() {
     gulp.watch(['video/*'], ['video']);
 });
 
-
-// default task (called when you run 'gulp' from cli)
 gulp.task('build', function() {
 	gulp.start('sass', 'jade', 'uglify', 'imagemin', 'video', 'copy');
 }); 
+
+gulp.task('deploy', function () {
+    return gulp.src(['./www/**/*', './data/**/*'])
+        .pipe(deploy());
+});
 
 gulp.task('default', ['connect', 'build', 'watch']);
