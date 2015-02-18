@@ -16,18 +16,12 @@ section#events
 								li 
 									strong time:
 									| #{event.time}
-								li 
-<<<<<<< HEAD:jade/partials/events.jade
-									strong venue: 
-									a(href="#venue") #{event.venue}
-							a.button.big(href="#") reserve seat
-=======
-									if speach.announced
+								if event.announced
+									li 
 										strong venue: 
-										a#goto-map(href="#map") #{speach.venue}
-							if speach.announced
+										a#goto-map(href="#map") #{event.venue}
+							if event.announced
 								a#reserve-seat.button.big book a seat
->>>>>>> facdc0472fa28006c70a5006b3cf7a28d9682dfc:jade/partials/speeches.jade
 
 						ul.speakers
 							for speaker in event.speakers

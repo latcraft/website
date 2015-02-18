@@ -14,6 +14,7 @@
     cursor: pointer;
     font-weight: 400;
     padding: 8px 16px; 
+    vertical-align: middle;
     transition: 0.2s all ease 0s;  
 
     &:hover {
@@ -77,9 +78,6 @@
         @media screen and (max-width: $phone) {
             width: 100%;
             text-align: center;
-            height: 80px;
-            line-height: 80px;
-            padding: 0;
         }
     }
 }

@@ -112,13 +112,9 @@ $(document).ready(function($) {
 
 	// create sliders, navigation and pagination
 	$('.carousel').on('jcarousel:createend', function() {
-<<<<<<< HEAD
 		var $this = $(this),
-			slideCount = $('.slide').length;
+			slideCount = $('#events .slide').length;
 
-=======
-		var slideCount = $('#events .slide').length;
->>>>>>> facdc0472fa28006c70a5006b3cf7a28d9682dfc
         $(this).jcarousel('scroll', slideCount - 1, false);
     }).jcarousel({
     	'item': '.slide'

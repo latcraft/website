@@ -495,11 +495,7 @@ header#header {
                 text-align: left;
             }
         }
-<<<<<<< HEAD
 
-=======
-        
->>>>>>> facdc0472fa28006c70a5006b3cf7a28d9682dfc
         p {
             color: #b6b6b6;
             font-size: 14px;
@@ -513,11 +509,7 @@ header#header {
         .button {
             line-height: 1.8;
             vertical-align: middle;
-<<<<<<< HEAD
-            
-=======
 
->>>>>>> facdc0472fa28006c70a5006b3cf7a28d9682dfc
             &:hover {
                 background: #111;
 
@@ -579,15 +571,25 @@ section#events {
             overflow: hidden;
         }
 
-        @include span-columns(9 of 12);
+        @include span-columns(12 of 12);
+        margin: 0; 
+
+        @include media($phone) {  
+            margin: 0 0 40px 0; 
+            @include span-columns(9 of 12);
+        }
     }
     .bubble {
         overflow: hidden;
         float: right;
         margin-bottom: 40px;
 
-        @include span-columns(3 of 12);
-        @include omega();
+        @include span-columns(12 of 12);        
+
+        @include media($phone) {            
+            @include span-columns(3 of 12);
+            @include omega();
+        }
 
         strong {
             font-weight: 700;
@@ -613,11 +615,6 @@ section#events {
     h2 {
         font-weight: 400;
         text-align: center;
-    }
-
-    .description {
-        margin: 0 0 40px 0;
-        padding-right: 20px;
     }
 
     .title-holder {
