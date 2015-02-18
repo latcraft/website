@@ -798,22 +798,63 @@ header#header {
     #video {
       display: none; } }
 
-section#speeches h2 {
+section#events .description {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 74.41059%; }
+  section#events .description p {
+    margin-top: 20px; }
+  section#events .description h3 {
+    background: transparent;
+    border: 0;
+    max-width: 450px;
+    display: block;
+    text-align: left;
+    overflow: hidden; }
+  section#events .description:last-child {
+    margin-right: 0; }
+section#events .bubble {
+  overflow: hidden;
+  float: right;
+  margin-bottom: 40px;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 23.23176%;
+  margin-right: 0; }
+  section#events .bubble:last-child {
+    margin-right: 0; }
+  section#events .bubble strong {
+    font-weight: 700;
+    margin-right: 5px; }
+  section#events .bubble ul {
+    overflow: hidden;
+    font-size: 14px;
+    line-height: 1.8;
+    font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
+    margin: 0 0 20px 0; }
+  section#events .bubble .button {
+    width: 100%;
+    padding: 20px 0;
+    text-align: center; }
+section#events h2 {
   font-weight: 400;
   text-align: center; }
-section#speeches .description {
+section#events .description {
   margin: 0 0 40px 0; }
-section#speeches .title-holder {
+section#events .title-holder {
   display: block;
   width: 100%;
   min-height: auto;
   position: relative; }
   @media screen and (min-width: 690px) {
-    section#speeches .title-holder {
-      min-height: 120px; } }
-section#speeches h3 {
+    section#events .title-holder {
+      min-height: 58px; } }
+section#events h3 {
   text-transform: uppercase;
-  font-size: 2.4rem;
+  font-size: 1.8rem;
   line-height: 1.8;
   background: #f5f5f5;
   font-weight: 700;
@@ -823,7 +864,7 @@ section#speeches h3 {
   -o-transition: 0.2s border-color linear 0s;
   transition: 0.2s border-color linear 0s;
   border-bottom: 1px solid #f5f5f5; }
-section#speeches h4 {
+section#events h4 {
   text-transform: uppercase;
   font-size: 14px;
   border: 1px solid #565656;
@@ -833,11 +874,11 @@ section#speeches h4 {
   text-align: center;
   margin: 0 auto 3.4rem auto;
   width: 100px; }
-section#speeches .author {
+section#events .author {
   clear: both;
   margin: 20px 0;
   overflow: hidden; }
-  section#speeches .author img {
+  section#events .author img {
     width: 60px;
     height: 60px;
     display: block;
@@ -847,102 +888,104 @@ section#speeches .author {
     display: block;
     float: left;
     margin: 0 10px 0 0; }
-  section#speeches .author h5 {
+  section#events .author h5 {
     font-size: 18px;
     margin: 8px 0 0 0;
     -webkit-transition: 0.2s color linear 0s;
     -o-transition: 0.2s color linear 0s;
     transition: 0.2s color linear 0s; }
-  section#speeches .author span {
+  section#events .author span {
     display: block;
     float: left; }
-section#speeches p {
+section#events p {
   clear: both;
   margin: 0 0 20px 0;
-  font-size: 18px; }
-section#speeches .carousel {
+  font-size: 18px;
+  line-height: 1.8; }
+section#events .carousel {
   overflow: hidden;
   position: relative;
   width: 100%; }
-  section#speeches .carousel .holder {
+  section#events .carousel .holder {
     margin: 0;
     padding: 0;
     position: relative;
     width: 1000%; }
-section#speeches .slide {
+section#events .slide {
   display: block;
   overflow: hidden;
   float: left;
   width: 10%;
   position: relative; }
-  section#speeches .slide .speakers {
+  section#events .slide .speakers {
     overflow: hidden;
     width: 400%;
     position: relative; }
     @media screen and (min-width: 690px) {
-      section#speeches .slide .speakers {
+      section#events .slide .speakers {
         width: 100%; } }
-  section#speeches .slide li {
-    float: left;
-    font-size: 16px;
-    line-height: 1.6;
-    margin-bottom: 80px;
-    width: 25%; }
-    @media screen and (min-width: 690px) {
-      section#speeches .slide li {
-        float: left;
-        display: block;
-        margin-right: 2.35765%;
-        width: 31.76157%; }
-        section#speeches .slide li:last-child {
-          margin-right: 0; } }
-    section#speeches .slide li:hover h3 {
-      border-bottom: 2px solid #b7b7b7; }
-    section#speeches .slide li:hover h5 {
-      color: #800000; }
-    section#speeches .slide li:last-child {
-      margin-bottom: 0px; }
-    section#speeches .slide li .button {
-      display: inline-block;
-      float: none;
-      margin: 0 10px 0 0; }
-section#speeches .pagination {
+    section#events .slide .speakers li {
+      float: left;
+      margin-bottom: 80px;
+      width: 25%; }
+      section#events .slide .speakers li p {
+        font-size: 16px;
+        line-height: 1.7; }
+      @media screen and (min-width: 690px) {
+        section#events .slide .speakers li {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 31.76157%; }
+          section#events .slide .speakers li:last-child {
+            margin-right: 0; } }
+      section#events .slide .speakers li:hover h3 {
+        border-bottom: 2px solid #b7b7b7; }
+      section#events .slide .speakers li:hover h5 {
+        color: #800000; }
+      section#events .slide .speakers li:last-child {
+        margin-bottom: 0px; }
+      section#events .slide .speakers li .button {
+        display: inline-block;
+        float: none;
+        margin: 0 10px 0 0; }
+section#events .pagination {
   width: 100%;
   margin: 0 0 40px 0;
   overflow: hidden; }
   @media screen and (min-width: 690px) {
-    section#speeches .pagination {
+    section#events .pagination {
       display: none; } }
-  section#speeches .pagination span {
+  section#events .pagination span {
     text-transform: uppercase;
     font-weight: bold;
     font-size: 12px;
     font-family: "Open Sans", sans-serif;
     line-height: 30px; }
-  section#speeches .pagination ul {
+  section#events .pagination ul {
     list-style: none;
     position: relative;
     float: left;
     display: block;
     left: 50%;
     width: auto; }
-  section#speeches .pagination li {
+  section#events .pagination li {
     position: relative;
     float: left;
     width: auto;
     display: block;
     right: 50%;
     margin: 0 5px; }
-    section#speeches .pagination li a {
+    section#events .pagination li a {
       width: 30px;
       height: 30px;
       overflow: hidden;
       display: block;
       background: #dedede;
       text-indent: -9999px; }
-    section#speeches .pagination li.active a {
+    section#events .pagination li.active a {
       background: #565656; }
-section#speeches a.prev.button, section#speeches a.next.button {
+section#events a.prev.button, section#events a.next.button {
   color: #fff;
   cursor: pointer;
   text-transform: uppercase;
@@ -960,40 +1003,40 @@ section#speeches a.prev.button, section#speeches a.next.button {
   display: block;
   margin-right: 2.35765%;
   width: 48.82117%; }
-  section#speeches a.prev.button:last-child, section#speeches a.next.button:last-child {
+  section#events a.prev.button:last-child, section#events a.next.button:last-child {
     margin-right: 0; }
   @media screen and (min-width: 690px) {
-    section#speeches a.prev.button, section#speeches a.next.button {
+    section#events a.prev.button, section#events a.next.button {
       float: left;
       display: block;
       margin-right: 2.35765%;
       width: 14.70196%; }
-      section#speeches a.prev.button:last-child, section#speeches a.next.button:last-child {
+      section#events a.prev.button:last-child, section#events a.next.button:last-child {
         margin-right: 0; } }
   @media screen and (min-width: 1020px) {
-    section#speeches a.prev.button, section#speeches a.next.button {
+    section#events a.prev.button, section#events a.next.button {
       position: absolute;
       width: auto;
       margin: -120px 0 0 0;
       top: 50%;
       height: 240px; } }
-  section#speeches a.prev.button:hover, section#speeches a.next.button:hover {
+  section#events a.prev.button:hover, section#events a.next.button:hover {
     background: #00CB9F; }
-  section#speeches a.prev.button i, section#speeches a.next.button i {
+  section#events a.prev.button i, section#events a.next.button i {
     float: left;
     line-height: 1.8;
     padding: 0 10px 0 0; }
     @media screen and (min-width: 1020px) {
-      section#speeches a.prev.button i, section#speeches a.next.button i {
+      section#events a.prev.button i, section#events a.next.button i {
         line-height: 240px;
         font-size: 34px; } }
-section#speeches a.prev.button {
+section#events a.prev.button {
   left: 0px; }
-section#speeches a.next.button {
+section#events a.next.button {
   right: 0px;
   float: right;
   margin-right: 0; }
-  section#speeches a.next.button i {
+  section#events a.next.button i {
     padding: 0 0 0 10px;
     float: right; }
 
@@ -1026,7 +1069,6 @@ section#speaker {
 section#challenge .title i {
   color: #FED34B; }
 section#challenge .description {
-  margin-bottom: 40px;
   text-align: center;
   font-size: 18px;
   float: left;
@@ -1088,12 +1130,24 @@ section#challenge .carousel {
     @media screen and (min-width: 1020px) {
       section#challenge .carousel .month {
         width: 3.33333%; } }
-    section#challenge .carousel .month h4 {
-      font-size: 20px; }
+    section#challenge .carousel .month h3 {
+      text-transform: uppercase;
+      font-size: 1.8rem;
+      line-height: 1.8;
+      background: #f5f5f5;
+      font-weight: 700;
+      display: inline;
+      text-align: center;
+      -webkit-transition: 0.2s border-color linear 0s;
+      -o-transition: 0.2s border-color linear 0s;
+      transition: 0.2s border-color linear 0s;
+      border-bottom: 1px solid #f5f5f5; }
+    section#challenge .carousel .month:hover h3 {
+      border-bottom: 2px solid #b7b7b7; }
 section#challenge .awarded {
   overflow: hidden;
   list-style-type: decimal;
-  margin: 0 0 20px 20px; }
+  margin: 20px 0 20px 20px; }
   section#challenge .awarded li {
     text-align: center;
     width: 100%; }
@@ -1238,7 +1292,7 @@ section#sharing {
       section#sharing #twitter-feed li .tweet {
         clear: both;
         float: left;
-        font-size: 14px;
+        font-size: 16px;
         margin-bottom: 20px;
         margin-left: 50px;
         line-height: 1.6; }
