@@ -86,25 +86,33 @@ $(document).ready(function($) {
 		$("#flickr-feed").append(imageCollection);
 	});
 
+	$('#speeches .slide').each(function(){
+		var curSlide = $(this).jcarousel({
+			list: ".speakers"
+		});
 
-	// enable sliders, navigation and pagination
-	$('.carousel').on('jcarousel:createend', function() {
-		var slideCount = $('.slide').length
-        $(this).jcarousel('scroll', slideCount - 1, false);
-    }).jcarousel();
-
-	$('#news-slider .pagination ul')
-        .on('jcarouselpagination:active', 'li', function() {
+		$(this).find(".pagination ul").on('jcarouselpagination:active', 'li', function() {
             $(this).addClass('active');
         })
         .on('jcarouselpagination:inactive', 'li', function() {
             $(this).removeClass('active');
         })
         .jcarouselPagination({
+        	'carousel' : curSlide,
 		    'item': function(page, carouselItems) {
 		        return '<li><a href="#' + page + '">' + page + '</a></li>';
 		    }
 		});
+	});
+
+	// enable sliders, navigation and pagination
+	$('.carousel').on('jcarousel:createend', function() {
+		var slideCount = $('.slide').length
+        $(this).jcarousel('scroll', slideCount - 1, false);
+    }).jcarousel({
+    	'item': '.slide'
+    });
+        
 
 	$('.prev').click(function() {
 	    $(this).siblings('.carousel').jcarousel('scroll', '-=1');

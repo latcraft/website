@@ -22,7 +22,7 @@ section#modal {
     .eventbrite {
         background: #fff;
         width: 500px;
-        padding: 40px;
+        padding: 51px 51px 0 51px;
     }
 
     &.open {
@@ -559,6 +559,10 @@ section#speeches {
         text-align: center;
     }
 
+    .description {
+        margin: 0 0 40px 0;
+    }
+
     .title-holder {
         display: block;
         width: 100%;
@@ -646,17 +650,27 @@ section#speeches {
         overflow: hidden;
         float: left;
         width: 10%;
+        position: relative;
+
+        .speakers {
+            overflow: hidden;
+            width: 400%; 
+            position: relative;
+
+            @include media($container) {
+                width: 100%;    
+            }
+        }
 
         li {
             float: left;
             font-size: 16px;
             line-height: 1.6;
             margin-bottom: 80px;
-            
-            @include span-columns(12 of 12);
+            width: 25%;
 
             @include media($container) {
-                @include span-columns(4);    
+                @include span-columns(4 of 12);
             }
 
             &:hover {
@@ -680,20 +694,84 @@ section#speeches {
         }
     }
 
+    .pagination {
+        width: 100%; 
+        margin: 0 0 40px 0;
+        overflow: hidden;
+
+        @include media($container) {
+            display: none;
+        }
+
+        span {
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: 12px;
+            font-family: $primary-font;
+            line-height: 30px;
+        }
+
+        ul {
+            list-style: none; 
+            position: relative; 
+            float: left; 
+            display: block; 
+            left: 50%;  
+            width: auto; 
+        }
+
+        li {
+            position: relative; 
+            float: left; 
+            width: auto;
+            display: block; 
+            right: 50%;
+            margin: 0 5px;
+
+            a {
+                width: 30px;
+                height: 30px;
+                overflow: hidden;
+                display: block;
+                
+                background: #dedede;                                       
+                text-indent: -9999px;
+            }
+
+            &.active a {
+                background: #565656;   
+            }
+        }
+    }
+
     a.prev.button, a.next.button {
         color: #fff;
         cursor: pointer;
         text-transform: uppercase;
         background: #dedede;
-        color: #fff;
-        height: 240px;
-        padding: 0px 18px;
-        margin: -120px 0 0 0;
+        float: left;
+        clear: none;
+        padding: 8px 18px;        
         position: absolute;
         text-align: center;
-        top: 50%;
+        height: auto;
         z-index: 150;
         font-family: $primary-font;
+
+        position: relative;
+        @include span-columns(6 of 12);
+
+        @include media($container) {            
+            @include span-columns(2 of 12);
+        }
+
+        @include media($desktop) {            
+            position: absolute;   
+            width: auto; 
+            margin: -120px 0 0 0;
+            top: 50%;
+            height: 240px;
+        }
 
         &:hover {
             background: $secondary;
@@ -701,9 +779,13 @@ section#speeches {
 
         i {
             float: left;
-            line-height: 240px; 
+            line-height: 1.8;
             padding: 0 10px 0 0;
-            font-size: 34px;
+
+            @include media($desktop) {            
+                line-height: 240px;
+                font-size: 34px;
+            }
         }
     }
 
@@ -713,6 +795,8 @@ section#speeches {
 
     a.next.button {
         right: 0px;
+        float: right;
+        @include omega();
 
         i {            
             padding: 0 0 0 10px;

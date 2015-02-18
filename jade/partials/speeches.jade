@@ -1,16 +1,13 @@
 section#speeches
 	.container
 		h2 Speeches
-		a.prev.button(href="#")
-			i.fa.fa-angle-left
-		a.next.button(href="#")
-			i.fa.fa-angle-right
 		.carousel
 			.holder
 				for speach in speaches
-					div.slide
-						h4.title @ #{speach.month}	
-						ul
+					div.slide							
+						.description
+							p This talk will guide you through the core concepts of the Go. We will cover the type system, memory model, packaging and of course the famous concurrency primitives of the language: goroutines.
+						ul.speakers
 							for speaker in speach.speakers
 								li
 									.title-holder
@@ -27,3 +24,10 @@ section#speeches
 										if speaker.video
 											a.button.icon(href=speaker.video)
 												i.fa.fa-play-circle
+						.pagination
+							span speakers: 
+							ul
+		a.prev.button(href="#")
+			i.fa.fa-angle-left
+		a.next.button(href="#")
+			i.fa.fa-angle-right
