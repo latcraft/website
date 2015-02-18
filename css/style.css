@@ -94,6 +94,7 @@ h6 {
   cursor: pointer;
   font-weight: 400;
   padding: 8px 16px;
+  vertical-align: middle;
   -webkit-transition: 0.2s all ease 0s;
   -o-transition: 0.2s all ease 0s;
   transition: 0.2s all ease 0s; }
@@ -142,10 +143,7 @@ h6 {
     @media screen and (max-width: 520px) {
       .button.big {
         width: 100%;
-        text-align: center;
-        height: 80px;
-        line-height: 80px;
-        padding: 0; } }
+        text-align: center; } }
 
 .button-group {
   clear: both;
@@ -805,7 +803,8 @@ section#events .description {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 74.41059%; }
+  width: 100%;
+  margin: 0; }
   section#events .description p {
     margin-top: 20px; }
   section#events .description h3 {
@@ -817,6 +816,15 @@ section#events .description {
     overflow: hidden; }
   section#events .description:last-child {
     margin-right: 0; }
+  @media screen and (min-width: 520px) {
+    section#events .description {
+      margin: 0 0 40px 0;
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 74.41059%; }
+      section#events .description:last-child {
+        margin-right: 0; } }
 section#events .bubble {
   overflow: hidden;
   float: right;
@@ -824,10 +832,18 @@ section#events .bubble {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 23.23176%;
-  margin-right: 0; }
+  width: 100%; }
   section#events .bubble:last-child {
     margin-right: 0; }
+  @media screen and (min-width: 520px) {
+    section#events .bubble {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 23.23176%;
+      margin-right: 0; }
+      section#events .bubble:last-child {
+        margin-right: 0; } }
   section#events .bubble strong {
     font-weight: 700;
     margin-right: 5px; }
@@ -845,9 +861,6 @@ section#events .bubble {
 section#events h2 {
   font-weight: 400;
   text-align: center; }
-section#events .description {
-  margin: 0 0 40px 0;
-  padding-right: 20px; }
 section#events .title-holder {
   display: block;
   width: 100%;
@@ -909,7 +922,10 @@ section#events p {
 section#events .carousel {
   overflow: hidden;
   position: relative;
-  width: 100%; }
+  width: 100%;
+  -webkit-transition: 0.3s height cubic-bezier(0.7, 0, 0.3, 1) 0s;
+  -o-transition: 0.3s height cubic-bezier(0.7, 0, 0.3, 1) 0s;
+  transition: 0.3s height cubic-bezier(0.7, 0, 0.3, 1) 0s; }
   section#events .carousel .holder {
     margin: 0;
     padding: 0;
@@ -930,7 +946,6 @@ section#events .slide {
         width: 100%; } }
     section#events .slide .speakers li {
       float: left;
-      margin-bottom: 80px;
       width: 25%; }
       section#events .slide .speakers li p {
         font-size: 16px;
