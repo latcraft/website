@@ -3,26 +3,26 @@ section#events
 		h2.title Events: March		
 		.carousel
 			.holder
-				for speach in speaches
+				for event in events
 					div.slide
 						.description 
-							h3 #{speach.theme}
-							p #{speach.desc}
+							h3 #{event.theme}
+							p #{event.desc}
 						.bubble
 							ul
 								li 
 									strong date:
-									| #{speach.date}
+									| #{event.date}
 								li 
 									strong time:
-									| #{speach.time}
+									| #{event.time}
 								li 
 									strong venue: 
-									a(href="#venue") #{speach.venue}
+									a(href="#venue") #{event.venue}
 							a.button.big(href="#") reserve seat
 
 						ul.speakers
-							for speaker in speach.speakers
+							for speaker in event.speakers
 								li
 									.title-holder
 										h3 #{speaker.title}

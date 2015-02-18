@@ -50,7 +50,7 @@ gulp.task('sass', function () {
 // compiles jade
 gulp.task('jade', function() {
 	var news = require('./data/news.json'),
-		speaches = require('./data/speaches.json'),
+		events = require('./data/events.json'),
 		challenges = require('./data/challenges.json');
 
  	gulp.src('./jade/*.jade')
@@ -59,7 +59,7 @@ gulp.task('jade', function() {
 	    	pretty: true,
 	    	locals: {
 	    		"news": news, 	
-	    		"speaches": speaches, 	
+	    		"events": events, 	
 	    		"challenges": challenges 	
 	    	}
 	    }))
