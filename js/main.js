@@ -107,7 +107,7 @@ $(document).ready(function($) {
 
 	// enable sliders, navigation and pagination
 	$('.carousel').on('jcarousel:createend', function() {
-		var slideCount = $('.slide').length
+		var slideCount = $('#events .slide').length;
         $(this).jcarousel('scroll', slideCount - 1, false);
     }).jcarousel({
     	'item': '.slide'
@@ -145,16 +145,25 @@ $(document).ready(function($) {
 	    title: "Our tmp base!"
 	});
 
-
-	// open/close modal window for Eventbrite
 	var modal = $('#modal');
-	$('#get-ticket').click(function() {
+	$('#reserve-seat').click(function(e) {
+		e.preventDefault();
 		modal.addClass("open");
 	});
 	modal.click(function() {
 		modal.removeClass("open");
 	});
 
+	$('#join-event').click(function() {
+	    var href = $(this).attr("href");
+	    $(href).animatescroll();
+	});
+
+	$('#goto-map').click(function() {
+	    var href = $(this).attr("href");
+	    $(href).animatescroll();
+	    return false;
+	});
 
 	// do parallax for top title
 	$(window).scroll(function() {

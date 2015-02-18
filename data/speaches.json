@@ -1,10 +1,11 @@
 [{
-	"theme" : "get rich quick",
-	"desc" : "This talk will guide you through the core concepts of the Go. We will cover the type system, memory model, packaging and of course the famous concurrency primitives of the language: goroutines.",
+	"theme" : "CIO and CTO lessons learned",
+	"desc" : "Learn what does it mean to lead the way and what true leaders expect from their peers. Come over to hear deep insights from guys that went long path towards becoming Chiefs.",
 	"month" : "Jan 2015",
-	"date" : "6 Januaryh, 2015",
-	"time" : "18:00",
-	"venue" : "Baznīcas iela 3",
+	"date" : "6 January, 2015",
+	"time" : "18:30",
+	"announced": false,
+	"venue" : "Zaļa iela 1",
 	"speakers" : [{
 			"name" : "Māris Veide",
 			"bio" : "CIO at E-Global Holding",
@@ -31,12 +32,13 @@
 			"video" : "https://www.youtube.com/watch?v=gsdJ5kgKdco"
 		}]
 }, {
-	"theme" : "quit your job",
-	"desc" : "This talk will guide you through the core concepts of the Go. We will cover the type system, memory model, packaging and of course the famous concurrency primitives of the language: goroutines.",
+	"theme" : "Team and Personal Effectiveness",
+	"desc" : "We'd love to spend 24/7 in code, but software development is all about people. We will talk about teams, people, what makes them tick and what should you do to become a great team player.",
 	"month" : "Feb 2015",
 	"date" : "3 February, 2015",
-	"time" : "18:00",
-	"venue" : "Baznīcas iela 3",
+	"time" : "18:30",
+	"announced": false,
+	"venue" : "Zaļa iela 1",
 	"speakers" : [{
 			"name" : "Andrey Grave",
 			"bio" : "BuyerDeck",
@@ -63,12 +65,13 @@
 			"video" : "https://www.youtube.com/watch?v=Gz0s8j3nboU"
 		}]
 }, {
-	"theme" : "church is the future",
-	"desc" : "This talk will guide you through the core concepts of the Go. We will cover the type system, memory model, packaging and of course the famous concurrency primitives of the language: goroutines.",
+	"theme" : "Programming Languages You Should Know About",
+	"desc" : "There are cool programming languages available that are not yet mainstream, but deserves significant attention. Come over and learn more about sharp programming languages such as Rust, Golang and Erlang.",
 	"month" : "Mar 2015",
 	"date" : "3 March, 2015",
-	"time" : "18:00",
-	"venue" : "Baznīcas iela 3",
+	"time" : "18:30",
+	"announced": true,
+	"venue" : "Zaļa iela 1",
 	"speakers" : [{
 			"name" : "Leonids Maslovs",
 			"bio" : "Galeo Consulting",

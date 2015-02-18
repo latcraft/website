@@ -1,6 +1,6 @@
 section#events
 	.container
-		h2.title Events: March		
+		h2.title Events
 		.carousel
 			.holder
 				for speach in speaches
@@ -17,9 +17,11 @@ section#events
 									strong time:
 									| #{speach.time}
 								li 
-									strong venue: 
-									a(href="#venue") #{speach.venue}
-							a.button.big(href="#") reserve seat
+									if speach.announced
+										strong venue: 
+										a#goto-map(href="#map") #{speach.venue}
+							if speach.announced
+								a#reserve-seat.button.big reserve seat
 
 						ul.speakers
 							for speaker in speach.speakers
