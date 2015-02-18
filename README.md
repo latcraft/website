@@ -13,6 +13,5 @@ This repository contains *Gulp* project that builds **LatCraft** website.
 # How to deploy to staging 
 
 - Run `gulp build deploy`
-
-Visit `www.latcraft.lv/website` and have fun
+- Visit <http://www.latcraft.lv/website> and have fun
 
