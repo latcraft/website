@@ -1270,6 +1270,68 @@ section#digest {
         font-size: 18px;
     }
 
+    .error, .success {
+        width: 100%;
+        clear: both;
+        font-family: $primary-font;
+        font-size: 14px;        
+        padding: 15px;
+        float: left;
+        opacity: 0;
+        visability: hidden;
+        overflow: hidden;
+        max-height: 0px;
+        height: auto;
+        padding: 0;
+        line-height: 1.6;
+        transition: 0.3s all ease 0s;
+
+        .group {
+            margin: 20px 0 0 0;
+            padding: 15px;
+            background: $primary;
+            position: relative;
+        }
+
+        &.active {
+            visability: visible;
+            max-height: 100%;
+            opacity: 1;
+        }
+
+        a {
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            padding: 10px;
+            color: #000;
+            opacity: 0.4;
+        }
+
+        p {
+            font-size: 14px;
+            clear: both;
+            color: #dedede;
+            margin: 0;
+        }
+
+        h5 {
+            text-align: center;
+            color: #fff;
+            font-size: 12px;
+            font-family: $primary-font;
+            text-transform: uppercase;
+        }
+    }
+
+    .success .group {
+        background: #93EA39;
+        p {
+            color: #454545;
+        }
+    }
+
+
     #subscription {
         @include span-columns(12 of 12);
         @include shift(0);
@@ -1282,6 +1344,7 @@ section#digest {
 
         form {
             background: #212121;
+            transition: 0.3s all ease 0s;
             display: block;
             overflow: hidden;
             padding: 15px;
@@ -1292,6 +1355,7 @@ section#digest {
             float: right;
             background: #212121;
             @include span-columns(3 of 12);
+            @include omega();
 
             @include media($mobile) {
                 @include span-columns(12 of 12);

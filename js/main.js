@@ -51,24 +51,25 @@ $(document).ready(function($) {
 	$('#subscription form').submit(function(e) {
 		var email = $('#subscription input[name=email]').val();
   		var subscribers = new Firebase("https://radiant-fire-3288.firebaseio.com/subscribers");
+		
+		var subForm = $("#subscription"),
+			subError = subForm.find(".error"),
+			subSuccess = subForm.find(".success");
+
 		subscribers.push(email, function(error) {
 		  if (error) {
-			noty({
-			    text: "Sorry man, but email you provided seems to be invalid",
-			    type: 'error',
-			    timeout: 1000,
-			    modal: true
-			});			
+			subError.addClass("active");
+			subSuccess.removeClass("active");				
 		  } else {
-			noty({
-			    text: "Well done! We'll keep you in the loop",
-			    type: 'success',
-			    timeout: 1000,
-			    modal: true
-			});			
+			subError.removeClass("active");			
+			subSuccess.addClass("active");			
 		  }
 		});
 		e.preventDefault();
+	});
+
+	$('#subscription a').click(function() {
+	    $(this).parents(".success, .error").removeClass("active");
 	});
 
 
@@ -112,8 +113,9 @@ $(document).ready(function($) {
 	// create sliders, navigation and pagination
 	$('.carousel').on('jcarousel:createend', function() {
 		var $this = $(this),
-			slideCount = $('#events .slide').length;
 
+		// scroll to last slide
+		slideCount = $('#events .slide').length;
         $(this).jcarousel('scroll', slideCount - 1, false);
     }).jcarousel({
     	'item': '.slide'
@@ -171,7 +173,7 @@ $(document).ready(function($) {
 
 	$('#goto-map').click(function(e) {
 		e.preventDefault();
-		
+
 	    var href = $(this).attr("href");
 	    $(href).animatescroll();
 	    return false;

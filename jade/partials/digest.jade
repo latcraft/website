@@ -11,3 +11,15 @@ section#digest
 			form(action="" method="post" target="_blank" novalidate="")
 				input(type="email" value="" name="email" placeholder="type your e-mail here..").required.email
 				input(type="submit" value="subscribe" name="subscribe").button.invert
+				.error 
+					.group
+						h5 End is near!
+						p By entering an invalid e-mail you have inevitably began destruction of the earth. No pressure!
+						a(href="#close")
+							i.fa.fa-times
+				.success
+					.group
+						h5 Boom shack-a-lacka!
+						p You are now added to worst SPAM lists in the world.
+						a(href="#close")
+							i.fa.fa-times
