@@ -318,7 +318,14 @@ section#modal {
       display: block; } }
   section#modal .container {
     overflow: hidden;
-    max-width: 690px; }
+    max-width: 690px;
+    position: responsive;
+    height: 100%; }
+  section#modal .holder {
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    right: 0px; }
   section#modal .eventbrite {
     background: #fff;
     width: 100%;
