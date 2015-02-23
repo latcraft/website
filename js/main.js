@@ -162,12 +162,16 @@ $(document).ready(function($) {
 		modal.removeClass("open");
 	});
 
-	$('#join-event').click(function() {
+	$('#join-event').click(function(e) {
+		e.preventDefault();
+
 	    var href = $(this).attr("href");
 	    $(href).animatescroll();
 	});
 
-	$('#goto-map').click(function() {
+	$('#goto-map').click(function(e) {
+		e.preventDefault();
+		
 	    var href = $(this).attr("href");
 	    $(href).animatescroll();
 	    return false;
