@@ -46,7 +46,6 @@ var centerArrow = function (elem) {
 
 $(document).ready(function($) {
 	// center modal window 
-	centerModal();
 	$(window).resize(function() {
 		centerModal();
 	});
@@ -174,6 +173,7 @@ $(document).ready(function($) {
 	$('#reserve-seat').click(function(e) {
 		e.preventDefault();
 		modal.addClass("open");
+		centerModal();
 	});
 	modal.click(function() {
 		modal.removeClass("open");
@@ -190,7 +190,7 @@ $(document).ready(function($) {
 		e.preventDefault();
 
 	    var href = $(this).attr("href");
-	    $(href).animatescroll();
+	    $(href).animatescroll({padding: 100});
 	    return false;
 	});
 
@@ -222,7 +222,7 @@ $(document).ready(function($) {
 		if($this.hasClass("network")) return;
 
 	    var href = $(this).attr("href");
-	    $(href).animatescroll();
+	    $(href).animatescroll({padding: 100});
 
 	    if($('body').width() < 1020) {
 			$('#off-canvas').removeClass('active');

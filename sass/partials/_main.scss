@@ -20,10 +20,46 @@ section#modal {
         display: block;
     }
 
+    .close {
+        position: absolute;         
+        top: -40px;
+        right: 0px;
+        font-size: 14px;
+        height: 40px;
+        width: 40px;
+        line-height: 40px;
+        background: #111;
+        color: #fff;
+        margin: 0 10px 0 0;
+
+        @include media($desktop) { 
+            top: -20px;
+            right: -20px;
+        }
+
+
+        span {
+            background: none repeat scroll 0 0 #fff;
+            clear: both;
+            display: block;
+            height: 2px;
+            transition: all 0.4s ease 0s;
+            width: 30px;    
+            position: relative;
+            top: 19px;
+            left: 5px;
+            transform: rotateZ(45deg);
+
+            &:nth-child(2) {
+                top: 17px;
+                transform: rotateZ(-45deg);    
+            }
+        }
+    }
+
     .container {
-        overflow: hidden;
         max-width: $container;
-        position: responsive;
+        position: relative;
         height: 100%;
     }
 
