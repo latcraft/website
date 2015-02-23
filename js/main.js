@@ -97,8 +97,7 @@ $(document).ready(function($) {
 
 		$(this).find(".pagination ul").on('jcarouselpagination:active', 'li', function() {
             $(this).addClass('active');
-        })
-        .on('jcarouselpagination:inactive', 'li', function() {
+        }).on('jcarouselpagination:inactive', 'li', function() {
             $(this).removeClass('active');
         })
         .jcarouselPagination({
@@ -119,7 +118,7 @@ $(document).ready(function($) {
     }).jcarousel({
     	'item': '.slide'
     }).on('jcarousel:targetin', '.slide', function(event, carousel) {
-	    var itemHeight = $(this).height();
+	    var itemHeight = $(this).outerHeight();
 	    $(this).parents('.carousel').css({
 	    	"height" : itemHeight
 	    });
@@ -127,13 +126,11 @@ $(document).ready(function($) {
      
 	$('.prev').click(function() {
 	    $(this).siblings('.carousel').jcarousel('scroll', '-=1');
-
 	    return false;
 	});
 
 	$('.next').click(function() {
 	    $(this).siblings('.carousel').jcarousel('scroll', '+=1');
-
 	    return false;
 	});
 

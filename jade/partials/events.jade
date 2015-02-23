@@ -35,15 +35,16 @@ section#events
 									p #{speaker.description}
 									.button-group
 										if speaker.presentation
-											a.button.effect(href=speaker.presentation) 
+											a.button.effect(href=speaker.presentation, target="_blank") 
 												div(data-hover="view slides") view slides
 										if speaker.video
-											a.button.icon(href=speaker.video)
+											a.button.icon(href=speaker.video, target="_blank")
 												i.fa.fa-play-circle
 						.pagination
-							span speakers: 
 							ul
 		a.prev.button(href="#")
+			span Prev
 			i.fa.fa-angle-left
 		a.next.button(href="#")
+			span Next
 			i.fa.fa-angle-right

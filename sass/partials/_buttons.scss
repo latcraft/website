@@ -15,7 +15,8 @@
     font-weight: 400;
     padding: 8px 16px; 
     vertical-align: middle;
-    transition: 0.2s all ease 0s;  
+    transition: 0.2s all ease 0s; 
+    -webkit-appearance: none; 
 
     &:hover {
         background: #601212;
