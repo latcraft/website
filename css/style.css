@@ -1385,6 +1385,54 @@ section#digest {
     text-align: center;
     color: #fff;
     font-size: 18px; }
+  section#digest .error, section#digest .success {
+    width: 100%;
+    clear: both;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    padding: 15px;
+    float: left;
+    opacity: 0;
+    visability: hidden;
+    overflow: hidden;
+    max-height: 0px;
+    height: auto;
+    padding: 0;
+    line-height: 1.6;
+    -webkit-transition: 0.3s all ease 0s;
+    -o-transition: 0.3s all ease 0s;
+    transition: 0.3s all ease 0s; }
+    section#digest .error .group, section#digest .success .group {
+      margin: 20px 0 0 0;
+      padding: 15px;
+      background: #FF4A4A;
+      position: relative; }
+    section#digest .error.active, section#digest .success.active {
+      visability: visible;
+      max-height: 100%;
+      opacity: 1; }
+    section#digest .error a, section#digest .success a {
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      padding: 10px;
+      color: #000;
+      opacity: 0.4; }
+    section#digest .error p, section#digest .success p {
+      font-size: 14px;
+      clear: both;
+      color: #dedede;
+      margin: 0; }
+    section#digest .error h5, section#digest .success h5 {
+      text-align: center;
+      color: #fff;
+      font-size: 12px;
+      font-family: "Open Sans", sans-serif;
+      text-transform: uppercase; }
+  section#digest .success .group {
+    background: #93EA39; }
+    section#digest .success .group p {
+      color: #454545; }
   section#digest #subscription {
     float: left;
     display: block;
@@ -1409,6 +1457,9 @@ section#digest {
           margin-right: 0; } }
     section#digest #subscription form {
       background: #212121;
+      -webkit-transition: 0.3s all ease 0s;
+      -o-transition: 0.3s all ease 0s;
+      transition: 0.3s all ease 0s;
       display: block;
       overflow: hidden;
       padding: 15px; }
@@ -1419,7 +1470,8 @@ section#digest {
       float: left;
       display: block;
       margin-right: 2.35765%;
-      width: 23.23176%; }
+      width: 23.23176%;
+      margin-right: 0; }
       section#digest #subscription input.button:last-child {
         margin-right: 0; }
       @media screen and (max-width: 520px)  {
