@@ -23,6 +23,15 @@ section#modal {
     .container {
         overflow: hidden;
         max-width: $container;
+        position: responsive;
+        height: 100%;
+    }
+
+    .holder {
+        position: absolute;
+        top: 50%;
+        left: 0px;
+        right: 0px;
     }
 
     .eventbrite {

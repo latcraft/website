@@ -1,5 +1,5 @@
 var easyPeasyParallax = function () {
-	scrollPos = $(this).scrollTop();
+	var scrollPos = $(this).scrollTop();
 
 	$('#header .info').css({
 		'margin-top': (scrollPos)+"px",
@@ -8,7 +8,7 @@ var easyPeasyParallax = function () {
 }
 
 var easyPeasyNav = function () {
-	scrollPos = $(this).scrollTop();
+	var scrollPos = $(this).scrollTop();
 	var header = $('#header');
 	var offCanvas = $('#off-canvas');
 
@@ -17,6 +17,14 @@ var easyPeasyNav = function () {
 	} else {
 		offCanvas.removeClass("active");
 	}
+}
+
+var centerModal = function () {
+	var modal = $("#modal .holder");
+
+	modal.css({
+		'margin-top': -(modal.height()/2) +"px"
+	});
 }
 
 var centerArrow = function (elem) {
@@ -37,6 +45,13 @@ var centerArrow = function (elem) {
 }
 
 $(document).ready(function($) {
+	// center modal window 
+	centerModal();
+	$(window).resize(function() {
+		centerModal();
+	});
+
+
 	// fetch one tweet
 	var tweetConfig = {
 		"id": '558200865941909504',
