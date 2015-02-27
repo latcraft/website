@@ -188,164 +188,66 @@ section#news {
     width: 50px;
     min-height: 46px;
     position: fixed;
-    transform: translate3d(30px, 30px, 0px);
+    transform: translate3d(30px, -46px, 0px);
     z-index: 500;
     overflow: hidden;
     background: rgba(34, 44, 52, 0.9);
     transition: 0.5s all cubic-bezier(0.7, 0, 0.3, 1) 0s;
 
-    &.active  {
-        transform: translate3d(0px, 0px, 0px);
-        height: auto;
-        min-height: 100%;
-        width: 100%;
-        display: block;
-        overflow: auto;
-
-        a.open {
-            span {
-                &:first-child {
-                    transform: translate3d(0px, 8px, 0px) rotateZ(-45deg);
-                }   
-                &:nth-child(2) {
-                    transform: rotateY(90deg);
-                    opacity: 0;
-                }
-                &:last-child {
-                    transform: translate3d(0px, -8px, 0px) rotateZ(45deg);
-                }  
-            }
-        }
-
-        .container {
-            position: absolute;
-            top: 70px;
-            min-height: auto;
-            opacity: 1;
-            overflow: visible;
-            pointer-events: auto;
-            transition: opacity 0.3s ease 0.5s, top 0.3s ease 0.5s;
-        }
-
-        @include media($desktop) {            
-            width: 100%;
-            min-height: 80px !important;
-            overflow: hidden !important;
-    
-            .container {
-                position: relative;
-                top: 0;
-                transition: none;
-            }
-
-            .open {
-                display: none !important;
-            }
-
-            .logo {
-                display: block;
-                float: left;
-                margin: 20px 0;
-
-                a {
-                    background: url('../img/logo-nav.png') no-repeat;
-                    width: 140px;
-                    height: 60px;
-                    margin: 0;
-                    text-indent: -9999px;
-                    display: block;
-                }
-            }
-        }
-    }
-
     .container {
         position: absolute;
-        top: 90px;
-        min-height: 0;
-        heught: auto;
+        margin-top: 70px;
+        margin-bottom: 70px;
+        transform: translate3d(0, 40px, 0px);
         opacity: 0;
-        overflow: hidden;
+        visibility: hidden;
+        transition: 0.3s all ease 0s;
+
+        @include media($desktop) { 
+            margin-top: 0;
+            margin-bottom: 0;
+            position: relative;
+            transform: translate3d(0px, 0px, 0px);
+        }
     }
 
-    @include media($desktop) {          
-        width: 100%;
-        min-height: 100px;
-        overflow: hidden !important;
-        transform: translate3d(0px, -100px, 0px);
+    .logo {
+        float: left;
+        margin: 20px 0;
+        display: none;
 
-        .container {
-            position: relative;
-            top: 0;
+        a {
+            background: url('../img/logo-nav.png') no-repeat;
+            width: 140px;
+            height: 60px;
+            margin: 0;
+            text-indent: -9999px;
+            display: block;
+        }        
+    }
 
-            ul {
-                float: right;
-                width: auto;
-                margin: 30px 0;
+    .open {
+        display: block;
+        color: #fff;
+        width: 50px;
+        padding: 14px 12px;
+        float: right;
+        position: absolute;
+        top: 0px;
+        right: 0px;
 
-                li {
-                    float: left;
-                    width: auto;
-                    margin: 0 !important;
+        span {
+            height: 2px;
+            width: 100%;
+            background: #fff;
+            display: block;
+            margin: 0 0 6px 0;
+            clear: both;
+            transition: 0.4s all ease 0s;
 
-                    a {
-                        color: #fff;
-                        line-height: 40px;
-                        padding: 0 10px;                        
-                        background: transparent;
-
-                        &:hover {
-                            background: $primary;
-                            &.speakerdeck i {
-                                color: $primary;
-                            }
-                        }
-
-                        &.speakerdeck {
-                            background: #3ab278;
-                            color: #3ab278;
-                            padding: 11px 0;
-                
-                            span {
-                                overflow: hidden;
-                                display: inline-block;
-                                background: #fff;
-                                padding: 0 0px;
-                                border-radius: 2px;
-
-                                i {
-                                    color: #111;
-                                    float: left;
-                                    font-size: 10px;   
-                                    line-height: 0.8 !important;
-                                    padding: 0 1px;
-                                }
-                            }
-                        }
-
-                        &.network {
-                            background: #111 !important;
-                            margin: 4px 0 0 5px;
-                            height: 32px;
-                            width: 32px;
-                            border-radius: 50%;
-
-                            &:hover {
-                                background: $primary !important;
-                            }
-
-                            i {
-                                line-height: 32px;
-                                font-size: 12px;
-                            }
-                        }
-                    }
-                }
+            &:last-child {
+                margin: 0;
             }
-        }
-
-        a.open {
-            display: none !important;
         }
     }
 
@@ -353,6 +255,12 @@ section#news {
         float: left;
         width: 100%;
         clear: both;
+
+        @include media($desktop) { 
+            float: right;
+            width: auto;
+            margin: 30px 0;
+        }
 
         li {
             overflow: hidden;
@@ -363,6 +271,11 @@ section#news {
             width: 100%;
             margin-bottom: 5px;
             @include span-columns(6 of 12);
+
+            @include media($desktop) { 
+                width: auto;
+                margin: 0;
+            }
 
             &:nth-child(2n) {
                 @include omega();
@@ -378,6 +291,13 @@ section#news {
                 text-align: center;
                 background: #111;
                 transition: 0.4s all ease 0s;
+
+                @include media($desktop) {
+                    color: #fff;
+                    line-height: 40px;
+                    padding: 0 10px;          
+                    background: transparent;
+                }
 
                 &.twitter {
                     background: #44CCF6;
@@ -423,40 +343,131 @@ section#news {
                     font-size: 18px;
                 }
 
-                &:hover {
-                    background: #000;
+                @include media($desktop) {
+                    &.speakerdeck {
+                        background: #3ab278;
+                        color: #3ab278;
+                        padding: 11px 0;
+            
+                        span {
+                            overflow: hidden;
+                            display: inline-block;
+                            background: #fff;
+                            padding: 0 0px;
+                            border-radius: 2px;
 
-                    &.speakerdeck i {
-                        color: #111;
+                            i {
+                                color: #111;
+                                float: left;
+                                font-size: 10px;   
+                                line-height: 0.8 !important;
+                                padding: 0 1px;
+                            }
+                        }
+                    }
+
+                    &.network {
+                        background: #111 !important;
+                        margin: 4px 0 0 5px;
+                        height: 32px;
+                        width: 32px;
+                        border-radius: 50%;
+
+                        &:hover {
+                            background: $primary !important;
+                        }
+
+                        i {
+                            line-height: 32px;
+                            font-size: 12px;
+                        }
+                    }
+
+                    &:hover {
+                        background: $primary;
+
+                        &.speakerdeck i {
+                            color: $primary;
+                        }
                     }
                 }
             }
         }
     }
 
-    .logo {
-        display: none;
-    }
-    
-    a.open {
-        display: block;
-        color: #fff;
-        width: 50px;
-        padding: 14px 12px;
-        float: right;
+    @include media($desktop) {
+        width: 100%;
+        min-height: 100px;
+        transform: translate3d(0px, -100px, 0px);
+        transition: 0.5s all cubic-bezier(0.7, 0, 0.3, 1) 0s;
 
-        span {
-            height: 2px;
-            width: 100%;
-            background: #fff;
+        .logo {
             display: block;
-            margin: 0 0 6px 0;
-            clear: both;
-            transition: 0.4s all ease 0s;
+        }
 
-            &:last-child {
-                margin: 0;
+        .open {
+            display: none;
+        }
+
+        .container {
+            opacity: 1;
+            visibility: visible;
+        }
+    }
+
+    &.visible {
+        transform: translate3d(30px, 30px, 0px); 
+
+        @include media($desktop) {
+            transform: translate3d(0px, 0px, 0px);
+        }
+    }
+
+    &.visible.active {
+        transform: translate3d(0px, 0px, 0px);
+        height: auto;
+        min-height: 100%;
+        width: 100%;
+        display: block;
+        overflow: auto;        
+        transition: 0.5s all cubic-bezier(0.7, 0, 0.3, 1) 0s;
+
+        .container {
+            opacity: 1;
+            visibility: visible;
+            transform: translate3d(0px, 0px, 0px);
+            transition: 0.3s all ease 0.5s;
+        }
+
+        @include media($desktop) {
+            min-height: 100px;
+
+            .container {
+                transition: 0.3s opacity ease 0s;
             }
+        }
+
+        a.open {
+            span {
+                &:first-child {
+                    transform: translate3d(0px, 8px, 0px) rotateZ(-45deg);
+                }   
+                &:nth-child(2) {
+                    transform: rotateY(90deg);
+                    opacity: 0;
+                }
+                &:last-child {
+                    transform: translate3d(0px, -8px, 0px) rotateZ(45deg);
+                }  
+            }
+        }
+
+        .container {       
+            min-height: auto;
+            opacity: 1;
+            overflow: visible;
+            pointer-events: auto;
+            transform: translate3d(0px, 0px, 0px);
         }
     }
 }
@@ -576,11 +587,13 @@ header#header {
             line-height: 1.8;
             vertical-align: middle;
 
-            &:hover {
-                background: #111;
+            @include media($desktop) {
+                &:hover {
+                    background: #111;
 
-                span {
-                    color: #565656;
+                    span {
+                        color: #565656;
+                    }
                 }
             }
 
@@ -816,14 +829,16 @@ section#events {
                     @include span-columns(4 of 12);
                 }
 
-                &:hover {
-                    h3 {
-                        border-bottom: 2px solid #b7b7b7;
-                    }
-                    h5 {
-                        color: #800000;
-                    }
-                }
+                @include media($desktop) {
+                    &:hover {
+                        h3 {
+                            border-bottom: 2px solid #b7b7b7;
+                        }
+                        h5 {
+                            color: #800000;
+                        }
+                    }    
+                }                
 
                 &:last-child {
                     margin-bottom: 0px;
@@ -888,8 +903,8 @@ section#events {
     a.prev.button, a.next.button {
         color: #fff;
         cursor: pointer;
-        text-transform: uppercase;
-        background: #dedede;
+        text-transform: uppercase;        
+        background: $secondary;
         float: left;
         clear: none;
         padding: 8px 18px;        
@@ -920,8 +935,12 @@ section#events {
             }
         }
 
-        &:hover {
-            background: $secondary;
+        @include media($desktop) {
+            background: #dedede;
+            
+            &:hover {
+                background: $secondary;
+            }
         }
 
         i {
@@ -1067,10 +1086,12 @@ section#challenge {
                 transition: 0.2s border-color linear 0s;
                 border-bottom: 1px solid #f5f5f5;
             }
-
-            &:hover {
-                h3 {
-                    border-bottom: 2px solid #b7b7b7;
+            
+            @include media($desktop) {
+                &:hover {
+                    h3 {
+                        border-bottom: 2px solid #b7b7b7;
+                    }
                 }
             }
         }
@@ -1094,8 +1115,8 @@ section#challenge {
     a.prev.button, a.next.button {
         color: #fff;
         cursor: pointer;
-        text-transform: uppercase;
-        background: #dedede;
+        text-transform: uppercase;        
+        background: $secondary;
         color: #fff;
         padding: 8px 18px;
         float: left;
@@ -1112,15 +1133,16 @@ section#challenge {
         }
 
         @include media($desktop) {            
-            position: absolute;   
+            position: absolute; 
+            background: #dedede;
             width: auto; 
             margin: 0;
             bottom: 220px;
-        }
 
-        &:hover {
-            background: $secondary;
-        }
+            &:hover {
+                background: $secondary;
+            }
+        }             
 
         i {
             float: left;

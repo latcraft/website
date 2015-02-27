@@ -13,9 +13,9 @@ var easyPeasyNav = function () {
 	var offCanvas = $('#off-canvas');
 
 	if(scrollPos >= header.height()) {
-		offCanvas.addClass("active");
+		offCanvas.addClass("visible");
 	} else {
-		offCanvas.removeClass("active");
+		offCanvas.removeClass("visible");
 	}
 }
 
@@ -198,9 +198,7 @@ $(document).ready(function($) {
 	// do parallax for top title
 	$(window).scroll(function() {
 		easyPeasyParallax();
-		if($('body').width() >= 1020) {
-			easyPeasyNav();
-		}
+		easyPeasyNav();
 	});
 
 

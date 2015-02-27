@@ -70,8 +70,10 @@ a {
 	outline: none;
 	text-decoration: none !important;
 
-	&:hover {
-		color: #111;
+	@include media($desktop) {
+		&:hover {
+			color: #111;
+		}
 	}
 }
 img {
