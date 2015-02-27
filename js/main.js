@@ -46,11 +46,9 @@ var centerArrow = function (elem) {
 
 $(document).ready(function($) {
 	// center modal window 
-	cropLink();
 	centerModal();
 	$(window).resize(function() {
 		centerModal();
-		cropLink();
 	});
 
 
