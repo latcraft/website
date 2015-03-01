@@ -486,20 +486,37 @@ header#header {
     background-size: cover;
     padding: 0;
 
-    #logo {
-        overflow: hidden;
-        width: 100%;
-    }
+    .logo-group {
+        @include span-columns(12);
+        position: relative;
+        display: block;
 
-    #logo a {
-      background: url('../img/logo.png') no-repeat;
-      background-size: 100% auto;
-      width: 160px;
-      height: 160px;
-      margin: 60px auto;
-      text-indent: -9999px;
-      display: block;
-    }
+        #logo {
+            overflow: hidden;
+            width: 100%;
+        }
+
+        #logo a {
+            height: 100px;
+            width: 100px;
+            margin: 10px auto;
+            background: url('../img/logo.png') no-repeat;
+            background-size: 100% auto;
+            margin: 10px auto;
+            text-indent: -9999px;
+            display: block;
+        }
+
+        @include media($container) {            
+            @include span-columns(4);  
+
+            #logo a {             
+              width: 160px;
+              height: 160px;
+              margin: 60px auto;
+            }  
+        }
+    } 
 
     #social-links {
         position: absolute;
@@ -529,16 +546,6 @@ header#header {
                     font-size: 14px;
                 }
             }
-        }
-    }
-
-    .logo-group {
-        @include span-columns(4);
-        position: relative;
-        display: none;
-
-        @include media($container) {            
-            display: block;
         }
     }
 
@@ -576,9 +583,11 @@ header#header {
         p {
             color: #b6b6b6;
             font-size: 14px;
+            line-height: 1.6;
 
             @include media($container) {
-                font-size: 1.8rem;
+                font-size: 18px;
+                line-height: 1.8;
                 text-align: left;
             }
         }
@@ -643,8 +652,11 @@ header#header {
     z-index: 10;
     opacity: 0.4;
     background: url("../img/intro-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
     background-attachment: fixed;
     background-size: cover;
+    transition: background 0.4s ease 0s;
 
     @include media($mobile) {
         display: block;
@@ -655,9 +667,42 @@ header#header {
 // --------------------------------------------
 // event
 section#events {
+    .group {
+        overflow: hidden;
+        margin: 0 10px 40px 10px;
+        
+
+        &.amazon {
+            background: #FFD131 url("../img/amazon-bg.png") center center;
+            background-size: 600px auto;
+            color: #fff;  
+            padding: 40px;
+
+            p {
+                color: #f5f5f5;
+            }
+
+            a {
+                color: #111;
+            }
+
+            .button {
+                background: #111;
+                color: #fff;
+            }
+        }
+    }
+
+    .logo {
+        margin: 0 0 20px 0;
+        padding: 0 30px;
+        width: 100%;
+        overflow: hidden;
+    }
+
     .description {
         p {
-            margin-top: 20px;
+            margin: 0px 0 0 0;
         }
         h3 {
             background: transparent;
@@ -665,6 +710,7 @@ section#events {
             max-width: 450px;
             display: block;
             text-align: left;
+            line-height: 1.5;
             overflow: hidden;
         }
 
@@ -672,14 +718,12 @@ section#events {
         margin: 0; 
 
         @include media($phone) {  
-            margin: 0 0 40px 0; 
             @include span-columns(9 of 12);
         }
     }
     .bubble {
         overflow: hidden;
         float: right;
-        margin-bottom: 40px;
 
         @include span-columns(12 of 12);        
 
@@ -806,9 +850,17 @@ section#events {
         width: 10%;
         position: relative;
 
+        .container {
+            position: relative;
+            width:100%;
+            padding: 0;
+            overflow: hidden;
+        }
+
         .speakers {
             overflow: hidden;
             width: 400%; 
+            margin: 0 10px;
             position: relative;
             transition: 0.3s height cubic-bezier(0.7, 0, 0.3, 1) 0s;
 
@@ -850,6 +902,22 @@ section#events {
                     margin: 0 10px 0 0;  
                 }
             }
+
+            &.amazon {    
+                margin: 0;
+
+                @include media($container) {
+                    width: 200%;
+                }
+
+                li {
+                    @include media($container) {
+                        width: 25%;
+                        margin: 0;
+                        padding: 0 10px;
+                    }
+                }
+            }
         }        
     }
 
@@ -859,10 +927,6 @@ section#events {
         float: left;
         margin: 40px 0 40px 0;
         overflow: hidden;
-
-        @include media($container) {
-            display: none;
-        }
 
         ul {
             list-style: none; 
@@ -1527,6 +1591,24 @@ section#sponsors {
 // map
 section#map {
     height: 500px;
+}
+
+
+// --------------------------------------------
+// learn
+section#learn {
+
+    p {
+        text-align: center;
+    }
+
+    .item {
+        @include span-columns(12);
+
+        @include media($container) {
+            @include span-columns(4 of 12);
+        }
+    }
 }
 
 

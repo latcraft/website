@@ -106,9 +106,10 @@ $(document).ready(function($) {
 
 
 	// display a slider for speakers when using phone
-	$('#events .slide').each(function(){
+	$('#events .slide .container').each(function(){
 		var curSlide = $(this).jcarousel({
-			list: ".speakers"
+			list: ".speakers",
+			items: "li"
 		});
 
 		$(this).find(".pagination ul").on('jcarouselpagination:active', 'li', function() {
@@ -232,13 +233,13 @@ $(document).ready(function($) {
 
 
 	// get github staff
-	$.getJSON("https://api.github.com/orgs/twitter/members", function(data){
-		var newData = "";
+	// $.getJSON("https://api.github.com/orgs/twitter/members", function(data){
+	// 	var newData = "";
 
-		for(user in data) {
-			newData += "<li><a href=\"" + data[user].html_url + "\" target=\"_blank\"><img src=\"" + data[user].avatar_url + "\" alt=\"" + data[user].login + "\"></a><div class=\"tip\">" + data[user].login + "</div></li>"
-		}
+	// 	for(user in data) {
+	// 		newData += "<li><a href=\"" + data[user].html_url + "\" target=\"_blank\"><img src=\"" + data[user].avatar_url + "\" alt=\"" + data[user].login + "\"></a><div class=\"tip\">" + data[user].login + "</div></li>"
+	// 	}
 		
-		$('#member-list ul.github').append(newData);	
-	});
+	// 	$('#member-list ul.github').append(newData);	
+	// });
 });

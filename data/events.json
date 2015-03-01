@@ -97,4 +97,47 @@
 			"presentation" : "",
 			"video" : ""
 		}]
+}, {
+	"theme" : "do gingers have soul or do they not - a special amazon aws event",
+	"classes" : "amazon",
+	"desc" : "This event will guide you through the core concepts of the Go. We will cover the type system, memory model, packaging and of course the famous concurrency primitives of the language: goroutines and channels. ",
+	"month" : "Apr 2015",
+	"date" : "3 April, 2015",
+	"logo" : "img/amazon.png",
+	"time" : "18:30",
+	"announced": true,
+	"venue" : "Zaļa iela 1",
+	"speakers" : [{
+			"name" : "Butch Cassidy",
+			"bio" : "Wild West Inc.",
+			"title" : "Surviving in Harsh Climate",
+			"description" : "Unexplainable.",
+			"img" : "img/speakers/savelyev.png",
+			"presentation" : "",
+			"video" : ""
+		}, {
+			"name" : "Cool Hand Luke",
+			"bio" : "Prison",
+			"title" : "Having a Really Cool Hand",
+			"description" : "Unexplainable.",
+			"img" : "img/speakers/savelyev.png",
+			"presentation" : "",
+			"video" : ""
+		}, {
+			"name" : "Henry Gondorff",
+			"bio" : "Wild West Inc.",
+			"title" : "The art of the con",
+			"description" : "Unexplainable.",
+			"img" : "img/speakers/savelyev.png",
+			"presentation" : "",
+			"video" : ""
+		}, {
+			"name" : "Henry Gondorff",
+			"bio" : "Wild West Inc.",
+			"title" : "The art of the con",
+			"description" : "Unexplainable.",
+			"img" : "img/speakers/savelyev.png",
+			"presentation" : "",
+			"video" : ""
+		}]
 }]
