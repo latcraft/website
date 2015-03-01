@@ -779,17 +779,39 @@ header#header {
   background-attachment: fixed;
   background-size: cover;
   padding: 0; }
-  header#header #logo {
-    overflow: hidden;
-    width: 100%; }
-  header#header #logo a {
-    background: url('../img/logo.png') no-repeat;
-    background-size: 100% auto;
-    width: 160px;
-    height: 160px;
-    margin: 60px auto;
-    text-indent: -9999px;
+  header#header .logo-group {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+    position: relative;
     display: block; }
+    header#header .logo-group:last-child {
+      margin-right: 0; }
+    header#header .logo-group #logo {
+      overflow: hidden;
+      width: 100%; }
+    header#header .logo-group #logo a {
+      height: 100px;
+      width: 100px;
+      margin: 10px auto;
+      background: url('../img/logo.png') no-repeat;
+      background-size: 100% auto;
+      margin: 10px auto;
+      text-indent: -9999px;
+      display: block; }
+    @media screen and (min-width: 690px) {
+      header#header .logo-group {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 31.76157%; }
+        header#header .logo-group:last-child {
+          margin-right: 0; }
+        header#header .logo-group #logo a {
+          width: 160px;
+          height: 160px;
+          margin: 60px auto; } }
   header#header #social-links {
     position: absolute;
     left: 50px;
@@ -812,18 +834,6 @@ header#header {
         header#header #social-links li a i {
           line-height: 40px;
           font-size: 14px; }
-  header#header .logo-group {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 31.76157%;
-    position: relative;
-    display: none; }
-    header#header .logo-group:last-child {
-      margin-right: 0; }
-    @media screen and (min-width: 690px) {
-      header#header .logo-group {
-        display: block; } }
   header#header .container {
     display: table;
     height: 100%;
@@ -860,10 +870,12 @@ header#header {
           text-align: left; } }
     header#header .info p {
       color: #b6b6b6;
-      font-size: 14px; }
+      font-size: 14px;
+      line-height: 1.6; }
       @media screen and (min-width: 690px) {
         header#header .info p {
-          font-size: 1.8rem;
+          font-size: 18px;
+          line-height: 1.8;
           text-align: left; } }
     header#header .info .button {
       line-height: 1.8;
@@ -912,12 +924,37 @@ header#header {
   z-index: 10;
   opacity: 0.4;
   background: url("../img/intro-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
   background-attachment: fixed;
-  background-size: cover; }
+  background-size: cover;
+  -webkit-transition: background 0.4s ease 0s;
+  -o-transition: background 0.4s ease 0s;
+  transition: background 0.4s ease 0s; }
   @media screen and (max-width: 520px)  {
     #header .fallback {
       display: block; } }
 
+section#events .group {
+  overflow: hidden;
+  margin: 0 10px 40px 10px; }
+  section#events .group.amazon {
+    background: #FFD131 url("../img/amazon-bg.png") center center;
+    background-size: 600px auto;
+    color: #fff;
+    padding: 40px; }
+    section#events .group.amazon p {
+      color: #f5f5f5; }
+    section#events .group.amazon a {
+      color: #111; }
+    section#events .group.amazon .button {
+      background: #111;
+      color: #fff; }
+section#events .logo {
+  margin: 0 0 20px 0;
+  padding: 0 30px;
+  width: 100%;
+  overflow: hidden; }
 section#events .description {
   float: left;
   display: block;
@@ -925,19 +962,19 @@ section#events .description {
   width: 100%;
   margin: 0; }
   section#events .description p {
-    margin-top: 20px; }
+    margin: 0px 0 0 0; }
   section#events .description h3 {
     background: transparent;
     border: 0;
     max-width: 450px;
     display: block;
     text-align: left;
+    line-height: 1.5;
     overflow: hidden; }
   section#events .description:last-child {
     margin-right: 0; }
   @media screen and (min-width: 520px) {
     section#events .description {
-      margin: 0 0 40px 0;
       float: left;
       display: block;
       margin-right: 2.35765%;
@@ -947,7 +984,6 @@ section#events .description {
 section#events .bubble {
   overflow: hidden;
   float: right;
-  margin-bottom: 40px;
   float: left;
   display: block;
   margin-right: 2.35765%;
@@ -1057,9 +1093,15 @@ section#events .slide {
   float: left;
   width: 10%;
   position: relative; }
+  section#events .slide .container {
+    position: relative;
+    width: 100%;
+    padding: 0;
+    overflow: hidden; }
   section#events .slide .speakers {
     overflow: hidden;
     width: 400%;
+    margin: 0 10px;
     position: relative;
     -webkit-transition: 0.3s height cubic-bezier(0.7, 0, 0.3, 1) 0s;
     -o-transition: 0.3s height cubic-bezier(0.7, 0, 0.3, 1) 0s;
@@ -1092,15 +1134,22 @@ section#events .slide {
         display: inline-block;
         float: none;
         margin: 0 10px 0 0; }
+    section#events .slide .speakers.amazon {
+      margin: 0; }
+      @media screen and (min-width: 690px) {
+        section#events .slide .speakers.amazon {
+          width: 200%; } }
+      @media screen and (min-width: 690px) {
+        section#events .slide .speakers.amazon li {
+          width: 25%;
+          margin: 0;
+          padding: 0 10px; } }
 section#events .pagination {
   width: 100%;
   display: block;
   float: left;
   margin: 40px 0 40px 0;
   overflow: hidden; }
-  @media screen and (min-width: 690px) {
-    section#events .pagination {
-      display: none; } }
   section#events .pagination ul {
     list-style: none;
     position: relative;
@@ -1687,6 +1736,24 @@ section#sponsors {
 
 section#map {
   height: 500px; }
+
+section#learn p {
+  text-align: center; }
+section#learn .item {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%; }
+  section#learn .item:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 690px) {
+    section#learn .item {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 31.76157%; }
+      section#learn .item:last-child {
+        margin-right: 0; } }
 
 section#about .info {
   margin-bottom: 40px;
