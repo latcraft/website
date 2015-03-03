@@ -1747,6 +1747,178 @@ section#learn {
     @media screen and (min-width: 690px) {
       section#learn p {
         margin-bottom: 40px; } }
+  section#learn .books {
+    float: left;
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+    height: 100px;
+    position: relative; }
+    section#learn .books:last-child {
+      margin-right: 0; }
+    @media screen and (min-width: 690px) {
+      section#learn .books {
+        width: 140px;
+        height: 100px; } }
+  section#learn .book {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 24px;
+    left: 50%;
+    margin-left: -20px;
+    position: absolute;
+    -webkit-animation: anim-books 4s -0s cubic-bezier(0.7, 0, 0.3, 1) infinite;
+    -o-animation: anim-books 4s -0s cubic-bezier(0.7, 0, 0.3, 1) infinite;
+    animation: anim-books 4s -0s cubic-bezier(0.7, 0, 0.3, 1) infinite;
+    width: 90px; }
+    section#learn .book:nth-child(2) {
+      margin-left: -5px;
+      -webkit-transform: translate3d(0px, 26px, 0px);
+      -ms-transform: translate3d(0px, 26px, 0px);
+      -o-transform: translate3d(0px, 26px, 0px);
+      transform: translate3d(0px, 26px, 0px);
+      -webkit-animation: anim-books 4s -0.3s cubic-bezier(0.7, 0, 0.3, 1) infinite;
+      -o-animation: anim-books 4s -0.3s cubic-bezier(0.7, 0, 0.3, 1) infinite;
+      animation: anim-books 4s -0.3s cubic-bezier(0.7, 0, 0.3, 1) infinite; }
+    section#learn .book:nth-child(3) {
+      -webkit-transform: translate3d(0px, 52px, 0px);
+      -ms-transform: translate3d(0px, 52px, 0px);
+      -o-transform: translate3d(0px, 52px, 0px);
+      transform: translate3d(0px, 52px, 0px);
+      -webkit-animation: anim-books 4s -0.6s cubic-bezier(0.7, 0, 0.3, 1) infinite;
+      -o-animation: anim-books 4s -0.6s cubic-bezier(0.7, 0, 0.3, 1) infinite;
+      animation: anim-books 4s -0.6s cubic-bezier(0.7, 0, 0.3, 1) infinite; }
+    section#learn .book .omslagrond {
+      background: none repeat scroll 0 0 #ddd;
+      border-bottom: 3px solid #D32424;
+      -webkit-border-bottom-right-radius: 20px;
+      border-bottom-right-radius: 20px;
+      border-right: 3px solid #D32424;
+      border-top: 3px solid #D32424;
+      -webkit-border-top-right-radius: 20px;
+      border-top-right-radius: 20px;
+      height: 24px;
+      left: 40px;
+      position: absolute;
+      width: 16px;
+      -webkit-transition: 0.4s all ease 0s;
+      -o-transition: 0.4s all ease 0s;
+      transition: 0.4s all ease 0s; }
+    section#learn .book .bladeren {
+      background: none repeat scroll 0 0 #f5f5f5;
+      border-bottom: 3px solid rgba(0, 0, 0, 0);
+      border-top: 3px solid rgba(0, 0, 0, 0);
+      height: 18px;
+      left: 6px;
+      position: absolute;
+      top: 3px;
+      width: 34px;
+      -webkit-transition: 0.4s all ease 0s;
+      -o-transition: 0.4s all ease 0s;
+      transition: 0.4s all ease 0s; }
+    section#learn .book .omslag {
+      border-bottom: 3px solid #D32424;
+      border-top: 3px solid #D32424;
+      height: 24px;
+      left: 0;
+      position: absolute;
+      width: 40px;
+      -webkit-transition: 0.4s all ease 0s;
+      -o-transition: 0.4s all ease 0s;
+      transition: 0.4s all ease 0s; }
+    section#learn .book .rug {
+      border-bottom: 12px solid #D32424;
+      -webkit-border-bottom-right-radius: 12px;
+      border-bottom-right-radius: 12px;
+      border-top: 12px solid #FF4A4A;
+      -webkit-border-top-right-radius: 12px;
+      border-top-right-radius: 12px;
+      height: 0;
+      position: absolute;
+      left: 40px;
+      width: 50px;
+      -webkit-transition: 0.4s all ease 0s;
+      -o-transition: 0.4s all ease 0s;
+      transition: 0.4s all ease 0s; }
+  section#learn .cameras {
+    float: left;
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+    height: 100px;
+    position: relative; }
+    section#learn .cameras:last-child {
+      margin-right: 0; }
+    @media screen and (min-width: 690px) {
+      section#learn .cameras {
+        width: 140px;
+        height: 100px; } }
+    section#learn .cameras .camera {
+      position: absolute;
+      left: 50%;
+      margin-top: 40px;
+      margin-left: -10px;
+      display: block; }
+    section#learn .cameras .base {
+      width: 70px;
+      height: 50px;
+      background: #FF4A4A;
+      -webkit-border-radius: 3px;
+      border-radius: 3px; }
+    section#learn .cameras .lense {
+      width: 10px;
+      height: 30px;
+      background: #FF4A4A;
+      position: absolute;
+      left: -25px;
+      top: 10px;
+      z-index: -10; }
+      section#learn .cameras .lense:before {
+        width: 30px;
+        height: 20px;
+        background: #D32424;
+        position: absolute;
+        z-index: -20;
+        content: "";
+        top: 5px;
+        display: block; }
+    section#learn .cameras .roll {
+      width: 50px;
+      height: 50px;
+      -webkit-border-radius: 25px;
+      border-radius: 25px;
+      background: #FF4A4A;
+      display: block;
+      position: absolute;
+      top: -25px;
+      left: -15px;
+      border: 3px solid #fff;
+      -webkit-animation: anim-rotate 4s 0s linear infinite;
+      -o-animation: anim-rotate 4s 0s linear infinite;
+      animation: anim-rotate 4s 0s linear infinite; }
+      section#learn .cameras .roll:after {
+        display: block;
+        content: "";
+        width: 6px;
+        height: 6px;
+        position: absolute;
+        top: 5px;
+        left: 50%;
+        margin-left: -3px;
+        -webkit-border-radius: 3px;
+        border-radius: 3px;
+        background: #fff; }
+      section#learn .cameras .roll.last {
+        width: 40px;
+        height: 40px;
+        top: -20px;
+        left: 40px;
+        -webkit-animation: anim-rotate 4s -1s linear infinite;
+        -o-animation: anim-rotate 4s -1s linear infinite;
+        animation: anim-rotate 4s -1s linear infinite;
+        -webkit-border-radius: 20px;
+        border-radius: 20px; }
   section#learn .item {
     float: left;
     display: block;
@@ -1765,7 +1937,11 @@ section#learn {
         section#learn .item a:hover i {
           color: #111; }
         section#learn .item a:hover .main {
-          color: #00CB9F; } }
+          color: #00CB9F; }
+        section#learn .item:hover .omslagrond, section#learn .item:hover .omslag, section#learn .item:hover .rug {
+          border-color: #2F896D; }
+        section#learn .item:hover .rug {
+          border-top-color: #00CB9F; } }
     section#learn .item p {
       overflow: hidden;
       float: left;
@@ -1778,114 +1954,88 @@ section#learn {
           float: none;
           width: auto;
           margin-left: 180px; } }
-    section#learn .item .icons {
-      float: left;
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 100%;
-      height: 100px;
-      text-align: center;
-      position: relative; }
-      section#learn .item .icons:last-child {
-        margin-right: 0; }
-      @media screen and (min-width: 690px) {
-        section#learn .item .icons {
-          width: 140px;
-          height: 100px; } }
-      section#learn .item .icons .main {
-        color: #FF4A4A;
-        opacity: 1;
-        font-size: 44px;
-        position: absolute;
-        line-height: 1;
-        top: 50%;
-        margin: -22px 0 0 0;
-        -webkit-animation: none;
-        -o-animation: none;
-        animation: none; }
-      section#learn .item .icons i {
-        color: #770000;
-        opacity: 0.5;
-        -webkit-animation: anim-icons 6s linear infinite;
-        -o-animation: anim-icons 6s linear infinite;
-        animation: anim-icons 6s linear infinite;
-        font-size: 22px;
-        line-height: 1;
-        margin: -24px 0 0 0;
-        position: absolute;
-        -webkit-transition: 0.4s color ease 0s;
-        -o-transition: 0.4s color ease 0s;
-        transition: 0.4s color ease 0s; }
-        section#learn .item .icons i:nth-child(2) {
-          -webkit-transform: translate3d(50px, 0px, 0px);
-          -ms-transform: translate3d(50px, 0px, 0px);
-          -o-transform: translate3d(50px, 0px, 0px);
-          transform: translate3d(50px, 0px, 0px);
-          -webkit-animation: anim-icons 6s -1s linear infinite;
-          -o-animation: anim-icons 6s -1s linear infinite;
-          animation: anim-icons 6s -1s linear infinite; }
-        section#learn .item .icons i:nth-child(3) {
-          -webkit-transform: translate3d(20px, 0px, 0px);
-          -ms-transform: translate3d(20px, 0px, 0px);
-          -o-transform: translate3d(20px, 0px, 0px);
-          transform: translate3d(20px, 0px, 0px);
-          -webkit-animation: anim-icons 6s 1s linear infinite;
-          -o-animation: anim-icons 6s 1s linear infinite;
-          animation: anim-icons 6s 1s linear infinite; }
-        section#learn .item .icons i:nth-child(4) {
-          -webkit-transform: translate3d(-20px, 0px, 0px);
-          -ms-transform: translate3d(-20px, 0px, 0px);
-          -o-transform: translate3d(-20px, 0px, 0px);
-          transform: translate3d(-20px, 0px, 0px);
-          -webkit-animation: anim-icons 6s 2s linear infinite;
-          -o-animation: anim-icons 6s 2s linear infinite;
-          animation: anim-icons 6s 2s linear infinite; }
 
-@-webkit-keyframes anim-icons {
+@-webkit-keyframes anim-rotate {
   0% {
-    top: 0%;
-    opacity: 0; }
-
-  20% {
-    opacity: 0.7; }
-
-  80% {
-    opacity: 0.7; }
+    -webkit-transform: rotateZ(0deg);
+    transform: rotateZ(0deg); }
 
   100% {
-    top: 100%;
-    opacity: 0; } }
+    -webkit-transform: rotateZ(360deg);
+    transform: rotateZ(360deg); } }
 
-@-o-keyframes anim-icons {
+@-o-keyframes anim-rotate {
   0% {
-    top: 0%;
-    opacity: 0; }
-
-  20% {
-    opacity: 0.7; }
-
-  80% {
-    opacity: 0.7; }
+    -o-transform: rotateZ(0deg);
+    transform: rotateZ(0deg); }
 
   100% {
-    top: 100%;
-    opacity: 0; } }
+    -o-transform: rotateZ(360deg);
+    transform: rotateZ(360deg); } }
 
-@keyframes anim-icons {
+@keyframes anim-rotate {
   0% {
-    top: 0%;
-    opacity: 0; }
-
-  20% {
-    opacity: 0.7; }
-
-  80% {
-    opacity: 0.7; }
+    -webkit-transform: rotateZ(0deg);
+    -ms-transform: rotateZ(0deg);
+    -o-transform: rotateZ(0deg);
+    transform: rotateZ(0deg); }
 
   100% {
-    top: 100%;
-    opacity: 0; } }
+    -webkit-transform: rotateZ(360deg);
+    -ms-transform: rotateZ(360deg);
+    -o-transform: rotateZ(360deg);
+    transform: rotateZ(360deg); } }
+
+@-webkit-keyframes anim-books {
+  0% {
+    top: -30%;
+    opacity: 0; }
+
+  30% {
+    opacity: 1;
+    top: 20%; }
+
+  80% {
+    opacity: 1;
+    top: 20%; }
+
+  100% {
+    opacity: 0;
+    top: 60%; } }
+
+@-o-keyframes anim-books {
+  0% {
+    top: -30%;
+    opacity: 0; }
+
+  30% {
+    opacity: 1;
+    top: 20%; }
+
+  80% {
+    opacity: 1;
+    top: 20%; }
+
+  100% {
+    opacity: 0;
+    top: 60%; } }
+
+@keyframes anim-books {
+  0% {
+    top: -30%;
+    opacity: 0; }
+
+  30% {
+    opacity: 1;
+    top: 20%; }
+
+  80% {
+    opacity: 1;
+    top: 20%; }
+
+  100% {
+    opacity: 0;
+    top: 60%; } }
 
 section#about .info {
   margin-bottom: 40px;
