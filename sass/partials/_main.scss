@@ -1697,6 +1697,7 @@ section#learn {
         @include span-columns(12 of 12);
         height: 100px;
         position: relative;
+        z-index: 1;
 
         @include media($container) {
             width: 140px;
@@ -1718,24 +1719,26 @@ section#learn {
             border-radius: 3px;
         }  
 
-        .lense {
-            width: 10px;
-            height: 30px;
-            background: $primary;
+        .lense {           
+            width: 30px;                
+            height: 20px;
+            background: #D32424;
             position: absolute;
+            z-index: -10;            
+            top: 15px;
             left: -25px;
-            top: 10px;
-            z-index: -10;
+            display: block;
 
-            &:before {
-                width: 30px;                
-                height: 20px;
-                background: #D32424;
+            &:after {
+                width: 10px;
+                height: 30px;
+                background: $primary;
                 position: absolute;
-                z-index: -20;
                 content: "";
-                top: 5px;
                 display: block;
+                left: 0px;
+                top: -5px;
+                z-index: 10;                
             }
         }
 
@@ -1753,24 +1756,37 @@ section#learn {
 
             &:after {
                 display: block;
-                content: "";
+                content: " ";
                 width: 6px;
                 height: 6px;
                 position: absolute;
-                top: 5px;
+                top: 4px;
                 left: 50%;
                 margin-left: -3px;
                 border-radius: 3px;
                 background: #fff;
             }
 
+            &:before {
+                display: block;
+                content: " ";
+                width: 10px;
+                height: 10px;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                margin: -5px 0 0 -5px;
+                border-radius: 5px;
+                background: #D32424;
+            }
+
             &.last {
-                width: 40px;
-                height: 40px;                
-                top: -20px;
+                width: 44px;
+                height: 44px;                
+                top: -22px;
                 left: 40px;
                 animation: anim-rotate 4s -1s linear infinite;
-                border-radius: 20px;
+                border-radius: 22px;
             }
         }
         
