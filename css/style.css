@@ -1847,7 +1847,8 @@ section#learn {
     margin-right: 2.35765%;
     width: 100%;
     height: 100px;
-    position: relative; }
+    position: relative;
+    z-index: 1; }
     section#learn .cameras:last-child {
       margin-right: 0; }
     @media screen and (min-width: 690px) {
@@ -1867,22 +1868,24 @@ section#learn {
       -webkit-border-radius: 3px;
       border-radius: 3px; }
     section#learn .cameras .lense {
-      width: 10px;
-      height: 30px;
-      background: #FF4A4A;
+      width: 30px;
+      height: 20px;
+      background: #D32424;
       position: absolute;
+      z-index: -10;
+      top: 15px;
       left: -25px;
-      top: 10px;
-      z-index: -10; }
-      section#learn .cameras .lense:before {
-        width: 30px;
-        height: 20px;
-        background: #D32424;
+      display: block; }
+      section#learn .cameras .lense:after {
+        width: 10px;
+        height: 30px;
+        background: #FF4A4A;
         position: absolute;
-        z-index: -20;
         content: "";
-        top: 5px;
-        display: block; }
+        display: block;
+        left: 0px;
+        top: -5px;
+        z-index: 10; }
     section#learn .cameras .roll {
       width: 50px;
       height: 50px;
@@ -1899,26 +1902,38 @@ section#learn {
       animation: anim-rotate 4s 0s linear infinite; }
       section#learn .cameras .roll:after {
         display: block;
-        content: "";
+        content: " ";
         width: 6px;
         height: 6px;
         position: absolute;
-        top: 5px;
+        top: 4px;
         left: 50%;
         margin-left: -3px;
         -webkit-border-radius: 3px;
         border-radius: 3px;
         background: #fff; }
+      section#learn .cameras .roll:before {
+        display: block;
+        content: " ";
+        width: 10px;
+        height: 10px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin: -5px 0 0 -5px;
+        -webkit-border-radius: 5px;
+        border-radius: 5px;
+        background: #D32424; }
       section#learn .cameras .roll.last {
-        width: 40px;
-        height: 40px;
-        top: -20px;
+        width: 44px;
+        height: 44px;
+        top: -22px;
         left: 40px;
         -webkit-animation: anim-rotate 4s -1s linear infinite;
         -o-animation: anim-rotate 4s -1s linear infinite;
         animation: anim-rotate 4s -1s linear infinite;
-        -webkit-border-radius: 20px;
-        border-radius: 20px; }
+        -webkit-border-radius: 22px;
+        border-radius: 22px; }
   section#learn .item {
     float: left;
     display: block;
