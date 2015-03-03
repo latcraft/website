@@ -880,6 +880,8 @@ header#header {
     header#header .info .button {
       line-height: 1.8;
       vertical-align: middle; }
+      header#header .info .button.amazon {
+        background: #FFD131; }
       @media screen and (min-width: 1020px) {
         header#header .info .button:hover {
           background: #111; }
@@ -1737,23 +1739,153 @@ section#sponsors {
 section#map {
   height: 500px; }
 
-section#learn p {
-  text-align: center; }
-section#learn .item {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 100%; }
-  section#learn .item:last-child {
-    margin-right: 0; }
-  @media screen and (min-width: 690px) {
-    section#learn .item {
+section#learn {
+  border-top: 1px solid #dedede;
+  border-bottom: 1px solid #dedede; }
+  section#learn p {
+    text-align: center; }
+    @media screen and (min-width: 690px) {
+      section#learn p {
+        margin-bottom: 40px; } }
+  section#learn .item {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%; }
+    section#learn .item:last-child {
+      margin-right: 0; }
+    @media screen and (min-width: 690px) {
+      section#learn .item {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 48.82117%; }
+        section#learn .item:last-child {
+          margin-right: 0; }
+        section#learn .item a:hover i {
+          color: #111; }
+        section#learn .item a:hover .main {
+          color: #00CB9F; } }
+    section#learn .item p {
+      overflow: hidden;
+      float: left;
+      text-align: center;
+      width: 100%;
+      color: #565656; }
+      @media screen and (min-width: 690px) {
+        section#learn .item p {
+          text-align: left;
+          float: none;
+          width: auto;
+          margin-left: 180px; } }
+    section#learn .item .icons {
+      float: left;
       float: left;
       display: block;
       margin-right: 2.35765%;
-      width: 31.76157%; }
-      section#learn .item:last-child {
-        margin-right: 0; } }
+      width: 100%;
+      height: 100px;
+      text-align: center;
+      position: relative; }
+      section#learn .item .icons:last-child {
+        margin-right: 0; }
+      @media screen and (min-width: 690px) {
+        section#learn .item .icons {
+          width: 140px;
+          height: 100px; } }
+      section#learn .item .icons .main {
+        color: #FF4A4A;
+        opacity: 1;
+        font-size: 44px;
+        position: absolute;
+        line-height: 1;
+        top: 50%;
+        margin: -22px 0 0 0;
+        -webkit-animation: none;
+        -o-animation: none;
+        animation: none; }
+      section#learn .item .icons i {
+        color: #770000;
+        opacity: 0.5;
+        -webkit-animation: anim-icons 6s linear infinite;
+        -o-animation: anim-icons 6s linear infinite;
+        animation: anim-icons 6s linear infinite;
+        font-size: 22px;
+        line-height: 1;
+        margin: -24px 0 0 0;
+        position: absolute;
+        -webkit-transition: 0.4s color ease 0s;
+        -o-transition: 0.4s color ease 0s;
+        transition: 0.4s color ease 0s; }
+        section#learn .item .icons i:nth-child(2) {
+          -webkit-transform: translate3d(50px, 0px, 0px);
+          -ms-transform: translate3d(50px, 0px, 0px);
+          -o-transform: translate3d(50px, 0px, 0px);
+          transform: translate3d(50px, 0px, 0px);
+          -webkit-animation: anim-icons 6s -1s linear infinite;
+          -o-animation: anim-icons 6s -1s linear infinite;
+          animation: anim-icons 6s -1s linear infinite; }
+        section#learn .item .icons i:nth-child(3) {
+          -webkit-transform: translate3d(20px, 0px, 0px);
+          -ms-transform: translate3d(20px, 0px, 0px);
+          -o-transform: translate3d(20px, 0px, 0px);
+          transform: translate3d(20px, 0px, 0px);
+          -webkit-animation: anim-icons 6s 1s linear infinite;
+          -o-animation: anim-icons 6s 1s linear infinite;
+          animation: anim-icons 6s 1s linear infinite; }
+        section#learn .item .icons i:nth-child(4) {
+          -webkit-transform: translate3d(-20px, 0px, 0px);
+          -ms-transform: translate3d(-20px, 0px, 0px);
+          -o-transform: translate3d(-20px, 0px, 0px);
+          transform: translate3d(-20px, 0px, 0px);
+          -webkit-animation: anim-icons 6s 2s linear infinite;
+          -o-animation: anim-icons 6s 2s linear infinite;
+          animation: anim-icons 6s 2s linear infinite; }
+
+@-webkit-keyframes anim-icons {
+  0% {
+    top: 0%;
+    opacity: 0; }
+
+  20% {
+    opacity: 0.7; }
+
+  80% {
+    opacity: 0.7; }
+
+  100% {
+    top: 100%;
+    opacity: 0; } }
+
+@-o-keyframes anim-icons {
+  0% {
+    top: 0%;
+    opacity: 0; }
+
+  20% {
+    opacity: 0.7; }
+
+  80% {
+    opacity: 0.7; }
+
+  100% {
+    top: 100%;
+    opacity: 0; } }
+
+@keyframes anim-icons {
+  0% {
+    top: 0%;
+    opacity: 0; }
+
+  20% {
+    opacity: 0.7; }
+
+  80% {
+    opacity: 0.7; }
+
+  100% {
+    top: 100%;
+    opacity: 0; } }
 
 section#about .info {
   margin-bottom: 40px;
