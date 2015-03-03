@@ -1717,6 +1717,7 @@ section#learn {
             height: 50px;
             background: $primary;
             border-radius: 3px;
+            transition: 0.4s background ease 0s;
         }  
 
         .lense {           
@@ -1728,6 +1729,7 @@ section#learn {
             top: 15px;
             left: -25px;
             display: block;
+            transition: 0.4s background ease 0s;
 
             &:after {
                 width: 10px;
@@ -1738,7 +1740,8 @@ section#learn {
                 display: block;
                 left: 0px;
                 top: -5px;
-                z-index: 10;                
+                z-index: 10;     
+                transition: 0.4s background ease 0s;           
             }
         }
 
@@ -1753,6 +1756,7 @@ section#learn {
             left: -15px;
             border: 3px solid #fff;
             animation: anim-rotate 4s 0s linear infinite;
+            transition: 0.4s background ease 0s;
 
             &:after {
                 display: block;
@@ -1765,6 +1769,7 @@ section#learn {
                 margin-left: -3px;
                 border-radius: 3px;
                 background: #fff;
+                transition: 0.4s background ease 0s;
             }
 
             &:before {
@@ -1778,6 +1783,7 @@ section#learn {
                 margin: -5px 0 0 -5px;
                 border-radius: 5px;
                 background: #D32424;
+                transition: 0.4s background ease 0s;
             }
 
             &.last {
@@ -1813,6 +1819,16 @@ section#learn {
 
                 .rug {
                     border-top-color: $secondary;
+                }
+            }
+
+            a:hover {
+                .lense:after, .base, .roll {                    
+                    background: $secondary;
+                }  
+
+                .lense, .roll:before {
+                    background: #2F896D;
                 }
             }
         }
