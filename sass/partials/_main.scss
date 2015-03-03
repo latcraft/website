@@ -1611,6 +1611,170 @@ section#learn {
             margin-bottom: 40px;         
         }
     }
+    .books {
+        float: left;
+        @include span-columns(12 of 12);
+        height: 100px;
+        position: relative;
+
+        @include media($container) {
+            width: 140px;
+            height: 100px;    
+        }
+    }
+
+    .book {
+        background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+        height: 24px;
+        left: 50%;
+        margin-left: -20px;
+        position: absolute;
+        animation: anim-books 4s -0s cubic-bezier(0.7, 0, 0.3, 1) infinite;
+        width: 90px;      
+
+        &:nth-child(2) {
+            margin-left: -5px;
+            transform: translate3d(0px, 26px, 0px);
+            animation: anim-books 4s -0.3s cubic-bezier(0.7, 0, 0.3, 1) infinite;
+        }
+
+        &:nth-child(3) {
+            transform: translate3d(0px, 52px, 0px);
+            animation: anim-books 4s -0.6s cubic-bezier(0.7, 0, 0.3, 1) infinite;
+        }
+
+        .omslagrond {
+            background: none repeat scroll 0 0 #ddd;
+            border-bottom: 3px solid #D32424;
+            border-bottom-right-radius: 20px;
+            border-right: 3px solid #D32424;
+            border-top: 3px solid #D32424;
+            border-top-right-radius: 20px;
+            height: 24px;
+            left: 40px;
+            position: absolute;
+            width: 16px;
+            transition: 0.4s all ease 0s;
+        }
+
+        .bladeren {
+            background: none repeat scroll 0 0 #f5f5f5;
+            border-bottom: 3px solid rgba(0, 0, 0, 0);
+            border-top: 3px solid rgba(0, 0, 0, 0);
+            height: 18px;
+            left: 6px;
+            position: absolute;
+            top: 3px;
+            width: 34px;
+            transition: 0.4s all ease 0s;
+        }
+
+        .omslag {
+            border-bottom: 3px solid #D32424;
+            border-top: 3px solid #D32424;
+            height: 24px;
+            left: 0;
+            position: absolute;
+            width: 40px;
+            transition: 0.4s all ease 0s;
+        }
+
+        .rug {
+            border-bottom: 12px solid #D32424;
+            border-bottom-right-radius: 12px;
+            border-top: 12px solid $primary;
+            border-top-right-radius: 12px;
+            height: 0;
+            position: absolute;
+            left: 40px;
+            width: 50px;
+            transition: 0.4s all ease 0s;
+        }
+    }
+
+    .cameras {
+        float: left;
+        @include span-columns(12 of 12);
+        height: 100px;
+        position: relative;
+
+        @include media($container) {
+            width: 140px;
+            height: 100px;    
+        }   
+
+        .camera {
+            position: absolute;
+            left: 50%;
+            margin-top: 40px;
+            margin-left: -10px;
+            display: block; 
+        }
+
+        .base {
+            width: 70px;
+            height: 50px;
+            background: $primary;
+            border-radius: 3px;
+        }  
+
+        .lense {
+            width: 10px;
+            height: 30px;
+            background: $primary;
+            position: absolute;
+            left: -25px;
+            top: 10px;
+            z-index: -10;
+
+            &:before {
+                width: 30px;                
+                height: 20px;
+                background: #D32424;
+                position: absolute;
+                z-index: -20;
+                content: "";
+                top: 5px;
+                display: block;
+            }
+        }
+
+        .roll {
+            width: 50px;
+            height: 50px;
+            border-radius: 25px;
+            background: $primary;
+            display: block;
+            position: absolute;
+            top: -25px;
+            left: -15px;
+            border: 3px solid #fff;
+            animation: anim-rotate 4s 0s linear infinite;
+
+            &:after {
+                display: block;
+                content: "";
+                width: 6px;
+                height: 6px;
+                position: absolute;
+                top: 5px;
+                left: 50%;
+                margin-left: -3px;
+                border-radius: 3px;
+                background: #fff;
+            }
+
+            &.last {
+                width: 40px;
+                height: 40px;                
+                top: -20px;
+                left: 40px;
+                animation: anim-rotate 4s -1s linear infinite;
+                border-radius: 20px;
+            }
+        }
+        
+    }
 
     .item {
         @include span-columns(12);
@@ -1624,7 +1788,17 @@ section#learn {
 
             a:hover .main {
                 color: $secondary;
-            }      
+            }     
+
+            &:hover {
+                .omslagrond, .omslag, .rug {                    
+                    border-color: #2F896D;
+                }  
+
+                .rug {
+                    border-top-color: $secondary;
+                }
+            }
         }
 
         p {
@@ -1641,64 +1815,19 @@ section#learn {
                 margin-left: 180px; 
             }
         }
-
-        .icons {
-            float: left;
-            @include span-columns(12 of 12);
-            height: 100px;
-            text-align: center;
-            position: relative;
-
-            @include media($container) {
-                width: 140px;
-                height: 100px;    
-            }
-
-            .main {
-                color: $primary;
-                opacity: 1;
-                font-size: 44px;
-                position: absolute;
-                line-height: 1;
-                top: 50%;
-                margin: -22px 0 0 0;
-                animation: none;
-            }
-
-            i {
-                color: $accent;
-                opacity: 0.5;
-                animation: anim-icons 6s linear infinite;
-                font-size: 22px;
-                line-height: 1;
-                margin: -24px 0 0 0;
-                position: absolute;
-                transition: 0.4s color ease 0s;
-
-                &:nth-child(2) {
-                    transform: translate3d(50px, 0px, 0px);
-                    animation: anim-icons 6s -1s linear infinite;
-                }
-
-                &:nth-child(3) {
-                    transform: translate3d(20px, 0px, 0px);
-                    animation: anim-icons 6s 1s linear infinite;
-                }
-
-                &:nth-child(4) {
-                    transform: translate3d(-20px, 0px, 0px);
-                    animation: anim-icons 6s 2s linear infinite;
-                }
-            }
-        }
     }
 }
 
-@keyframes anim-icons {
-    0% { top: 0%; opacity: 0; }
-    20% { opacity: 0.7; }
-    80% { opacity: 0.7; }
-    100% { top: 100%; opacity: 0; }
+@keyframes anim-rotate {
+    0% { transform: rotateZ(0deg); }
+    100% { transform: rotateZ(360deg); }
+}
+
+@keyframes anim-books {
+    0% { top: -30%; opacity: 0; }
+    30% { opacity: 1; top: 20%; }
+    80% { opacity: 1; top: 20%; }
+    100% { opacity: 0; top: 60%; }
 }
 
 
