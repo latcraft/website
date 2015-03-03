@@ -596,6 +596,10 @@ header#header {
             line-height: 1.8;
             vertical-align: middle;
 
+            &.amazon {
+                background: #FFD131;
+            }
+
             @include media($desktop) {
                 &:hover {
                     background: #111;
@@ -1597,18 +1601,104 @@ section#map {
 // --------------------------------------------
 // learn
 section#learn {
+    border-top: 1px solid #dedede;
+    border-bottom: 1px solid #dedede;
 
     p {
         text-align: center;
+
+        @include media($container) {
+            margin-bottom: 40px;         
+        }
     }
 
     .item {
         @include span-columns(12);
 
         @include media($container) {
-            @include span-columns(4 of 12);
+            @include span-columns(6 of 12);     
+
+            a:hover i {
+                color: #111;
+            }      
+
+            a:hover .main {
+                color: $secondary;
+            }      
+        }
+
+        p {
+            overflow: hidden;
+            float: left;
+            text-align: center;
+            width: 100%;
+            color: $base-text;
+            
+            @include media($container) {
+                text-align: left;
+                float: none;
+                width: auto;
+                margin-left: 180px; 
+            }
+        }
+
+        .icons {
+            float: left;
+            @include span-columns(12 of 12);
+            height: 100px;
+            text-align: center;
+            position: relative;
+
+            @include media($container) {
+                width: 140px;
+                height: 100px;    
+            }
+
+            .main {
+                color: $primary;
+                opacity: 1;
+                font-size: 44px;
+                position: absolute;
+                line-height: 1;
+                top: 50%;
+                margin: -22px 0 0 0;
+                animation: none;
+            }
+
+            i {
+                color: $accent;
+                opacity: 0.5;
+                animation: anim-icons 6s linear infinite;
+                font-size: 22px;
+                line-height: 1;
+                margin: -24px 0 0 0;
+                position: absolute;
+                transition: 0.4s color ease 0s;
+
+                &:nth-child(2) {
+                    transform: translate3d(50px, 0px, 0px);
+                    animation: anim-icons 6s -1s linear infinite;
+                }
+
+                &:nth-child(3) {
+                    transform: translate3d(20px, 0px, 0px);
+                    animation: anim-icons 6s 1s linear infinite;
+                }
+
+                &:nth-child(4) {
+                    transform: translate3d(-20px, 0px, 0px);
+                    animation: anim-icons 6s 2s linear infinite;
+                }
+            }
         }
     }
+}
+
+@keyframes anim-icons {
+    0% { top: 0%; opacity: 0; }
+    20% { opacity: 0.7; }
+    80% { opacity: 0.7; }
+    100% { top: 100%; opacity: 0; }
 }
 
 
