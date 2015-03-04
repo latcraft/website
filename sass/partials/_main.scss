@@ -932,6 +932,14 @@ section#events {
         margin: 40px 0 40px 0;
         overflow: hidden;
 
+        @include media($container) {            
+            display: none;
+
+            &.more {
+                display: block;
+            }
+        }
+
         ul {
             list-style: none; 
             position: relative; 
