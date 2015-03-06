@@ -13,9 +13,9 @@ var easyPeasyNav = function () {
 	var offCanvas = $('#off-canvas');
 
 	if(scrollPos >= header.height()) {
-		offCanvas.addClass("active");
+		offCanvas.addClass("visible");
 	} else {
-		offCanvas.removeClass("active");
+		offCanvas.removeClass("visible");
 	}
 }
 
@@ -106,9 +106,10 @@ $(document).ready(function($) {
 
 
 	// display a slider for speakers when using phone
-	$('#events .slide').each(function(){
+	$('#events .slide .container').each(function(){
 		var curSlide = $(this).jcarousel({
-			list: ".speakers"
+			list: ".speakers",
+			items: "li"
 		});
 
 		$(this).find(".pagination ul").on('jcarouselpagination:active', 'li', function() {
@@ -153,7 +154,7 @@ $(document).ready(function($) {
 
 
 	// initialize map
-	var myLatlng = new google.maps.LatLng(56.959081,24.114304);
+	var myLatlng = new google.maps.LatLng(56.942472,24.114407);
 	var mapOptions = {
     	center: myLatlng,
     	scrollwheel: false,
@@ -174,6 +175,7 @@ $(document).ready(function($) {
 	$('#reserve-seat').click(function(e) {
 		e.preventDefault();
 		modal.addClass("open");
+		centerModal();
 	});
 	modal.click(function() {
 		modal.removeClass("open");
@@ -190,16 +192,14 @@ $(document).ready(function($) {
 		e.preventDefault();
 
 	    var href = $(this).attr("href");
-	    $(href).animatescroll();
+	    $(href).animatescroll({padding: 100});
 	    return false;
 	});
 
 	// do parallax for top title
 	$(window).scroll(function() {
 		easyPeasyParallax();
-		if($('body').width() >= 1020) {
-			easyPeasyNav();
-		}
+		easyPeasyNav();
 	});
 
 
@@ -222,7 +222,7 @@ $(document).ready(function($) {
 		if($this.hasClass("network")) return;
 
 	    var href = $(this).attr("href");
-	    $(href).animatescroll();
+	    $(href).animatescroll({padding: 100});
 
 	    if($('body').width() < 1020) {
 			$('#off-canvas').removeClass('active');
@@ -233,13 +233,13 @@ $(document).ready(function($) {
 
 
 	// get github staff
-	$.getJSON("https://api.github.com/orgs/twitter/members", function(data){
-		var newData = "";
+	// $.getJSON("https://api.github.com/orgs/twitter/members", function(data){
+	// 	var newData = "";
 
-		for(user in data) {
-			newData += "<li><a href=\"" + data[user].html_url + "\" target=\"_blank\"><img src=\"" + data[user].avatar_url + "\" alt=\"" + data[user].login + "\"></a><div class=\"tip\">" + data[user].login + "</div></li>"
-		}
+	// 	for(user in data) {
+	// 		newData += "<li><a href=\"" + data[user].html_url + "\" target=\"_blank\"><img src=\"" + data[user].avatar_url + "\" alt=\"" + data[user].login + "\"></a><div class=\"tip\">" + data[user].login + "</div></li>"
+	// 	}
 		
-		$('#member-list ul.github').append(newData);	
-	});
+	// 	$('#member-list ul.github').append(newData);	
+	// });
 });

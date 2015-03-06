@@ -1,29 +1,32 @@
 section#events
-	.container
-		h2.title Events
-		.carousel
-			.holder
-				for event in events
-					div.slide
-						.description 
-							h3 #{event.theme}
-							p #{event.desc}
-						.bubble
-							ul
-								li 
-									strong date:
-									| #{event.date}
-								li 
-									strong time:
-									| #{event.time}
-								if event.announced
+	h2.title Events
+	.carousel
+		.holder
+			for event in events
+				div.slide
+					.container
+						.group(class=event.classes)
+							.description 
+								h3 #{event.theme}
+								p #{event.desc}
+							.bubble
+								if event.logo
+									img(src="#{event.logo}" alt="Amazon AWS").logo
+								ul
 									li 
-										strong venue: 
-										a#goto-map(href="#map") #{event.venue}
-							if event.announced
-								a#reserve-seat.button.big book a seat
+										strong date:
+										| #{event.date}
+									li 
+										strong time:
+										| #{event.time}
+									if event.announced
+										li 
+											strong venue: 
+											a#goto-map(href="#map") #{event.venue}
+								if event.announced
+									a#reserve-seat.button.big book a seat
 
-						ul.speakers
+						ul.speakers(class=event.classes)
 							for speaker in event.speakers
 								li
 									.title-holder
@@ -40,11 +43,16 @@ section#events
 										if speaker.video
 											a.button.icon(href=speaker.video, target="_blank")
 												i.fa.fa-play-circle
-						.pagination
-							ul
-		a.prev.button(href="#")
-			span Prev
-			i.fa.fa-angle-left
-		a.next.button(href="#")
-			span Next
-			i.fa.fa-angle-right
+						if event.speakers.length > 3
+							.pagination.more
+								ul
+						else
+							.pagination
+								ul
+
+	a.prev.button(href="#")
+		span Prev
+		i.fa.fa-angle-left
+	a.next.button(href="#")
+		span Next
+		i.fa.fa-angle-right

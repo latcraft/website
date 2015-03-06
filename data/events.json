@@ -97,4 +97,47 @@
 			"presentation" : "https://speakerdeck.com/latcraft/there-is-always-erlang",
 			"video" : ""
 		}]
+}, {
+	"theme" : "AWS Day by LatCraft",
+	"classes" : "amazon",
+	"desc" : "Amazon Web Services is the best cloud platform available on the market. LatCraft is probably the most visited IT user group in the country. Experts from Luxembourg, United Kingdom, Czech Republic and Latvia are gathering in Riga in order to share their knowledge, success recipes and war stories with you. 6 amazing speakers. Spectacular talks. Rocking AWS. ",
+	"month" : "Apr 2015",
+	"date" : "9th of April, 2015",
+	"logo" : "img/amazon.png",
+	"time" : "14:00 - 21:00",
+	"announced": true,
+	"venue" : "Maskavas 4, Spikeri facilities, entrance via Café Dali",
+	"speakers" : [{
+			"name" : "Butch Cassidy",
+			"bio" : "Wild West Inc.",
+			"title" : "Surviving in Harsh Climate",
+			"description" : "Unexplainable.",
+			"img" : "img/speakers/savelyev.png",
+			"presentation" : "",
+			"video" : ""
+		}, {
+			"name" : "Cool Hand Luke",
+			"bio" : "Prison",
+			"title" : "Having a Really Cool Hand",
+			"description" : "Unexplainable.",
+			"img" : "img/speakers/savelyev.png",
+			"presentation" : "",
+			"video" : ""
+		}, {
+			"name" : "Henry Gondorff",
+			"bio" : "Wild West Inc.",
+			"title" : "The art of the con",
+			"description" : "Unexplainable.",
+			"img" : "img/speakers/savelyev.png",
+			"presentation" : "",
+			"video" : ""
+		}, {
+			"name" : "Henry Gondorff",
+			"bio" : "Wild West Inc.",
+			"title" : "The art of the con",
+			"description" : "Unexplainable.",
+			"img" : "img/speakers/savelyev.png",
+			"presentation" : "",
+			"video" : ""
+		}]
 }]

@@ -20,10 +20,46 @@ section#modal {
         display: block;
     }
 
+    .close {
+        position: absolute;         
+        top: -40px;
+        right: 0px;
+        font-size: 14px;
+        height: 40px;
+        width: 40px;
+        line-height: 40px;
+        background: #111;
+        color: #fff;
+        margin: 0 10px 0 0;
+
+        @include media($desktop) { 
+            top: -20px;
+            right: -20px;
+        }
+
+
+        span {
+            background: none repeat scroll 0 0 #fff;
+            clear: both;
+            display: block;
+            height: 2px;
+            transition: all 0.4s ease 0s;
+            width: 30px;    
+            position: relative;
+            top: 19px;
+            left: 5px;
+            transform: rotateZ(45deg);
+
+            &:nth-child(2) {
+                top: 17px;
+                transform: rotateZ(-45deg);    
+            }
+        }
+    }
+
     .container {
-        overflow: hidden;
         max-width: $container;
-        position: responsive;
+        position: relative;
         height: 100%;
     }
 
@@ -152,164 +188,66 @@ section#news {
     width: 50px;
     min-height: 46px;
     position: fixed;
-    transform: translate3d(30px, 30px, 0px);
+    transform: translate3d(30px, -46px, 0px);
     z-index: 500;
     overflow: hidden;
     background: rgba(34, 44, 52, 0.9);
     transition: 0.5s all cubic-bezier(0.7, 0, 0.3, 1) 0s;
 
-    &.active  {
-        transform: translate3d(0px, 0px, 0px);
-        height: auto;
-        min-height: 100%;
-        width: 100%;
-        display: block;
-        overflow: auto;
-
-        a.open {
-            span {
-                &:first-child {
-                    transform: translate3d(0px, 8px, 0px) rotateZ(-45deg);
-                }   
-                &:nth-child(2) {
-                    transform: rotateY(90deg);
-                    opacity: 0;
-                }
-                &:last-child {
-                    transform: translate3d(0px, -8px, 0px) rotateZ(45deg);
-                }  
-            }
-        }
-
-        .container {
-            position: absolute;
-            top: 70px;
-            min-height: auto;
-            opacity: 1;
-            overflow: visible;
-            pointer-events: auto;
-            transition: opacity 0.3s ease 0.5s, top 0.3s ease 0.5s;
-        }
-
-        @include media($desktop) {            
-            width: 100%;
-            min-height: 80px !important;
-            overflow: hidden !important;
-    
-            .container {
-                position: relative;
-                top: 0;
-                transition: none;
-            }
-
-            .open {
-                display: none !important;
-            }
-
-            .logo {
-                display: block;
-                float: left;
-                margin: 20px 0;
-
-                a {
-                    background: url('../img/logo-nav.png') no-repeat;
-                    width: 140px;
-                    height: 60px;
-                    margin: 0;
-                    text-indent: -9999px;
-                    display: block;
-                }
-            }
-        }
-    }
-
     .container {
         position: absolute;
-        top: 90px;
-        min-height: 0;
-        heught: auto;
+        margin-top: 70px;
+        margin-bottom: 70px;
+        transform: translate3d(0, 40px, 0px);
         opacity: 0;
-        overflow: hidden;
+        visibility: hidden;
+        transition: 0.3s all ease 0s;
+
+        @include media($desktop) { 
+            margin-top: 0;
+            margin-bottom: 0;
+            position: relative;
+            transform: translate3d(0px, 0px, 0px);
+        }
     }
 
-    @include media($desktop) {          
-        width: 100%;
-        min-height: 100px;
-        overflow: hidden !important;
-        transform: translate3d(0px, -100px, 0px);
+    .logo {
+        float: left;
+        margin: 20px 0;
+        display: none;
 
-        .container {
-            position: relative;
-            top: 0;
+        a {
+            background: url('../img/logo-nav.png') no-repeat;
+            width: 140px;
+            height: 60px;
+            margin: 0;
+            text-indent: -9999px;
+            display: block;
+        }        
+    }
 
-            ul {
-                float: right;
-                width: auto;
-                margin: 30px 0;
+    .open {
+        display: block;
+        color: #fff;
+        width: 50px;
+        padding: 14px 12px;
+        float: right;
+        position: absolute;
+        top: 0px;
+        right: 0px;
 
-                li {
-                    float: left;
-                    width: auto;
-                    margin: 0 !important;
+        span {
+            height: 2px;
+            width: 100%;
+            background: #fff;
+            display: block;
+            margin: 0 0 6px 0;
+            clear: both;
+            transition: 0.4s all ease 0s;
 
-                    a {
-                        color: #fff;
-                        line-height: 40px;
-                        padding: 0 10px;                        
-                        background: transparent;
-
-                        &:hover {
-                            background: $primary;
-                            &.speakerdeck i {
-                                color: $primary;
-                            }
-                        }
-
-                        &.speakerdeck {
-                            background: #3ab278;
-                            color: #3ab278;
-                            padding: 11px 0;
-                
-                            span {
-                                overflow: hidden;
-                                display: inline-block;
-                                background: #fff;
-                                padding: 0 0px;
-                                border-radius: 2px;
-
-                                i {
-                                    color: #111;
-                                    float: left;
-                                    font-size: 10px;   
-                                    line-height: 0.8 !important;
-                                    padding: 0 1px;
-                                }
-                            }
-                        }
-
-                        &.network {
-                            background: #111 !important;
-                            margin: 4px 0 0 5px;
-                            height: 32px;
-                            width: 32px;
-                            border-radius: 50%;
-
-                            &:hover {
-                                background: $primary !important;
-                            }
-
-                            i {
-                                line-height: 32px;
-                                font-size: 12px;
-                            }
-                        }
-                    }
-                }
+            &:last-child {
+                margin: 0;
             }
-        }
-
-        a.open {
-            display: none !important;
         }
     }
 
@@ -317,6 +255,12 @@ section#news {
         float: left;
         width: 100%;
         clear: both;
+
+        @include media($desktop) { 
+            float: right;
+            width: auto;
+            margin: 30px 0;
+        }
 
         li {
             overflow: hidden;
@@ -327,6 +271,11 @@ section#news {
             width: 100%;
             margin-bottom: 5px;
             @include span-columns(6 of 12);
+
+            @include media($desktop) { 
+                width: auto;
+                margin: 0;
+            }
 
             &:nth-child(2n) {
                 @include omega();
@@ -342,6 +291,13 @@ section#news {
                 text-align: center;
                 background: #111;
                 transition: 0.4s all ease 0s;
+
+                @include media($desktop) {
+                    color: #fff;
+                    line-height: 40px;
+                    padding: 0 10px;          
+                    background: transparent;
+                }
 
                 &.twitter {
                     background: #44CCF6;
@@ -387,40 +343,131 @@ section#news {
                     font-size: 18px;
                 }
 
-                &:hover {
-                    background: #000;
+                @include media($desktop) {
+                    &.speakerdeck {
+                        background: #3ab278;
+                        color: #3ab278;
+                        padding: 11px 0;
+            
+                        span {
+                            overflow: hidden;
+                            display: inline-block;
+                            background: #fff;
+                            padding: 0 0px;
+                            border-radius: 2px;
 
-                    &.speakerdeck i {
-                        color: #111;
+                            i {
+                                color: #111;
+                                float: left;
+                                font-size: 10px;   
+                                line-height: 0.8 !important;
+                                padding: 0 1px;
+                            }
+                        }
+                    }
+
+                    &.network {
+                        background: #111 !important;
+                        margin: 4px 0 0 5px;
+                        height: 32px;
+                        width: 32px;
+                        border-radius: 50%;
+
+                        &:hover {
+                            background: $primary !important;
+                        }
+
+                        i {
+                            line-height: 32px;
+                            font-size: 12px;
+                        }
+                    }
+
+                    &:hover {
+                        background: $primary;
+
+                        &.speakerdeck i {
+                            color: $primary;
+                        }
                     }
                 }
             }
         }
     }
 
-    .logo {
-        display: none;
-    }
-    
-    a.open {
-        display: block;
-        color: #fff;
-        width: 50px;
-        padding: 14px 12px;
-        float: right;
+    @include media($desktop) {
+        width: 100%;
+        min-height: 100px;
+        transform: translate3d(0px, -100px, 0px);
+        transition: 0.5s all cubic-bezier(0.7, 0, 0.3, 1) 0s;
 
-        span {
-            height: 2px;
-            width: 100%;
-            background: #fff;
+        .logo {
             display: block;
-            margin: 0 0 6px 0;
-            clear: both;
-            transition: 0.4s all ease 0s;
+        }
 
-            &:last-child {
-                margin: 0;
+        .open {
+            display: none;
+        }
+
+        .container {
+            opacity: 1;
+            visibility: visible;
+        }
+    }
+
+    &.visible {
+        transform: translate3d(30px, 30px, 0px); 
+
+        @include media($desktop) {
+            transform: translate3d(0px, 0px, 0px);
+        }
+    }
+
+    &.visible.active {
+        transform: translate3d(0px, 0px, 0px);
+        height: auto;
+        min-height: 100%;
+        width: 100%;
+        display: block;
+        overflow: auto;        
+        transition: 0.5s all cubic-bezier(0.7, 0, 0.3, 1) 0s;
+
+        .container {
+            opacity: 1;
+            visibility: visible;
+            transform: translate3d(0px, 0px, 0px);
+            transition: 0.3s all ease 0.5s;
+        }
+
+        @include media($desktop) {
+            min-height: 100px;
+
+            .container {
+                transition: 0.3s opacity ease 0s;
             }
+        }
+
+        a.open {
+            span {
+                &:first-child {
+                    transform: translate3d(0px, 8px, 0px) rotateZ(-45deg);
+                }   
+                &:nth-child(2) {
+                    transform: rotateY(90deg);
+                    opacity: 0;
+                }
+                &:last-child {
+                    transform: translate3d(0px, -8px, 0px) rotateZ(45deg);
+                }  
+            }
+        }
+
+        .container {       
+            min-height: auto;
+            opacity: 1;
+            overflow: visible;
+            pointer-events: auto;
+            transform: translate3d(0px, 0px, 0px);
         }
     }
 }
@@ -439,20 +486,37 @@ header#header {
     background-size: cover;
     padding: 0;
 
-    #logo {
-        overflow: hidden;
-        width: 100%;
-    }
+    .logo-group {
+        @include span-columns(12);
+        position: relative;
+        display: block;
 
-    #logo a {
-      background: url('../img/logo.png') no-repeat;
-      background-size: 100% auto;
-      width: 160px;
-      height: 160px;
-      margin: 60px auto;
-      text-indent: -9999px;
-      display: block;
-    }
+        #logo {
+            overflow: hidden;
+            width: 100%;
+        }
+
+        #logo a {
+            height: 100px;
+            width: 100px;
+            margin: 10px auto;
+            background: url('../img/logo.png') no-repeat;
+            background-size: 100% auto;
+            margin: 10px auto;
+            text-indent: -9999px;
+            display: block;
+        }
+
+        @include media($container) {            
+            @include span-columns(4);  
+
+            #logo a {             
+              width: 160px;
+              height: 160px;
+              margin: 60px auto;
+            }  
+        }
+    } 
 
     #social-links {
         position: absolute;
@@ -482,16 +546,6 @@ header#header {
                     font-size: 14px;
                 }
             }
-        }
-    }
-
-    .logo-group {
-        @include span-columns(4);
-        position: relative;
-        display: none;
-
-        @include media($container) {            
-            display: block;
         }
     }
 
@@ -529,9 +583,11 @@ header#header {
         p {
             color: #b6b6b6;
             font-size: 14px;
+            line-height: 1.6;
 
             @include media($container) {
-                font-size: 1.8rem;
+                font-size: 18px;
+                line-height: 1.8;
                 text-align: left;
             }
         }
@@ -540,11 +596,17 @@ header#header {
             line-height: 1.8;
             vertical-align: middle;
 
-            &:hover {
-                background: #111;
+            &.amazon {
+                background: #FFD131;
+            }
 
-                span {
-                    color: #565656;
+            @include media($desktop) {
+                &:hover {
+                    background: #111;
+
+                    span {
+                        color: #565656;
+                    }
                 }
             }
 
@@ -594,8 +656,11 @@ header#header {
     z-index: 10;
     opacity: 0.4;
     background: url("../img/intro-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
     background-attachment: fixed;
     background-size: cover;
+    transition: background 0.4s ease 0s;
 
     @include media($mobile) {
         display: block;
@@ -606,9 +671,42 @@ header#header {
 // --------------------------------------------
 // event
 section#events {
+    .group {
+        overflow: hidden;
+        margin: 0 10px 40px 10px;
+        
+
+        &.amazon {
+            background: #FFD131 url("../img/amazon-bg.png") center center;
+            background-size: 600px auto;
+            color: #fff;  
+            padding: 40px;
+
+            p {
+                color: #f5f5f5;
+            }
+
+            a {
+                color: #111;
+            }
+
+            .button {
+                background: #111;
+                color: #fff;
+            }
+        }
+    }
+
+    .logo {
+        margin: 0 0 20px 0;
+        padding: 0 30px;
+        width: 100%;
+        overflow: hidden;
+    }
+
     .description {
         p {
-            margin-top: 20px;
+            margin: 0px 0 0 0;
         }
         h3 {
             background: transparent;
@@ -616,6 +714,7 @@ section#events {
             max-width: 450px;
             display: block;
             text-align: left;
+            line-height: 1.5;
             overflow: hidden;
         }
 
@@ -623,14 +722,12 @@ section#events {
         margin: 0; 
 
         @include media($phone) {  
-            margin: 0 0 40px 0; 
             @include span-columns(9 of 12);
         }
     }
     .bubble {
         overflow: hidden;
         float: right;
-        margin-bottom: 40px;
 
         @include span-columns(12 of 12);        
 
@@ -757,9 +854,17 @@ section#events {
         width: 10%;
         position: relative;
 
+        .container {
+            position: relative;
+            width:100%;
+            padding: 0;
+            overflow: hidden;
+        }
+
         .speakers {
             overflow: hidden;
             width: 400%; 
+            margin: 0 10px;
             position: relative;
             transition: 0.3s height cubic-bezier(0.7, 0, 0.3, 1) 0s;
 
@@ -780,14 +885,16 @@ section#events {
                     @include span-columns(4 of 12);
                 }
 
-                &:hover {
-                    h3 {
-                        border-bottom: 2px solid #b7b7b7;
-                    }
-                    h5 {
-                        color: #800000;
-                    }
-                }
+                @include media($desktop) {
+                    &:hover {
+                        h3 {
+                            border-bottom: 2px solid #b7b7b7;
+                        }
+                        h5 {
+                            color: #800000;
+                        }
+                    }    
+                }                
 
                 &:last-child {
                     margin-bottom: 0px;
@@ -797,6 +904,22 @@ section#events {
                     display: inline-block;
                     float: none;
                     margin: 0 10px 0 0;  
+                }
+            }
+
+            &.amazon {    
+                margin: 0;
+
+                @include media($container) {
+                    width: 200%;
+                }
+
+                li {
+                    @include media($container) {
+                        width: 25%;
+                        margin: 0;
+                        padding: 0 10px;
+                    }
                 }
             }
         }        
@@ -809,8 +932,12 @@ section#events {
         margin: 40px 0 40px 0;
         overflow: hidden;
 
-        @include media($container) {
+        @include media($container) {            
             display: none;
+
+            &.more {
+                display: block;
+            }
         }
 
         ul {
@@ -852,8 +979,8 @@ section#events {
     a.prev.button, a.next.button {
         color: #fff;
         cursor: pointer;
-        text-transform: uppercase;
-        background: #dedede;
+        text-transform: uppercase;        
+        background: $secondary;
         float: left;
         clear: none;
         padding: 8px 18px;        
@@ -884,8 +1011,12 @@ section#events {
             }
         }
 
-        &:hover {
-            background: $secondary;
+        @include media($desktop) {
+            background: #dedede;
+            
+            &:hover {
+                background: $secondary;
+            }
         }
 
         i {
@@ -1031,10 +1162,12 @@ section#challenge {
                 transition: 0.2s border-color linear 0s;
                 border-bottom: 1px solid #f5f5f5;
             }
-
-            &:hover {
-                h3 {
-                    border-bottom: 2px solid #b7b7b7;
+            
+            @include media($desktop) {
+                &:hover {
+                    h3 {
+                        border-bottom: 2px solid #b7b7b7;
+                    }
                 }
             }
         }
@@ -1058,8 +1191,8 @@ section#challenge {
     a.prev.button, a.next.button {
         color: #fff;
         cursor: pointer;
-        text-transform: uppercase;
-        background: #dedede;
+        text-transform: uppercase;        
+        background: $secondary;
         color: #fff;
         padding: 8px 18px;
         float: left;
@@ -1076,15 +1209,16 @@ section#challenge {
         }
 
         @include media($desktop) {            
-            position: absolute;   
+            position: absolute; 
+            background: #dedede;
             width: auto; 
             margin: 0;
             bottom: 220px;
-        }
 
-        &:hover {
-            background: $secondary;
-        }
+            &:hover {
+                background: $secondary;
+            }
+        }             
 
         i {
             float: left;
@@ -1188,6 +1322,7 @@ section#sharing {
 
         li {
             overflow: hidden;
+            whitespace: no-wrap;
             margin: 0 0 20px 0;
 
             &:last-child {
@@ -1232,8 +1367,15 @@ section#sharing {
                 float: left;
                 font-size: 16px;
                 margin-bottom: 20px;
-                margin-left: 50px;
+                padding-left: 50px;
+                width: 100%;
                 line-height: 1.6;
+                overflow: hidden;
+                white-space: pre-wrap; /* css-3 */    
+                white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+                white-space: -pre-wrap; /* Opera 4-6 */    
+                white-space: -o-pre-wrap; /* Opera 7 */    
+                word-wrap: break-word; /* Internet Explorer 5.5+ */
 
                 a {
                     color: $accent;
@@ -1461,6 +1603,271 @@ section#sponsors {
 // map
 section#map {
     height: 500px;
+}
+
+
+// --------------------------------------------
+// learn
+section#learn {
+    border-top: 1px solid #dedede;
+    border-bottom: 1px solid #dedede;
+
+    p {
+        text-align: center;
+
+        @include media($container) {
+            margin-bottom: 40px;         
+        }
+    }
+    .books {
+        float: left;
+        @include span-columns(12 of 12);
+        height: 100px;
+        position: relative;
+
+        @include media($container) {
+            width: 140px;
+            height: 100px;    
+        }
+    }
+
+    .book {
+        background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+        height: 24px;
+        left: 50%;
+        margin-left: -20px;
+        position: absolute;
+        animation: anim-books 4s -0s cubic-bezier(0.7, 0, 0.3, 1) infinite;
+        width: 90px;      
+
+        &:nth-child(2) {
+            margin-left: -5px;
+            transform: translate3d(0px, 26px, 0px);
+            animation: anim-books 4s -0.3s cubic-bezier(0.7, 0, 0.3, 1) infinite;
+        }
+
+        &:nth-child(3) {
+            transform: translate3d(0px, 52px, 0px);
+            animation: anim-books 4s -0.6s cubic-bezier(0.7, 0, 0.3, 1) infinite;
+        }
+
+        .omslagrond {
+            background: none repeat scroll 0 0 #ddd;
+            border-bottom: 3px solid #D32424;
+            border-bottom-right-radius: 20px;
+            border-right: 3px solid #D32424;
+            border-top: 3px solid #D32424;
+            border-top-right-radius: 20px;
+            height: 24px;
+            left: 40px;
+            position: absolute;
+            width: 16px;
+            transition: 0.4s all ease 0s;
+        }
+
+        .bladeren {
+            background: none repeat scroll 0 0 #f5f5f5;
+            border-bottom: 3px solid rgba(0, 0, 0, 0);
+            border-top: 3px solid rgba(0, 0, 0, 0);
+            height: 18px;
+            left: 6px;
+            position: absolute;
+            top: 3px;
+            width: 34px;
+            transition: 0.4s all ease 0s;
+        }
+
+        .omslag {
+            border-bottom: 3px solid #D32424;
+            border-top: 3px solid #D32424;
+            height: 24px;
+            left: 0;
+            position: absolute;
+            width: 40px;
+            transition: 0.4s all ease 0s;
+        }
+
+        .rug {
+            border-bottom: 12px solid #D32424;
+            border-bottom-right-radius: 12px;
+            border-top: 12px solid $primary;
+            border-top-right-radius: 12px;
+            height: 0;
+            position: absolute;
+            left: 40px;
+            width: 50px;
+            transition: 0.4s all ease 0s;
+        }
+    }
+
+    .cameras {
+        float: left;
+        @include span-columns(12 of 12);
+        height: 100px;
+        position: relative;
+        z-index: 1;
+
+        @include media($container) {
+            width: 140px;
+            height: 100px;    
+        }   
+
+        .camera {
+            position: absolute;
+            left: 50%;
+            margin-top: 40px;
+            margin-left: -10px;
+            display: block; 
+        }
+
+        .base {
+            width: 70px;
+            height: 50px;
+            background: $primary;
+            border-radius: 3px;
+            transition: 0.4s background ease 0s;
+        }  
+
+        .lense {           
+            width: 30px;                
+            height: 20px;
+            background: #D32424;
+            position: absolute;
+            z-index: -10;            
+            top: 15px;
+            left: -25px;
+            display: block;
+            transition: 0.4s background ease 0s;
+
+            &:after {
+                width: 10px;
+                height: 30px;
+                background: $primary;
+                position: absolute;
+                content: "";
+                display: block;
+                left: 0px;
+                top: -5px;
+                z-index: 10;     
+                transition: 0.4s background ease 0s;           
+            }
+        }
+
+        .roll {
+            width: 50px;
+            height: 50px;
+            border-radius: 25px;
+            background: $primary;
+            display: block;
+            position: absolute;
+            top: -25px;
+            left: -15px;
+            border: 3px solid #fff;
+            animation: anim-rotate 4s 0s linear infinite;
+            transition: 0.4s background ease 0s;
+
+            &:after {
+                display: block;
+                content: " ";
+                width: 6px;
+                height: 6px;
+                position: absolute;
+                top: 4px;
+                left: 50%;
+                margin-left: -3px;
+                border-radius: 3px;
+                background: #fff;
+                transition: 0.4s background ease 0s;
+            }
+
+            &:before {
+                display: block;
+                content: " ";
+                width: 10px;
+                height: 10px;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                margin: -5px 0 0 -5px;
+                border-radius: 5px;
+                background: #D32424;
+                transition: 0.4s background ease 0s;
+            }
+
+            &.last {
+                width: 44px;
+                height: 44px;                
+                top: -22px;
+                left: 40px;
+                animation: anim-rotate 4s -1s linear infinite;
+                border-radius: 22px;
+            }
+        }
+        
+    }
+
+    .item {
+        @include span-columns(12);
+
+        @include media($container) {
+            @include span-columns(6 of 12);     
+
+            a:hover i {
+                color: #111;
+            }      
+
+            a:hover .main {
+                color: $secondary;
+            }     
+
+            &:hover {
+                .omslagrond, .omslag, .rug {                    
+                    border-color: #2F896D;
+                }  
+
+                .rug {
+                    border-top-color: $secondary;
+                }
+            }
+
+            a:hover {
+                .lense:after, .base, .roll {                    
+                    background: $secondary;
+                }  
+
+                .lense, .roll:before {
+                    background: #2F896D;
+                }
+            }
+        }
+
+        p {
+            overflow: hidden;
+            float: left;
+            text-align: center;
+            width: 100%;
+            color: $base-text;
+            
+            @include media($container) {
+                text-align: left;
+                float: none;
+                width: auto;
+                margin-left: 180px; 
+            }
+        }
+    }
+}
+
+@keyframes anim-rotate {
+    0% { transform: rotateZ(0deg); }
+    100% { transform: rotateZ(360deg); }
+}
+
+@keyframes anim-books {
+    0% { top: -30%; opacity: 0; }
+    30% { opacity: 1; top: 20%; }
+    80% { opacity: 1; top: 20%; }
+    100% { opacity: 0; top: 60%; }
 }
 
 
