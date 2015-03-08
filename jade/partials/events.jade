@@ -11,7 +11,7 @@ section#events
 								p #{event.desc}
 							.bubble
 								if event.logo
-									img(src="#{event.logo}" alt="Amazon AWS").logo
+									img(src="#{event.logo}" alt="").logo
 								ul
 									li 
 										strong date:
@@ -22,7 +22,7 @@ section#events
 									if event.announced
 										li 
 											strong venue: 
-											a#goto-map(href="#map") #{event.venue}
+											a.scroll-button(href="#map") #{event.venue}
 								if event.announced
 									a#reserve-seat.button.big book a seat
 
@@ -43,12 +43,8 @@ section#events
 										if speaker.video
 											a.button.icon(href=speaker.video, target="_blank")
 												i.fa.fa-play-circle
-						if event.speakers.length > 3
-							.pagination.more
-								ul
-						else
-							.pagination
-								ul
+						.pagination
+							ul
 
 	a.prev.button(href="#")
 		span Prev

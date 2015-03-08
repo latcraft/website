@@ -597,7 +597,12 @@ header#header {
             vertical-align: middle;
 
             &.amazon {
-                background: #FFD131;
+                background: #000 !important;
+                color: $amazon;
+
+                span {
+                    color: #f5f5f5 !important;
+                }
             }
 
             @include media($desktop) {
@@ -677,17 +682,21 @@ section#events {
         
 
         &.amazon {
-            background: #FFD131 url("../img/amazon-bg.png") center center;
+            background: $amazon;
             background-size: 600px auto;
             color: #fff;  
             padding: 40px;
 
             p {
-                color: #f5f5f5;
+                color: rgba(0, 0, 0, 0.4);
             }
 
             a {
                 color: #111;
+
+                &.scroll-button {
+                    font-weight: 700;    
+                }                
             }
 
             .button {
@@ -834,29 +843,27 @@ section#events {
 
     .carousel {
         overflow: hidden;
-        position: relative;
         width: 100%;
-        transition: 0.3s height cubic-bezier(0.7, 0, 0.3, 1) 0s;
+        position: relative;
+    }
 
-        .holder {
-            margin: 0;
-            padding: 0;
-            position: relative;
-            overflow: hidden;
-            width: 1000%;
-        }
+    .holder {
+        width: 1000%;
+        position: relative;
+        overflow: hidden;
+        transform: translate3d(-90%, 0px, 0px);
     }
 
     .slide {
         display: block;
         overflow: hidden;
-        float: left;
+        float: right;
         width: 10%;
         position: relative;
 
         .container {
             position: relative;
-            width:100%;
+            width: 100%;
             padding: 0;
             overflow: hidden;
         }
@@ -864,7 +871,7 @@ section#events {
         .speakers {
             overflow: hidden;
             width: 400%; 
-            margin: 0 10px;
+            margin: 0;
             position: relative;
             transition: 0.3s height cubic-bezier(0.7, 0, 0.3, 1) 0s;
 
@@ -875,6 +882,7 @@ section#events {
             li {
                 float: left;                
                 width: 25%;
+                padding: 0 10px;
 
                 p {
                     font-size: 16px;  
@@ -883,6 +891,7 @@ section#events {
 
                 @include media($container) {
                     @include span-columns(4 of 12);
+                    padding: 0;
                 }
 
                 @include media($desktop) {
@@ -896,8 +905,8 @@ section#events {
                     }    
                 }                
 
-                &:last-child {
-                    margin-bottom: 0px;
+                &:nth-child(3n) {
+                    @include omega();
                 }
 
                 .button {
@@ -909,16 +918,23 @@ section#events {
 
             &.amazon {    
                 margin: 0;
+                width: 1000%;
 
                 @include media($container) {
                     width: 200%;
                 }
 
-                li {
+                & + .pagination {
                     @include media($container) {
-                        width: 25%;
-                        margin: 0;
-                        padding: 0 10px;
+                        display: block;
+                    }
+                }
+
+                li {
+                    width: 10%;
+
+                    @include media($container) {
+                        @include span-columns(2 of 12);
                     }
                 }
             }
@@ -995,6 +1011,10 @@ section#events {
 
         @include media($container) {            
             @include span-columns(2 of 12);
+        }
+
+        &.inactive {
+            display: none;
         }
 
         @include media($desktop) {            
@@ -1121,53 +1141,32 @@ section#challenge {
         }
     }
 
-    .carousel {
-        overflow: hidden;
-        position: relative;
-        width: 100%;
-        transition: 0.3s height cubic-bezier(0.7, 0, 0.3, 1) 0s;
-        @include span-columns(12);
+    .month {
+        padding: 40px 20px;
+        float: left;
+        text-align: center;
+        @include span-columns(12 of 12); 
 
-        .holder {
-            margin: 0;
-            padding: 0;
-            width: 1000%;
-            position: relative;
-            overflow: hidden;
+        @include media($container) {
+            @include span-columns(4 of 12); 
         }
 
-        .month {
-            padding: 40px 20px;
-            float: left;
+        h3 {
+            text-transform: uppercase;
+            font-size: 1.8rem;
+            line-height: 1.8;
+            background: #f5f5f5;
+            font-weight: 700;
+            display: inline;
             text-align: center;
-            width: 10%;  
-            //- border: 3px solid #f5f5f5
-
-            @include media($container) {
-                width: 5%;
-            }  
-
-            @include media($desktop) {
-                width: 3.333333%;   
-            }
-
-            h3 {
-                text-transform: uppercase;
-                font-size: 1.8rem;
-                line-height: 1.8;
-                background: #f5f5f5;
-                font-weight: 700;
-                display: inline;
-                text-align: center;
-                transition: 0.2s border-color linear 0s;
-                border-bottom: 1px solid #f5f5f5;
-            }
-            
-            @include media($desktop) {
-                &:hover {
-                    h3 {
-                        border-bottom: 2px solid #b7b7b7;
-                    }
+            transition: 0.2s border-color linear 0s;
+            border-bottom: 1px solid #f5f5f5;
+        }
+        
+        @include media($desktop) {
+            &:hover {
+                h3 {
+                    border-bottom: 2px solid #b7b7b7;
                 }
             }
         }
@@ -1602,7 +1601,50 @@ section#sponsors {
 // --------------------------------------------
 // map
 section#map {
+    background: #f5f5f5;
     height: 500px;
+
+    &.amazon .maptip {
+        background: $amazon;
+        color: #212121;
+        
+        &:after {
+            border-top-color: $amazon;
+        } 
+    }
+
+    .maptip {
+        line-height: 1.6;
+        display: inline-block;
+        pointer-events: none;
+        visability: hidden;
+        position: relative;
+        padding: 16px 20px;
+        text-align: center;
+        color: #f5f5f5;
+        background: #212121;
+        font-size: 18px;
+        z-index: 100;
+        margin: -65px 0 0 -110px;
+        font-family: $secondary-font;
+        transition: all 0.2s ease 0s;
+
+        &:after {
+            content: " ";
+            backgound: rgba(#000, 0);
+            display: block;
+            position: absolute;
+            bottom: -12px;
+            left: 50%;
+            margin: 0 0 0 -12px;
+            z-index: 100;
+            width: 0;
+            height: 0;
+            border-top: 12px solid #212121;
+            border-right: 12px solid rgba(#000, 0);
+            border-left: 12px solid rgba(#000, 0);
+        }
+    }
 }
 
 
@@ -1635,13 +1677,18 @@ section#learn {
         background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
         height: 24px;
         left: 50%;
-        margin-left: -20px;
+        margin-left: -45px;
+        margin-top: -10px;
         position: absolute;
         animation: anim-books 4s -0s cubic-bezier(0.7, 0, 0.3, 1) infinite;
-        width: 90px;      
+        width: 90px;     
+
+        @include media($container) {
+            margin-top: 0px;
+        }   
 
         &:nth-child(2) {
-            margin-left: -5px;
+            margin-left: -30px;
             transform: translate3d(0px, 26px, 0px);
             animation: anim-books 4s -0.3s cubic-bezier(0.7, 0, 0.3, 1) infinite;
         }
@@ -1716,7 +1763,7 @@ section#learn {
             position: absolute;
             left: 50%;
             margin-top: 40px;
-            margin-left: -10px;
+            margin-left: -35px;
             display: block; 
         }
 
@@ -1811,7 +1858,8 @@ section#learn {
 
         @include media($container) {
             @include span-columns(6 of 12);     
-
+        }
+        @include media($desktop) {
             a:hover i {
                 color: #111;
             }      
@@ -1831,7 +1879,7 @@ section#learn {
             }
 
             a:hover {
-                .lense:after, .base, .roll {                    
+                .lense:after, .base, .roll {                
                     background: $secondary;
                 }  
 
@@ -1852,7 +1900,7 @@ section#learn {
                 text-align: left;
                 float: none;
                 width: auto;
-                margin-left: 180px; 
+                margin-left: 140px; 
             }
         }
     }

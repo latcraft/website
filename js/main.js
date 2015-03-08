@@ -1,9 +1,19 @@
 var easyPeasyParallax = function () {
 	var scrollPos = $(this).scrollTop();
 
-	$('#header .info').css({
-		'margin-top': (scrollPos)+"px",
+	$('#header .info').css({		
+		'-webkit-transform': 'translate3d(0px, ' + (scrollPos) + 'px, 0px)',
+		'-ms-transform': 'translate3d(0px, ' + (scrollPos) + 'px, 0px)',
+		'transform': 'translate3d(0px, ' + (scrollPos) + 'px, 0px)',
 		'opacity': 1-(scrollPos/250)
+	});
+}
+
+var removeTransform = function ($this) {
+	$this.css({		
+		'-webkit-transform': 'translate3d(0px, 0px, 0px)',
+		'-ms-transform': 'translate3d(0px, 0px, 0px)',
+		'transform': 'translate3d(0px, 0px, 0px)'
 	});
 }
 
@@ -13,43 +23,107 @@ var easyPeasyNav = function () {
 	var offCanvas = $('#off-canvas');
 
 	if(scrollPos >= header.height()) {
-		offCanvas.addClass("visible");
+		offCanvas.addClass('visible');
 	} else {
-		offCanvas.removeClass("visible");
+		offCanvas.removeClass('visible');
 	}
 }
 
 var centerModal = function () {
-	var modal = $("#modal .holder");
+	var modal = $('#modal .holder');
 
 	modal.css({
-		'margin-top': -(modal.height()/2) +"px"
+		'margin-top': -(modal.height()/2) +'px'
 	});
 }
 
 var centerArrow = function (elem) {
-	var containerWidth = $("#about .container").width();
+	var containerWidth = $('#about .container').width();
 
-	$('#member-nav a').removeClass("active");
-	elem.addClass("active");
+	$('#member-nav a').removeClass('active');
+	elem.addClass('active');
 
-	$('#member-list ul').removeClass("active");
-	$('#member-list ul').eq(parseInt(elem.parent().index()) - 1).addClass("active");
+	$('#member-list ul').removeClass('active');
+	$('#member-list ul').eq(parseInt(elem.parent().index()) - 1).addClass('active');
 
 	var itemWidth = elem.width() / 2;
 	var thisPos = elem.position();
-
-	// $('#member-nav .arrow').css({
-	// 	"left" : ((thisPos.left + itemWidth - 5)/containerWidth) * 100 + "%"
-	// });	 
 }
 
-$(document).ready(function($) {
+$(document).ready(function() {
 	// center modal window 
-	centerModal();
 	$(window).resize(function() {
 		centerModal();
 	});
+
+
+	// do parallax for top title
+	$(window).scroll(function() {
+		if($(window).width() >= 690) easyPeasyParallax();
+		easyPeasyNav();
+	});
+
+
+	// outter slider
+	removeTransform($(".carousel .holder")); //removes transform3d from holder, because it somehow breaks the slider
+	$('.carousel').jcarousel({
+    	'item': '.slide',
+    	transitions: Modernizr.csstransitions ? {
+	        transforms: Modernizr.csstransforms,
+	        transforms3d: Modernizr.csstransforms3d,
+	        easing: 'ease'
+	    } : false
+    }).on('jcarousel:targetin', '.slide', function(event, carousel) {
+	    var itemHeight = $(this).outerHeight();
+	    $(this).parents('.carousel').css({
+	    	"height" : itemHeight
+	    });
+	});
+
+
+	// inner slider
+	$('#events .slide .container').each(function(){
+		var curSlide = $(this).jcarousel({
+			list: ".speakers",
+			items: "li",
+	    	transitions: Modernizr.csstransitions ? {
+		        transforms: Modernizr.csstransforms,
+		        transforms3d: Modernizr.csstransforms3d,
+		        easing: 'ease'
+		    } : false
+		});
+
+		$(this).find(".pagination ul").on('jcarouselpagination:active', 'li', function() {
+            $(this).addClass('active');
+        }).on('jcarouselpagination:inactive', 'li', function() {
+            $(this).removeClass('active');
+        })
+        .jcarouselPagination({
+        	'carousel' : curSlide,
+		    'item': function(page, carouselItems) {
+		        return '<li><a href="#' + page + '">' + page + '</a></li>';
+		    }
+		});
+	});     
+	$('.prev').on('jcarouselcontrol:active', function() {
+            $(this).removeClass('inactive');
+        })
+        .on('jcarouselcontrol:inactive', function() {
+            $(this).addClass('inactive');
+        })
+        .jcarouselControl({
+            target: '+=1'
+        });
+
+	$('.next').on('jcarouselcontrol:active', function() {
+            $(this).removeClass('inactive');
+        })
+        .on('jcarouselcontrol:inactive', function() {
+            $(this).addClass('inactive');
+        })
+        .jcarouselControl({
+            target: '-=1'
+        });
 
 
 	// fetch one tweet
@@ -60,32 +134,6 @@ $(document).ready(function($) {
 		"enableLinks": true
 	};
 	twitterFetcher.fetch(tweetConfig);
-
-
-	// digest subscription
-	$('#subscription form').submit(function(e) {
-		var email = $('#subscription input[name=email]').val();
-  		var subscribers = new Firebase("https://radiant-fire-3288.firebaseio.com/subscribers");
-		
-		var subForm = $("#subscription"),
-			subError = subForm.find(".error"),
-			subSuccess = subForm.find(".success");
-
-		subscribers.push(email, function(error) {
-		  if (error) {
-			subError.addClass("active");
-			subSuccess.removeClass("active");				
-		  } else {
-			subError.removeClass("active");			
-			subSuccess.addClass("active");			
-		  }
-		});
-		e.preventDefault();
-	});
-
-	$('#subscription a').click(function() {
-	    $(this).parents(".success, .error").removeClass("active");
-	});
 
 
 	// get flickr
@@ -105,72 +153,31 @@ $(document).ready(function($) {
 	});
 
 
-	// display a slider for speakers when using phone
-	$('#events .slide .container').each(function(){
-		var curSlide = $(this).jcarousel({
-			list: ".speakers",
-			items: "li"
+	// digest subscription
+	$('#subscription form').submit(function(e) {
+		var email = $('#subscription input[name=email]').val();
+  		var subscribers = new Firebase('https://radiant-fire-3288.firebaseio.com/subscribers');
+		
+		var subForm = $('#subscription'),
+			subError = subForm.find('.error'),
+			subSuccess = subForm.find('.success');
+
+		subscribers.push(email, function(error) {
+		  if (error) {
+			subError.addClass('active');
+			subSuccess.removeClass('active');				
+		  } else {
+			subError.removeClass('active');			
+			subSuccess.addClass('active');			
+		  }
 		});
-
-		$(this).find(".pagination ul").on('jcarouselpagination:active', 'li', function() {
-            $(this).addClass('active');
-        }).on('jcarouselpagination:inactive', 'li', function() {
-            $(this).removeClass('active');
-        })
-        .jcarouselPagination({
-        	'carousel' : curSlide,
-		    'item': function(page, carouselItems) {
-		        return '<li><a href="#' + page + '">' + page + '</a></li>';
-		    }
-		});
+		e.preventDefault();
+	});
+	$('#subscription a').click(function() {
+	    $(this).parents('.success, .error').removeClass('active');
 	});
 
-
-	// create sliders, navigation and pagination
-	$('.carousel').on('jcarousel:createend', function() {
-		var $this = $(this),
-
-		// scroll to last slide
-		slideCount = $('#events .slide').length;
-        $(this).jcarousel('scroll', slideCount - 1, false);
-    }).jcarousel({
-    	'item': '.slide'
-    }).on('jcarousel:targetin', '.slide', function(event, carousel) {
-	    var itemHeight = $(this).outerHeight();
-	    $(this).parents('.carousel').css({
-	    	"height" : itemHeight
-	    });
-	});
-     
-	$('.prev').click(function() {
-	    $(this).siblings('.carousel').jcarousel('scroll', '-=1');
-	    return false;
-	});
-
-	$('.next').click(function() {
-	    $(this).siblings('.carousel').jcarousel('scroll', '+=1');
-	    return false;
-	});
-
-
-	// initialize map
-	var myLatlng = new google.maps.LatLng(56.959081,24.114304);
-	var mapOptions = {
-    	center: myLatlng,
-    	scrollwheel: false,
-    	zoom: 14
-    };
-
-    var map = new google.maps.Map(document.getElementById('map'), mapOptions);
-
-	var marker = new google.maps.Marker({
-	    position: myLatlng,
-	    map: map,
-  		clickable: false,
-  		icon: "../img/tooltip.png",
-	    title: "Our tmp base!"
-	});
-
+	// open close reserve seat
 	var modal = $('#modal');
 	$('#reserve-seat').click(function(e) {
 		e.preventDefault();
@@ -181,35 +188,6 @@ $(document).ready(function($) {
 		modal.removeClass("open");
 	});
 
-	$('#join-event').click(function(e) {
-		e.preventDefault();
-
-	    var href = $(this).attr("href");
-	    $(href).animatescroll();
-	});
-
-	$('#goto-map').click(function(e) {
-		e.preventDefault();
-
-	    var href = $(this).attr("href");
-	    $(href).animatescroll({padding: 100});
-	    return false;
-	});
-
-	// do parallax for top title
-	$(window).scroll(function() {
-		easyPeasyParallax();
-		easyPeasyNav();
-	});
-
-
-	// open members
-	centerArrow($('#member-nav li:nth-child(2) a')); 
-	$('#member-nav a').click(function(e) {
-		e.preventDefault();
-		centerArrow($(this));    
-	});
-
 
 	// open/close off-canvas
 	$('#off-canvas a.open').click(function(e) {
@@ -217,29 +195,68 @@ $(document).ready(function($) {
 
 	    $(this).parent().toggleClass('active');
 	});
-	$('#off-canvas ul a, .logo a').click(function(e) {
+	$('#off-canvas ul a, .logo a, .scroll-button').click(function(e) {
 		var $this = $(this);
-		if($this.hasClass("network")) return;
+		if($this.hasClass('network')) return;
 
-	    var href = $(this).attr("href");
-	    $(href).animatescroll({padding: 100});
+	    var href = $(this).attr('href');
 
-	    if($('body').width() < 1020) {
-			$('#off-canvas').removeClass('active');
-		}
+	    if(href === "#events") {
+	    	$(href).animatescroll();
+	    } else {
+	    	$(href).animatescroll({padding: 100});
+	    }	    
 
 	    return false;
 	});
 
 
-	// get github staff
-	// $.getJSON("https://api.github.com/orgs/twitter/members", function(data){
-	// 	var newData = "";
+	// google map
+	var overlay;
+	function initialize() {
+	    var myLatLng = new google.maps.LatLng(56.9423093,24.1151814); // usually 56.959081, 24.114304
+	    var mapOptions = {
+	        zoom: 15,
+	        center: myLatLng,
+	        mapTypeId: google.maps.MapTypeId.ROADMAP,
+			disableDefaultUI: true,
+			scrollwheel: false,
+		    clickable: false,
+		    draggable: false
+	    };
+	    
+	    var gmap = new google.maps.Map(document.getElementById('map'), mapOptions);
+	    
+	    function HTMLMarker(lat,lng){
+	        this.lat = lat;
+	        this.lng = lng;
+	        this.pos = new google.maps.LatLng(lat,lng);
+	    }
+	    
+	    HTMLMarker.prototype = new google.maps.OverlayView();
+	    HTMLMarker.prototype.onRemove= function(){}
+	    
+	    //init your html element here
+	    HTMLMarker.prototype.onAdd= function(){
+	        div = document.createElement('DIV');
+	        div.className = 'maptip';
+	        div.innerHTML = 'our AWS event venue';
+	        var panes = this.getPanes();
+	        panes.overlayImage.appendChild(div);
+	    }
+	    
+	    HTMLMarker.prototype.draw = function(){
+	        var overlayProjection = this.getProjection();
+	        var position = overlayProjection.fromLatLngToDivPixel(this.pos);
+	        var panes = this.getPanes();
+	        panes.overlayImage.style.left = position.x + 'px';
+	        panes.overlayImage.style.top = position.y - 30 + 'px';
+	    }
+	    
+	    //to use it
+	    var htmlMarker = new HTMLMarker(56.9423093,24.1151814); // usually 56.959081, 24.114304
+	    htmlMarker.setMap(gmap);
+	}
 
-	// 	for(user in data) {
-	// 		newData += "<li><a href=\"" + data[user].html_url + "\" target=\"_blank\"><img src=\"" + data[user].avatar_url + "\" alt=\"" + data[user].login + "\"></a><div class=\"tip\">" + data[user].login + "</div></li>"
-	// 	}
-		
-	// 	$('#member-list ul.github').append(newData);	
-	// });
+	google.maps.event.addDomListener(window, 'load', initialize);
 });
