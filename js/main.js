@@ -17,6 +17,13 @@ var removeTransform = function ($this) {
 	});
 }
 
+var resizeHeight = function (slide) {
+	var slider = $(".carousel .holder");
+		height = slider.find(".slide").eq(slide).height();
+
+	slider.css("height", height + "px")
+}
+
 var easyPeasyNav = function () {
 	var scrollPos = $(this).scrollTop();
 	var header = $('#header');
@@ -65,20 +72,17 @@ $(document).ready(function() {
 
 
 	// outter slider
+	var curSlide = 0;
+	resizeHeight(curSlide);
 	removeTransform($(".carousel .holder")); //removes transform3d from holder, because it somehow breaks the slider
-	$('.carousel').jcarousel({
+	var mainCarousel = $('.carousel').jcarousel({
     	'item': '.slide',
     	transitions: Modernizr.csstransitions ? {
 	        transforms: Modernizr.csstransforms,
 	        transforms3d: Modernizr.csstransforms3d,
 	        easing: 'ease'
 	    } : false
-    }).on('jcarousel:targetin', '.slide', function(event, carousel) {
-	    var itemHeight = $(this).outerHeight();
-	    $(this).parents('.carousel').css({
-	    	"height" : itemHeight
-	    });
-	});
+    });
 
 
 	// inner slider
@@ -105,6 +109,17 @@ $(document).ready(function() {
 		    }
 		});
 	});     
+	$('.prev, .next').click(function(e) {
+		e.preventDefault();
+
+		if($(this).hasClass("inactive")) return;
+
+		if($(this).hasClass("prev")) curSlide++;
+		else curSlide--;
+
+		resizeHeight(curSlide);
+	});
+
 	$('.prev').on('jcarouselcontrol:active', function() {
             $(this).removeClass('inactive');
         })
@@ -112,7 +127,8 @@ $(document).ready(function() {
             $(this).addClass('inactive');
         })
         .jcarouselControl({
-            target: '+=1'
+            target: '+=1',
+            carousel: mainCarousel
         });
 
 	$('.next').on('jcarouselcontrol:active', function() {
@@ -122,7 +138,8 @@ $(document).ready(function() {
             $(this).addClass('inactive');
         })
         .jcarouselControl({
-            target: '-=1'
+            target: '-=1',
+            carousel: mainCarousel
         });
 
 
