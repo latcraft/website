@@ -29,7 +29,7 @@ var easyPeasyNav = function () {
 	var header = $('#header');
 	var offCanvas = $('#off-canvas');
 
-	if(scrollPos >= header.height()) {
+	if(scrollPos >= header.height() + 1) {
 		offCanvas.addClass('visible');
 	} else {
 		offCanvas.removeClass('visible');
