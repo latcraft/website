@@ -685,10 +685,9 @@ section#events {
             background: $amazon;
             background-size: 600px auto;
             color: #fff;  
-            padding: 40px;
 
             p {
-                color: rgba(0, 0, 0, 0.4);
+                color: rgba(0, 0, 0, 0.6);
             }
 
             a {
@@ -702,6 +701,18 @@ section#events {
             .button {
                 background: #111;
                 color: #fff;
+            }
+
+            .bubble {
+                background: #DCAE32; // #DCAE32
+                padding: 40px;
+                width: 30%;
+            }
+
+            .description{
+                margin: 0;
+                padding: 40px;
+                width: 70%;
             }
         }
     }
