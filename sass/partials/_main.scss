@@ -685,6 +685,7 @@ section#events {
             background: $amazon;
             background-size: 600px auto;
             color: #fff;  
+            margin: 0 0 40px 0;
 
             p {
                 color: rgba(0, 0, 0, 0.6);
@@ -698,6 +699,10 @@ section#events {
                 }                
             }
 
+            .container {
+                padding: 0 10px;
+            }
+
             .button {
                 background: #111;
                 color: #fff;
@@ -706,13 +711,21 @@ section#events {
             .bubble {
                 background: #DCAE32; // #DCAE32
                 padding: 40px;
-                width: 30%;
+                width: 100%;
+
+                @include media($container) {  
+                    width: 30%;
+                }
             }
 
             .description{
                 margin: 0;
                 padding: 40px;
-                width: 70%;
+                width: 100%;
+
+                @include media($container) {  
+                    width: 70%;
+                }
             }
         }
     }
