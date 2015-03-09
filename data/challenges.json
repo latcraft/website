@@ -28,6 +28,6 @@
 	"details" : "https://github.com/latcraft/cloudopoly-pics"
 }, {
 	"month" : "February",
-	"completed" : false,
+	"cancelled" : true,
 	"details" : "https://github.com/latcraft/cloudopoly-docker/"
 }]

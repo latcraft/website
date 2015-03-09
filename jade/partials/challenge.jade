@@ -23,6 +23,8 @@ section#challenge
 										if person.source
 											a(href=person.source) source
 							
+						else if challenge.cancelled
+							p This challenge has been cancelled.
 						else
 							p This challenge is still in progress. You can still take part.
 
