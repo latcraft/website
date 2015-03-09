@@ -27,22 +27,23 @@ section#events
 									a#reserve-seat.button.big book a seat
 
 						ul.speakers(class=event.classes)
-							for speaker in event.speakers
-								li
-									.title-holder
-										h3 #{speaker.title}
-									.author
-										img(src=speaker.img, alt="")
-										h5 #{speaker.name}
-										span #{speaker.bio}
-									p #{speaker.description}
-									.button-group
-										if speaker.presentation
-											a.button.effect(href=speaker.presentation, target="_blank") 
-												div(data-hover="view slides") view slides
-										if speaker.video
-											a.button.icon(href=speaker.video, target="_blank")
-												i.fa.fa-play-circle
+							for speaker in event.scheduel
+								if speaker.type == "speech"
+									li
+										.title-holder
+											h3 #{speaker.title}
+										.author
+											img(src=speaker.img, alt="")
+											h5 #{speaker.name}
+											span #{speaker.bio}
+										p #{speaker.description}
+										.button-group
+											if speaker.presentation
+												a.button.effect(href=speaker.presentation, target="_blank") 
+													div(data-hover="view slides") view slides
+											if speaker.video
+												a.button.icon(href=speaker.video, target="_blank")
+													i.fa.fa-play-circle
 						.pagination
 							ul
 

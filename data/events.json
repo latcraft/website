@@ -8,8 +8,9 @@
 	"time" : "14:00 - 21:00",
 	"announced": true,
 	"venue" : "Maskavas 4, Spikeri facilities, entrance via Café Dali",
-	"speakers" : [{
+	"scheduel" : [{
 			"name" : "Butch Cassidy",
+			"type" : "speech",
 			"bio" : "Wild West Inc.",
 			"title" : "Surviving in Harsh Climate",
 			"description" : "Unexplainable.",
@@ -18,6 +19,7 @@
 			"video" : ""
 		}, {
 			"name" : "Cool Hand Luke",
+			"type" : "speech",
 			"bio" : "Prison",
 			"title" : "Having a Really Cool Hand",
 			"description" : "Unexplainable.",
@@ -26,6 +28,7 @@
 			"video" : ""
 		}, {
 			"name" : "Henry Gondorff",
+			"type" : "speech",
 			"bio" : "Wild West Inc.",
 			"title" : "The art of the con",
 			"description" : "Unexplainable.",
@@ -34,6 +37,7 @@
 			"video" : ""
 		}, {
 			"name" : "Henry Gondorff",
+			"type" : "speech",
 			"bio" : "Wild West Inc.",
 			"title" : "The art of the con",
 			"description" : "Unexplainable.",
@@ -42,6 +46,7 @@
 			"video" : ""
 		}, {
 			"name" : "Henry Gondorff",
+			"type" : "speech",
 			"bio" : "Wild West Inc.",
 			"title" : "The art of the con",
 			"description" : "Unexplainable.",
@@ -50,6 +55,7 @@
 			"video" : ""
 		}, {
 			"name" : "Henry Gondorff",
+			"type" : "speech",
 			"bio" : "Wild West Inc.",
 			"title" : "The art of the con",
 			"description" : "Unexplainable.",
@@ -65,8 +71,9 @@
 	"time" : "18:30",
 	"announced": false,
 	"venue" : "Zaļa iela 1",
-	"speakers" : [{
+	"scheduel" : [{
 			"name" : "Leonids Maslovs",
+			"type" : "speech",
 			"bio" : "Galeo Consulting",
 			"title" : "The Sweet Flavour of Rust",
 			"description" : "Every chef now and then uses pinch of his secret spices to make a dish somewhat special and exquisite. This talk will provide introduction into nature of Rust sweetness and will answer to most important questions: Why and When does it make our dishes better? We will iterate over small code snippets and take a look How strong typing and functional thinking can be applied to low level system programming.",
@@ -75,6 +82,7 @@
 			"video" : ""
 		}, {
 			"name" : "Anatoly Ressin",
+			"type" : "speech",
 			"bio" : "C.T.Co",
 			"title" : "The Way to Go",
 			"description" : "This talk will guide you through the core concepts of the Go. We will cover the type system, memory model, packaging and of course the famous concurrency primitives of the language: goroutines and channels. Small working code snippets will be available on the github for immediate coding experience.",
@@ -83,6 +91,7 @@
 			"video" : ""
 		}, {
 			"name" : "Jurijs Saveljevs",
+			"type" : "speech",
 			"bio" : "Rubylight",
 			"title" : "There is always Erlang",
 			"description" : "This talk is devoted to giving overall insight on some fundamental problems on how we perceive and perform development of modern software and suggesting plausible cure in Erlang adoption. It has never been easier to address many of never-ending issues with parallel, distributed and fault tolerant computing. Get to know the Erlang-way of fighting against complexity of software world before those problems catch you unprepared!",
@@ -98,8 +107,9 @@
 	"time" : "18:30",
 	"announced": false,
 	"venue" : "Zaļa iela 1",
-	"speakers" : [{
+	"scheduel" : [{
 			"name" : "Andrey Grave",
+			"type" : "speech",
 			"bio" : "BuyerDeck",
 			"title" : "Growing Teams: Notes of an Amateur Team Gardener",
 			"description" : "Andrey will share his experience and discoveries on the topic of Growing Teams. What does it take to grow a team? What environment facilitates team growth? What distinguishes great teams? What can kill teams? What are characteristics of great team member? And some more.",
@@ -108,6 +118,7 @@
 			"video" : "https://www.youtube.com/watch?v=6jm_SGdbIF4"
 		}, {
 			"name" : "Romans Karpelcevs ",
+			"type" : "speech",
 			"bio" : "Mobile Lead at Ask.fm",
 			"title" : "From Zero to Hero",
 			"description" : "Romans will talk about a developer's journey from college to senior developer. What is wrong with our education? What is wrong with our expectations? Roman will share his idea of the focus points on our path to success as a person and as an industry.",
@@ -116,6 +127,7 @@
 			"video" : "https://www.youtube.com/watch?v=L0QzklRDI7k"
 		}, {
 			"name" : "Aleksejs Truhans",
+			"type" : "speech",
 			"bio" : "Citadele Banka",
 			"title" : "A Personal Journey Into Human and Team Effectiveness",
 			"description" : "Having worked both as developer and as team manager, Aleksej will share his experiences with team, personal and process aspects that facilitate or inhibit productivity. What makes one successful in the eyes of others? How is efectiveness developed and maintained? These and related questions are important to any conscious software craftsman.",
@@ -131,8 +143,9 @@
 	"time" : "18:30",
 	"announced": false,
 	"venue" : "Zaļa iela 1",
-	"speakers" : [{
+	"scheduel" : [{
 			"name" : "Māris Veide",
+			"type" : "speech",
 			"bio" : "CIO at E-Global Holding",
 			"title" : "Epiphany From A Specialist As Worst CIO Ever",
 			"description" : "Maris will share his empirical findings from two very distinct perspectives of IT Specialist and CIO - how kicking some ice is related to to literally breaking speed limits while going to work, which [just as a side effect] - leads to earning a lot more money too.",
@@ -141,6 +154,7 @@
 			"video" : "https://www.youtube.com/watch?v=CeVR2q8O9gU"
 		}, {
 			"name" : "Raimonds Simanovskis",
+			"type" : "speech",
 			"bio" : "Founder at eazyBi",
 			"title" : "Building Technical Competence",
 			"description" : "Raimonds has been CTO for large software development company and now is CEO/CTO of a small startup. He will talk about several topics and compare from his experience what has been common and what different in large and small teams.",
@@ -149,6 +163,7 @@
 			"video" : "https://www.youtube.com/watch?v=gsdJ5kgKdco"
 		}, {
 			"name" : "Jakub Nabrdalik",
+			"type" : "speech",
 			"bio" : "IT Manager at 4finance",
 			"title" : "Game Of Throneware",
 			"description" : "Jakub will reveal how not to get killed when a developer becomes a manager. What happens, when you become a manager? How do you organize teams, workspace? How do you help people? How do you deal with politics, communication? And much more.",

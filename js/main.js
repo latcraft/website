@@ -87,15 +87,26 @@ $(document).ready(function() {
 
 	// inner slider
 	$('#events .slide .container').each(function(){
+		var isAmazon = $(this).find(".speakers").hasClass("amazon");
+
 		var curSlide = $(this).jcarousel({
 			list: ".speakers",
 			items: "li",
+			wrap: isAmazon ? "both" : null,
 	    	transitions: Modernizr.csstransitions ? {
 		        transforms: Modernizr.csstransforms,
 		        transforms3d: Modernizr.csstransforms3d,
 		        easing: 'ease'
 		    } : false
 		});
+
+		if(isAmazon) {
+			curSlide.jcarouselAutoscroll({
+	            interval: 5000,
+	            target: '+=1',
+	            autostart: true
+	        })
+		}
 
 		$(this).find(".pagination ul").on('jcarouselpagination:active', 'li', function() {
             $(this).addClass('active');
