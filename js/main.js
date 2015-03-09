@@ -113,12 +113,12 @@ $(document).ready(function() {
         }).on('jcarouselpagination:inactive', 'li', function() {
             $(this).removeClass('active');
         })
-        .jcarouselPagination({
-        	'carousel' : curSlide,
-		    'item': function(page, carouselItems) {
-		        return '<li><a href="#' + page + '">' + page + '</a></li>';
-		    }
-		});
+  //       .jcarouselPagination({
+  //       	'carousel' : curSlide,
+		//     'item': function(page, carouselItems) {
+		//         return '<li><a href="#' + page + '">' + page + '</a></li>';
+		//     }
+		// });
 	});     
 	$('.prev, .next').click(function(e) {
 		e.preventDefault();
