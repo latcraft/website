@@ -856,24 +856,33 @@ section#events .group {
   section#events .group.amazon {
     background: #FFE35B;
     background-size: 600px auto;
-    color: #fff; }
+    color: #fff;
+    margin: 0 0 40px 0; }
     section#events .group.amazon p {
       color: rgba(0, 0, 0, 0.6); }
     section#events .group.amazon a {
       color: #111; }
       section#events .group.amazon a.scroll-button {
         font-weight: 700; }
+    section#events .group.amazon .container {
+      padding: 0 10px; }
     section#events .group.amazon .button {
       background: #111;
       color: #fff; }
     section#events .group.amazon .bubble {
       background: #DCAE32;
       padding: 40px;
-      width: 30%; }
+      width: 100%; }
+      @media screen and (min-width: 690px) {
+        section#events .group.amazon .bubble {
+          width: 30%; } }
     section#events .group.amazon .description {
       margin: 0;
       padding: 40px;
-      width: 70%; }
+      width: 100%; }
+      @media screen and (min-width: 690px) {
+        section#events .group.amazon .description {
+          width: 70%; } }
 section#events .logo {
   margin: 0 0 20px 0;
   padding: 0 30px;
