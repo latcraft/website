@@ -1104,15 +1104,11 @@ section#events .carousel {
 section#events .holder {
   width: 1000%;
   position: relative;
-  overflow: hidden;
-  -webkit-transform: translate3d(-90%, 0px, 0px);
-  -ms-transform: translate3d(-90%, 0px, 0px);
-  -o-transform: translate3d(-90%, 0px, 0px);
-  transform: translate3d(-90%, 0px, 0px); }
+  overflow: hidden; }
 section#events .slide {
   display: block;
   overflow: hidden;
-  float: right;
+  float: left;
   width: 10%;
   position: relative; }
   section#events .slide .container {
@@ -1123,7 +1119,7 @@ section#events .slide {
   section#events .slide .speakers {
     overflow: hidden;
     width: 400%;
-    margin: 0;
+    margin: 0 0 40px 0;
     position: relative;
     -webkit-transition: 0.3s height cubic-bezier(0.7, 0, 0.3, 1) 0s;
     -o-transition: 0.3s height cubic-bezier(0.7, 0, 0.3, 1) 0s;
@@ -1131,6 +1127,9 @@ section#events .slide {
     @media screen and (min-width: 690px) {
       section#events .slide .speakers {
         width: 100%; } }
+    @media screen and (min-width: 1020px) {
+      section#events .slide .speakers {
+        margin: 0; } }
     section#events .slide .speakers li {
       float: left;
       width: 25%;
@@ -1181,7 +1180,7 @@ section#events .pagination {
   width: 100%;
   display: block;
   float: left;
-  margin: 40px 0 40px 0;
+  margin: 0;
   overflow: hidden; }
   @media screen and (min-width: 690px) {
     section#events .pagination {
