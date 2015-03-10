@@ -82,7 +82,13 @@ $(document).ready(function() {
 	        transforms3d: Modernizr.csstransforms3d,
 	        easing: 'ease'
 	    } : false
-    });
+    }).on('jcarousel:create', function(event, carousel) {
+        var length = $(this).find(".slide").length;
+
+        curSlide = length - 1;
+        $(this).jcarousel('scroll', length - 1);
+        resizeHeight(curSlide);
+    })
 
 
 	// inner slider
@@ -100,33 +106,33 @@ $(document).ready(function() {
 		    } : false
 		});
 
-		if(isAmazon) {
-			curSlide.jcarouselAutoscroll({
-	            interval: 5000,
-	            target: '+=1',
-	            autostart: true
-	        })
-		}
+		// if(isAmazon) {
+		// 	curSlide.jcarouselAutoscroll({
+	 	//            interval: 5000,
+	 	//            target: '+=1',
+	 	//            autostart: true
+	 	//        })
+		// }
 
 		$(this).find(".pagination ul").on('jcarouselpagination:active', 'li', function() {
             $(this).addClass('active');
         }).on('jcarouselpagination:inactive', 'li', function() {
             $(this).removeClass('active');
         })
-  //       .jcarouselPagination({
-  //       	'carousel' : curSlide,
-		//     'item': function(page, carouselItems) {
-		//         return '<li><a href="#' + page + '">' + page + '</a></li>';
-		//     }
-		// });
+        .jcarouselPagination({
+        	'carousel' : curSlide,
+		    'item': function(page, carouselItems) {
+		        return '<li><a href="#' + page + '">' + page + '</a></li>';
+		    }
+		});
 	});     
 	$('.prev, .next').click(function(e) {
 		e.preventDefault();
 
 		if($(this).hasClass("inactive")) return;
 
-		if($(this).hasClass("prev")) curSlide++;
-		else curSlide--;
+		if($(this).hasClass("prev")) curSlide--;
+		else curSlide++;
 
 		resizeHeight(curSlide);
 	});
@@ -138,7 +144,7 @@ $(document).ready(function() {
             $(this).addClass('inactive');
         })
         .jcarouselControl({
-            target: '+=1',
+            target: '-=1',
             carousel: mainCarousel
         });
 
@@ -149,7 +155,7 @@ $(document).ready(function() {
             $(this).addClass('inactive');
         })
         .jcarouselControl({
-            target: '-=1',
+            target: '+=1',
             carousel: mainCarousel
         });
 

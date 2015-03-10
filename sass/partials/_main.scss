@@ -875,13 +875,12 @@ section#events {
         width: 1000%;
         position: relative;
         overflow: hidden;
-        transform: translate3d(-90%, 0px, 0px);
     }
 
     .slide {
         display: block;
         overflow: hidden;
-        float: right;
+        float: left;
         width: 10%;
         position: relative;
 
@@ -895,12 +894,16 @@ section#events {
         .speakers {
             overflow: hidden;
             width: 400%; 
-            margin: 0;
+            margin: 0 0 40px 0;
             position: relative;
             transition: 0.3s height cubic-bezier(0.7, 0, 0.3, 1) 0s;
 
             @include media($container) {
                 width: 100%;    
+            }
+ 
+            @include media($desktop) {
+                margin: 0;
             }
 
             li {
@@ -969,7 +972,7 @@ section#events {
         width: 100%; 
         display: block;
         float: left;
-        margin: 40px 0 40px 0;
+        margin: 0;
         overflow: hidden;
 
         @include media($container) {            

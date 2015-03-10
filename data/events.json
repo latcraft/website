@@ -1,4 +1,112 @@
 [{
+	"theme" : "CIO and CTO lessons learned",
+	"desc" : "Learn what does it mean to lead the way and what true leaders expect from their peers. Come over to hear deep insights from guys that went long path towards becoming Chiefs.",
+	"month" : "Jan 2015",
+	"date" : "6 January, 2015",
+	"time" : "18:30",
+	"announced": false,
+	"venue" : "Zaļa iela 1",
+	"scheduel" : [{
+			"name" : "Māris Veide",
+			"type" : "speech",
+			"bio" : "CIO at E-Global Holding",
+			"title" : "Epiphany From A Specialist As Worst CIO Ever",
+			"description" : "Maris will share his empirical findings from two very distinct perspectives of IT Specialist and CIO - how kicking some ice is related to to literally breaking speed limits while going to work, which [just as a side effect] - leads to earning a lot more money too.",
+			"img" : "img/speakers/maris-veiders.jpg",
+			"presentation" : "https://speakerdeck.com/latcraft/epiphany-from-a-specialist-as-worst-cio-ever",
+			"video" : "https://www.youtube.com/watch?v=CeVR2q8O9gU"
+		}, {
+			"name" : "Raimonds Simanovskis",
+			"type" : "speech",
+			"bio" : "Founder at eazyBi",
+			"title" : "Building Technical Competence",
+			"description" : "Raimonds has been CTO for large software development company and now is CEO/CTO of a small startup. He will talk about several topics and compare from his experience what has been common and what different in large and small teams.",
+			"img" : "img/speakers/raimonds-simanovskis.jpg",
+			"presentation" : "https://speakerdeck.com/latcraft/building-technical-competence",
+			"video" : "https://www.youtube.com/watch?v=gsdJ5kgKdco"
+		}, {
+			"name" : "Jakub Nabrdalik",
+			"type" : "speech",
+			"bio" : "IT Manager at 4finance",
+			"title" : "Game Of Throneware",
+			"description" : "Jakub will reveal how not to get killed when a developer becomes a manager. What happens, when you become a manager? How do you organize teams, workspace? How do you help people? How do you deal with politics, communication? And much more.",
+			"img" : "img/speakers/jakub-nabrdalik.jpg",
+			"presentation" : "https://speakerdeck.com/latcraft/game-of-throneware",
+			"video" : "https://www.youtube.com/watch?v=gsdJ5kgKdco"
+		}]
+}, {
+	"theme" : "Team and Personal Effectiveness",
+	"desc" : "We'd love to spend 24/7 in code, but software development is all about people. We will talk about teams, people, what makes them tick and what should you do to become a great team player.",
+	"month" : "Feb 2015",
+	"date" : "3 February, 2015",
+	"time" : "18:30",
+	"announced": false,
+	"venue" : "Zaļa iela 1",
+	"scheduel" : [{
+			"name" : "Andrey Grave",
+			"type" : "speech",
+			"bio" : "BuyerDeck",
+			"title" : "Growing Teams: Notes of an Amateur Team Gardener",
+			"description" : "Andrey will share his experience and discoveries on the topic of Growing Teams. What does it take to grow a team? What environment facilitates team growth? What distinguishes great teams? What can kill teams? What are characteristics of great team member? And some more.",
+			"img" : "img/speakers/andrey-grave.jpg",
+			"presentation" : "https://speakerdeck.com/latcraft/growing-teams-notes-of-an-amateur-team-gardener",
+			"video" : "https://www.youtube.com/watch?v=6jm_SGdbIF4"
+		}, {
+			"name" : "Romans Karpelcevs ",
+			"type" : "speech",
+			"bio" : "Mobile Lead at Ask.fm",
+			"title" : "From Zero to Hero",
+			"description" : "Romans will talk about a developer's journey from college to senior developer. What is wrong with our education? What is wrong with our expectations? Roman will share his idea of the focus points on our path to success as a person and as an industry.",
+			"img" : "img/speakers/romans-karpelcevs.png",
+			"presentation" : "https://speakerdeck.com/latcraft/from-zero-to-hero",
+			"video" : "https://www.youtube.com/watch?v=L0QzklRDI7k"
+		}, {
+			"name" : "Aleksejs Truhans",
+			"type" : "speech",
+			"bio" : "Citadele Banka",
+			"title" : "A Personal Journey Into Human and Team Effectiveness",
+			"description" : "Having worked both as developer and as team manager, Aleksej will share his experiences with team, personal and process aspects that facilitate or inhibit productivity. What makes one successful in the eyes of others? How is efectiveness developed and maintained? These and related questions are important to any conscious software craftsman.",
+			"img" : "img/speakers/aleksejs-truhans.jpg",
+			"presentation" : "https://speakerdeck.com/latcraft/team-and-personal-effectiveness",
+			"video" : "https://www.youtube.com/watch?v=Gz0s8j3nboU"
+		}]
+}, {
+	"theme" : "Programming Languages You Should Know About",
+	"desc" : "There are cool programming languages available that are not yet mainstream, but deserves significant attention. Come over and learn more about sharp programming languages such as Rust, Golang and Erlang.",
+	"month" : "Mar 2015",
+	"date" : "3 March, 2015",
+	"time" : "18:30",
+	"announced": false,
+	"venue" : "Zaļa iela 1",
+	"scheduel" : [{
+			"name" : "Leonids Maslovs",
+			"type" : "speech",
+			"bio" : "Galeo Consulting",
+			"title" : "The Sweet Flavour of Rust",
+			"description" : "Every chef now and then uses pinch of his secret spices to make a dish somewhat special and exquisite. This talk will provide introduction into nature of Rust sweetness and will answer to most important questions: Why and When does it make our dishes better? We will iterate over small code snippets and take a look How strong typing and functional thinking can be applied to low level system programming.",
+			"img" : "img/speakers/maslov.png",
+			"presentation" : "https://speakerdeck.com/latcraft/the-sweet-flavour-of-rust",
+			"video" : ""
+		}, {
+			"name" : "Anatoly Ressin",
+			"type" : "speech",
+			"bio" : "C.T.Co",
+			"title" : "The Way to Go",
+			"description" : "This talk will guide you through the core concepts of the Go. We will cover the type system, memory model, packaging and of course the famous concurrency primitives of the language: goroutines and channels. Small working code snippets will be available on the github for immediate coding experience.",
+			"img" : "img/speakers/ressin.png",
+			"presentation" : "https://speakerdeck.com/latcraft/the-way-to-go",
+			"video" : ""
+		}, {
+			"name" : "Jurijs Saveljevs",
+			"type" : "speech",
+			"bio" : "Rubylight",
+			"title" : "There is always Erlang",
+			"description" : "This talk is devoted to giving overall insight on some fundamental problems on how we perceive and perform development of modern software and suggesting plausible cure in Erlang adoption. It has never been easier to address many of never-ending issues with parallel, distributed and fault tolerant computing. Get to know the Erlang-way of fighting against complexity of software world before those problems catch you unprepared!",
+			"img" : "img/speakers/savelyev.png",
+			"presentation" : "https://speakerdeck.com/latcraft/there-is-always-erlang",
+			"video" : ""
+		}]
+}, {
 	"theme" : "AWS Day by LatCraft",
 	"classes" : "amazon",
 	"desc" : "Amazon Web Services is the best cloud platform available on the market. LatCraft is probably the most visited IT user group in the country. Experts from Luxembourg, United Kingdom, Czech Republic and Latvia are gathering in Riga in order to share their knowledge, success recipes and war stories with you. 5 amazing speakers. Spectacular talks. Rocking AWS. ",
@@ -53,113 +161,5 @@
 			"img" : "img/speakers/ilkka.png",
 			"presentation" : "",
 			"video" : ""
-		}]
-}, {
-	"theme" : "Programming Languages You Should Know About",
-	"desc" : "There are cool programming languages available that are not yet mainstream, but deserves significant attention. Come over and learn more about sharp programming languages such as Rust, Golang and Erlang.",
-	"month" : "Mar 2015",
-	"date" : "3 March, 2015",
-	"time" : "18:30",
-	"announced": false,
-	"venue" : "Zaļa iela 1",
-	"scheduel" : [{
-			"name" : "Leonids Maslovs",
-			"type" : "speech",
-			"bio" : "Galeo Consulting",
-			"title" : "The Sweet Flavour of Rust",
-			"description" : "Every chef now and then uses pinch of his secret spices to make a dish somewhat special and exquisite. This talk will provide introduction into nature of Rust sweetness and will answer to most important questions: Why and When does it make our dishes better? We will iterate over small code snippets and take a look How strong typing and functional thinking can be applied to low level system programming.",
-			"img" : "img/speakers/maslov.png",
-			"presentation" : "https://speakerdeck.com/latcraft/the-sweet-flavour-of-rust",
-			"video" : ""
-		}, {
-			"name" : "Anatoly Ressin",
-			"type" : "speech",
-			"bio" : "C.T.Co",
-			"title" : "The Way to Go",
-			"description" : "This talk will guide you through the core concepts of the Go. We will cover the type system, memory model, packaging and of course the famous concurrency primitives of the language: goroutines and channels. Small working code snippets will be available on the github for immediate coding experience.",
-			"img" : "img/speakers/ressin.png",
-			"presentation" : "https://speakerdeck.com/latcraft/the-way-to-go",
-			"video" : ""
-		}, {
-			"name" : "Jurijs Saveljevs",
-			"type" : "speech",
-			"bio" : "Rubylight",
-			"title" : "There is always Erlang",
-			"description" : "This talk is devoted to giving overall insight on some fundamental problems on how we perceive and perform development of modern software and suggesting plausible cure in Erlang adoption. It has never been easier to address many of never-ending issues with parallel, distributed and fault tolerant computing. Get to know the Erlang-way of fighting against complexity of software world before those problems catch you unprepared!",
-			"img" : "img/speakers/savelyev.png",
-			"presentation" : "https://speakerdeck.com/latcraft/there-is-always-erlang",
-			"video" : ""
-		}]
-}, {
-	"theme" : "Team and Personal Effectiveness",
-	"desc" : "We'd love to spend 24/7 in code, but software development is all about people. We will talk about teams, people, what makes them tick and what should you do to become a great team player.",
-	"month" : "Feb 2015",
-	"date" : "3 February, 2015",
-	"time" : "18:30",
-	"announced": false,
-	"venue" : "Zaļa iela 1",
-	"scheduel" : [{
-			"name" : "Andrey Grave",
-			"type" : "speech",
-			"bio" : "BuyerDeck",
-			"title" : "Growing Teams: Notes of an Amateur Team Gardener",
-			"description" : "Andrey will share his experience and discoveries on the topic of Growing Teams. What does it take to grow a team? What environment facilitates team growth? What distinguishes great teams? What can kill teams? What are characteristics of great team member? And some more.",
-			"img" : "img/speakers/andrey-grave.jpg",
-			"presentation" : "https://speakerdeck.com/latcraft/growing-teams-notes-of-an-amateur-team-gardener",
-			"video" : "https://www.youtube.com/watch?v=6jm_SGdbIF4"
-		}, {
-			"name" : "Romans Karpelcevs ",
-			"type" : "speech",
-			"bio" : "Mobile Lead at Ask.fm",
-			"title" : "From Zero to Hero",
-			"description" : "Romans will talk about a developer's journey from college to senior developer. What is wrong with our education? What is wrong with our expectations? Roman will share his idea of the focus points on our path to success as a person and as an industry.",
-			"img" : "img/speakers/romans-karpelcevs.png",
-			"presentation" : "https://speakerdeck.com/latcraft/from-zero-to-hero",
-			"video" : "https://www.youtube.com/watch?v=L0QzklRDI7k"
-		}, {
-			"name" : "Aleksejs Truhans",
-			"type" : "speech",
-			"bio" : "Citadele Banka",
-			"title" : "A Personal Journey Into Human and Team Effectiveness",
-			"description" : "Having worked both as developer and as team manager, Aleksej will share his experiences with team, personal and process aspects that facilitate or inhibit productivity. What makes one successful in the eyes of others? How is efectiveness developed and maintained? These and related questions are important to any conscious software craftsman.",
-			"img" : "img/speakers/aleksejs-truhans.jpg",
-			"presentation" : "https://speakerdeck.com/latcraft/team-and-personal-effectiveness",
-			"video" : "https://www.youtube.com/watch?v=Gz0s8j3nboU"
-		}]
-}, {
-	"theme" : "CIO and CTO lessons learned",
-	"desc" : "Learn what does it mean to lead the way and what true leaders expect from their peers. Come over to hear deep insights from guys that went long path towards becoming Chiefs.",
-	"month" : "Jan 2015",
-	"date" : "6 January, 2015",
-	"time" : "18:30",
-	"announced": false,
-	"venue" : "Zaļa iela 1",
-	"scheduel" : [{
-			"name" : "Māris Veide",
-			"type" : "speech",
-			"bio" : "CIO at E-Global Holding",
-			"title" : "Epiphany From A Specialist As Worst CIO Ever",
-			"description" : "Maris will share his empirical findings from two very distinct perspectives of IT Specialist and CIO - how kicking some ice is related to to literally breaking speed limits while going to work, which [just as a side effect] - leads to earning a lot more money too.",
-			"img" : "img/speakers/maris-veiders.jpg",
-			"presentation" : "https://speakerdeck.com/latcraft/epiphany-from-a-specialist-as-worst-cio-ever",
-			"video" : "https://www.youtube.com/watch?v=CeVR2q8O9gU"
-		}, {
-			"name" : "Raimonds Simanovskis",
-			"type" : "speech",
-			"bio" : "Founder at eazyBi",
-			"title" : "Building Technical Competence",
-			"description" : "Raimonds has been CTO for large software development company and now is CEO/CTO of a small startup. He will talk about several topics and compare from his experience what has been common and what different in large and small teams.",
-			"img" : "img/speakers/raimonds-simanovskis.jpg",
-			"presentation" : "https://speakerdeck.com/latcraft/building-technical-competence",
-			"video" : "https://www.youtube.com/watch?v=gsdJ5kgKdco"
-		}, {
-			"name" : "Jakub Nabrdalik",
-			"type" : "speech",
-			"bio" : "IT Manager at 4finance",
-			"title" : "Game Of Throneware",
-			"description" : "Jakub will reveal how not to get killed when a developer becomes a manager. What happens, when you become a manager? How do you organize teams, workspace? How do you help people? How do you deal with politics, communication? And much more.",
-			"img" : "img/speakers/jakub-nabrdalik.jpg",
-			"presentation" : "https://speakerdeck.com/latcraft/game-of-throneware",
-			"video" : "https://www.youtube.com/watch?v=gsdJ5kgKdco"
 		}]
 }]
