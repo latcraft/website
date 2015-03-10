@@ -76,12 +76,7 @@ $(document).ready(function() {
 	resizeHeight(curSlide);
 	removeTransform($(".carousel .holder")); //removes transform3d from holder, because it somehow breaks the slider
 	var mainCarousel = $('.carousel').jcarousel({
-    	'item': '.slide',
-    	transitions: Modernizr.csstransitions ? {
-	        transforms: Modernizr.csstransforms,
-	        transforms3d: Modernizr.csstransforms3d,
-	        easing: 'ease'
-	    } : false
+    	'item': '.slide'
     }).on('jcarousel:create', function(event, carousel) {
         var length = $(this).find(".slide").length;
 
@@ -97,13 +92,7 @@ $(document).ready(function() {
 
 		var curSlide = $(this).jcarousel({
 			list: ".speakers",
-			items: "li",
-			wrap: isAmazon ? "both" : null,
-	    	transitions: Modernizr.csstransitions ? {
-		        transforms: Modernizr.csstransforms,
-		        transforms3d: Modernizr.csstransforms3d,
-		        easing: 'ease'
-		    } : false
+			items: "li"
 		});
 
 		// if(isAmazon) {
