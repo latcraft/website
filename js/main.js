@@ -19,7 +19,10 @@ var removeTransform = function ($this) {
 
 var resizeHeight = function (slide) {
 	var slider = $(".carousel .holder");
-		height = slider.find(".slide").eq(slide).height();
+		height = slider.find(".slide").eq(slide).outerHeight();
+
+	console.log("slide", slide);
+	console.log("height", height);
 
 	slider.css("height", height + "px")
 }
@@ -72,17 +75,18 @@ $(document).ready(function() {
 
 
 	// outter slider
-	var curSlide = 0;
-	resizeHeight(curSlide);
+	var inSlide = 0;
+	resizeHeight(inSlide);
 	removeTransform($(".carousel .holder")); //removes transform3d from holder, because it somehow breaks the slider
 	var mainCarousel = $('.carousel').jcarousel({
     	'item': '.slide'
-    }).on('jcarousel:create', function(event, carousel) {
-        var length = $(this).find(".slide").length;
+    }).on('jcarousel:createend', function(event, carousel) {
+        var slideCount = $(this).find(".slide").length;
+        slideCount--;
 
-        curSlide = length - 1;
-        $(this).jcarousel('scroll', length - 1);
-        resizeHeight(curSlide);
+        inSlide = slideCount;
+        $(this).jcarousel('scroll', slideCount);
+        // resizeHeight(inSlide);
     })
 
 
@@ -103,12 +107,14 @@ $(document).ready(function() {
 	 	//        })
 		// }
 
-		$(this).find(".pagination ul").on('jcarouselpagination:active', 'li', function() {
+		$(this).find(".pagination ul").on('jcarouselpagination:createend', function() {
+			console.log("inside", inSlide);
+	        resizeHeight(inSlide);
+	    }).on('jcarouselpagination:active', 'li', function() {
             $(this).addClass('active');
         }).on('jcarouselpagination:inactive', 'li', function() {
             $(this).removeClass('active');
-        })
-        .jcarouselPagination({
+        }).jcarouselPagination({
         	'carousel' : curSlide,
 		    'item': function(page, carouselItems) {
 		        return '<li><a href="#' + page + '">' + page + '</a></li>';
@@ -120,10 +126,10 @@ $(document).ready(function() {
 
 		if($(this).hasClass("inactive")) return;
 
-		if($(this).hasClass("prev")) curSlide--;
-		else curSlide++;
+		if($(this).hasClass("prev")) inSlide--;
+		else inSlide++;
 
-		resizeHeight(curSlide);
+		resizeHeight(inSlide);
 	});
 
 	$('.prev').on('jcarouselcontrol:active', function() {
