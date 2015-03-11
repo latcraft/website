@@ -1,3 +1,4 @@
+
 # LatCraft website sources
 
 This repository contains *Gulp* project that builds **LatCraft** website.
@@ -13,8 +14,9 @@ This repository contains *Gulp* project that builds **LatCraft** website.
 # How to deploy to staging 
 
 - Run `gulp build stage`
-- Visit <http://www.latcraft.lv/website> and have fun
+- Visit <http://www.latcraft.lv/website> and have fun!
 
 # How to deploy to production
+
 - Run `gulp build live`
-- Visit <http://www.latcraft.lv> and have fun
+- Visit <http://www.latcraft.lv> and have fun!

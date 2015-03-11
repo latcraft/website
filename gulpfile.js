@@ -118,7 +118,7 @@ gulp.task('stage', function () {
 });
 
 gulp.task('live', function () {
-	var options = { 
+    var options = { 
     	remoteUrl: "https://github.com/latcraft/latcraft.github.io.git",
     	branch: "master"
     };	
