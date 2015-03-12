@@ -6,7 +6,7 @@
 	"time" : "18:30",
 	"announced": false,
 	"venue" : "Zaļa iela 1",
-	"scheduel" : [{
+	"schedule" : [{
 			"name" : "Māris Veide",
 			"type" : "speech",
 			"bio" : "CIO at E-Global Holding",
@@ -42,7 +42,7 @@
 	"time" : "18:30",
 	"announced": false,
 	"venue" : "Zaļa iela 1",
-	"scheduel" : [{
+	"schedule" : [{
 			"name" : "Andrey Grave",
 			"type" : "speech",
 			"bio" : "BuyerDeck",
@@ -78,7 +78,7 @@
 	"time" : "18:30",
 	"announced": false,
 	"venue" : "Zaļa iela 1",
-	"scheduel" : [{
+	"schedule" : [{
 			"name" : "Leonids Maslovs",
 			"type" : "speech",
 			"bio" : "Galeo Consulting",
@@ -116,7 +116,7 @@
 	"time" : "16:00 - 21:00",
 	"announced": true,
 	"venue" : "Maskavas 4, Spikeri facilities, entrance via Café Dali",
-	"scheduel" : [{
+	"schedule" : [{
 			"name" : "Martin Elwin",
 			"type" : "speech",
 			"bio" : "Solution Architect at AWS",
