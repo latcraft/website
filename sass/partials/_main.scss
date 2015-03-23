@@ -259,7 +259,7 @@ section#news {
         @include media($desktop) { 
             float: right;
             width: auto;
-            margin: 30px 0;
+            margin: 34px 0;
         }
 
         li {
@@ -294,7 +294,6 @@ section#news {
 
                 @include media($desktop) {
                     color: #fff;
-                    line-height: 40px;
                     padding: 0 10px;          
                     background: transparent;
                 }
@@ -310,7 +309,7 @@ section#news {
                 &.speakerdeck {
                     background: #3ab278;
                     color: #3ab278;
-                    padding: 18px 0;
+                    padding: 11px 0;
         
                     span {
                         overflow: hidden;
@@ -327,6 +326,19 @@ section#news {
                             line-height: 0.8 !important;
                             padding: 0 1px;
                         }
+                    }
+                }
+
+                &.lanyrd {
+                    background: #4082cb;
+
+                    i {
+                        height: 32px;
+                        width: 100%;
+                        display: block;
+                        line-height: 1;
+                        background: url('../img/lanyrd.png') no-repeat center center;
+                        background-size: 14px 14px;
                     }
                 }
 
@@ -347,7 +359,7 @@ section#news {
                     &.speakerdeck {
                         background: #3ab278;
                         color: #3ab278;
-                        padding: 11px 0;
+                        padding: 0;
             
                         span {
                             overflow: hidden;
@@ -368,7 +380,7 @@ section#news {
 
                     &.network {
                         background: #111 !important;
-                        margin: 4px 0 0 5px;
+                        margin: 0 0 0 5px;
                         height: 32px;
                         width: 32px;
                         border-radius: 50%;
@@ -380,6 +392,14 @@ section#news {
                         i {
                             line-height: 32px;
                             font-size: 12px;
+                        }
+                    }
+
+                    &.lanyrd {
+                        padding: 0;
+
+                        i {
+                            background-size: 10px 10px;
                         }
                     }
 
@@ -1099,21 +1119,10 @@ section#events {
 // speaker
 section#speaker {
     padding: 120px 0;
-    background: #330707;    
-    position: relative;
-
-    .bg {
-        background: url("../img/speaker-bg.jpg") center no-repeat;
-        background-attachment: fixed;
-        background-size: cover;  
-        opacity: 0.4; 
-        display: block;
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-    }
+    position: static;
+    background:  #330707 url("../img/speaker-bg.jpg") center no-repeat;
+    background-attachment: fixed;
+    background-size: cover;  
 
     .container {
         position: relative;
