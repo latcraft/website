@@ -138,7 +138,7 @@ section#news {
 
         .pagination {
             width: 100%; 
-            overflow: hidden;
+            overflow: hidden;            
 
             ul {
                 list-style: none; 
@@ -994,6 +994,7 @@ section#events {
         float: left;
         margin: 0;
         overflow: hidden;
+        padding: 0 0 40px 0;
 
         @include media($container) {            
             display: none;

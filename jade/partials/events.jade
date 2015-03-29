@@ -32,7 +32,8 @@ section#events
 									li
 										.title-holder
 											h3
-												| (#{speaker.time})
+												if speaker.time
+													| (#{speaker.time})
 												| #{speaker.title}
 										.author
 											img(src=speaker.img, alt="")
