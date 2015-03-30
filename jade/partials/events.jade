@@ -33,7 +33,7 @@ section#events
 										.title-holder
 											h3
 												if speaker.time
-													| (#{speaker.time})
+													| (#{speaker.time}) 
 												| #{speaker.title}
 										.author
 											img(src=speaker.img, alt="")
@@ -50,7 +50,7 @@ section#events
 						.pagination
 							ul
 
-	a.prev.button.inactive(href="#prev")
+	a.prev.button(href="#prev")
 		span Prev
 		i.fa.fa-angle-left
 	a.next.button.inactive(href="#next")

@@ -79,7 +79,7 @@ gulp.task('uglify', function() {
 	gulp.src(['js/**/jquery.js', 'js/**/*.js', 'js/*.js'])
 		.pipe(plumber())
 		.pipe(concat('main.js'))
-		.pipe(uglify())
+		// .pipe(uglify())
 		.pipe(gulp.dest(publicDir + '/js'))
 		.pipe(connect.reload());
 });

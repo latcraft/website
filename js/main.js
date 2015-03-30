@@ -9,22 +9,12 @@ var easyPeasyParallax = function () {
 	});
 }
 
-var removeTransform = function ($this) {
-	$this.css({		
+var removeTransform = function (item) {
+	item.css({		
 		'-webkit-transform': 'translate3d(0px, 0px, 0px)',
 		'-ms-transform': 'translate3d(0px, 0px, 0px)',
 		'transform': 'translate3d(0px, 0px, 0px)'
 	});
-}
-
-var resizeHeight = function (slide) {
-	var slider = $(".carousel .holder");
-		height = slider.find(".slide").eq(slide).outerHeight();
-
-	console.log("slide", slide);
-	console.log("height", height);
-
-	slider.css("height", height + "px")
 }
 
 var easyPeasyNav = function () {
@@ -72,88 +62,6 @@ $(document).ready(function() {
 		if($(window).width() >= 690) easyPeasyParallax();
 		easyPeasyNav();
 	});
-
-
-	// outter slider
-	var inSlide = 0;
-	resizeHeight(inSlide);
-	removeTransform($(".carousel .holder")); //removes transform3d from holder, because it somehow breaks the slider
-	var mainCarousel = $('.carousel').jcarousel({
-    	'item': '.slide'
-    }).on('jcarousel:createend', function(event, carousel) {
-        var slideCount = $(this).find(".slide").length;
-        slideCount--;
-
-        inSlide = slideCount;
-        $(this).jcarousel('scroll', slideCount);
-        // resizeHeight(inSlide);
-    })
-
-
-	// inner slider
-	$('#events .slide .container').each(function(){
-		var isAmazon = $(this).find(".speakers").hasClass("amazon");
-
-		var curSlide = $(this).jcarousel({
-			list: ".speakers",
-			items: "li"
-		});
-
-		// if(isAmazon) {
-		// 	curSlide.jcarouselAutoscroll({
-	 	//            interval: 5000,
-	 	//            target: '+=1',
-	 	//            autostart: true
-	 	//        })
-		// }
-
-		$(this).find(".pagination ul").on('jcarouselpagination:createend', function() {
-			console.log("inside", inSlide);
-	        resizeHeight(inSlide);
-	    }).on('jcarouselpagination:active', 'li', function() {
-            $(this).addClass('active');
-        }).on('jcarouselpagination:inactive', 'li', function() {
-            $(this).removeClass('active');
-        }).jcarouselPagination({
-        	'carousel' : curSlide,
-		    'item': function(page, carouselItems) {
-		        return '<li><a href="#' + page + '">' + page + '</a></li>';
-		    }
-		});
-	});     
-	$('.prev, .next').click(function(e) {
-		e.preventDefault();
-
-		if($(this).hasClass("inactive")) return;
-
-		if($(this).hasClass("prev")) inSlide--;
-		else inSlide++;
-
-		resizeHeight(inSlide);
-	});
-
-	$('.prev').on('jcarouselcontrol:active', function() {
-            $(this).removeClass('inactive');
-        })
-        .on('jcarouselcontrol:inactive', function() {
-            $(this).addClass('inactive');
-        })
-        .jcarouselControl({
-            target: '-=1',
-            carousel: mainCarousel
-        });
-
-	$('.next').on('jcarouselcontrol:active', function() {
-            $(this).removeClass('inactive');
-        })
-        .on('jcarouselcontrol:inactive', function() {
-            $(this).addClass('inactive');
-        })
-        .jcarouselControl({
-            target: '+=1',
-            carousel: mainCarousel
-        });
-
 
 	// fetch one tweet
 	var tweetConfig = {

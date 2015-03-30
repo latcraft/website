@@ -698,8 +698,7 @@ header#header {
 section#events {
     .group {
         overflow: hidden;
-        margin: 0 10px 40px 10px;
-        
+        margin: 0 10px 40px 10px;   
 
         &.amazon {
             background: $amazon;
@@ -895,12 +894,13 @@ section#events {
         width: 1000%;
         position: relative;
         overflow: hidden;
+        transform: translate3d(-90%, 0px, 0px);
     }
 
     .slide {
         display: block;
         overflow: hidden;
-        float: left;
+        float: right;
         width: 10%;
         position: relative;
 
@@ -913,13 +913,12 @@ section#events {
 
         .speakers {
             overflow: hidden;
-            width: 400%; 
+            width: 1000%;
             margin: 0 0 40px 0;
             position: relative;
-            transition: 0.3s height cubic-bezier(0.7, 0, 0.3, 1) 0s;
 
-            @include media($container) {
-                width: 100%;    
+            @include media($phone) {
+                width: 225%;
             }
  
             @include media($desktop) {
@@ -928,17 +927,16 @@ section#events {
 
             li {
                 float: left;            
-                width: 25%;
+                width: 10%;
                 padding: 0 10px;
+
+                @include media($phone) {
+                    width: 15%;
+                }
 
                 p {
                     font-size: 16px;  
                     line-height: 1.7;
-                }
-
-                @include media($container) {
-                    @include span-columns(4 of 12);
-                    padding: 0;
                 }
 
                 @include media($desktop) {
@@ -952,10 +950,6 @@ section#events {
                     }    
                 }                
 
-                &:nth-child(3n) {
-                    @include omega();
-                }
-
                 .button {
                     display: inline-block;
                     float: none;
@@ -965,23 +959,10 @@ section#events {
 
             &.amazon {    
                 margin: 0;
-                width: 1000%;
-
-                @include media($container) {
-                    width: 200%;
-                }
 
                 & + .pagination {
                     @include media($container) {
                         display: block;
-                    }
-                }
-
-                li {
-                    width: 10%;
-
-                    @include media($container) {
-                        @include span-columns(2 of 12);
                     }
                 }
             }
@@ -1061,10 +1042,6 @@ section#events {
             @include span-columns(2 of 12);
         }
 
-        &.inactive {
-            display: none;
-        }
-
         @include media($desktop) {            
             position: absolute;   
             width: auto; 
@@ -1085,6 +1062,10 @@ section#events {
             &:hover {
                 background: $secondary;
             }
+        }
+
+        &.inactive {
+            display: none;
         }
 
         i {
