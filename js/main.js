@@ -92,6 +92,7 @@ $(document).ready(function() {
 
 	// digest subscription
 	$('#subscription form').submit(function(e) {
+		e.preventDefault();
 		var email = $('#subscription input[name=email]').val();
   		var subscribers = new Firebase('https://radiant-fire-3288.firebaseio.com/subscribers');
 		
@@ -108,7 +109,7 @@ $(document).ready(function() {
 			subSuccess.addClass('active');			
 		  }
 		});
-		e.preventDefault();
+		
 	});
 	$('#subscription a').click(function() {
 	    $(this).parents('.success, .error').removeClass('active');
