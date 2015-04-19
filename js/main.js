@@ -152,7 +152,7 @@ $(document).ready(function() {
 	// google map
 	var overlay;
 	function initialize() {
-	    var myLatLng = new google.maps.LatLng(56.9423093,24.1151814); // usually 56.959081, 24.114304
+	    var myLatLng = new google.maps.LatLng(56.959081,24.114304);
 	    var mapOptions = {
 	        zoom: 15,
 	        center: myLatLng,
@@ -179,7 +179,7 @@ $(document).ready(function() {
 	    HTMLMarker.prototype.onAdd= function(){
 	        div = document.createElement('DIV');
 	        div.className = 'maptip';
-	        div.innerHTML = 'our AWS event venue';
+	        div.innerHTML = 'our event venue';
 	        var panes = this.getPanes();
 	        panes.overlayImage.appendChild(div);
 	    }

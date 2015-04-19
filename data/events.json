@@ -1,4 +1,40 @@
 [{
+	"theme" : "NoSQL and Data",
+	"desc" : "Let's talk about data and NoSQL - how does data panorama looks like nowadays, why should you care about NoSQL and market-leading solutions like ElasticSearch.",
+	"month" : "Kay 2015",
+	"date" : "5 May, 2015",
+	"time" : "18:30",
+	"announced": true,
+	"venue" : "Zaļa iela 1, Microsoft Latvia telpas",
+	"schedule" : [{
+			"name" : "Valery Vishnyakov",
+			"type" : "speech",
+			"bio" : "ex-CTO @ Ask.fm",
+			"title" : "A Gentle introduction to NoSQL",
+			"description" : "In this presentation Valery will briefly describe types of NoSQL storages available today, their pros and cons and use cases. As an example you will see how to model Twitter Feed using different storage types..",
+			"img" : "img/speakers/valery.png",
+			"presentation" : "",
+			"video" : ""
+		}, {
+			"name" : "Dmitry Buzdin",
+			"type" : "speech",
+			"bio" : "Architect @ Neueda Riga",
+			"title" : "Should You Be Worrying About Not Knowing NoSQL Yet",
+			"description" : "Software development has changed. There is no standard database technology to use anymore. If you know SQL perfectly, it will not be sufficient to stay qualified in 2015. This session will explain how to pick the most appropriate database for your next project, reveal common misconceptions about SQL and NoSQL and provide listeners with a rough idea where it is all heading to. The talk is based on personal experience of making the shift from fitting square pegs into round holes to stopping worrying and embracing the change.",
+			"img" : "img/speakers/buzdin.jpg",
+			"presentation" : "",
+			"video" : ""
+		}, {
+			"name" : "Ruslan Zavacky",
+			"type" : "speech",
+			"bio" : "Architect @ Intexsys",
+			"title" : "You Know, For Search",
+			"description" : "Advanced search capabilities are becoming mandatory for web application of any size. In this talk Ruslan will present the industry-leading solution - ElasticSearch. Let’s see what functionality does it offer and how you can tame it for your needs!",
+			"img" : "img/speakers/zavacky.jpeg",
+			"presentation" : "",
+			"video" : ""
+		}]
+},{
 	"theme" : "AWS Day by LatCraft",
 	"classes" : "amazon",
 	"desc" : "Amazon Web Services is the best cloud platform available on the market. LatCraft is probably the most visited IT user group in the country. Experts from Luxembourg, United Kingdom, Czech Republic and Latvia are gathering in Riga in order to share their knowledge, success recipes and war stories with you. 5 amazing speakers. Spectacular talks. Rocking AWS. ",
@@ -6,7 +42,7 @@
 	"date" : "9th of April, 2015",
 	"logo" : "img/amazon.png",
 	"time" : "16:00 - 21:00",
-	"announced": true,
+	"announced": false,
 	"venue" : "Maskavas 12-K1, Spikeri facilities, entrance via Café Dali",
 	"schedule" : [
     {
@@ -22,7 +58,7 @@
 			"description" : "Improve, validate, iterate. Current development practices promote avoiding waste - a challenging task, especially in a traditional infrastructure. With programmatic control over your environment Amazon Web Services lets you optimize the infrastructure as needed and treat it as another versionable aspect of your application. In this session we'll look at how both start-ups and enterprises use AWS to increase their rate of innovation and continuously deliver new functionality to users in a cost efficient way.",
 			"img" : "img/speakers/elwin.png",
 			"presentation" : "",
-			"video" : ""
+			"video" : "https://www.youtube.com/watch?v=a96yMHy0Tp0"
 		}, {
 			"type" : "break",
       "time" : "17:00",
@@ -36,7 +72,7 @@
 			"description" : "Do you believe it’s possible to quickly build a cluster that allows you to work with a datacenter like it’s a single pool of resources? In this practical session Jakub will show how to build scalable, fault-tolerant cluster from scratch with minimal effort and maximal gain.",
 			"img" : "img/speakers/veverkaj.png",
 			"presentation" : "",
-			"video" : ""
+			"video" : "https://www.youtube.com/watch?v=F7hntPlFcOE"
 		}, {
 			"type" : "break",
       "time" : "18:00",
@@ -50,7 +86,7 @@
 			"description" : "Everyone keeps telling about how AWeSome Amazon Web Services are. How they are all about elasticity, simplicity and scalability. But we all know that nothing is perfect in this world, except Chuck Norris. So what about the dark side? The talk will be about some nice tricks you can do with AWS, some things you can not do with AWS, and some things you can do, but with tears, pain and swearing.",
 			"img" : "img/speakers/pavluchenkov.png",
 			"presentation" : "",
-			"video" : ""
+			"video" : "https://www.youtube.com/watch?v=_w1PJI4vZVU"
 		}, {
 			"type" : "break",
       "time" : "19:00",
@@ -64,7 +100,7 @@
 			"description" : "Developers are always looking for ways of improving their efficiency. Over the last years container technology has become an increasingly popular way of managing application packaging and deployments, however handling many containers running on many machines has its own set of challenges. The recently announced Amazon EC2 Container Service aims to simplify the management of running containers in a cluster of EC2 instances. In this session the initial feature set of the service will be introduced we'll go through a demo of common operations.",
 			"img" : "img/speakers/johan.png",
 			"presentation" : "",
-			"video" : ""
+			"video" : "https://www.youtube.com/watch?v=ptn2D_2-iuc"
 		}, {
 			"name" : "Ilkka Turunen",
 			"type" : "speech",
@@ -74,7 +110,7 @@
 			"description" : "We’ve all heard Big Data pouring out of the press over the last years and frankly, are probably all sick of it. The term is probably one of the most successful buzzwords of our industry to date. Why is that? This session will aim to shine a light on the enigma by introducing example use cases we’ve worked with our clients. We’ll walk through the AWS toolset for Data Management and introduce concrete architectures and the good, the bad, and the ugly sides of them. This isn’t your mother’s MySQL sharding...",
 			"img" : "img/speakers/ilkka.png",
 			"presentation" : "",
-			"video" : ""
+			"video" : "https://www.youtube.com/watch?v=Gp3Q151OyI4"
 		}, {
 			"type" : "finish",
       "time" : "21:00",
