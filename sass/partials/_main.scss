@@ -700,8 +700,8 @@ section#events {
         overflow: hidden;
         margin: 0 10px 40px 10px;   
 
-        &.amazon {
-            background: $amazon;
+        &.amazon {            
+            background: #DCAE32;
             background-size: 600px auto;
             color: #fff;  
             margin: 0 0 40px 0;
@@ -740,7 +740,8 @@ section#events {
             .description{
                 margin: 0;
                 padding: 40px;
-                width: 100%;
+                width: 100%; 
+                background: $amazon;              
 
                 @include media($container) {  
                     width: 70%;
@@ -958,7 +959,7 @@ section#events {
             }
 
             &.amazon {    
-                margin: 0;
+                margin: 0 0 40px 0;
 
                 & + .pagination {
                     @include media($container) {
