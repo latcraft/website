@@ -1,11 +1,75 @@
 [
   {
+    "theme": "Operations and DevOps",
+    "desc": "Let's talk about operations and DevOps without hype - you'll hear a story about large-scale Ask.fm data-center migration, how hard DevOps adoption in enterprise organisation is, why do we have package managers zoo and what can we do about it.",
+    "month": "June 2015",
+    "date": "9 June, 2015",
+    "time": "18:30",
+    "announced": true,
+    "venue": "Zaļa iela 1, Microsoft Latvia telpas",
+    "schedule": [
+      {
+        "type": "start",
+        "time": "18:30",
+        "title": "Event Opening"
+      },
+      {
+        "name": "Uldis Karlovs-Karlovskis",
+        "type": "speech",
+        "time": "18:40",
+        "bio": "Nordics DevOps Lead @ Accenture",
+        "title": "DevOps: If It Hurts, Do It Often",
+        "description": "Hopefully everyone has enough of presentations 'What is DevOps?'. Let's talk about real stuff - what are DevOps issues and struggle in enterprise life. I'll give you few ideas and several simple steps what covers it all.",
+        "img": "img/speakers/uldis.jpg",
+        "presentation": "",
+        "video": ""
+      },
+      {
+        "type": "break",
+        "time": "19:15",
+        "title": "Coffe Break"
+      },
+      {
+        "name": "Andrey Adamovich",
+        "type": "speech",
+        "time": "19:25",
+        "bio": "Founder @ Aestas/IT",
+        "title": "The Story Of Package Managers",
+        "description": "Packages are everywhere in software development. Every ecosystem, every operating system, every programming language brings in a 'new way of managing dependent libraries and packages. What are they? Are they that much different? Why can't we have a universal package manager? Should you create yet another package manager? This presentation is based on the experience of strugling through managing dependencies in different ecosystems and gives some interesting findings.",
+        "img": "img/speakers/adamovich.jpeg",
+        "presentation": "",
+        "video": ""
+      },
+      {
+        "type": "break",
+        "time": "19:45",
+        "title": "Coffe Break"
+      },
+      {
+        "name": "Juris Pavlyuchenkov",
+        "type": "speech",
+        "time": "19:50",
+        "bio": "Admin Manager @ Ask.fm",
+        "title": "Immigraniada: Some Notes on Datacenter Migration",
+        "description": "Ask.fm infrastructure has been relocated from Latvia to US recently. The talk will be about how the brave sysadmins achieved it. All about testing, evaluation, provisioning, planning, troubleshooting and other fun things you need to do in order to relocate a site with 150 million registered users.",
+        "img": "img/speakers/pavluchenkov.png",
+        "presentation": "",
+        "video": ""
+      },
+      {
+        "type": "finish",
+        "time": "20:35",
+        "title": "Closing Note"
+      }
+    ]
+  },
+  {
     "theme": "NoSQL and Data",
     "desc": "Let's talk about data and NoSQL - how does data panorama looks like nowadays, why should you care about NoSQL and market-leading solutions like ElasticSearch.",
     "month": "May 2015",
     "date": "5 May, 2015",
     "time": "18:30",
-    "announced": true,
+    "announced": false,
     "venue": "Zaļa iela 1, Microsoft Latvia telpas",
     "schedule": [
       {
