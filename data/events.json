@@ -1,7 +1,7 @@
 [
   {
     "theme": "Operations and DevOps",
-    "desc": "Let's talk about operations and DevOps without hype - you'll hear a story about large-scale Ask.fm data-center migration, how hard DevOps adoption in enterprise organisation is, why do we have package managers zoo and what can we do about it.",
+    "desc": "Let's talk about Ops, DevOps and Continuous Delivery without hype - how hard DevOps adoption in enterprise organisation is, what goes wrong with Continuous Delivery, why do we have package managers zoo and what can we do about it.",
     "month": "June 2015",
     "date": "9 June, 2015",
     "time": "18:30",
@@ -30,9 +30,25 @@
         "title": "Coffe Break"
       },
       {
+        "name": "Eduards Sizovs",
+        "type": "speech",
+        "time": "19:30",
+        "bio": "Founder @ Craftsman's Passion",
+        "title": "10 Things That Make Continuous Delivery Go Nuts ",
+        "description": "Continuous Delivery is still trendy and everyone wants to get there, but there are so many walls you have to break and nerves to spoil! In this talk Eduards will present real-world battle stories of continuous delivery adoption, 10 underlooked things that tend to go wrong and what practices can you apply in order to survive.",
+        "img": "img/speakers/eduardsi.jpg",
+        "presentation": "",
+        "video": ""
+      },     
+      {
+        "type": "break",
+        "time": "20:10",
+        "title": "Coffe Break"
+      },       
+      {
         "name": "Andrey Adamovich",
         "type": "speech",
-        "time": "19:25",
+        "time": "20:20",
         "bio": "Founder @ Aestas/IT",
         "title": "The Story Of Package Managers",
         "description": "Packages are everywhere in software development. Every ecosystem, every operating system, every programming language brings in a 'new way of managing dependent libraries and packages. What are they? Are they that much different? Why can't we have a universal package manager? Should you create yet another package manager? This presentation is based on the experience of strugling through managing dependencies in different ecosystems and gives some interesting findings.",
@@ -41,24 +57,8 @@
         "video": ""
       },
       {
-        "type": "break",
-        "time": "19:45",
-        "title": "Coffe Break"
-      },
-      {
-        "name": "Juris Pavlyuchenkov",
-        "type": "speech",
-        "time": "19:50",
-        "bio": "Admin Manager @ Ask.fm",
-        "title": "Immigraniada: Some Notes on Datacenter Migration",
-        "description": "Ask.fm infrastructure has been relocated from Latvia to US recently. The talk will be about how the brave sysadmins achieved it. All about testing, evaluation, provisioning, planning, troubleshooting and other fun things you need to do in order to relocate a site with 150 million registered users.",
-        "img": "img/speakers/pavluchenkov.png",
-        "presentation": "",
-        "video": ""
-      },
-      {
         "type": "finish",
-        "time": "20:35",
+        "time": "20:45",
         "title": "Closing Note"
       }
     ]
