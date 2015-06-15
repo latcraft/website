@@ -1,227 +1,346 @@
-[{
-	"theme" : "NoSQL and Data",
-	"desc" : "Let's talk about data and NoSQL - how does data panorama looks like nowadays, why should you care about NoSQL and market-leading solutions like ElasticSearch.",
-	"month" : "May 2015",
-	"date" : "5 May, 2015",
-	"time" : "18:30",
-	"announced": true,
-	"venue" : "Zaļa iela 1, Microsoft Latvia telpas",
-	"schedule" : [{
-			"name" : "Valery Vishnyakov",
-			"type" : "speech",
-			"bio" : "ex-CTO @ Ask.fm",
-			"title" : "A Gentle introduction to NoSQL",
-			"description" : "In this presentation Valery will briefly describe types of NoSQL storages available today, their pros and cons and use cases. As an example you will see how to model Twitter Feed using different storage types..",
-			"img" : "img/speakers/valery.png",
-			"presentation" : "https://speakerdeck.com/latcraft/a-gentle-introduction-to-nosql",
-			"video" : "https://www.youtube.com/watch?v=0zoJcNnIJ6U"
-		}, {
-			"name" : "Dmitry Buzdin",
-			"type" : "speech",
-			"bio" : "Architect @ Neueda Riga",
-			"title" : "Should You Be Worrying About Not Knowing NoSQL Yet",
-			"description" : "Software development has changed. There is no standard database technology to use anymore. If you know SQL perfectly, it will not be sufficient to stay qualified in 2015. This session will explain how to pick the most appropriate database for your next project, reveal common misconceptions about SQL and NoSQL and provide listeners with a rough idea where it is all heading to. The talk is based on personal experience of making the shift from fitting square pegs into round holes to stopping worrying and embracing the change.",
-			"img" : "img/speakers/buzdin.png",
-			"presentation" : "https://speakerdeck.com/latcraft/should-you-be-worrying-about-not-knowing-nosql-yet",
-			"video" : "https://www.youtube.com/watch?v=4p-Fgo99mw8"
-		}, {
-			"name" : "Ruslan Zavacky",
-			"type" : "speech",
-			"bio" : "Architect @ Intexsys",
-			"title" : "You Know, For Search",
-			"description" : "Advanced search capabilities are becoming mandatory for web application of any size. In this talk Ruslan will present the industry-leading solution - ElasticSearch. Let’s see what functionality does it offer and how you can tame it for your needs!",
-			"img" : "img/speakers/zavacky.jpeg",
-			"presentation" : "https://speakerdeck.com/latcraft/you-know-for-search",
-			"video" : "https://www.youtube.com/watch?v=wzq1CK-oAds"
-		}]
-},{
-	"theme" : "AWS Day by LatCraft",
-	"classes" : "amazon",
-	"desc" : "Amazon Web Services is the best cloud platform available on the market. LatCraft is probably the most visited IT user group in the country. Experts from Luxembourg, United Kingdom, Czech Republic and Latvia are gathering in Riga in order to share their knowledge, success recipes and war stories with you. 5 amazing speakers. Spectacular talks. Rocking AWS. ",
-	"month" : "Apr 2015",
-	"date" : "9th of April, 2015",
-	"logo" : "img/amazon.png",
-	"time" : "16:00 - 21:00",
-	"announced": false,
-	"venue" : "Maskavas 12-K1, Spikeri facilities, entrance via Café Dali",
-	"schedule" : [
-    {
-			"type" : "start",
-      "time" : "16:00",
-			"title" : "Event Opening"
-		}, {
-			"name" : "Martin Elwin",
-			"type" : "speech",
-			"bio" : "Solution Architect at AWS",
-      "time" : "16:15",
-			"title" : "Lean in the Cloud",
-			"description" : "Improve, validate, iterate. Current development practices promote avoiding waste - a challenging task, especially in a traditional infrastructure. With programmatic control over your environment Amazon Web Services lets you optimize the infrastructure as needed and treat it as another versionable aspect of your application. In this session we'll look at how both start-ups and enterprises use AWS to increase their rate of innovation and continuously deliver new functionality to users in a cost efficient way.",
-			"img" : "img/speakers/elwin.png",
-			"presentation" : "",
-			"video" : "https://www.youtube.com/watch?v=a96yMHy0Tp0"
-		}, {
-			"type" : "break",
-      "time" : "17:00",
-			"title" : "Coffe Break"
-		}, {
-			"name" : "Jakub Veverka",
-			"type" : "speech",
-			"bio" : "Sys. Engineer at 4Finance",
-      "time" : "17:15",
-			"title" : "Building scalable cluster with AWS, CoreOS and Mesos",
-			"description" : "Do you believe it’s possible to quickly build a cluster that allows you to work with a datacenter like it’s a single pool of resources? In this practical session Jakub will show how to build scalable, fault-tolerant cluster from scratch with minimal effort and maximal gain.",
-			"img" : "img/speakers/veverkaj.png",
-			"presentation" : "",
-			"video" : "https://www.youtube.com/watch?v=F7hntPlFcOE"
-		}, {
-			"type" : "break",
-      "time" : "18:00",
-			"title" : "Coffe Break"
-		}, {
-			"name" : "Juris Pavlyuchenkov",
-			"type" : "speech",
-			"bio" : "Sys. Admin at Ask.fm",
-      "time" : "18:15",
-			"title" : "AWS: the good, the bad, the ugly, and the use case",
-			"description" : "Everyone keeps telling about how AWeSome Amazon Web Services are. How they are all about elasticity, simplicity and scalability. But we all know that nothing is perfect in this world, except Chuck Norris. So what about the dark side? The talk will be about some nice tricks you can do with AWS, some things you can not do with AWS, and some things you can do, but with tears, pain and swearing.",
-			"img" : "img/speakers/pavluchenkov.png",
-			"presentation" : "",
-			"video" : "https://www.youtube.com/watch?v=_w1PJI4vZVU"
-		}, {
-			"type" : "break",
-      "time" : "19:00",
-			"title" : "Coffe Break"
-		}, {
-			"name" : "Johan Waernulf",
-			"type" : "speech",
-			"bio" : "Solution Architect at AWS",
-      "time" : "19:30",
-			"title" : "Docker at Scale",
-			"description" : "Developers are always looking for ways of improving their efficiency. Over the last years container technology has become an increasingly popular way of managing application packaging and deployments, however handling many containers running on many machines has its own set of challenges. The recently announced Amazon EC2 Container Service aims to simplify the management of running containers in a cluster of EC2 instances. In this session the initial feature set of the service will be introduced we'll go through a demo of common operations.",
-			"img" : "img/speakers/johan.png",
-			"presentation" : "",
-			"video" : "https://www.youtube.com/watch?v=ptn2D_2-iuc"
-		}, {
-			"name" : "Ilkka Turunen",
-			"type" : "speech",
-			"bio" : "BigData Guy at Cloudreach",
-      "time" : "20:15",      
-			"title" : "Big Data or Big Marketing",
-			"description" : "We’ve all heard Big Data pouring out of the press over the last years and frankly, are probably all sick of it. The term is probably one of the most successful buzzwords of our industry to date. Why is that? This session will aim to shine a light on the enigma by introducing example use cases we’ve worked with our clients. We’ll walk through the AWS toolset for Data Management and introduce concrete architectures and the good, the bad, and the ugly sides of them. This isn’t your mother’s MySQL sharding...",
-			"img" : "img/speakers/ilkka.png",
-			"presentation" : "",
-			"video" : "https://www.youtube.com/watch?v=Gp3Q151OyI4"
-		}, {
-			"type" : "finish",
-      "time" : "21:00",
-			"title" : "Closing Note"
-		}]
-}, {
-	"theme" : "Programming Languages You Should Know About",
-	"desc" : "There are cool programming languages available that are not yet mainstream, but deserves significant attention. Come over and learn more about sharp programming languages such as Rust, Golang and Erlang.",
-	"month" : "Mar 2015",
-	"date" : "3 March, 2015",
-	"time" : "18:30",
-	"announced": false,
-	"venue" : "Zaļa iela 1",
-	"schedule" : [{
-			"name" : "Leonids Maslovs",
-			"type" : "speech",
-			"bio" : "Galeo Consulting",
-			"title" : "The Sweet Flavour of Rust",
-			"description" : "Every chef now and then uses pinch of his secret spices to make a dish somewhat special and exquisite. This talk will provide introduction into nature of Rust sweetness and will answer to most important questions: Why and When does it make our dishes better? We will iterate over small code snippets and take a look How strong typing and functional thinking can be applied to low level system programming.",
-			"img" : "img/speakers/maslov.png",
-			"presentation" : "https://speakerdeck.com/latcraft/the-sweet-flavour-of-rust",
-			"video" : ""
-		}, {
-			"name" : "Anatoly Ressin",
-			"type" : "speech",
-			"bio" : "C.T.Co",
-			"title" : "The Way to Go",
-			"description" : "This talk will guide you through the core concepts of the Go. We will cover the type system, memory model, packaging and of course the famous concurrency primitives of the language: goroutines and channels. Small working code snippets will be available on the github for immediate coding experience.",
-			"img" : "img/speakers/ressin.png",
-			"presentation" : "https://speakerdeck.com/latcraft/the-way-to-go",
-			"video" : ""
-		}, {
-			"name" : "Jurijs Saveljevs",
-			"type" : "speech",
-			"bio" : "Rubylight",
-			"title" : "There is always Erlang",
-			"description" : "This talk is devoted to giving overall insight on some fundamental problems on how we perceive and perform development of modern software and suggesting plausible cure in Erlang adoption. It has never been easier to address many of never-ending issues with parallel, distributed and fault tolerant computing. Get to know the Erlang-way of fighting against complexity of software world before those problems catch you unprepared!",
-			"img" : "img/speakers/savelyev.png",
-			"presentation" : "https://speakerdeck.com/latcraft/there-is-always-erlang",
-			"video" : ""
-		}]
-}, {
-	"theme" : "Team and Personal Effectiveness",
-	"desc" : "We'd love to spend 24/7 in code, but software development is all about people. We will talk about teams, people, what makes them tick and what should you do to become a great team player.",
-	"month" : "Feb 2015",
-	"date" : "3 February, 2015",
-	"time" : "18:30",
-	"announced": false,
-	"venue" : "Zaļa iela 1",
-	"schedule" : [{
-			"name" : "Andrey Grave",
-			"type" : "speech",
-			"bio" : "BuyerDeck",
-			"title" : "Growing Teams: Notes of an Amateur Team Gardener",
-			"description" : "Andrey will share his experience and discoveries on the topic of Growing Teams. What does it take to grow a team? What environment facilitates team growth? What distinguishes great teams? What can kill teams? What are characteristics of great team member? And some more.",
-			"img" : "img/speakers/andrey-grave.jpg",
-			"presentation" : "https://speakerdeck.com/latcraft/growing-teams-notes-of-an-amateur-team-gardener",
-			"video" : "https://www.youtube.com/watch?v=6jm_SGdbIF4"
-		}, {
-			"name" : "Romans Karpelcevs ",
-			"type" : "speech",
-			"bio" : "Mobile Lead at Ask.fm",
-			"title" : "From Zero to Hero",
-			"description" : "Romans will talk about a developer's journey from college to senior developer. What is wrong with our education? What is wrong with our expectations? Roman will share his idea of the focus points on our path to success as a person and as an industry.",
-			"img" : "img/speakers/romans-karpelcevs.png",
-			"presentation" : "https://speakerdeck.com/latcraft/from-zero-to-hero",
-			"video" : "https://www.youtube.com/watch?v=L0QzklRDI7k"
-		}, {
-			"name" : "Aleksejs Truhans",
-			"type" : "speech",
-			"bio" : "Citadele Banka",
-			"title" : "A Personal Journey Into Human and Team Effectiveness",
-			"description" : "Having worked both as developer and as team manager, Aleksej will share his experiences with team, personal and process aspects that facilitate or inhibit productivity. What makes one successful in the eyes of others? How is efectiveness developed and maintained? These and related questions are important to any conscious software craftsman.",
-			"img" : "img/speakers/aleksejs-truhans.jpg",
-			"presentation" : "https://speakerdeck.com/latcraft/team-and-personal-effectiveness",
-			"video" : "https://www.youtube.com/watch?v=Gz0s8j3nboU"
-		}]
-}, {
-	"theme" : "CIO and CTO lessons learned",
-	"desc" : "Learn what does it mean to lead the way and what true leaders expect from their peers. Come over to hear deep insights from guys that went long path towards becoming Chiefs.",
-	"month" : "Jan 2015",
-	"date" : "6 January, 2015",
-	"time" : "18:30",
-	"announced": false,
-	"venue" : "Zaļa iela 1",
-	"schedule" : [{
-			"name" : "Māris Veide",
-			"type" : "speech",
-			"bio" : "CIO at E-Global Holding",
-			"title" : "Epiphany From A Specialist As Worst CIO Ever",
-			"description" : "Maris will share his empirical findings from two very distinct perspectives of IT Specialist and CIO - how kicking some ice is related to to literally breaking speed limits while going to work, which [just as a side effect] - leads to earning a lot more money too.",
-			"img" : "img/speakers/maris-veiders.jpg",
-			"presentation" : "https://speakerdeck.com/latcraft/epiphany-from-a-specialist-as-worst-cio-ever",
-			"video" : "https://www.youtube.com/watch?v=CeVR2q8O9gU"
-		}, {
-			"name" : "Raimonds Simanovskis",
-			"type" : "speech",
-			"bio" : "Founder at eazyBi",
-			"title" : "Building Technical Competence",
-			"description" : "Raimonds has been CTO for large software development company and now is CEO/CTO of a small startup. He will talk about several topics and compare from his experience what has been common and what different in large and small teams.",
-			"img" : "img/speakers/raimonds-simanovskis.jpg",
-			"presentation" : "https://speakerdeck.com/latcraft/building-technical-competence",
-			"video" : "https://www.youtube.com/watch?v=gsdJ5kgKdco"
-		}, {
-			"name" : "Jakub Nabrdalik",
-			"type" : "speech",
-			"bio" : "IT Manager at 4finance",
-			"title" : "Game Of Throneware",
-			"description" : "Jakub will reveal how not to get killed when a developer becomes a manager. What happens, when you become a manager? How do you organize teams, workspace? How do you help people? How do you deal with politics, communication? And much more.",
-			"img" : "img/speakers/jakub-nabrdalik.jpg",
-			"presentation" : "https://speakerdeck.com/latcraft/game-of-throneware",
-			"video" : "https://www.youtube.com/watch?v=gsdJ5kgKdco"
-		}]
-}]
+[
+  {
+    "theme": "Operations and DevOps",
+    "desc": "Let's talk about Ops, DevOps and Continuous Delivery without hype - how hard DevOps adoption in enterprise organisation is, what goes wrong with Continuous Delivery, why do we have package managers zoo and what can we do about it.",
+    "month": "June 2015",
+    "date": "9 June, 2015",
+    "time": "18:30",
+    "announced": true,
+    "venue": "Zaļa iela 1, Microsoft Latvia telpas",
+    "schedule": [
+      {
+        "type": "start",
+        "time": "18:30",
+        "title": "Event Opening"
+      },
+      {
+        "name": "Uldis Karlovs-Karlovskis",
+        "type": "speech",
+        "time": "18:40",
+        "bio": "Nordics DevOps Lead @ Accenture",
+        "title": "DevOps: If It Hurts, Do It Often",
+        "description": "Hopefully everyone has enough of presentations 'What is DevOps?'. Let's talk about real stuff - what are DevOps issues and struggle in enterprise life. I'll give you few ideas and several simple steps what covers it all.",
+        "img": "img/speakers/uldis.jpg",
+        "presentation": "http://www.slideshare.net/UldisKarlovsKarlovsk/devops-if-it-hurts-do-it-more-often",
+        "video": "https://www.youtube.com/watch?v=fZlEQS-55-M"
+      },
+      {
+        "type": "break",
+        "time": "19:15",
+        "title": "Coffe Break"
+      },
+      {
+        "name": "Eduards Sizovs",
+        "type": "speech",
+        "time": "19:30",
+        "bio": "Founder @ Craftsman's Passion",
+        "title": "8 Things That Make Continuous Delivery Go Nuts ",
+        "description": "Continuous Delivery is still trendy and everyone wants to get there, but there are so many walls you have to break and nerves to spoil! In this talk Eduards will present real-world battle stories of continuous delivery adoption, 8 underlooked things that tend to go wrong and what practices can you apply in order to survive.",
+        "img": "img/speakers/eduardsi.jpg",
+        "presentation": "http://www.slideshare.net/eduardsi/8-things-that-make-continuous-delivery-go-nuts",
+        "video": "https://www.youtube.com/watch?v=QV9QkMIlaKE"
+      },     
+      {
+        "type": "break",
+        "time": "20:10",
+        "title": "Coffe Break"
+      },       
+      {
+        "name": "Andrey Adamovich",
+        "type": "speech",
+        "time": "20:20",
+        "bio": "Founder @ Aestas/IT",
+        "title": "The Story Of Package Managers",
+        "description": "Packages are everywhere in software development. Every ecosystem, every operating system, every programming language brings in a 'new way of managing dependent libraries and packages. What are they? Are they that much different? Why can't we have a universal package manager? Should you create yet another package manager? This presentation is based on the experience of strugling through managing dependencies in different ecosystems and gives some interesting findings.",
+        "img": "img/speakers/adamovich.jpeg",
+        "presentation": "https://www.slideshare.net/aestasit/story-of-dependency-managers",
+        "video": "https://www.youtube.com/watch?v=UNvyBlwMY9M"
+      },
+      {
+        "type": "finish",
+        "time": "20:45",
+        "title": "Closing Note"
+      }
+    ]
+  },
+  {
+    "theme": "NoSQL and Data",
+    "desc": "Let's talk about data and NoSQL - how does data panorama looks like nowadays, why should you care about NoSQL and market-leading solutions like ElasticSearch.",
+    "month": "May 2015",
+    "date": "5 May, 2015",
+    "time": "18:30",
+    "announced": false,
+    "venue": "Zaļa iela 1, Microsoft Latvia telpas",
+    "schedule": [
+      {
+        "type": "start",
+        "time": "18:30",
+        "title": "Event Opening"
+      },
+      {
+        "name": "Valery Vishnyakov",
+        "type": "speech",
+        "time": "18:45",
+        "bio": "ex-CTO @ Ask.fm",
+        "title": "A Gentle introduction to NoSQL",
+        "description": "In this presentation Valery will briefly describe types of NoSQL storages available today, their pros and cons and use cases. As an example you will see how to model Twitter Feed using different storage types..",
+        "img": "img/speakers/valery.png",
+        "presentation": "https://speakerdeck.com/latcraft/a-gentle-introduction-to-nosql",
+        "video": "https://www.youtube.com/watch?v=0zoJcNnIJ6U"
+      },
+      {
+        "type": "break",
+        "time": "19:30",
+        "title": "Coffe Break"
+      },
+      {
+        "name": "Dmitry Buzdin",
+        "type": "speech",
+        "time": "19:45",
+        "bio": "Architect @ Neueda Riga",
+        "title": "Should You Be Worrying About Not Knowing NoSQL Yet",
+        "description": "Software development has changed. There is no standard database technology to use anymore. If you know SQL perfectly, it will not be sufficient to stay qualified in 2015. This session will explain how to pick the most appropriate database for your next project, reveal common misconceptions about SQL and NoSQL and provide listeners with a rough idea where it is all heading to. The talk is based on personal experience of making the shift from fitting square pegs into round holes to stopping worrying and embracing the change.",
+        "img": "img/speakers/buzdin.png",
+        "presentation": "https://speakerdeck.com/latcraft/should-you-be-worrying-about-not-knowing-nosql-yet",
+        "video": "https://www.youtube.com/watch?v=4p-Fgo99mw8"
+      },
+      {
+        "type": "break",
+        "time": "20:30",
+        "title": "Coffe Break"
+      },
+      {
+        "name": "Ruslan Zavacky",
+        "type": "speech",
+        "time": "20:45",
+        "bio": "Architect @ Intexsys",
+        "title": "You Know, For Search",
+        "description": "Advanced search capabilities are becoming mandatory for web application of any size. In this talk Ruslan will present the industry-leading solution - ElasticSearch. Let’s see what functionality does it offer and how you can tame it for your needs!",
+        "img": "img/speakers/zavacky.jpeg",
+        "presentation": "https://speakerdeck.com/latcraft/you-know-for-search",
+        "video": "https://www.youtube.com/watch?v=wzq1CK-oAds"
+      },
+      {
+        "type": "finish",
+        "time": "21:30",
+        "title": "Closing Note"
+      }
+    ]
+  },
+  {
+    "theme": "AWS Day by LatCraft",
+    "classes": "amazon",
+    "desc": "Amazon Web Services is the best cloud platform available on the market. LatCraft is probably the most visited IT user group in the country. Experts from Luxembourg, United Kingdom, Czech Republic and Latvia are gathering in Riga in order to share their knowledge, success recipes and war stories with you. 5 amazing speakers. Spectacular talks. Rocking AWS. ",
+    "month": "Apr 2015",
+    "date": "9th of April, 2015",
+    "logo": "img/amazon.png",
+    "time": "16:00 - 21:00",
+    "announced": false,
+    "venue": "Maskavas 12-K1, Spikeri facilities, entrance via Café Dali",
+    "schedule": [
+      {
+        "type": "start",
+        "time": "16:00",
+        "title": "Event Opening"
+      },
+      {
+        "name": "Martin Elwin",
+        "type": "speech",
+        "bio": "Solution Architect at AWS",
+        "time": "16:15",
+        "title": "Lean in the Cloud",
+        "description": "Improve, validate, iterate. Current development practices promote avoiding waste - a challenging task, especially in a traditional infrastructure. With programmatic control over your environment Amazon Web Services lets you optimize the infrastructure as needed and treat it as another versionable aspect of your application. In this session we'll look at how both start-ups and enterprises use AWS to increase their rate of innovation and continuously deliver new functionality to users in a cost efficient way.",
+        "img": "img/speakers/elwin.png",
+        "presentation": "",
+        "video": "https://www.youtube.com/watch?v=a96yMHy0Tp0"
+      },
+      {
+        "type": "break",
+        "time": "17:00",
+        "title": "Coffe Break"
+      },
+      {
+        "name": "Jakub Veverka",
+        "type": "speech",
+        "bio": "Sys. Engineer at 4Finance",
+        "time": "17:15",
+        "title": "Building scalable cluster with AWS, CoreOS and Mesos",
+        "description": "Do you believe it’s possible to quickly build a cluster that allows you to work with a datacenter like it’s a single pool of resources? In this practical session Jakub will show how to build scalable, fault-tolerant cluster from scratch with minimal effort and maximal gain.",
+        "img": "img/speakers/veverkaj.png",
+        "presentation": "",
+        "video": "https://www.youtube.com/watch?v=F7hntPlFcOE"
+      },
+      {
+        "type": "break",
+        "time": "18:00",
+        "title": "Coffe Break"
+      },
+      {
+        "name": "Juris Pavlyuchenkov",
+        "type": "speech",
+        "bio": "Sys. Admin at Ask.fm",
+        "time": "18:15",
+        "title": "AWS: the good, the bad, the ugly, and the use case",
+        "description": "Everyone keeps telling about how AWeSome Amazon Web Services are. How they are all about elasticity, simplicity and scalability. But we all know that nothing is perfect in this world, except Chuck Norris. So what about the dark side? The talk will be about some nice tricks you can do with AWS, some things you can not do with AWS, and some things you can do, but with tears, pain and swearing.",
+        "img": "img/speakers/pavluchenkov.png",
+        "presentation": "",
+        "video": "https://www.youtube.com/watch?v=_w1PJI4vZVU"
+      },
+      {
+        "type": "break",
+        "time": "19:00",
+        "title": "Coffe Break"
+      },
+      {
+        "name": "Johan Waernulf",
+        "type": "speech",
+        "bio": "Solution Architect at AWS",
+        "time": "19:30",
+        "title": "Docker at Scale",
+        "description": "Developers are always looking for ways of improving their efficiency. Over the last years container technology has become an increasingly popular way of managing application packaging and deployments, however handling many containers running on many machines has its own set of challenges. The recently announced Amazon EC2 Container Service aims to simplify the management of running containers in a cluster of EC2 instances. In this session the initial feature set of the service will be introduced we'll go through a demo of common operations.",
+        "img": "img/speakers/johan.png",
+        "presentation": "",
+        "video": "https://www.youtube.com/watch?v=ptn2D_2-iuc"
+      },
+      {
+        "name": "Ilkka Turunen",
+        "type": "speech",
+        "bio": "BigData Guy at Cloudreach",
+        "time": "20:15",
+        "title": "Big Data or Big Marketing",
+        "description": "We’ve all heard Big Data pouring out of the press over the last years and frankly, are probably all sick of it. The term is probably one of the most successful buzzwords of our industry to date. Why is that? This session will aim to shine a light on the enigma by introducing example use cases we’ve worked with our clients. We’ll walk through the AWS toolset for Data Management and introduce concrete architectures and the good, the bad, and the ugly sides of them. This isn’t your mother’s MySQL sharding...",
+        "img": "img/speakers/ilkka.png",
+        "presentation": "",
+        "video": "https://www.youtube.com/watch?v=Gp3Q151OyI4"
+      },
+      {
+        "type": "finish",
+        "time": "21:00",
+        "title": "Closing Note"
+      }
+    ]
+  },
+  {
+    "theme": "Programming Languages You Should Know About",
+    "desc": "There are cool programming languages available that are not yet mainstream, but deserves significant attention. Come over and learn more about sharp programming languages such as Rust, Golang and Erlang.",
+    "month": "Mar 2015",
+    "date": "3 March, 2015",
+    "time": "18:30",
+    "announced": false,
+    "venue": "Zaļa iela 1",
+    "schedule": [
+      {
+        "name": "Leonids Maslovs",
+        "type": "speech",
+        "bio": "Galeo Consulting",
+        "title": "The Sweet Flavour of Rust",
+        "description": "Every chef now and then uses pinch of his secret spices to make a dish somewhat special and exquisite. This talk will provide introduction into nature of Rust sweetness and will answer to most important questions: Why and When does it make our dishes better? We will iterate over small code snippets and take a look How strong typing and functional thinking can be applied to low level system programming.",
+        "img": "img/speakers/maslov.png",
+        "presentation": "https://speakerdeck.com/latcraft/the-sweet-flavour-of-rust",
+        "video": ""
+      },
+      {
+        "name": "Anatoly Ressin",
+        "type": "speech",
+        "bio": "C.T.Co",
+        "title": "The Way to Go",
+        "description": "This talk will guide you through the core concepts of the Go. We will cover the type system, memory model, packaging and of course the famous concurrency primitives of the language: goroutines and channels. Small working code snippets will be available on the github for immediate coding experience.",
+        "img": "img/speakers/ressin.png",
+        "presentation": "https://speakerdeck.com/latcraft/the-way-to-go",
+        "video": ""
+      },
+      {
+        "name": "Jurijs Saveljevs",
+        "type": "speech",
+        "bio": "Rubylight",
+        "title": "There is always Erlang",
+        "description": "This talk is devoted to giving overall insight on some fundamental problems on how we perceive and perform development of modern software and suggesting plausible cure in Erlang adoption. It has never been easier to address many of never-ending issues with parallel, distributed and fault tolerant computing. Get to know the Erlang-way of fighting against complexity of software world before those problems catch you unprepared!",
+        "img": "img/speakers/savelyev.png",
+        "presentation": "https://speakerdeck.com/latcraft/there-is-always-erlang",
+        "video": ""
+      }
+    ]
+  },
+  {
+    "theme": "Team and Personal Effectiveness",
+    "desc": "We'd love to spend 24/7 in code, but software development is all about people. We will talk about teams, people, what makes them tick and what should you do to become a great team player.",
+    "month": "Feb 2015",
+    "date": "3 February, 2015",
+    "time": "18:30",
+    "announced": false,
+    "venue": "Zaļa iela 1",
+    "schedule": [
+      {
+        "name": "Andrey Grave",
+        "type": "speech",
+        "bio": "BuyerDeck",
+        "title": "Growing Teams: Notes of an Amateur Team Gardener",
+        "description": "Andrey will share his experience and discoveries on the topic of Growing Teams. What does it take to grow a team? What environment facilitates team growth? What distinguishes great teams? What can kill teams? What are characteristics of great team member? And some more.",
+        "img": "img/speakers/andrey-grave.jpg",
+        "presentation": "https://speakerdeck.com/latcraft/growing-teams-notes-of-an-amateur-team-gardener",
+        "video": "https://www.youtube.com/watch?v=6jm_SGdbIF4"
+      },
+      {
+        "name": "Romans Karpelcevs ",
+        "type": "speech",
+        "bio": "Mobile Lead at Ask.fm",
+        "title": "From Zero to Hero",
+        "description": "Romans will talk about a developer's journey from college to senior developer. What is wrong with our education? What is wrong with our expectations? Roman will share his idea of the focus points on our path to success as a person and as an industry.",
+        "img": "img/speakers/romans-karpelcevs.png",
+        "presentation": "https://speakerdeck.com/latcraft/from-zero-to-hero",
+        "video": "https://www.youtube.com/watch?v=L0QzklRDI7k"
+      },
+      {
+        "name": "Aleksejs Truhans",
+        "type": "speech",
+        "bio": "Citadele Banka",
+        "title": "A Personal Journey Into Human and Team Effectiveness",
+        "description": "Having worked both as developer and as team manager, Aleksej will share his experiences with team, personal and process aspects that facilitate or inhibit productivity. What makes one successful in the eyes of others? How is efectiveness developed and maintained? These and related questions are important to any conscious software craftsman.",
+        "img": "img/speakers/aleksejs-truhans.jpg",
+        "presentation": "https://speakerdeck.com/latcraft/team-and-personal-effectiveness",
+        "video": "https://www.youtube.com/watch?v=Gz0s8j3nboU"
+      }
+    ]
+  },
+  {
+    "theme": "CIO and CTO lessons learned",
+    "desc": "Learn what does it mean to lead the way and what true leaders expect from their peers. Come over to hear deep insights from guys that went long path towards becoming Chiefs.",
+    "month": "Jan 2015",
+    "date": "6 January, 2015",
+    "time": "18:30",
+    "announced": false,
+    "venue": "Zaļa iela 1",
+    "schedule": [
+      {
+        "name": "Māris Veide",
+        "type": "speech",
+        "bio": "CIO at E-Global Holding",
+        "title": "Epiphany From A Specialist As Worst CIO Ever",
+        "description": "Maris will share his empirical findings from two very distinct perspectives of IT Specialist and CIO - how kicking some ice is related to to literally breaking speed limits while going to work, which [just as a side effect] - leads to earning a lot more money too.",
+        "img": "img/speakers/maris-veiders.jpg",
+        "presentation": "https://speakerdeck.com/latcraft/epiphany-from-a-specialist-as-worst-cio-ever",
+        "video": "https://www.youtube.com/watch?v=CeVR2q8O9gU"
+      },
+      {
+        "name": "Raimonds Simanovskis",
+        "type": "speech",
+        "bio": "Founder at eazyBi",
+        "title": "Building Technical Competence",
+        "description": "Raimonds has been CTO for large software development company and now is CEO/CTO of a small startup. He will talk about several topics and compare from his experience what has been common and what different in large and small teams.",
+        "img": "img/speakers/raimonds-simanovskis.jpg",
+        "presentation": "https://speakerdeck.com/latcraft/building-technical-competence",
+        "video": "https://www.youtube.com/watch?v=gsdJ5kgKdco"
+      },
+      {
+        "name": "Jakub Nabrdalik",
+        "type": "speech",
+        "bio": "IT Manager at 4finance",
+        "title": "Game Of Throneware",
+        "description": "Jakub will reveal how not to get killed when a developer becomes a manager. What happens, when you become a manager? How do you organize teams, workspace? How do you help people? How do you deal with politics, communication? And much more.",
+        "img": "img/speakers/jakub-nabrdalik.jpg",
+        "presentation": "https://speakerdeck.com/latcraft/game-of-throneware",
+        "video": "https://www.youtube.com/watch?v=gsdJ5kgKdco"
+      }
+    ]
+  }
+]
