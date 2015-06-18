@@ -21,7 +21,7 @@
         "title": "DevOps: If It Hurts, Do It Often",
         "description": "Hopefully everyone has enough of presentations 'What is DevOps?'. Let's talk about real stuff - what are DevOps issues and struggle in enterprise life. I'll give you few ideas and several simple steps what covers it all.",
         "img": "img/speakers/uldis.jpg",
-        "presentation": "http://www.slideshare.net/UldisKarlovsKarlovsk/devops-if-it-hurts-do-it-more-often",
+        "presentation": "https://speakerdeck.com/latcraft/devops-if-it-hurts-do-it-more-often",
         "video": "https://www.youtube.com/watch?v=fZlEQS-55-M"
       },
       {
@@ -37,7 +37,7 @@
         "title": "8 Things That Make Continuous Delivery Go Nuts ",
         "description": "Continuous Delivery is still trendy and everyone wants to get there, but there are so many walls you have to break and nerves to spoil! In this talk Eduards will present real-world battle stories of continuous delivery adoption, 8 underlooked things that tend to go wrong and what practices can you apply in order to survive.",
         "img": "img/speakers/eduardsi.jpg",
-        "presentation": "http://www.slideshare.net/eduardsi/8-things-that-make-continuous-delivery-go-nuts",
+        "presentation": "https://speakerdeck.com/latcraft/8-things-that-make-continuous-delivery-go-nuts",
         "video": "https://www.youtube.com/watch?v=QV9QkMIlaKE"
       },     
       {
@@ -53,7 +53,7 @@
         "title": "The Story Of Package Managers",
         "description": "Packages are everywhere in software development. Every ecosystem, every operating system, every programming language brings in a 'new way of managing dependent libraries and packages. What are they? Are they that much different? Why can't we have a universal package manager? Should you create yet another package manager? This presentation is based on the experience of strugling through managing dependencies in different ecosystems and gives some interesting findings.",
         "img": "img/speakers/adamovich.jpeg",
-        "presentation": "https://www.slideshare.net/aestasit/story-of-dependency-managers",
+        "presentation": "https://speakerdeck.com/latcraft/story-of-dependency-managers",
         "video": "https://www.youtube.com/watch?v=UNvyBlwMY9M"
       },
       {
