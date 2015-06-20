@@ -9380,7 +9380,7 @@ $(document).ready(function() {
 	    var beachMarker = new google.maps.Marker({
 			position: myLatLng,
 			map: gmap,
-			icon: "/img/marker.png"
+			icon: "img/marker.png"
 		});
 	    
 	}
