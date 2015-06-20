@@ -81,8 +81,12 @@ $(document).ready(function() {
 		imageCollection += '<ul>';
 		for (var item in data.items) {
 			if(item == 16) break;
-			if(data.items[item].media.m == "http://farm8.staticflickr.com/7381/16470574391_b1bb266ed7_m.jpg") continue;
-			imageCollection += '<li><img src="' + data.items[item].media.m + '" alt=""></li>';
+
+			var width = data.items[item].description.match(/width=["']([0-9]+)["']/)[1];
+			var height = data.items[item].description.match(/height=["']([0-9]+)["']/)[1];
+
+			if(height > width) continue;
+			imageCollection += '<li><img src="' + data.items[item].media.m + '" alt="' + data.items[item].title + '"></li>';
 		}
 		imageCollection += '</ul>';
 
@@ -153,6 +157,7 @@ $(document).ready(function() {
 	var overlay;
 	function initialize() {
 	    var myLatLng = new google.maps.LatLng(56.959081,24.114304);
+
 	    var mapOptions = {
 	        zoom: 15,
 	        center: myLatLng,
@@ -166,35 +171,12 @@ $(document).ready(function() {
 	    
 	    var gmap = new google.maps.Map(document.getElementById('map'), mapOptions);
 	    
-	    function HTMLMarker(lat,lng){
-	        this.lat = lat;
-	        this.lng = lng;
-	        this.pos = new google.maps.LatLng(lat,lng);
-	    }
+	    var beachMarker = new google.maps.Marker({
+			position: myLatLng,
+			map: gmap,
+			icon: "/img/marker.png"
+		});
 	    
-	    HTMLMarker.prototype = new google.maps.OverlayView();
-	    HTMLMarker.prototype.onRemove= function(){}
-	    
-	    //init your html element here
-	    HTMLMarker.prototype.onAdd= function(){
-	        div = document.createElement('DIV');
-	        div.className = 'maptip';
-	        div.innerHTML = 'our event venue';
-	        var panes = this.getPanes();
-	        panes.overlayImage.appendChild(div);
-	    }
-	    
-	    HTMLMarker.prototype.draw = function(){
-	        var overlayProjection = this.getProjection();
-	        var position = overlayProjection.fromLatLngToDivPixel(this.pos);
-	        var panes = this.getPanes();
-	        panes.overlayImage.style.left = position.x + 'px';
-	        panes.overlayImage.style.top = position.y - 30 + 'px';
-	    }
-	    
-	    //to use it
-	    var htmlMarker = new HTMLMarker(56.9423093,24.1151814); // usually 56.959081, 24.114304
-	    htmlMarker.setMap(gmap);
 	}
 
 	google.maps.event.addDomListener(window, 'load', initialize);
