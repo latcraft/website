@@ -1,11 +1,92 @@
 [
+{
+    "theme": "Mobile All The Way Down",
+    "classes": "amazon",    
+    "desc": "Mobile is booming! Consumers all around the world are adopting smart devices at an astounding pace, opening up more and more opportunities to engage in new ways – changing the way we interact, entertain, educate and shop. Let's see what experts can teach us!",
+    "month": "July 2015",
+    "date": "7 July, 2015",
+    "time": "18:30",
+    "announced": true,
+    "venue": "Zaļa iela 1, Microsoft Latvia telpas",
+    "schedule": [
+      {
+        "type": "start",
+        "time": "18:30",
+        "title": "Event Opening"
+      },
+      {
+        "name": "Vasiliy Popov",
+        "type": "speech",
+        "time": "18:40",
+        "bio": "UX and Mobile Lead @ C.T.Co",
+        "title": "Nobody Wants Your New Fucking App! ",
+        "description": "Your idea for an app worth nothing. Nobody needs app alone, people are too spoiled today and they want products, not apps. UX, UI, development, support website, tutorials, promo videos, regular updates and support – these are all the parts of a product. Are you ready for that?",
+        "img": "img/speakers/popov.png",
+        "presentation": "",
+        "video": ""
+      },
+      {
+        "type": "break",
+        "time": "19:15",
+        "title": "Coffee Break"
+      },
+      {
+        "name": "Jovche Mitrejcevski",
+        "type": "speech",
+        "time": "19:20",
+        "bio": "Android Guy @ Ask.fm",
+        "title": "10 Things To Avoid When Building Mobile Application",
+        "description": "Jovche’s gonna talk about technical and organisational issues and mistakes done by the local brands like Ask.fm and Fabula during mobile product development, and ways to avoid them by his personal experience.",
+        "img": "img/speakers/jovmit.png",
+        "presentation": "",
+        "video": ""
+      },     
+      {
+        "type": "break",
+        "time": "19:40",
+        "title": "Coffee Break"
+      },       
+      {
+        "name": "Andrey Podshibyakin",
+        "type": "speech",
+        "time": "19:45",
+        "bio": "Mobile Dev Manager @ C.T.Co",
+        "title": "Wearables - Before, Now and After",
+        "description": "Andrey will give a brief history of wearables and their current state, discuss current market state and volume and finally share ideas about future trends of this very hot market and what might come next.",
+        "img": "img/speakers/andreypo.jpg",
+        "presentation": "",
+        "video": ""
+      },
+      {
+        "type": "break",
+        "time": "20:20",
+        "title": "Coffee Break"
+      },        
+      {
+        "name": "Alexey Buzdin",
+        "type": "speech",
+        "time": "20:25",
+        "bio": "Dev and Trainer @ C.T.Co",
+        "title": "Android WAT",
+        "description": "Android is a great piece of machinery as a platform, but one thing it which it fails hard is its API. In his short talk Alexey will nag about some brain exploading APIs that he stumble upon during his experience with Android. Expect some brain teasers, quizes and fun trivia.",
+        "img": "img/speakers/abu.png",
+        "presentation": "",
+        "video": ""
+      },      
+      {
+        "type": "finish",
+        "time": "20:50",
+        "title": "Closing Note"
+      }
+    ]
+  },
   {
     "theme": "Operations and DevOps",
     "desc": "Let's talk about Ops, DevOps and Continuous Delivery without hype - how hard DevOps adoption in enterprise organisation is, what goes wrong with Continuous Delivery, why do we have package managers zoo and what can we do about it.",
     "month": "June 2015",
     "date": "9 June, 2015",
     "time": "18:30",
-    "announced": true,
+    "announced": false,
     "venue": "Zaļa iela 1, Microsoft Latvia telpas",
     "schedule": [
       {
