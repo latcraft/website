@@ -967,6 +967,17 @@ section#events {
                     }
                 }
             }
+
+            &.extended_event {    
+                margin: 0 0 40px 0;
+
+                & + .pagination {
+                    @include media($container) {
+                        display: block;
+                    }
+                }
+            }
+
         }        
     }
 
@@ -984,9 +995,7 @@ section#events {
             &.more {
                 display: block;
             }
-        }
-
-        ul {
+        }        ul {
             list-style: none; 
             position: relative; 
             float: left; 
