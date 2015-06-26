@@ -1080,11 +1080,6 @@ section#events .pagination {
   margin: 0;
   overflow: hidden;
   padding: 0 0 40px 0; }
-  @media screen and (min-width: 690px) {
-    section#events .pagination {
-      display: none; }
-      section#events .pagination.more {
-        display: block; } }
   section#events .pagination ul {
     list-style: none;
     position: relative;
