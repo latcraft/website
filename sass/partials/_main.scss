@@ -1599,7 +1599,7 @@ section#sponsors {
             @include shift(2); 
 
             @include media($container) {
-                @include span-columns(6 of 12);
+                @include span-columns(4 of 12);
                 @include shift(0); 
             }
 
