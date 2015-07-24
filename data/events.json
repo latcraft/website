@@ -1,5 +1,70 @@
 [
 {
+    "theme": "Beyond Software",
+    "desc": "Let's leave technical stuff for a day and concentrate on things (mostly) no one is talking about, things that play major role in your professional life - the way we think, the way we behave and the way we market ourselves. Come and extend your knowledge beyond software and get closer to better and complete professional life.",
+    "month": "August 2015",
+    "classes": "extended_event",
+    "date": "4 August, 2015",
+    "time": "18:30",
+    "announced": true,
+    "venue": "Zaļa iela 1, Microsoft Latvia telpas",
+    "schedule": [
+      {
+        "type": "start",
+        "time": "18:30",
+        "title": "Event Opening"
+      },
+      {
+        "name": "Silvija Avota",
+        "type": "speech",
+        "time": "18:40",
+        "bio": "Independent Change Management Consultant",
+        "title": "Thinking in Systems",
+        "description": "The second half of the last century brought us “Systems Thinking” - a proven approach for developing solutions to messy situations that often seem like intractable dilemmas. In this talk Silvija will reveal what Systems Thinking is all about and how it can be applied in our daily life.",
+        "img": "img/speakers/silvijaavota.png",
+        "presentation": "",
+        "video": ""
+      },
+      {
+        "type": "break",
+        "time": "19:15",
+        "title": "Coffee Break"
+      },
+      {
+        "name": "Alex Fridman",
+        "type": "speech",
+        "time": "19:30",
+        "bio": "CEO at Atlas",
+        "title": "Sales 101",
+        "description": "Seller thinking plays key role in achieving your goals - successful career, better environment, independence, happy family or all of them. If you want to become most well paid specialist and learn how to make offers others can't resist - welcome on board!",
+        "img": "img/speakers/alexfridman.png",
+        "presentation": "",
+        "video": ""
+      },
+      {
+        "type": "break",
+        "time": "20:05",
+        "title": "Coffee Break"
+      },
+      {
+        "name": "Indra Majore-Dūšele",
+        "type": "speech",
+        "time": "20:20",
+        "bio": "Psychologist, Psychotherapist @ Miervidi",
+        "title": "Mindfulness",
+        "description": "There is strong evidence base from neurosciences, health care, education and organisations systems that mindfulness is powerful tool for enhancing well-being, self-regulation and emotional intelligence, personal and professional effectiveness. Indra will reveal the mindfulness concept and practical applications for stress regulation in personal life and professional environment.",
+        "img": "img/speakers/indram.png",
+        "presentation": "",
+        "video": ""
+      },
+      {
+        "type": "finish",
+        "time": "20:55",
+        "title": "Closing Note"
+      }
+    ]
+  },
+  {
     "theme": "Mobile All The Way Down",
     "desc": "Mobile is booming! Consumers all around the world are adopting smart devices at an astounding pace, opening up more and more opportunities to engage in new ways – changing the way we interact, entertain, educate and shop. Let's see what experts can teach us!",
     "month": "July 2015",
