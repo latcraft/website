@@ -9343,7 +9343,7 @@ $(document).ready(function() {
 
 	    $(this).parent().toggleClass('active');
 	});
-	$('#off-canvas ul a, .logo a, .scroll-button').click(function(e) {
+	$('#off-canvas ul a, .logo a, .scroll-button, .scroll-arrow').click(function(e) {
 		var $this = $(this);
 		if($this.hasClass('network')) return;
 
