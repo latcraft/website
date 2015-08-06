@@ -3,7 +3,6 @@
     "theme": "Beyond Software",
     "desc": "Let's leave technical stuff for a day and concentrate on things (mostly) no one is talking about, things that play major role in your professional life - the way we think, the way we behave and the way we market ourselves. Come and extend your knowledge beyond software and get closer to better and complete professional life.",
     "month": "August 2015",
-    "classes": "extended_event",
     "date": "4 August, 2015",
     "time": "18:30",
     "announced": true,
@@ -22,8 +21,8 @@
         "title": "Thinking in Systems",
         "description": "The second half of the last century brought us “Systems Thinking” - a proven approach for developing solutions to messy situations that often seem like intractable dilemmas. In this talk Silvija will reveal what Systems Thinking is all about and how it can be applied in our daily life.",
         "img": "img/speakers/silvijaavota.png",
-        "presentation": "",
-        "video": ""
+        "presentation": "https://speakerdeck.com/latcraft/systems-thinking",
+        "video": "https://www.youtube.com/watch?v=vEvtC3wTAhk"
       },
       {
         "type": "break",
@@ -38,8 +37,8 @@
         "title": "Sales 101",
         "description": "Seller thinking plays key role in achieving your goals - successful career, better environment, independence, happy family or all of them. If you want to become most well paid specialist and learn how to make offers others can't resist - welcome on board!",
         "img": "img/speakers/alexfridman.png",
-        "presentation": "",
-        "video": ""
+        "presentation": "https://speakerdeck.com/latcraft/sales-101-chasing-dreams",
+        "video": "https://www.youtube.com/watch?v=sKe-qYxlB4w"
       },
       {
         "type": "break",
@@ -54,8 +53,8 @@
         "title": "Mindfulness",
         "description": "There is strong evidence base from neurosciences, health care, education and organisations systems that mindfulness is powerful tool for enhancing well-being, self-regulation and emotional intelligence, personal and professional effectiveness. Indra will reveal the mindfulness concept and practical applications for stress regulation in personal life and professional environment.",
         "img": "img/speakers/indram.png",
-        "presentation": "",
-        "video": ""
+        "presentation": "https://speakerdeck.com/latcraft/mindfulness",
+        "video": "https://www.youtube.com/watch?v=F-RLFrE0HV0"
       },
       {
         "type": "finish",

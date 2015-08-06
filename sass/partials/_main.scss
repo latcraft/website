@@ -95,15 +95,6 @@ section#modal {
     }
 }
 
-@keyframes anim-open {
-    0% { opacity: 0; transform: scale3d(1.1, 1.1, 1); }
-    100% { opacity: 1; transform: scale3d(1, 1, 1); }
-}
-
-@keyframes anim-close {
-    0% { opacity: 1; }
-    100% { opacity: 0; transform: scale3d(0.9, 0.9, 1); }
-}
 
 // --------------------------------------------
 // news
@@ -644,8 +635,29 @@ header#header {
             @include media($container) {            
                 float: left !important;
             }
+        }   
+    }
+    .scroll-arrow {
+        position: absolute;
+        left: 50%;
+        bottom: 40px;
+        margin: 0 0 0 -30px;
+        width: 60px;
+        height: 40px;
+        line-height: 40px;
+        z-index: 1000;
+        text-align: center;
+        font-size: 46px;
+        color: rgba(255, 255, 255, 0.4);
+
+        i {
+            animation: anim-arrow 2s 0s ease infinite;
+            position: relative;
         }
-        
+
+        &:hover {
+            color: rgba(255, 255, 255, 0.7);   
+        }
     }
 }
 
@@ -1932,18 +1944,6 @@ section#learn {
             }
         }
     }
-}
-
-@keyframes anim-rotate {
-    0% { transform: rotateZ(0deg); }
-    100% { transform: rotateZ(360deg); }
-}
-
-@keyframes anim-books {
-    0% { top: -30%; opacity: 0; }
-    30% { opacity: 1; top: 20%; }
-    80% { opacity: 1; top: 20%; }
-    100% { opacity: 0; top: 60%; }
 }
 
 
