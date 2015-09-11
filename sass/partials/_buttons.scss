@@ -47,12 +47,39 @@
                 content: attr(data-hover);
                 position: absolute;
                 top: 100%;
+                left: 0px;
                 transform: translate3d(0px, 0px, 0px);
             }  
         }          
     }
 
-    
+    &.effect-hr {
+        overflow: hidden;
+        
+        @include media($desktop) {
+            &:hover, &:focus {
+                outline: medium;
+
+                div {
+                    transform: translateX(-100%);
+                }
+            }
+        } 
+
+        div {
+            display: inline-block;
+            position: relative;
+            transition: transform 0.3s ease 0s;
+
+            &:before {
+                content: attr(data-hover);
+                position: absolute;
+                top: 0px;
+                left: 100%;
+                transform: translate3d(0px, 0px, 0px);
+            }  
+        }          
+    }    
 
     &.invert {
         background: #601212;
