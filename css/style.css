@@ -1,5 +1,12 @@
 @charset "UTF-8";
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
   margin: 0;
   padding: 0;
   border: 0;
@@ -31,7 +38,8 @@ caption, th, td {
   text-align: left;
   font-weight: normal; }
 
-blockquote:before, blockquote:after, q:before, q:after {
+blockquote:before, blockquote:after,
+q:before, q:after {
   content: ""; }
 
 blockquote, q {
@@ -40,7 +48,9 @@ blockquote, q {
 html {
   box-sizing: border-box; }
 
-*, *::after, *::before {
+*,
+*::after,
+*::before {
   box-sizing: inherit; }
 
 @-webkit-keyframes anim-open {
@@ -48,7 +58,6 @@ html {
     opacity: 0;
     -webkit-transform: scale3d(1.1, 1.1, 1);
             transform: scale3d(1.1, 1.1, 1); }
-
   100% {
     opacity: 1;
     -webkit-transform: scale3d(1, 1, 1);
@@ -59,7 +68,6 @@ html {
     opacity: 0;
     -webkit-transform: scale3d(1.1, 1.1, 1);
             transform: scale3d(1.1, 1.1, 1); }
-
   100% {
     opacity: 1;
     -webkit-transform: scale3d(1, 1, 1);
@@ -68,7 +76,6 @@ html {
 @-webkit-keyframes anim-close {
   0% {
     opacity: 1; }
-
   100% {
     opacity: 0;
     -webkit-transform: scale3d(0.9, 0.9, 1);
@@ -77,7 +84,6 @@ html {
 @keyframes anim-close {
   0% {
     opacity: 1; }
-
   100% {
     opacity: 0;
     -webkit-transform: scale3d(0.9, 0.9, 1);
@@ -87,7 +93,6 @@ html {
   0% {
     -webkit-transform: rotateZ(0deg);
             transform: rotateZ(0deg); }
-
   100% {
     -webkit-transform: rotateZ(360deg);
             transform: rotateZ(360deg); } }
@@ -96,7 +101,6 @@ html {
   0% {
     -webkit-transform: rotateZ(0deg);
             transform: rotateZ(0deg); }
-
   100% {
     -webkit-transform: rotateZ(360deg);
             transform: rotateZ(360deg); } }
@@ -105,15 +109,12 @@ html {
   0% {
     top: -30%;
     opacity: 0; }
-
   30% {
     opacity: 1;
     top: 20%; }
-
   80% {
     opacity: 1;
     top: 20%; }
-
   100% {
     opacity: 0;
     top: 60%; } }
@@ -122,15 +123,12 @@ html {
   0% {
     top: -30%;
     opacity: 0; }
-
   30% {
     opacity: 1;
     top: 20%; }
-
   80% {
     opacity: 1;
     top: 20%; }
-
   100% {
     opacity: 0;
     top: 60%; } }
@@ -138,24 +136,21 @@ html {
 @-webkit-keyframes anim-arrow {
   0% {
     top: -10px; }
-
   50% {
     top: 10px; }
-
   100% {
     top: -10px; } }
 
 @keyframes anim-arrow {
   0% {
     top: -10px; }
-
   50% {
     top: 10px; }
-
   100% {
     top: -10px; } }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3,
+h4, h5, h6 {
   -webkit-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
   -moz-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
   -o-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
@@ -580,7 +575,7 @@ section#news {
     margin: 20px 0;
     display: none; }
     #off-canvas .logo a {
-      background: url('../img/logo-nav.png') no-repeat;
+      background: url("../img/logo-nav.png") no-repeat;
       width: 140px;
       height: 60px;
       margin: 0;
@@ -680,7 +675,7 @@ section#news {
             width: 100%;
             display: block;
             line-height: 1;
-            background: url('../img/lanyrd.png') no-repeat center center;
+            background: url("../img/lanyrd.png") no-repeat center center;
             background-size: 14px 14px; }
         #off-canvas ul li a.youtube {
           background: #CE332D; }
@@ -817,7 +812,7 @@ header#header {
       height: 100px;
       width: 100px;
       margin: 10px auto;
-      background: url('../img/logo.png') no-repeat;
+      background: url("../img/logo.png") no-repeat;
       background-size: 100% auto;
       margin: 10px auto;
       text-indent: -9999px;
@@ -951,7 +946,7 @@ header#header {
             position: relative;
             left: 0px; }
             header#header .info .button.opening div strong:before {
-              background: rgba(0, 0, 0, 0.2) url('../img/devternity.png') no-repeat center center;
+              background: rgba(0, 0, 0, 0.2) url("../img/devternity.png") no-repeat center center;
               background-size: 50% auto;
               width: 40px;
               height: 40px;
@@ -976,7 +971,7 @@ header#header {
           header#header .info .button.opening div:before {
             padding: 18px 25px;
             color: #9e9e9e; }
-        @media screen and (max-width: 520px)  {
+        @media screen and (max-width: 520px) {
           header#header .info .button.opening {
             width: 100%; }
             header#header .info .button.opening div {
@@ -1049,7 +1044,7 @@ header#header {
   height: auto;
   z-index: 10;
   opacity: 0.4; }
-  @media screen and (max-width: 520px)  {
+  @media screen and (max-width: 520px) {
     #video {
       display: none; } }
 
@@ -1072,7 +1067,7 @@ header#header {
   background-size: cover;
   -webkit-transition: background 0.4s ease 0s;
           transition: background 0.4s ease 0s; }
-  @media screen and (max-width: 520px)  {
+  @media screen and (max-width: 520px) {
     #header .fallback {
       display: block; } }
 
@@ -1110,11 +1105,13 @@ section#events .group {
       @media screen and (min-width: 690px) {
         section#events .group.amazon .description {
           width: 70%; } }
+
 section#events .logo {
   margin: 0 0 20px 0;
   padding: 0 30px;
   width: 100%;
   overflow: hidden; }
+
 section#events .description {
   float: left;
   display: block;
@@ -1141,6 +1138,7 @@ section#events .description {
       width: 74.41059%; }
       section#events .description:last-child {
         margin-right: 0; } }
+
 section#events .bubble {
   overflow: hidden;
   float: right;
@@ -1173,9 +1171,11 @@ section#events .bubble {
     width: 100%;
     padding: 20px 0;
     text-align: center; }
+
 section#events h2 {
   font-weight: 400;
   text-align: center; }
+
 section#events .title-holder {
   display: block;
   width: 100%;
@@ -1184,6 +1184,7 @@ section#events .title-holder {
   @media screen and (min-width: 690px) {
     section#events .title-holder {
       min-height: 58px; } }
+
 section#events h3 {
   text-transform: uppercase;
   font-size: 1.8rem;
@@ -1195,6 +1196,7 @@ section#events h3 {
   -webkit-transition: 0.2s border-color linear 0s;
           transition: 0.2s border-color linear 0s;
   border-bottom: 1px solid #f5f5f5; }
+
 section#events h4 {
   text-transform: uppercase;
   font-size: 14px;
@@ -1205,6 +1207,7 @@ section#events h4 {
   text-align: center;
   margin: 0 auto 3.4rem auto;
   width: 100px; }
+
 section#events .author {
   clear: both;
   margin: 20px 0;
@@ -1226,21 +1229,25 @@ section#events .author {
   section#events .author span {
     display: block;
     float: left; }
+
 section#events p {
   clear: both;
   margin: 0 0 20px 0;
   font-size: 18px;
   line-height: 1.8; }
+
 section#events .carousel {
   overflow: hidden;
   width: 100%;
   position: relative; }
+
 section#events .holder {
   width: 1000%;
   position: relative;
   overflow: hidden;
   -webkit-transform: translate3d(-90%, 0px, 0px);
           transform: translate3d(-90%, 0px, 0px); }
+
 section#events .slide {
   display: block;
   overflow: hidden;
@@ -1292,6 +1299,7 @@ section#events .slide {
       @media screen and (min-width: 690px) {
         section#events .slide .speakers.extended_event + .pagination {
           display: block; } }
+
 section#events .pagination {
   width: 100%;
   display: block;
@@ -1332,6 +1340,7 @@ section#events .pagination {
     section#events .pagination li.active a {
       border-color: #565656;
       background: #565656; }
+
 section#events a.prev.button, section#events a.next.button {
   color: #fff;
   cursor: pointer;
@@ -1385,8 +1394,10 @@ section#events a.prev.button, section#events a.next.button {
       section#events a.prev.button i, section#events a.next.button i {
         line-height: 240px;
         font-size: 34px; } }
+
 section#events a.prev.button {
   left: 0px; }
+
 section#events a.next.button {
   right: 0px;
   float: right;
@@ -1414,6 +1425,7 @@ section#speaker {
 
 section#challenge .title i {
   color: #FED34B; }
+
 section#challenge .description {
   text-align: center;
   font-size: 18px;
@@ -1434,6 +1446,7 @@ section#challenge .description {
       width: 100%; }
       section#challenge .description:last-child {
         margin-right: 0; } }
+
 section#challenge .results {
   float: left;
   display: block;
@@ -1449,6 +1462,7 @@ section#challenge .results {
       width: 100%; }
       section#challenge .results:last-child {
         margin-right: 0; } }
+
 section#challenge .month {
   padding: 40px 20px;
   float: left;
@@ -1481,6 +1495,7 @@ section#challenge .month {
   @media screen and (min-width: 1020px) {
     section#challenge .month:hover h3 {
       border-bottom: 2px solid #b7b7b7; } }
+
 section#challenge .awarded {
   overflow: hidden;
   list-style-type: decimal;
@@ -1490,6 +1505,7 @@ section#challenge .awarded {
     width: 100%; }
     section#challenge .awarded li a {
       font-weight: 400; }
+
 section#challenge a.prev.button, section#challenge a.next.button {
   color: #fff;
   cursor: pointer;
@@ -1531,8 +1547,10 @@ section#challenge a.prev.button, section#challenge a.next.button {
     float: left;
     line-height: 1.8;
     padding: 0 10px 0 0; }
+
 section#challenge a.prev.button {
   left: 0px; }
+
 section#challenge a.next.button {
   float: right;
   right: 0px; }
@@ -1657,7 +1675,7 @@ section#sharing {
       overflow: hidden;
       display: block;
       float: left;
-      width: 33.33333%; }
+      width: 33.333333%; }
       section#sharing #flickr-feed ul li img {
         width: 100%;
         height: auto;
@@ -1757,7 +1775,7 @@ section#digest {
       margin-right: 0; }
       section#digest #subscription input.button:last-child {
         margin-right: 0; }
-      @media screen and (max-width: 520px)  {
+      @media screen and (max-width: 520px) {
         section#digest #subscription input.button {
           float: left;
           display: block;
@@ -1790,7 +1808,7 @@ section#digest {
         margin-right: 0; }
       section#digest #subscription input.email:focus {
         border-bottom: 1px solid #565656; }
-      @media screen and (max-width: 520px)  {
+      @media screen and (max-width: 520px) {
         section#digest #subscription input.email {
           float: left;
           display: block;
@@ -2139,6 +2157,7 @@ section#about .info {
     section#about .info ul li:before {
       content: "—";
       padding: 0 10px; }
+
 section#about .left, section#about .right {
   float: left;
   display: block;
@@ -2154,11 +2173,13 @@ section#about .left, section#about .right {
       width: 48.82117%; }
       section#about .left:last-child, section#about .right:last-child {
         margin-right: 0; } }
+
 section#about p {
   font-size: 16px;
   line-height: 1.6; }
   section#about p strong {
     color: #565656; }
+
 section#about .arrow {
   display: block;
   width: 0;
@@ -2174,6 +2195,7 @@ section#about .arrow {
   margin: 0 0 0 -10px;
   -webkit-transition: all 0.3s cubic-bezier(0.7, 0, 0.3, 1) 0s;
           transition: all 0.3s cubic-bezier(0.7, 0, 0.3, 1) 0s; }
+
 section#about .arrow:before {
   display: block;
   width: 0;
@@ -2187,6 +2209,7 @@ section#about .arrow:before {
   margin: 1px 0 0 -18px;
   left: 50%;
   z-index: 5; }
+
 section#about #member-nav {
   border-bottom: 1px solid #bebebe;
   margin: 0 0 40px 0;
@@ -2206,6 +2229,7 @@ section#about #member-nav {
       color: #212121; }
       section#about #member-nav li a.active {
         color: #FF4A4A; }
+
 section#about #member-list ul {
   clear: both;
   visability: hidden;
@@ -2221,6 +2245,7 @@ section#about #member-list ul {
     height: auto;
     pointer-events: auto;
     overflow: visible; }
+
 section#about #member-list li {
   float: left;
   display: block;
@@ -2232,10 +2257,10 @@ section#about #member-list li {
   position: relative; }
   section#about #member-list li:last-child {
     margin-right: 0; }
-  @media screen and (max-width: 690px)  {
+  @media screen and (max-width: 690px) {
     section#about #member-list li:nth-child(4n) {
       margin-right: 0; } }
-  @media screen and (min-width: 690px) and (max-width: 960px)  {
+  @media screen and (min-width: 690px) and (max-width: 960px) {
     section#about #member-list li {
       float: left;
       display: block;
