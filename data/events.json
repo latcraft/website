@@ -1,11 +1,75 @@
 [
 {
+    "theme": "Java",
+    "desc": "JVM is the most widely used runtime in the world and Java is the most popular programming language. Let's learn how to craft well-structured Java applications, how to make Java applications reactive by diving into RxJava and see what performance tuning tools JVM offers.",
+    "month": "October 2015",
+    "date": "6 October, 2015",
+    "time": "18:30",
+    "announced": true,
+    "venue": "Zaļa iela 1, Microsoft Latvia telpas",
+    "schedule": [
+      {
+        "type": "start",
+        "time": "18:30",
+        "title": "Event Opening"
+      },
+      {
+        "name": "Alexey Buzdin",
+        "type": "speech",
+        "time": "18:40",
+        "bio": "Dev and Trainer @ C.T.Co",
+        "title": "Reactive 4TW!",
+        "description": "Reactive programming is a new big thing for a couple of years now, but it also shrouded with a distrust as any new technology with mindblowing concepts. Lets pretend together that you didn't hear about Reactive and start learning it from scratch!",
+        "img": "img/speakers/abu.png",
+        "presentation": "",
+        "video": ""
+      },
+      {
+        "type": "break",
+        "time": "19:15",
+        "title": "Coffee Break"
+      },
+      {
+        "name": "Andrey Adamovich",
+        "type": "speech",
+        "time": "19:30",
+        "bio": "Founder @ Aestas/IT",
+        "title": "Need for speed: tools for JVM tuning",
+        "description": "Monitoring your production JVMs is extremely important. Though, not always you have a luxury of having direct access to production servers, which suffer from performance peaks, memory leaks or concurrency issues. Not always you are able to catch JVM issues without an ability to debug the code in-place. There are quite many tools that can help analyzing performance issues of your JVMs based on real-time monitoring data as well as on logs available only post-mortem. This presentation will give an overview of these tools.",
+        "img": "img/speakers/adamovich.jpeg",
+        "presentation": "",
+        "video": ""
+      },
+      {
+        "type": "break",
+        "time": "19:55",
+        "title": "Coffee Break"
+      },
+      {
+        "name": "Eduards Sizovs",
+        "type": "speech",
+        "time": "20:10",
+        "bio": "Consultant @ Sizovs.net",
+        "title": "Architecting well-structured Java applications",
+        "description": "Software developers spend most of their time working with code on literal level. Unfortunately, vast amount of design flaws hides behind hundreds of interrelated packages, classes and methods, destroying your system deliberately. In this talk will supply you with knowledge necessary to manage complexity of your logical design from theoretical, practical and tooling perspectives. Time to keep architecture in predictable and manageable state!",
+        "img": "img/speakers/eduardsi.jpg",
+        "presentation": "",
+        "video": ""
+      },
+      {
+        "type": "finish",
+        "time": "20:55",
+        "title": "Closing Note"
+      }
+    ]
+  },
+{
     "theme": "BigData",
     "desc": "Let's talk about BigData - how BigData can serve for entertaiment services and help you build service like Shazam, what is the role of SQL and NoSQL databases in BigData and how can you build a real time architecture with huge amount of data using Kafka and Storm.",
     "month": "September 2015",
     "date": "14 September, 2015",
     "time": "18:30",
-    "announced": true,
+    "announced": false,
     "venue": "Zaļa iela 1, Microsoft Latvia telpas",
     "schedule": [
       {
@@ -168,12 +232,12 @@
         "img": "img/speakers/jovmit.png",
         "presentation": "",
         "video": ""
-      },     
+      },
       {
         "type": "break",
         "time": "19:40",
         "title": "Coffee Break"
-      },       
+      },
       {
         "name": "Andrey Podshibyakin",
         "type": "speech",
@@ -189,7 +253,7 @@
         "type": "break",
         "time": "20:20",
         "title": "Coffee Break"
-      },        
+      },
       {
         "name": "Alexey Buzdin",
         "type": "speech",
@@ -200,7 +264,7 @@
         "img": "img/speakers/abu.png",
         "presentation": "",
         "video": ""
-      },      
+      },
       {
         "type": "finish",
         "time": "20:50",
@@ -248,12 +312,12 @@
         "img": "img/speakers/eduardsi.jpg",
         "presentation": "https://speakerdeck.com/latcraft/8-things-that-make-continuous-delivery-go-nuts",
         "video": "https://www.youtube.com/watch?v=QV9QkMIlaKE"
-      },     
+      },
       {
         "type": "break",
         "time": "20:10",
         "title": "Coffe Break"
-      },       
+      },
       {
         "name": "Andrey Adamovich",
         "type": "speech",
