@@ -104,7 +104,7 @@ gulp.task('watch', function() {
     gulp.watch(['img/*', 'img/**/*'], ['imagemin']);
     gulp.watch(['sass/*.scss', 'sass/**/*.scss'], ['sass']);
     gulp.watch(['jade/*.jade', 'jade/**/*.jade'], ['jade']);
-    gulp.watch(['favicon.ico', 'humans.txt', 'robots.txt'], ['copy']);
+    gulp.watch(['favicon.ico', 'humans.txt', 'robots.txt', 'cd'], ['copy']);
     gulp.watch(['video/*'], ['video']);
 });
 
