@@ -12,7 +12,8 @@ var gulp = require('gulp'),
 	concat = require('gulp-concat'),
 	jade = require('gulp-jade'),
 	clean = require('gulp-clean'),
-	deploy = require('gulp-gh-pages');
+	deploy = require('gulp-gh-pages'),
+	sitemap = require('gulp-sitemap');
 
 // link public assets
 var publicDir = "www";
@@ -62,6 +63,9 @@ gulp.task('jade', function() {
 	    		"events": events, 	
 	    		"challenges": challenges 	
 	    	}
+	    }))
+	    .pipe(sitemap({
+	    	siteUrl: 'http://latcraft.com'
 	    }))
 	    .pipe(gulp.dest(publicDir))
 	    .pipe(connect.reload());
