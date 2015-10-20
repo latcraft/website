@@ -4,6 +4,7 @@
     "desc": "This time, we decided to dedicate an event to some of the greatest Latvian startups made in Latvia. Let's check out how they started, the hard ways they got at their beginnings, as well as their grow process, and where thy are today.",
     "month": "November 2015",
     "date": "3 November, 2015",
+    "classes": "extended_event",
     "time": "18:30",
     "announced": true,
     "venue": "Zaļa iela 1, Microsoft Latvia telpas",
@@ -48,11 +49,27 @@
       {
         "name": "Sandijs Ruluks",
         "type": "speech",
-        "time": "20:00",
+        "time": "19:50",
         "bio": "CEO of FROONT",
-        "title": "Building heavy front-end web apps ar apakšrakstu The story of FROONT.",
+        "title": "Building heavy front-end web apps - The story of FROONT.",
         "description": "FROONT is the application for 90% running in the front-end. In this presentation you'll find an explanation how FROONT implements orchestration of data storage (MongoDB, SQLite), back-end services (Flask) and browser with the help of BackboneJS, HTML5 and other modern client-side technologies. We’ll also explain the reasoning behind technological choices, share our mistakes and pitfalls on the way, so others can avoid them.",
         "img": "img/speakers/saindijsruluks.png",
+        "presentation": "",
+        "video": ""
+      },
+      {
+        "type": "break",
+        "time": "20:15",
+        "title": "Coffee Break"
+      },
+      {
+        "name": "Andrey Grave",
+        "type": "speech",
+        "time": "20:20",
+        "bio": "Andrejs is passionate software developer with more than 10 year experience in all kind of organizations, projects and roles. He believes that software development is magic power of our time because as a software developer you can create anything from nothing.",
+        "title": "BuyerDeck inside out",
+        "description": "BuyerDeck is a small startup trying to change the way complex B2B sales are done. In this short talk Andrejs will describe what's under the hood of BuyerDeck - how it's built, what technologies and tools are used and what challenges faced. And Andrejs will share his personal experience of what does it mean to be software engineer at startup.",
+        "img": "img/speakers/andreygrave.png",
         "presentation": "",
         "video": ""
       },
