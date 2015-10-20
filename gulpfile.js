@@ -64,9 +64,6 @@ gulp.task('jade', function() {
 	    		"challenges": challenges 	
 	    	}
 	    }))
-	    .pipe(sitemap({
-	    	siteUrl: 'http://latcraft.com'
-	    }))
 	    .pipe(gulp.dest(publicDir))
 	    .pipe(connect.reload());
 });
