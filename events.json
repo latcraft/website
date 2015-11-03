@@ -85,8 +85,8 @@
         "title": "Reactive 4TW!",
         "description": "Reactive programming is a new big thing for a couple of years now, but it also shrouded with a distrust as any new technology with mindblowing concepts. Lets pretend together that you didn't hear about Reactive and start learning it from scratch!",
         "img": "img/speakers/abu.png",
-        "presentation": "",
-        "video": ""
+        "presentation": "https://speakerdeck.com/latcraft/reactive-4tw",
+        "video": "https://www.youtube.com/watch?v=uoYTDs0dLhw"
       },
       {
         "type": "break",
@@ -101,8 +101,8 @@
         "title": "Need for speed: tools for JVM tuning",
         "description": "Monitoring your production JVMs is extremely important. Though, not always you have a luxury of having direct access to production servers, which suffer from performance peaks, memory leaks or concurrency issues. Not always you are able to catch JVM issues without an ability to debug the code in-place. There are quite many tools that can help analyzing performance issues of your JVMs based on real-time monitoring data as well as on logs available only post-mortem. This presentation will give an overview of these tools.",
         "img": "img/speakers/adamovich.jpeg",
-        "presentation": "",
-        "video": ""
+        "presentation": "https://speakerdeck.com/latcraft/need-for-speed-tools-for-jvm-tuning",
+        "video": "https://www.youtube.com/watch?v=h0GttvkeQcg"
       },
       {
         "type": "break",
@@ -117,8 +117,8 @@
         "title": "Architecting well-structured Java applications",
         "description": "Software developers spend most of their time working with code on literal level. Unfortunately, vast amount of design flaws hides behind hundreds of interrelated packages, classes and methods, destroying your system deliberately. In this talk will supply you with knowledge necessary to manage complexity of your logical design from theoretical, practical and tooling perspectives. Time to keep architecture in predictable and manageable state!",
         "img": "img/speakers/eduardsi.jpg",
-        "presentation": "",
-        "video": ""
+        "presentation": "https://speakerdeck.com/latcraft/architecting-well-structured-java-applications",
+        "video": "https://www.youtube.com/watch?v=99VFdX1WS7o"
       },
       {
         "type": "finish",
@@ -149,8 +149,8 @@
         "title": "Terminator vs Bruce Lee or Cassandra vs MySQL",
         "description": "Everybody talks that NoSQL is cool! It says absolutely nothing. Let's take a concrete NoSQL database (Cassandra). Check what's inside and compare with a concrete SQL database (MySQL). Then try to make some real conclusions. Interested? Come to this talk.",
         "img": "img/speakers/maximzakharenkov.png",
-        "presentation": "",
-        "video": ""
+        "presentation": "https://speakerdeck.com/latcraft/terminator-vs-bruce-lee-or-cassandra-vs-mysql",
+        "video": "https://www.youtube.com/watch?v=3bT_3zOKHk8"
       },
       {
         "type": "break",
@@ -165,8 +165,8 @@
         "title": "A real-time architecture with Kafka & Storm",
         "description": "This presentation is going to discuss how to develop real-time data processing system with such technologies as Kafka and Storm. The first part of the presentation will give a high-level overview of the real-time data processing and what is Lambda architecture. The second part will dive into a lot of specifics and give advice on how to put this into practice effectively.",
         "img": "img/speakers/kirilmenshikov.png",
-        "presentation": "",
-        "video": ""
+        "presentation": "https://speakerdeck.com/latcraft/a-real-time-architecture-with-kafka-and-storm",
+        "video": "https://www.youtube.com/watch?v=uzjXMPB8T-Q"
       },
       {
         "type": "break",
