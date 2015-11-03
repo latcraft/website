@@ -4,7 +4,6 @@
     "desc": "This time, we decided to dedicate an event to some of the greatest Latvian startups made in Latvia. Let's check out how they started, the hard ways they got at their beginnings, as well as their grow process, and where thy are today.",
     "month": "November 2015",
     "date": "3 November, 2015",
-    "classes": "extended_event",
     "time": "18:30",
     "announced": true,
     "venue": "Zaļa iela 1, Microsoft Latvia telpas",
@@ -15,25 +14,9 @@
         "title": "Event Opening"
       },
       {
-        "name": "Eldar Sharafutdinov",
-        "type": "speech",
-        "time": "18:40",
-        "bio": "CEO and Co-Founder of Fabula",
-        "title": "When regional is better than global",
-        "description": "Eldar will share the story of Latvian 'Spotify of books' growing from a local company to a leading regional ebook subscription service. Eldar will provide details about Fabula raising the investment of 700K EUR in total and startup expansion abroad.",
-        "img": "img/speakers/eldarfab.jpg",
-        "presentation": "",
-        "video": ""
-      },
-      {
-        "type": "break",
-        "time": "19:05",
-        "title": "Coffee Break"
-      },
-      {
         "name": "Jurgis Orups",
         "type": "speech",
-        "time": "19:20",
+        "time": "18:40",
         "bio": "CTO of Clusterpoint",
         "title": "Building and Growing Database - A Case Study by Clusterpoint",
         "description": "This session will describe the insights behind Latvian database technology vendor Clusterpoint efforts to build global database-as-a-service. Jurgis will cover the path of the Clusterpoint technology evolution from building the first nation-wide search engine to recently launched Clusterpoint 4.0 version with Javascript processing right inside the database, which has already been highly appreciated by developers in several tech events in USA.",
@@ -43,13 +26,13 @@
       },
       {
         "type": "break",
-        "time": "19:45",
+        "time": "19:05",
         "title": "Coffee Break"
       },
       {
         "name": "Sandijs Ruluks",
         "type": "speech",
-        "time": "19:50",
+        "time": "19:20",
         "bio": "CEO of FROONT",
         "title": "Building heavy front-end web apps - The story of FROONT.",
         "description": "FROONT is the application for 90% running in the front-end. In this presentation you'll find an explanation how FROONT implements orchestration of data storage (MongoDB, SQLite), back-end services (Flask) and browser with the help of BackboneJS, HTML5 and other modern client-side technologies. We’ll also explain the reasoning behind technological choices, share our mistakes and pitfalls on the way, so others can avoid them.",
@@ -59,13 +42,13 @@
       },
       {
         "type": "break",
-        "time": "20:15",
+        "time": "19:45",
         "title": "Coffee Break"
       },
       {
         "name": "Andrey Grave",
         "type": "speech",
-        "time": "20:20",
+        "time": "19:50",
         "bio": "Software Engineer",
         "title": "BuyerDeck inside out",
         "description": "BuyerDeck is a small startup trying to change the way complex B2B sales are done. In this short talk Andrejs will describe what's under the hood of BuyerDeck - how it's built, what technologies and tools are used and what challenges faced. And Andrejs will share his personal experience of what does it mean to be software engineer at startup.",
@@ -75,7 +58,7 @@
       },
       {
         "type": "finish",
-        "time": "20:45",
+        "time": "20:15",
         "title": "Closing Note"
       }
     ]
