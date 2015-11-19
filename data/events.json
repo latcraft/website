@@ -21,7 +21,7 @@
         "title": "Building and Growing Database - A Case Study by Clusterpoint",
         "description": "This session will describe the insights behind Latvian database technology vendor Clusterpoint efforts to build global database-as-a-service. Jurgis will cover the path of the Clusterpoint technology evolution from building the first nation-wide search engine to recently launched Clusterpoint 4.0 version with Javascript processing right inside the database, which has already been highly appreciated by developers in several tech events in USA.",
         "img": "img/speakers/jurgiscl.jpg",
-        "presentation": "",
+        "presentation": "https://speakerdeck.com/latcraft/building-and-growing-database-a-case-study-by-clusterpoint",
         "video": "https://www.youtube.com/watch?v=sy2ZQJLquoY"
       },
       {
