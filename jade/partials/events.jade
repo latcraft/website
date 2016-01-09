@@ -36,8 +36,11 @@ section#events
 													| (#{speaker.time}) 
 												| #{speaker.title}
 										.author
-											img(src=speaker.img, alt="")
+											img(src=speaker.img, alt="" class="headshot")
 											h5 #{speaker.name}
+												if speaker.twitter
+													a(href="https://twitter.com/#{speaker.twitter}")
+														img(src="img/twitter.png" alt="@${speaker.twitter} at Twitter")
 											span #{speaker.bio}
 										p #{speaker.description}
 										.button-group
