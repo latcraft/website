@@ -95,7 +95,7 @@ gulp.task('video', function() {
 
 // copy other resources
 gulp.task('copy', function() {
-	gulp.src(['favicon.ico', 'humans.txt', 'robots.txt'])
+	gulp.src(['favicon.ico', 'humans.txt', 'robots.txt', 'googlef8dbbdd1b207ac7f.html'])
 		.pipe(gulp.dest(publicDir))
 		.pipe(connect.reload());
 });
