@@ -29,7 +29,7 @@ gulp.task('connect', function() {
 });
 
 gulp.task('imageresize', function() {
-	return gulp.src(['img/*', 'img/**/*'])
+	return gulp.src(['img/speakers/*'])
 		.pipe(resize({ 
       		width : 60,
       		height : 60,
