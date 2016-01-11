@@ -36,7 +36,7 @@ gulp.task('imageresize', function() {
       		crop : true,
       		upscale : false
     	}))
-    	.pipe(gulp.dest(publicDir + '/img'));
+    	.pipe(gulp.dest(publicDir + '/img/speakers'));
 });
 
 // minify images
