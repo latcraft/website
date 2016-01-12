@@ -13,6 +13,7 @@ var gulp = require('gulp'),
 	jade = require('gulp-jade'),
 	clean = require('gulp-clean'),
 	resize = require('gulp-image-resize'),
+	gulpif = require('gulp-if'),
 	deploy = require('gulp-gh-pages'),
 	sitemap = require('gulp-sitemap');
 
@@ -28,21 +29,19 @@ gulp.task('connect', function() {
   });
 });
 
-gulp.task('imageresize', function() {
-	return gulp.src(['img/speakers/*'])
-		.pipe(resize({ 
-      		width : 60,
-      		height : 60,
-      		crop : true,
-      		upscale : false
-    	}))
-    	.pipe(gulp.dest(publicDir + '/img/speakers'));
-});
+
 
 // minify images
 gulp.task('imagemin', function () {
-	return gulp.src(['img/*', 'img/**/*'])
+	return gulp.src(['img/*', 'img/*/**'])
 		.pipe(plumber())
+	    .pipe(gulpif('speakers/*', resize({ 
+			imageMagick: true,
+			width : 60,
+			height : 60,
+			crop : true,
+			upscale : true
+		})))
 		.pipe(imagemin({progressive: true}))
 		.pipe(gulp.dest(publicDir + '/img'))
 		.pipe(connect.reload());
@@ -122,7 +121,7 @@ gulp.task('watch', function() {
 });
 
 gulp.task('build', function() {
-	gulp.start('sass', 'jade', 'uglify', 'imageresize', 'imagemin', 'video', 'copy');
+	gulp.start('sass', 'jade', 'uglify', 'imagemin', 'video', 'copy');
 }); 
 
 gulp.task('stage', function () {
