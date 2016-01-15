@@ -39,7 +39,9 @@ You could obtain ine by running `docker pull latcraft/website`.
 
 # How to add new event
 - Go to `./data/events.json` and add new JSON record
-- Under `./jade/pages/<currentYear>/` create two `.jade` templates with names corresponding to the event name (see examples under `./jade/pages/2015`). For `Made in Latvia` event you will end up with two templates:
+- Under `./jade/pages/<currentYear>/` create two `.jade` templates with names
+  corresponding to the event name (see examples under `./jade/pages/2015`). 
+  For `Made in Latvia` event you will end up with two templates:
 
 ```
 // madeinlatvia.jade
