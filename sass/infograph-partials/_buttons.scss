@@ -1,0 +1,114 @@
+.button {
+    clear: both;
+    background: $button;
+    color: #fff;
+    float: left;
+    border: 0;
+    display: block;
+    font-size: 1.8rem;
+    line-height: 1.75em;
+    font-family: $primary-font;
+    cursor: pointer;
+    font-weight: 400;
+    padding: 8px 20px; 
+    vertical-align: middle;
+    transition: 0.2s all ease 0s; 
+    -webkit-appearance: none; 
+
+    @include media($desktop) {
+        &:hover {
+            background: #601212;
+            color: #fff;
+        }    
+    }    
+
+    &.effect {
+        overflow: hidden;
+        
+        @include media($desktop) {
+            &:hover, &:focus {
+                outline: medium;
+
+                div {
+                    transform: translateY(-100%);
+                }
+            }
+        } 
+
+        div {
+            display: inline-block;
+            position: relative;
+            transition: transform 0.3s ease 0s;
+
+            &:before {
+                content: attr(data-hover);
+                position: absolute;
+                top: 100%;
+                left: 0px;
+                transform: translate3d(0px, 0px, 0px);
+            }  
+        }          
+    }
+
+    &.effect-hr {
+        overflow: hidden;
+        
+        @include media($desktop) {
+            &:hover, &:focus {
+                outline: medium;
+
+                div {
+                    transform: translateX(-100%);
+                }
+            }
+        } 
+
+        div {
+            display: inline-block;
+            position: relative;
+            transition: transform 0.3s ease 0s;
+
+            &:before {
+                content: attr(data-hover);
+                position: absolute;
+                top: 0px;
+                left: 100%;
+                transform: translate3d(0px, 0px, 0px);
+            }  
+        }          
+    }    
+
+    &.invert {
+        background: #601212;
+    }
+
+    &.icon {
+        border: 1px solid #dedede;        
+        background: transparent;
+        overflow:hidden;
+
+        @include media($desktop) {
+            &:hover {
+                border-color: #601212;
+                i {
+                    color: #601212;
+                }
+            }
+        }
+
+        i {
+            color: #dedede;
+            font-size: 1.8rem;
+            line-height: 2.95rem;
+        }
+    }
+
+    &.big {
+        padding: 12px 28px;
+
+        @media screen and (max-width: $phone) {
+            width: 100%;
+            text-align: center;
+        }
+    }
+}

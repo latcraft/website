@@ -1,0 +1,120 @@
+// Reset
+@import "partials/reset";
+
+// External
+@import "bourbon";
+@import "neat";
+
+// Modules
+@import "modules/mixins";
+
+@import "infograph-partials/grid";
+@import "infograph-partials/colors";
+@import "infograph-partials/typography";
+@import "infograph-partials/buttons";
+@import "infograph-partials/base";
+
+body { 
+	background-color: #08080A
+}
+
+p {
+	color: #fff;
+}
+
+.action a {
+	text-align: center;
+}
+
+.action a {
+	width: 100%;
+}
+
+.event {
+	@include media($tablet) {
+		h1, h2 {
+			text-align: center;
+		}
+	}
+}
+
+.event section {
+	margin-top: 60px;	
+	@include outer-container;	
+  	.when_where { 
+  		@include span-columns(9); 	
+		@include media($mobile) {
+			@include span-columns(12); 
+		}    	  
+			.info {
+				@include outer-container;
+				margin-bottom: 10px;
+				i {
+					color: $alt-header;
+					font-size: 2rem;
+				}
+				.label { 
+					@include span-columns(1.5); 
+					@include media($mobile) {
+			  			@include span-columns(12);
+					}
+				}
+				.detail { @include span-columns(10.5); }
+			}
+  	}
+  	.action {
+  		@include span-columns(3); 	  	
+		@include media($mobile) {
+			@include span-columns(12); 
+		}    	  		  			
+  	}
+}
+
+
+.speech {
+	h2 {
+		margin-top: 80px;
+		color: $alt-header;	
+		text-transform: none;
+		margin-bottom: 50px;
+	}
+
+	section {
+		@include outer-container;
+	  	.bio { 
+	  		@include span-columns(3); 
+    		@include media($tablet) {
+				@include span-columns(12); 
+    		}    	  		
+	  	}
+	  	.description { 
+	  		@include span-columns(9); 
+    		@include media($tablet) {
+    			@include span-columns(12); 
+    			margin-top: 20px;
+				text-align: center;
+    		}   	  		
+	  	}			
+	}	
+
+	.bio {
+		text-align: center; 
+		img.headshot {
+			width: 170px;
+			margin-bottom: 25px;
+			@include border-left-radius(100px);
+			@include border-right-radius(100px);
+			@include border-bottom-radius(100px);
+			@include border-left-radius(100px);
+			@include border-color(white);
+			@include border-width(5px);
+			@include border-style(solid);		
+		}	
+	}
+}
+
+.container {
+	@include outer-container;
+	margin-left: 10%;
+	margin-right: 10%
+}
