@@ -9,14 +9,24 @@ This repository contains *Gulp* project that builds **LatCraft** website.
   [Docker](https://www.docker.com/)
 - The Website build uses [gulp.js](http://gulpjs.com/) and
   [Node.js](https://nodejs.org/)
+- The project team owns and maintains
+  [latcraft/website](https://hub.docker.com/r/latcraft/website/) docker image
+  ready to use.
 
-# How to build site
+
+# How to use docker image
 
 The docker image provides access to ready to and preconfigured `gulp` and `npm`
 environment. Particularly, `run.sh` could be thought of as convenience command
 line prefix (analogous to `sudo` or `env`).
 Because of the way docker service works, it might need to use `sudo` (and ask
 your user credentials).
+
+You don't need to build docker image itself. You are welcome to use LC team's
+crafted and maintained version.
+You could obtain ine by running `docker pull latcraft/website`.
+
+# How to build site
 
 - Build website by running `./run.sh gulp build`.
 - Or just run `./run.sh gulp` to start local web server on port 9009 and go to
