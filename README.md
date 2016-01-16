@@ -35,11 +35,11 @@ block vars
 	- var path = '2015/madeinlatvia'
 ```
 
-- `eventDate` is used to locate the event in the event collection in JSON
+- `eventDate` is used to locate the event in the JSON event collection
 - `openGraph` switch says that the page is used for social media infographics generation
-- `path` path to the jade template
+- `path` is just a path to the jade template (corresponds to filesystem path)
 
-Now the build and make sure both templates rendered correctly by opening them in the browser. You will see something like this:
+Now run the build and make sure both templates are rendeing correctly by opening them in the browser. You should see something like this:
 
 `madeinlatvia_og-shot.png`
 ![ada](README/madeinlatvia_og-shot.png)
@@ -50,7 +50,7 @@ Now the build and make sure both templates rendered correctly by opening them in
 # How to deploy to staging 
 
 - Run `gulp build stage`
-- Visit <http://www.latcraft.lv/website> and have fun!
+- Visit <http://stage.latcraft.lv> and have fun!
 
 ### Checklist before deployment to staging
 1. Run the local server and make sure that event page and infographics are rendered corrently by opening them in the browser. For `Made in Latvia` event, URLs are the following:

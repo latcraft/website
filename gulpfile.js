@@ -138,29 +138,13 @@ gulp.task('screens', ['copy', 'imagemin', 'fonts', 'sass'], function () {
   		.pipe(gulp.dest(publicDir + '/img'));
 });
 
-// gulp.task('ograph', ['screens'], function() {
-// 	gulp.src(publicDir + '/img/*/**.png')
-// 		.pipe(gm(function (gmfile) {
-// 			return gmfile.crop(1366, 768);
-// 		}))	
-// 		.pipe(gulp.dest(publicDir + '/img'));
-// 	// gulp.src(publicDir + '/img/*/**.png')
-// 	// 	.pipe(resize({ 
-// 	// 		width : 1200,
-// 	// 		height : 630,
-// 	// 		crop : true,
-// 	// 		upscale : false
-//  //    	}))	
-// 	// 	.pipe(rename(function (path) { path.basename += "-thumbnail"; }))    	
-// 	// 	.pipe(gulp.dest(publicDir + '/img'));
-// })
 
 gulp.task('build', function() {
 	gulp.start('fonts', 'sass', 'jade', 'uglify', 'imagemin', 'video', 'copy', 'screens');
 }); 
 
 gulp.task('stage', function () {
-    return gulp.src(['./www/**/*', './data/**/*'])
+    return gulp.src(['./www/**/*', './data/**/*', './env/stage/CNAME'])
         .pipe(deploy());
 });
 
@@ -169,7 +153,7 @@ gulp.task('live', function () {
     	remoteUrl: "https://github.com/latcraft/latcraft.github.io.git",
     	branch: "master"
     };	
-    return gulp.src(['./www/**/*', './data/**/*', 'CNAME'])
+    return gulp.src(['./www/**/*', './data/**/*', './env/live/CNAME'])
         .pipe(deploy(options));
 });
 
