@@ -1,0 +1,6 @@
+#!/bin/bash
+
+set -e
+
+phantomjs-bin --web-security=no $@
+

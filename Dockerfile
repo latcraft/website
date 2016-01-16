@@ -14,7 +14,8 @@ RUN apt-get install -y build-essential g++ flex bison gperf ruby perl \
   git
 RUN git clone --recurse-submodules git://github.com/ariya/phantomjs.git /tmp/phantomjs-build
 RUN cd /tmp/phantomjs-build && ./build.py 
-RUN cp /tmp/phantomjs-build/bin/phantomjs /usr/local/bin/phantomjs && rm -rf /tmp/phantomjs-build
+RUN cp /tmp/phantomjs-build/bin/phantomjs /usr/local/bin/phantomjs-bin && rm -rf /tmp/phantomjs-build
+ADD docker/phantomjs /usr/local/bin/phantomjs
 
 RUN npm install gulp -g
 
