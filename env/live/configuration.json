@@ -1,0 +1,8 @@
+{
+	"host" : "latcraft.lv",
+	"cname": "./env/live/CNAME",
+    "deployOptions": { 
+    	"remoteUrl": "https://github.com/latcraft/latcraft.github.io.git",
+    	"branch": "master"
+    }		
+}

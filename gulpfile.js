@@ -20,6 +20,14 @@ var gulp = require('gulp'),
 	localScreenshots = require('gulp-local-screenshots'),
 	sitemap = require('gulp-sitemap');
 
+var env = util.env.environment ? util.env.environment : "local"
+
+var news = require('./data/news.json'),
+	events = require('./data/events.json'),
+	challenges = require('./data/challenges.json');
+	environment = require('./env/' + (env ? env : "local") + '/configuration.json')
+
+
 // link public assets
 var publicDir = "www";
 
@@ -69,15 +77,15 @@ gulp.task('sass', ['fonts'], function () {
 // compiles jade
 gulp.task('jade', function() {
 
-	var env = util.env.environment
-	if (!env) {
-        throw new Error("--environment property is missing (possible values: local, stage, live")
-	}
+	// var env = util.env.environment
+	// if (!env) {
+ //        throw new Error("--environment property is missing (possible values: local, stage, live")
+	// }
 
 	var news = require('./data/news.json'),
 		events = require('./data/events.json'),
 		challenges = require('./data/challenges.json');
-		environment = require('./env/' + env + '/host.json')
+		// environment = require('./env/' + env + '/host.json')
 
  	gulp.src(['./jade/*.jade', './jade/pages/*/**.jade'])
  		.pipe(plumber())
@@ -142,8 +150,7 @@ gulp.task('screens', ['copy', 'imagemin', 'fonts', 'sass'], function () {
   			folder: publicDir + '/img',
 			type: 'png',
 			suffix: 'shot',
-			width: ['1200'],
-			height: ['630']
+			width: ['1300']
    		}))
   		.pipe(gulp.dest(publicDir + '/img'));
 });
@@ -158,13 +165,13 @@ gulp.task('stage', function () {
         .pipe(deploy());
 });
 
-gulp.task('live', function () {
-    var options = { 
-    	remoteUrl: "https://github.com/latcraft/latcraft.github.io.git",
-    	branch: "master"
-    };	
-    return gulp.src(['./www/**/*', './data/**/*', './env/live/CNAME'])
-        .pipe(deploy(options));
+gulp.task('deploy', function () {
+	if (env != "live" && env != "stage") {
+		throw Error("Ooops, deployment target is missing. Should be one of '--environment stage' '--environment live'");
+	}
+
+    return gulp.src(['./www/**/*', './data/**/*', environment.cname])
+        .pipe(deploy(environment.deployOptions));
 });
 
 gulp.task('default', ['connect', 'build', 'watch']);

@@ -13,6 +13,8 @@ This repository contains *Gulp* project that builds **LatCraft** website.
 - Build website by running `gulp build`.
 - Or just run `gulp` to start local web server on port 9009 and go to <http://localhost:9009> in your browser. There is also a shortcut to start gulp if you are on Windows. 
 
+> By default website is built for `local` development environment. Adding `--environment stage` or `--environment live` arguments builds the website for `staging` or `production` accordingly.
+
 # How to add new event
 - Go to `./data/events.json` and add new JSON record
 - ssilka na tekushij event!!
@@ -41,21 +43,23 @@ block vars
 
 Now run the build and make sure both templates are rendeing correctly by opening them in the browser. You should see something like this:
 
-`madeinlatvia_og-shot.png`
-![ada](README/madeinlatvia_og-shot.png)
+##### Made in Latvia OpenGraph Infographics
+![Made in Latvia OpenGraph Infographics](README/madeinlatvia_og-shot.png)
 
-`madeinlatvia-shot.png`
-![ada](README/madeinlatvia-shot.png)
+##### Made in Latvia Event Infographics
+![Made in Latvia Event Infographics](README/madeinlatvia-shot.png)
 
 # How to deploy to staging 
 
-- Run `gulp build stage`
+- Run `gulp clean` to perform clean build
+- Run `gulp build --environment stage` to build the website for staging
+- Run `gulp deploy --environment stage` to deploy 
 - Visit <http://stage.latcraft.lv> and have fun!
 
 ### Checklist before deployment to staging
 1. Run the local server and make sure that event page and infographics are rendered corrently by opening them in the browser. For `Made in Latvia` event, URLs are the following:
-    - `localhost:9009/2015/madeinlatvia.html` and `localhost:9009/img/2015/madeinlatvia-shot.png`
-    - `localhost:9009/2015/madeinlatvia_og.html` and `localhost:9009/img/2015/madeinlatvia_og-shot.png`
+    - [Event page](localhost:9009/2015/madeinlatvia.html) and [infographics](localhost:9009/img/2015/madeinlatvia-shot.png)
+    - [OpenGraph page](localhost:9009/2015/madeinlatvia_og.html) and [infographics](localhost:9009/img/2015/madeinlatvia_og-shot.png)
 
 Pay attention to WebFonts and make sure they are rendered properly.
 
@@ -63,8 +67,13 @@ Pay attention to WebFonts and make sure they are rendered properly.
 
 # How to deploy to production
 
-- Run `gulp build live`
-- Visit <http://www.latcraft.lv> and have fun!
+- Run `gulp clean` to perform clean build
+- Run `gulp build --environment live` to build the website for staging
+- Run `gulp deploy --environment live` to deploy 
+- Visit <http://latcraft.lv> and have fun!
 
 ### Checklist before deployment to production 
-1. Go to [OpenGraph Object Debugger](https://developers.facebook.com/tools/debug/og/object/) and make sure event looks great when shared and infographics is present
+1. Go to [OpenGraph Object Debugger](https://developers.facebook.com/tools/debug/og/object/) and make sure event looks great when shared and infographics is present:
+
+![FaceBook Share](README/share.png)
+
