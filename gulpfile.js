@@ -14,7 +14,9 @@ var gulp = require('gulp'),
 	clean = require('gulp-clean'),
 	resize = require('gulp-image-resize'),
 	gulpif = require('gulp-if'),
+	gm = require('gulp-gm'),
 	deploy = require('gulp-gh-pages'),
+	localScreenshots = require('gulp-local-screenshots'),
 	sitemap = require('gulp-sitemap');
 
 // link public assets
@@ -30,15 +32,14 @@ gulp.task('connect', function() {
 });
 
 
-
 // minify images
 gulp.task('imagemin', function () {
 	return gulp.src(['img/*', 'img/*/**'])
 		.pipe(plumber())
 	    .pipe(gulpif('speakers/*', resize({ 
 			imageMagick: true,
-			width : 60,
-			height : 60,
+			width : 180,
+			height : 180,
 			crop : true,
 			upscale : true
 		})))
@@ -47,8 +48,13 @@ gulp.task('imagemin', function () {
 		.pipe(connect.reload());
 });
 
+gulp.task('fonts', function() {
+	return gulp.src(['fonts/*'])
+		.pipe(gulp.dest(publicDir + '/fonts' ))	
+})
+
 // compile sass to css and prefix
-gulp.task('sass', function () {
+gulp.task('sass', ['fonts'], function () {
 	gulp.src('sass/*.scss')
 		.pipe(plumber())
 		.pipe(sass({
@@ -65,7 +71,7 @@ gulp.task('jade', function() {
 		events = require('./data/events.json'),
 		challenges = require('./data/challenges.json');
 
- 	gulp.src('./jade/*.jade')
+ 	gulp.src(['./jade/*.jade', './jade/pages/*/**.jade'])
  		.pipe(plumber())
 	    .pipe(jade({
 	    	pretty: true,
@@ -106,7 +112,7 @@ gulp.task('video', function() {
 
 // copy other resources
 gulp.task('copy', function() {
-	gulp.src(['favicon.ico', 'humans.txt', 'robots.txt', 'googlef8dbbdd1b207ac7f.html'])
+	return gulp.src(['favicon.ico', 'humans.txt', 'robots.txt', 'googlef8dbbdd1b207ac7f.html'])
 		.pipe(gulp.dest(publicDir))
 		.pipe(connect.reload());
 });
@@ -120,8 +126,37 @@ gulp.task('watch', function() {
     gulp.watch(['video/*'], ['video']);
 });
 
+gulp.task('screens', ['copy', 'imagemin', 'fonts', 'sass'], function () {
+	return gulp.src(publicDir + '/*/**.html')
+  		.pipe(localScreenshots({
+  			path: publicDir + '/',
+  			folder: publicDir + '/img',
+			type: 'png',
+			suffix: 'shot',
+			width: ['1600']
+   		}))
+  		.pipe(gulp.dest(publicDir + '/img'));
+});
+
+// gulp.task('ograph', ['screens'], function() {
+// 	gulp.src(publicDir + '/img/*/**.png')
+// 		.pipe(gm(function (gmfile) {
+// 			return gmfile.crop(1366, 768);
+// 		}))	
+// 		.pipe(gulp.dest(publicDir + '/img'));
+// 	// gulp.src(publicDir + '/img/*/**.png')
+// 	// 	.pipe(resize({ 
+// 	// 		width : 1200,
+// 	// 		height : 630,
+// 	// 		crop : true,
+// 	// 		upscale : false
+//  //    	}))	
+// 	// 	.pipe(rename(function (path) { path.basename += "-thumbnail"; }))    	
+// 	// 	.pipe(gulp.dest(publicDir + '/img'));
+// })
+
 gulp.task('build', function() {
-	gulp.start('sass', 'jade', 'uglify', 'imagemin', 'video', 'copy');
+	gulp.start('fonts', 'sass', 'jade', 'uglify', 'imagemin', 'video', 'copy', 'screens');
 }); 
 
 gulp.task('stage', function () {

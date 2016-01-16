@@ -1,8 +1,10 @@
-section#modal
-	.holder
-		.container
-			a(href="#close").close 
-				span
-				span
-			.eventbrite
-				iframe(src="http://www.eventbrite.com/tickets-external?eid=19129353411&ref=etckt&v=2" frameborder="0" height="256" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true")
+each event in events
+	if event.announced
+		section#modal
+			.holder
+				.container
+					a(href="#close").close 
+						span
+						span
+					.eventbrite
+						iframe(src="http://www.eventbrite.com/tickets-external?eid=#{event.eventbriteEventId}&ref=etckt&v=2" frameborder="0" height="256" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true")
