@@ -1,5 +1,5 @@
 doctype html
-html
+html(itemtype="http://schema.org/Organization")
 	block vars
 	each event in events
 		if event.date == eventDate		
@@ -11,10 +11,10 @@ html
 				meta(name="description" content="#{event.desc}")
 				meta(name="keywords" content="#{event.desc}")
 				meta(property="og:type" content="website")
-				meta(property="og:url" content="http://latcraft.lv/#{path}.html")
+				meta(property="og:url" content="http://#{env.host}/#{path}.html")
 				meta(property="og:title" content="#{event.theme} event by Latvian Software Craftsmanship Community")
 				meta(property="og:description" content="#{event.desc}")
-				meta(property="og:image" content="http://latcraft.lv/img/#{path}_og-shot.png")
+				meta(property="og:image" content="http://#{env.host}/img/#{path}_og-shot.png")
 				meta(property="og:image:width" content="620")
 				meta(property="og:image:height" content="310")
 

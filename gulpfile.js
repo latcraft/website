@@ -14,6 +14,7 @@ var gulp = require('gulp'),
 	clean = require('gulp-clean'),
 	resize = require('gulp-image-resize'),
 	gulpif = require('gulp-if'),
+	util = require('gulp-util'),
 	gm = require('gulp-gm'),
 	deploy = require('gulp-gh-pages'),
 	localScreenshots = require('gulp-local-screenshots'),
@@ -67,9 +68,16 @@ gulp.task('sass', ['fonts'], function () {
 
 // compiles jade
 gulp.task('jade', function() {
+
+	var env = util.env.environment
+	if (!env) {
+        throw new Error("--environment property is missing (possible values: local, stage, live")
+	}
+
 	var news = require('./data/news.json'),
 		events = require('./data/events.json'),
 		challenges = require('./data/challenges.json');
+		environment = require('./env/' + env + '/host.json')
 
  	gulp.src(['./jade/*.jade', './jade/pages/*/**.jade'])
  		.pipe(plumber())
@@ -78,7 +86,8 @@ gulp.task('jade', function() {
 	    	locals: {
 	    		"news": news, 	
 	    		"events": events, 	
-	    		"challenges": challenges 	
+	    		"challenges": challenges,
+	    		"env": environment	
 	    	}
 	    }))
 	    .pipe(gulp.dest(publicDir))
@@ -133,7 +142,8 @@ gulp.task('screens', ['copy', 'imagemin', 'fonts', 'sass'], function () {
   			folder: publicDir + '/img',
 			type: 'png',
 			suffix: 'shot',
-			width: ['1600']
+			width: ['1200'],
+			height: ['630']
    		}))
   		.pipe(gulp.dest(publicDir + '/img'));
 });
