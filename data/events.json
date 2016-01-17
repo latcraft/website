@@ -1,14 +1,14 @@
 [
   {
     "theme": "Software Craftsmanship",
-    "desc": "TBD This time we decided the event to Software Craftsmanship. Let's return to basic core values ...",
+    "desc": "Let's open new year by covering topics that are tightly related to software craftsmanship and professionalism. How to behave professionally? How to cure 'Agile hangover'? How to advance your career? How to choose tools properly and avoid falling into tool-hype trap? Let's address these questions together!",
     "month": "February 2016",
     "date": "2 February, 2016",
     "time": "18:30",
     "announced": true,
-    "endTime": "21:50",
+    "endTime": "21:00",
     "maps": "https://www.google.lv/maps/place/Microsoft+Latvia+Sia/@56.9518346,24.1135864,17z/data=!3m1!4b1!4m2!3m1!1s0x46eecfd1895509f1:0x87193c3b2eaf2d7c?hl=en",
-    "tickets": "https://www.eventbrite.com/e/latcraft-java-tickets-20823521714",
+    "tickets": "http://www.eventbrite.com/tickets-external?eid=20823521714&amp;ref=etckt&amp;v=2",
     "eventbriteEventId": "20823521714",
     "venue": "Zala iela 1, Microsoft Latvia telpas",
     "schedule": [

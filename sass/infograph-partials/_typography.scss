@@ -10,12 +10,12 @@
 
 // Broke PhantomJS-linux-in-docker
 // // for PhantomJS
-// @font-face {
-//     font-family: 'Economica';
-//     font-style: normal;
-//     font-weight: 400;
-//     src: local('Economica'), local('Economica-Regular'), url(/fonts/Economica-normal-400.svg) format('svg')
-// }
+@font-face {
+    font-family: 'Economica';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Economica'), local('Economica-Regular'), url(/fonts/Economica-normal-400.svg) format('svg')
+}
 
 $primary-font: "Economica", sans-serif;
 
