@@ -54,7 +54,7 @@ html {
   font-family: 'Economica';
   font-style: normal;
   font-weight: 400;
-  src: local("Economica"), local("Economica-Regular"), url(/fonts/Economica-normal-400.woff2) format("woff2"), url(https://fonts.gstatic.com/s/economica/v4/jObgDQiPUtmACAaaK3pMG1tXRa8TVwTICgirnJhmVJw.woff2) format "woff2"; }
+  src: url(/fonts/Economica-normal-400.woff) format("woff"); }
 
 @font-face {
   font-family: 'Economica';
