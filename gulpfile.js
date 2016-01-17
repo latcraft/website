@@ -63,11 +63,11 @@ gulp.task('fonts', function() {
 })
 
 // compile sass to css and prefix
-gulp.task('sass', ['fonts'], function () {
-	gulp.src('sass/*.scss')
-		.pipe(plumber())
-		.pipe(sass({
-	    	includePaths: neat.includePaths
+  gulp.task('sass', ['fonts'], function () {
+    gulp.src('sass/*.scss')
+      .pipe(plumber())
+      .pipe(sass({
+          includePaths: neat.includePaths
 	    }))
 		.pipe(autoprefix('last 10 version'))
 		.pipe(gulp.dest(publicDir + '/css'))
@@ -146,11 +146,11 @@ gulp.task('watch', function() {
 gulp.task('screens', ['copy', 'imagemin', 'fonts', 'sass'], function () {
 	return gulp.src(publicDir + '/*/**.html')
   		.pipe(localScreenshots({
-  			path: publicDir + '/',
-  			folder: publicDir + '/img',
-			type: 'png',
-			suffix: 'shot',
-			width: ['1300']
+        path: publicDir + '/',
+        folder: publicDir + '/img',
+        type: 'png',
+        suffix: 'shot',
+        width: ['1300']
    		}))
   		.pipe(gulp.dest(publicDir + '/img'));
 });

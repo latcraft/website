@@ -5,16 +5,17 @@
     font-family: 'Economica';
     font-style: normal;
     font-weight: 400;
-    src: url(/fonts/Economica-normal-400.woff) format('woff');
+    src: local('Economica'), local('Economica-Regular'), url(/fonts/Economica-normal-400.woff2) format('woff2'), url(https://fonts.gstatic.com/s/economica/v4/jObgDQiPUtmACAaaK3pMG1tXRa8TVwTICgirnJhmVJw.woff2) format ('woff2');
 }
 
-// for PhantomJS
-@font-face {
-    font-family: 'Economica';    
-    font-style: normal;
-    font-weight: 400;    
-    src: url(/fonts/Economica-normal-400.svg) format('svg') 
-}
+// Broke PhantomJS-linux-in-docker
+// // for PhantomJS
+// @font-face {
+//     font-family: 'Economica';
+//     font-style: normal;
+//     font-weight: 400;
+//     src: local('Economica'), local('Economica-Regular'), url(/fonts/Economica-normal-400.svg) format('svg')
+// }
 
 $primary-font: "Economica", sans-serif;
 
@@ -23,7 +24,7 @@ h4, h5, h6 {
     color: $base;
     line-height: 1.15em;
     margin: 0 0 0.2em 0;
-    font-weight: 300;   
+    font-weight: 300;
     font-family: $primary-font;
     text-transform: uppercase;
 }
@@ -35,7 +36,7 @@ h1 {
 
     @include media($mobile) {
         font-size: 3.8rem;
-    }    
+    }
 }
 
 h2 {
@@ -43,14 +44,14 @@ h2 {
     letter-spacing: -1px;
     @include media($mobile) {
         font-size: 2rem;
-    }        
+    }
 }
 
 h3 {
     font-size: 2rem;
     @include media($mobile) {
         font-size: 1.5rem;
-    }        
+    }
 }
 
 p {
