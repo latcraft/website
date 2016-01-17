@@ -3,7 +3,7 @@
 set -e
 
 function _usage {
-  echo "Usage: build | serve | deploy [stage|live]"
+  echo "Usage: npm | gulp [arguments]"
   exit 0
 }
 
@@ -11,32 +11,15 @@ function _say {
   echo ">> $@... <<"
 }
 
-function _install {
-  _say "npm install" && \
-  npm install
-}
-
-function _serve {
-  _say "serve..." && \
-  gulp $@
-}
-
-function _build {
-  _say "build $@" && \
-  gulp build $@
-}
 
 [[ $# -eq 0 ]] && _usage && exit 0
 
 case "${1}" in
-build)
-  _install && _build
+npm)
+  _say npm ${@:2} && npm ${@:2}
   ;;
-serve)
-  _serve
-  ;;
-deploy)
-  _install && _build ${2:-"stage"}
+gulp)
+  _say gulp ${@:2} && gulp ${@:2}
   ;;
 *)
   _usage
