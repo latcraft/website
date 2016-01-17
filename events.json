@@ -1,15 +1,65 @@
 [
-{
+  {
+    "theme": "Software Craftsmanship",
+    "desc": "Let's open new year by covering topics that are tightly related to software craftsmanship and professionalism. How to behave professionally? How to cure 'Agile hangover'? How to advance your career? How to choose tools properly and avoid falling into tool-hype trap? Let's address these questions together!",
+    "month": "February 2016",
+    "date": "2 February, 2016",
+    "time": "18:30",
+    "announced": true,
+    "endTime": "21:00",
+    "maps": "https://www.google.lv/maps/place/Microsoft+Latvia+Sia/@56.9518346,24.1135864,17z/data=!3m1!4b1!4m2!3m1!1s0x46eecfd1895509f1:0x87193c3b2eaf2d7c?hl=en",
+    "tickets": "http://www.eventbrite.com/tickets-external?eid=20823521714&amp;ref=etckt&amp;v=2",
+    "eventbriteEventId": "20823521714",
+    "venue": "Zala iela 1, Microsoft Latvia telpas",
+    "schedule": [
+      {
+        "type": "start",
+        "time": "18:30",
+        "title": "Event Opening"
+      },
+      {
+        "name": "Alla Babkina",
+        "type": "speech",
+        "time": "18:40",
+        "bio": "Software Developer at Sky",
+        "twitter": "allababkina",
+        "title": "Tools: How Not to Shoot Yourself In the Foot",
+        "description": "As part of the software craftsmanship community we want to deliver great results (and have fun with it). There are so many tools out there that could help you craft the best software (and have fun with it)! Choosing your tools is as hard if not harder than building it. We shall talk about how to balance the stakeholders' interests, the team's interests, your personal desires and even give something back to the community when picking the tools you use.",
+        "img": "img/speakers/ababkina.jpg"
+      },
+      {
+        "type": "break",
+        "time": "19:25",
+        "title": "Coffee Break"
+      },
+      {
+        "name": "Eduards Sizovs",
+        "type": "speech",
+        "time": "19:40",
+        "bio": "Sizovs.net",
+        "twitter": "eduardsi",
+        "title": "From Crapmanship to Craftsmanship",
+        "description": "Are you doing all you can to further your career as a software developer? With today's rapidly changing and ever-expanding technologies, being successful requires more than technical expertise. In this talk, Eduards outlines the practices used by software craftsmen to maintain their professional ethics and simple Dos and Don'ts for teams who want to be considered professional craftsmen.",
+        "img": "img/speakers/eduardsi.jpg"
+      },
+      {
+        "type": "finish",
+        "time": "20:35",
+        "title": "Closing Note"
+      }
+    ]
+  },
+  {
     "theme": "Made in Latvia",
     "desc": "This time, we decided to dedicate an event to some of the greatest Latvian startups made in Latvia. Let's check out how they started, the hard ways they got at their beginnings, as well as their grow process, and where thy are today.",
     "month": "November 2015",
     "date": "3 November, 2015",
     "time": "18:30",
     "announced": true,
-    "endTime": "21:30",    
+    "endTime": "21:30",
     "maps": "https://www.google.lv/maps/place/Microsoft+Latvia+Sia/@56.9518346,24.1135864,17z/data=!3m1!4b1!4m2!3m1!1s0x46eecfd1895509f1:0x87193c3b2eaf2d7c?hl=en",
     "tickets": "https://www.eventbrite.com/e/latcraft-java-tickets-18712838604",
-    "eventbriteEventId": "18712838604", 
+    "eventbriteEventId": "18712838604",
     "venue": "Zala iela 1, Microsoft Latvia telpas",
     "schedule": [
       {
