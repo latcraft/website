@@ -12,9 +12,10 @@ RUN apt-get install -y build-essential g++ flex bison gperf ruby perl \
   libsqlite3-dev libfontconfig1-dev libicu-dev libfreetype6 libssl-dev \
   libpng-dev libjpeg-dev python libx11-dev libxext-dev \
   git
-RUN git clone --recurse-submodules git://github.com/ariya/phantomjs.git /tmp/phantomjs-build
-RUN cd /tmp/phantomjs-build && ./build.py
-RUN cp /tmp/phantomjs-build/bin/phantomjs /usr/local/bin/phantomjs-bin && rm -rf /tmp/phantomjs-build
+RUN git clone --recurse-submodules git://github.com/ariya/phantomjs.git /tmp/phantomjs-build && \
+    cd /tmp/phantomjs-build && ./build.py && \
+    cp /tmp/phantomjs-build/bin/phantomjs /usr/local/bin/phantomjs-bin \
+    && rm -rf /tmp/phantomjs-build
 ADD docker/phantomjs /usr/local/bin/phantomjs
 RUN echo "deb http://httpredir.debian.org/debian jessie contrib" | tee -a /etc/apt/sources.list
 RUN apt-get update && apt-get install -y \
