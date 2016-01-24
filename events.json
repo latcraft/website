@@ -29,14 +29,29 @@
       },
       {
         "type": "break",
-        "time": "19:25",
+        "time": "19:20",
+        "title": "Coffee Break"
+      },
+      {
+        "name": "Romans Karpelcevs",
+        "type": "speech",
+        "time": "19:35",
+        "bio": "Mobile Dev Lead @ ASKfm",
+        "twitter": "cvbk",
+        "title": "Boy Scout’s Power: A Case Study",
+        "description": "Clean coding and craftsmanship practices are gaining more popularity, but many talks focus on revolutionising coding and on motivation; or on small tutorial-size examples. Many teams are afraid to apply them, thinking “this is good, but not for us”. In his talk Roman will tell about successfully using craftsmanship practices in ASKfm: how it went and how it ended up helping the project dramatically.",
+        "img": "img/speakers/romans-karpelcevs.png"
+      },
+      {
+        "type": "break",
+        "time": "19:55",
         "title": "Coffee Break"
       },
       {
         "name": "Eduards Sizovs",
         "type": "speech",
-        "time": "19:40",
-        "bio": "Sizovs.net",
+        "time": "20:05",
+        "bio": "Consultant @ Sizovs.net",
         "twitter": "eduardsi",
         "title": "From Crapmanship to Craftsmanship",
         "description": "Are you doing all you can to further your career as a software developer? With today's rapidly changing and ever-expanding technologies, being successful requires more than technical expertise. In this talk, Eduards outlines the practices used by software craftsmen to maintain their professional ethics and simple Dos and Don'ts for teams who want to be considered professional craftsmen.",
@@ -44,7 +59,7 @@
       },
       {
         "type": "finish",
-        "time": "20:35",
+        "time": "20:45",
         "title": "Closing Note"
       }
     ]

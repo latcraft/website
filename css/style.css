@@ -207,7 +207,6 @@ h6 {
         outline: medium; }
         .button.effect:hover div, .button.effect:focus div {
           -webkit-transform: translateY(-100%);
-              -ms-transform: translateY(-100%);
                   transform: translateY(-100%); } }
     .button.effect div {
       display: inline-block;
@@ -228,7 +227,6 @@ h6 {
         outline: medium; }
         .button.effect-hr:hover div, .button.effect-hr:focus div {
           -webkit-transform: translateX(-100%);
-              -ms-transform: translateX(-100%);
                   transform: translateX(-100%); } }
     .button.effect-hr div {
       display: inline-block;
@@ -304,7 +302,6 @@ h6 {
     height: 100%;
     width: 100%;
     -webkit-transform: translateY(94%);
-        -ms-transform: translateY(94%);
             transform: translateY(94%);
     background: rgba(34, 44, 52, 0.1);
     -webkit-transition: all 0.3s ease 0s;
@@ -317,7 +314,6 @@ h6 {
       .text-link:hover:before {
         opacity: 1;
         -webkit-transform: translateY(0%);
-            -ms-transform: translateY(0%);
                 transform: translateY(0%); } }
   .text-link.invert {
     color: #fff; }
@@ -975,7 +971,6 @@ header#header {
             header#header .info .button.opening div {
               left: 50%;
               -webkit-transform: translateX(-50%);
-                  -ms-transform: translateX(-50%);
                       transform: translateX(-50%); } }
         @media screen and (min-width: 1020px) {
           header#header .info .button.opening:hover div {
