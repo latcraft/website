@@ -43,9 +43,14 @@
         "img": "img/speakers/romans-karpelcevs.png"
       },
       {
+        "type": "break",
+        "time": "19:55",
+        "title": "Coffee Break"
+      },
+      {
         "name": "Eduards Sizovs",
         "type": "speech",
-        "time": "19:55",
+        "time": "20:05",
         "bio": "Consultant @ Sizovs.net",
         "twitter": "eduardsi",
         "title": "From Crapmanship to Craftsmanship",
@@ -54,7 +59,7 @@
       },
       {
         "type": "finish",
-        "time": "20:35",
+        "time": "20:45",
         "title": "Closing Note"
       }
     ]
