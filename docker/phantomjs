@@ -2,5 +2,5 @@
 
 set -e
 
-phantomjs-bin --web-security=no $@
+/phantomjs-2.1.1-linux-x86_64/bin/phantomjs --web-security=no $@
 

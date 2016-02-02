@@ -1,44 +1,28 @@
 FROM node:5.4.1
 
-VOLUME /app
-WORKDIR /app
+ENV DL_BASE_URL https://bitbucket.org/ariya/phantomjs/downloads
+ENV DL_FILE     phantomjs-2.1.1-linux-x86_64.tar.bz2
 
 RUN apt-get update
 
+# for image thumbnails
 RUN apt-get install -y imagemagick graphicsmagick
 
-# compiles and installs phantomjs
-RUN apt-get install -y build-essential g++ flex bison gperf ruby perl \
-  libsqlite3-dev libfontconfig1-dev libicu-dev libfreetype6 libssl-dev \
-  libpng-dev libjpeg-dev python libx11-dev libxext-dev \
-  git
-RUN git clone --recurse-submodules git://github.com/ariya/phantomjs.git /tmp/phantomjs-build && \
-    cd /tmp/phantomjs-build && ./build.py && \
-    cp /tmp/phantomjs-build/bin/phantomjs /usr/local/bin/phantomjs-bin \
-    && rm -rf /tmp/phantomjs-build
-ADD docker/phantomjs /usr/local/bin/phantomjs
-RUN echo "deb http://httpredir.debian.org/debian jessie contrib" | tee -a /etc/apt/sources.list
-RUN apt-get update && apt-get install -y \
-  fontconfig                       \
-  libfontconfig-dev                \
-  libfontenc-dev                   \
-  libfontenc1                      \
-  libxfont-dev                     \
-  libxfont1                        \
-  xfonts-base                      \
-  xfonts-100dpi                    \
-  xfonts-75dpi                     \
-  xfonts-cyrillic                  \
-  ttf-mscorefonts-installer        \
-  libxext-dev                      \
-  libwayland-dev
-
-
+# build tool - gulp
 RUN npm install gulp -g
 
-ADD docker/entrypoint.sh /bin/entrypoint.sh
-
+# Git configuration
 RUN git config --global user.name "docker-deployer"
 RUN git config --global user.email "docker-deployer@latcraft.lv"
 
+VOLUME /app
+WORKDIR /app
+
+# phantomjs
+RUN wget "$DL_BASE_URL/$DL_FILE" -O "/$DL_FILE" \
+  && tar -xjvf "/$DL_FILE" -C /
+ADD docker/phantomjs /usr/local/bin/phantomjs
+RUN apt-get install fontconfig
+
+ADD docker/entrypoint.sh /bin/entrypoint.sh
 ENTRYPOINT ["/bin/entrypoint.sh"]
