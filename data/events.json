@@ -29,13 +29,13 @@
       },
       {
         "type": "break",
-        "time": "19:20",
+        "time": "19:40",
         "title": "Coffee Break"
       },
       {
         "name": "Eduards Sizovs",
         "type": "speech",
-        "time": "19:35",
+        "time": "19:55",
         "bio": "Consultant @ Sizovs.net",
         "twitter": "eduardsi",
         "title": "Beyond Software Craftsmanship",
@@ -44,7 +44,7 @@
       },
       {
         "type": "finish",
-        "time": "20:15",
+        "time": "20:45",
         "title": "Closing Note"
       }
     ]
