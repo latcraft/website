@@ -1,5 +1,69 @@
 [
   {
+    "theme": "Infrastructure as a Code!",
+    "desc": "Let's investigate Infrasructure as Code (IaC) forefront - how to express the configuration, production and deployment infrastructure in executable and repeatable form, what tools are suitable for that purpose, best and worst practices - all covered.",
+    "month": "April 2016",
+    "date": "12 April, 2016",
+    "time": "18:30",
+    "announced": true,
+    "endTime": "21:00",
+    "maps": "https://www.google.lv/maps/place/Microsoft+Latvia+Sia/@56.9518346,24.1135864,17z/data=!3m1!4b1!4m2!3m1!1s0x46eecfd1895509f1:0x87193c3b2eaf2d7c?hl=en",
+    "tickets": "http://www.eventbrite.com/e/latcraft-infrastructure-as-code-tickets-24390082393",
+    "eventbriteEventId": "24390082393",
+    "venue": "Zala iela 1, Microsoft Latvia telpas",
+    "schedule": [
+      {
+        "type": "start",
+        "time": "18:30",
+        "title": "Event Opening"
+      },
+      {
+        "name": "Andrey Adamovich",
+        "type": "speech",
+        "time": "18:40",
+        "bio": "Founder at Aestas/IT",
+        "twitter": "codingandrey",
+        "title": "Patterns for Infrastructure-as-Code",
+        "description": "One of the ways to describe software architecture is to express its configuration in executable and therefore repeatable form – infrastructure as code. Tools that are often used for this purpose (for example, Puppet, Ansible, Chef) are not utilized to their full potential. Provided abstractions, extension points, existing modules are ignored by turning provisioning software into just a fancy file copying utility. Software configuration has a variety of frequently appearing patterns and ready-made abstractions to better communicate the intent of the architecture described in the form of infrastructure as code. The intent of this presentation is to provide summary of such patterns.",
+        "img": "img/speakers/adamovich.jpeg"
+      },
+      {
+        "type": "break",
+        "time": "19:20",
+        "title": "Coffee Break"
+      },
+      {
+        "name": "Eduards Sizovs",
+        "type": "speech",
+        "time": "19:35",
+        "bio": "Software Development Coach",
+        "twitter": "eduardsi",
+        "title": "Terraform for Babushkas",
+        "description": "In this quickie, Eduards will explain what Terraform is all about and will show how to build and evolve Amazon Web Services infrastructure using this great tool.",
+        "img": "img/speakers/eduardsi.jpg"
+      },
+      {
+        "type": "break",
+        "time": "19:50",
+        "title": "Coffee Break"
+      },
+      {
+        "name": "Yevhen Duma",
+        "type": "speech",
+        "time": "20:05",
+        "bio": "Lead DevOps Specialist at Visma Labs",
+        "title": "10+ Deploys per Day",
+        "description": "Yevhen will show he has built a system that keeps your code and infrastructure in Git, deploys a Windows-based project to AWS via Octopus Deployment, and describe lessons he learned during that journey.",
+        "img": "img/speakers/duma.png"
+      },
+      {
+        "type": "finish",
+        "time": "20:45",
+        "title": "Closing Note"
+      }
+    ]
+  },
+  {
     "theme": "Software Architecture Panel",
     "desc": "This time, we decided to try a totally different format - 100% interactive, 2-hour panel discussion with lots of questions varying from career development and motivation; to the latest trends in software architecture, personal f%ckups and lessons learned. Four rock-star software architects. Different companies, background and opinions.",
     "month": "March 2016",
@@ -66,7 +130,7 @@
         "title": "Participant IV",
         "description": "Software Architect, Web Application Developer, Project manager who loves to connect business and reality of web development through agile. Fan of Ember.js.",
         "img": "img/speakers/zavacky.jpg"
-      },      
+      },
       {
         "name": "Eduards Sizovs",
         "type": "speech",
@@ -76,7 +140,7 @@
         "title": "Moderator",
         "description": "Eduards is a hands-on architect and software development coach who helps awesome teams around the globe become more awesome – work smarter, run faster and enjoy the journey. He leads Latvian Software Craftsmanship Community, organises DevTernity – the biggest software craftsmanship conference in Baltics, blogs, speaks, and even sleeps. Sometimes.",
         "img": "img/speakers/eduardsi.jpg"
-      },            
+      },
       {
         "type": "finish",
         "time": "20:45",
