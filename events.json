@@ -1,11 +1,160 @@
 [
   {
+    "theme": "Infrastructure as a Code!",
+    "desc": "Let's investigate Infrasructure as Code (IaC) forefront - how to express the configuration, production and deployment infrastructure in executable and repeatable form, what tools are suitable for that purpose, best and worst practices - all covered.",
+    "month": "April 2016",
+    "date": "12 April, 2016",
+    "time": "18:30",
+    "announced": true,
+    "endTime": "21:00",
+    "maps": "https://www.google.lv/maps/place/Microsoft+Latvia+Sia/@56.9518346,24.1135864,17z/data=!3m1!4b1!4m2!3m1!1s0x46eecfd1895509f1:0x87193c3b2eaf2d7c?hl=en",
+    "tickets": "http://www.eventbrite.com/e/latcraft-infrastructure-as-code-tickets-24390082393",
+    "eventbriteEventId": "24390082393",
+    "venue": "Zala iela 1, Microsoft Latvia telpas",
+    "schedule": [
+      {
+        "type": "start",
+        "time": "18:30",
+        "title": "Event Opening"
+      },
+      {
+        "name": "Andrey Adamovich",
+        "type": "speech",
+        "time": "18:40",
+        "bio": "Founder at Aestas/IT",
+        "twitter": "codingandrey",
+        "title": "Patterns for Infrastructure-as-Code",
+        "description": "One of the ways to describe software architecture is to express its configuration in executable and therefore repeatable form – infrastructure as code. Tools that are often used for this purpose (for example, Puppet, Ansible, Chef) are not utilized to their full potential. Provided abstractions, extension points, existing modules are ignored by turning provisioning software into just a fancy file copying utility. Software configuration has a variety of frequently appearing patterns and ready-made abstractions to better communicate the intent of the architecture described in the form of infrastructure as code. The intent of this presentation is to provide summary of such patterns.",
+        "img": "img/speakers/adamovich.jpeg"
+      },
+      {
+        "type": "break",
+        "time": "19:20",
+        "title": "Coffee Break"
+      },
+      {
+        "name": "Eduards Sizovs",
+        "type": "speech",
+        "time": "19:35",
+        "bio": "Software Development Coach",
+        "twitter": "eduardsi",
+        "title": "Terraform for Babushkas",
+        "description": "In this quickie, Eduards will explain what Terraform is all about and will show how to build and evolve Amazon Web Services infrastructure using this great tool.",
+        "img": "img/speakers/eduardsi.jpg"
+      },
+      {
+        "type": "break",
+        "time": "19:50",
+        "title": "Coffee Break"
+      },
+      {
+        "name": "Yevhen Duma",
+        "type": "speech",
+        "time": "20:05",
+        "bio": "Lead DevOps Specialist at Visma Labs",
+        "title": "10+ Deploys per Day",
+        "description": "Yevhen will show he has built a system that keeps your code and infrastructure in Git, deploys a Windows-based project to AWS via Octopus Deployment, and describe lessons he learned during that journey.",
+        "img": "img/speakers/duma.png"
+      },
+      {
+        "type": "finish",
+        "time": "20:45",
+        "title": "Closing Note"
+      }
+    ]
+  },
+  {
+    "theme": "Software Architecture Panel",
+    "desc": "This time, we decided to try a totally different format - 100% interactive, 2-hour panel discussion with lots of questions varying from career development and motivation; to the latest trends in software architecture, personal f%ckups and lessons learned. Four rock-star software architects. Different companies, background and opinions.",
+    "month": "March 2016",
+    "date": "10 March, 2016",
+    "time": "18:30",
+    "announced": true,
+    "endTime": "20:30",
+    "maps": "https://www.google.lv/maps/place/Microsoft+Latvia+Sia/@56.9518346,24.1135864,17z/data=!3m1!4b1!4m2!3m1!1s0x46eecfd1895509f1:0x87193c3b2eaf2d7c?hl=en",
+    "tickets": "http://www.eventbrite.com/tickets-external?eid=22418068045&amp;ref=etckt&amp;v=2",
+    "eventbriteEventId": "22418068045",
+    "venue": "Zala iela 1, Microsoft Latvia telpas",
+    "schedule": [
+      {
+        "type": "start",
+        "time": "18:30",
+        "title": "Event Opening"
+      },
+      {
+        "name": "Dmitry Buzdin",
+        "type": "speech",
+        "time": "18:30",
+        "bio": "Software Architect at Neueda",
+        "twitter": "buzdin",
+        "title": "Participant I",
+        "description": "Dmitry is a coding architect specializing in large-scale Java, Web, CI, Test Automation and Agile development. He has experience in banking, insurance and telecom industries. He is Java User Group Latvia and Test Automation Club co-founder and producer of Riga Dev Days conference. Dmitry leads a crowd of serial software craftsmen in Neueda, Riga working on the next generation of test automation tools.",
+        "img": "img/speakers/buzdin.jpg"
+      },
+      {
+        "type": "break",
+        "time": "19:20",
+        "title": "Coffee Break"
+      },
+      {
+        "name": "Ilgvars Jecis",
+        "type": "speech",
+        "time": "18:30",
+        "bio": "Independent Consultant",
+        "twitter": "",
+        "title": "Participant II",
+        "description": "Experienced software architect with entrepreneur mindset who enjoys building products - from idea to working software. ex. CIO of 4finance, ex. CTO of BuyerDeck",
+        "img": "img/speakers/ilgvars.jpg"
+      },
+      {
+        "type": "break",
+        "time": "19:55",
+        "title": "Coffee Break"
+      },
+      {
+        "name": "Jurgis Orups",
+        "type": "speech",
+        "time": "18:30",
+        "bio": "CTO at Clusterpoint",
+        "twitter": "jurgisorups",
+        "title": "Participant III",
+        "description": "IT system architect with 10 year experience in data search and retrieval technologies, parallel computing and natural language processing. Jurgis co-founded Clusterpoint in 2006. Prior to that he spent 6 years managing a team that was building a large-scale internet crawling and search technology.",
+        "img": "img/speakers/jurgiscl.jpg"
+      },
+      {
+        "name": "Ruslan Zavacky",
+        "type": "speech",
+        "time": "18:30",
+        "bio": "Senior Dev @ Kayako UK",
+        "twitter": "ruslanzavacky",
+        "title": "Participant IV",
+        "description": "Software Architect, Web Application Developer, Project manager who loves to connect business and reality of web development through agile. Fan of Ember.js.",
+        "img": "img/speakers/zavacky.jpg"
+      },
+      {
+        "name": "Eduards Sizovs",
+        "type": "speech",
+        "time": "18:30",
+        "bio": "Consultant @ Sizovs.net",
+        "twitter": "eduardsi",
+        "title": "Moderator",
+        "description": "Eduards is a hands-on architect and software development coach who helps awesome teams around the globe become more awesome – work smarter, run faster and enjoy the journey. He leads Latvian Software Craftsmanship Community, organises DevTernity – the biggest software craftsmanship conference in Baltics, blogs, speaks, and even sleeps. Sometimes.",
+        "img": "img/speakers/eduardsi.jpg"
+      },
+      {
+        "type": "finish",
+        "time": "20:45",
+        "title": "Closing Note"
+      }
+    ]
+  },
+  {
     "theme": "Software Craftsmanship",
     "desc": "Let's open new year by covering topics that are tightly related to software craftsmanship and professionalism. How to behave professionally? How to cure 'Agile hangover'? How to advance your career? How to choose tools properly and avoid falling into tool-hype trap? Let's address these questions together!",
     "month": "February 2016",
     "date": "2 February, 2016",
     "time": "18:30",
-    "announced": true,
+    "announced": false,
     "endTime": "21:00",
     "maps": "https://www.google.lv/maps/place/Microsoft+Latvia+Sia/@56.9518346,24.1135864,17z/data=!3m1!4b1!4m2!3m1!1s0x46eecfd1895509f1:0x87193c3b2eaf2d7c?hl=en",
     "tickets": "http://www.eventbrite.com/tickets-external?eid=20823521714&amp;ref=etckt&amp;v=2",
@@ -29,32 +178,17 @@
       },
       {
         "type": "break",
-        "time": "19:20",
-        "title": "Coffee Break"
-      },
-      {
-        "name": "Romans Karpelcevs",
-        "type": "speech",
-        "time": "19:35",
-        "bio": "Mobile Dev Lead @ ASKfm",
-        "twitter": "cvbk",
-        "title": "Boy Scout’s Power: A Case Study",
-        "description": "Clean coding and craftsmanship practices are gaining more popularity, but many talks focus on revolutionising coding and on motivation; or on small tutorial-size examples. Many teams are afraid to apply them, thinking “this is good, but not for us”. In his talk Roman will tell about successfully using craftsmanship practices in ASKfm: how it went and how it ended up helping the project dramatically.",
-        "img": "img/speakers/romans-karpelcevs.png"
-      },
-      {
-        "type": "break",
-        "time": "19:55",
+        "time": "19:40",
         "title": "Coffee Break"
       },
       {
         "name": "Eduards Sizovs",
         "type": "speech",
-        "time": "20:05",
+        "time": "19:55",
         "bio": "Consultant @ Sizovs.net",
         "twitter": "eduardsi",
-        "title": "From Crapmanship to Craftsmanship",
-        "description": "Are you doing all you can to further your career as a software developer? With today's rapidly changing and ever-expanding technologies, being successful requires more than technical expertise. In this talk, Eduards outlines the practices used by software craftsmen to maintain their professional ethics and simple Dos and Don'ts for teams who want to be considered professional craftsmen.",
+        "title": "Beyond Software Craftsmanship",
+        "description": "Meet Johnny - a full-stack developer with 5+ years of experience under the belt, M.Sc degree and 'get sh%t done fast' mentality. Although Johnny possess exceptional technical skills, Milton - his manager, doesn't give him promotion, no matter how hard Johnny tried and how many late nights he has spent coding. Together with Johnny you will walk the thorny road to his remarkable career; the road full of struggles, discoveries and actions that may or will influence your professional life.",
         "img": "img/speakers/eduardsi.jpg"
       },
       {

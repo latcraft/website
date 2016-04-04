@@ -204,7 +204,8 @@ p {
   text-align: center; }
 
 .action a {
-  width: 100%; }
+  width: 100%;
+  margin-bottom: 20px; }
 
 @media screen and (max-width: 992px) {
   .event h1, .event h2 {
