@@ -26,6 +26,7 @@
         "title": "Patterns for Infrastructure-as-Code",
         "description": "One of the ways to describe software architecture is to express its configuration in executable and therefore repeatable form – infrastructure as code. Software configuration has a variety of frequently appearing patterns and ready-made abstractions to better communicate the intent of the architecture described in the form of infrastructure as code. The intent of this presentation is to provide summary of such patterns.",
         "presentation" : "https://speakerdeck.com/latcraft/patterns-for-infrastructure-as-code",
+        "video": "https://www.youtube.com/watch?v=29sRejfM8iQ",
         "img": "img/speakers/adamovich.jpeg"
       },
       {
@@ -41,6 +42,7 @@
         "twitter": "eduardsi",
         "title": "Terraform for Babushkas",
         "description": "In this quickie, Eduards will explain what Terraform is all about and will show how to build and evolve Amazon Web Services infrastructure using this great tool.",
+        "video": "https://www.youtube.com/watch?v=AsQEb06FNNw",
         "img": "img/speakers/eduardsi.jpg"
       },
       {
@@ -56,6 +58,7 @@
         "title": "10+ Deploys per Day",
         "description": "Yevhen will show he has built a system that keeps your code and infrastructure in Git, deploys a Windows-based project to AWS via Octopus Deployment, and describe lessons he learned during that journey.",
         "presentation" : "https://speakerdeck.com/latcraft/10-plus-deploys-per-day",
+        "video": "https://www.youtube.com/watch?v=4GnGxm__Gy4",
         "img": "img/speakers/duma.png"
       },
       {
