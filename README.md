@@ -19,9 +19,16 @@ crafted and maintained version. You could obtain it by running `docker pull latc
 
 # How to build site
 
-- Build website by running `./run.sh gulp build`.
-- Or just run `./run.sh gulp` to start local web server on port 9009 and go to
-  <http://localhost:9009> in your browser. There is also a shortcut to start
+- If it is the first time you run the web site build, then install all the `node` modules by executing: 
+
+        ./run.sh npm install
+ 
+- To build or to rebuild web site, fire the following command:
+ 
+        ./run.sh gulp build
+
+- Or just run `./run.sh gulp` to start local web server on port `9009` and go to
+  <http://localhost:9009> in your browser. There is also a short-cut to start
   gulp if you are on Windows.
 
 > By default website is built for `local` development environment. Adding
@@ -56,9 +63,11 @@ Now, run the build and make sure both templates are rendering correctly by
 opening them in the browser. You should see something like this:
 
 ##### Made in Latvia OpenGraph Infographics
+
 ![Made in Latvia OpenGraph Infographics](README/madeinlatvia_og-shot.png)
 
 ##### Made in Latvia Event Infographics
+
 ![Made in Latvia Event Infographics](README/madeinlatvia-shot.png)
 
 # How to deploy to staging
