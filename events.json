@@ -1,5 +1,55 @@
 [
   {
+    "theme": "Agile Retrospectives",
+    "desc": "Let's dive into understaning and improving effectiveness of agile retrospectives with interactive workshops by two active Scrum practitioners: Angel Maroto (Agile Coach) and Alexey Krivitsky (Certified Scrum Trainer). Everyone will participate in the action!",
+    "month": "May 2016",
+    "date": "5 May, 2016",
+    "time": "18:30",
+    "announced": true,
+    "endTime": "21:00",
+    "maps": "https://www.google.lv/maps/place/Microsoft+Latvia+Sia/@56.9518346,24.1135864,17z/data=!3m1!4b1!4m2!3m1!1s0x46eecfd1895509f1:0x87193c3b2eaf2d7c?hl=en",
+    "tickets": "https://www.eventbrite.com/e/latcraft-agile-retrospectives-tickets-25071939847",
+    "eventbriteEventId": "25071939847",
+    "venue": "Zala iela 1, Microsoft Latvia telpas",
+    "schedule": [
+      {
+        "type": "start",
+        "time": "18:50",
+        "title": "Event Opening"
+      },
+      {
+        "name": "Alexey Krivitsky",
+        "type": "speech",
+        "time": "20:00",
+        "bio": "Certified Scrum Trainer",
+        "twitter": "alexeykri",
+        "title": "Deepening Agile Retrospectives",
+        "description": "Despite of all the ocean of information on this topic, there still seems to be a big gap between the wisdom that is in the books and what people actually do in office meeting rooms under a lit sign: \"Don't enter. Retrospective on air\".This session will provide details to the 16 exercises of the Retrospective Cheat Sheet allowing you to build a good number of retrospective agendas varying the exercises based on the team mood, size and setup.",
+        "img": "img/speakers/alexey_krivitsky.jpg"
+      },
+      {
+        "type": "break",
+        "time": "19:50",
+        "title": "Coffee Break"
+      },
+      {
+        "name": "Angel Diaz-Maroto Alvarez",
+        "type": "speech",
+        "time": "19:00",
+        "bio": "Agile Coach",
+        "twitter": "adiazmaroto",
+        "title": "Non-Violent Communication Dancefloors to manage team conflicts",
+        "description": "Retrospectives are one of the most powerful concepts in Agile and often one of the most difficult ceremonies to facilitate. The reason is that with Retrospectives we’re trying to put together the concept of Kaizen continuous improvement and the leverage of team coaching. In other to take advantage of this powerful idea, powerful skills and maturity are needed both for teams and facilitators. Furthermore, is critical to differentiate between Kaizen and a team coaching process. In this session I’ll start going through both concepts separately: team kaizen and team coaching. The goal is to get the audience understanding more in depth the core concepts behind retrospectives so they can go beyond the ceremony and explore how to evolve their needed competences and retrospective structure to the next level.",
+        "img": "img/speakers/angel.jpeg"
+      },
+      {
+        "type": "finish",
+        "time": "20:55",
+        "title": "Closing Note"
+      }
+    ]
+  },
+  {
     "theme": "Infrastructure as a Code!",
     "desc": "Let's investigate Infrasructure as Code (IaC) forefront - how to express the configuration, production and deployment infrastructure in executable and repeatable form, what tools are suitable for that purpose, best and worst practices - all covered.",
     "month": "April 2016",
