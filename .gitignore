@@ -44,3 +44,4 @@ reference/
 jscoverage_lib/
 temp/
 www
+.vagrant
