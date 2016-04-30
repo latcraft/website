@@ -31,13 +31,11 @@ crafted and maintained version. You could obtain it by running `docker pull latc
   <http://localhost:9009> in your browser. There is also a short-cut to start
   gulp if you are on Windows.
 
-> By default website is built for `local` development environment. Adding
-> `--environment stage` or `--environment live` arguments builds the website
-> for `staging` or `production` accordingly.
+- By default website is built for `local` development environment. Adding `--environment stage` or `--environment live` arguments builds the website for `staging` or `production` accordingly.
 
 # How to add new event
 
-- Go to `./data/events.json` and add new JSON record.
+- Go to `./data/events.json` and add new *JSON* record.
 - Under `./jade/pages/<currentYear>/` create two `.jade` templates with names
   corresponding to the event name (see examples under `./jade/pages/2015`). 
   For `Made in Latvia` event you will end up with two templates:
@@ -55,9 +53,9 @@ crafted and maintained version. You could obtain it by running `docker pull latc
 			- var eventDate = '3 November, 2015'
 			- var path = '2015/madeinlatvia'
 
-- `eventDate` is used to locate the event in the JSON event collection.
+- `eventDate` is used to locate the event in the *JSON* event collection.
 - `openGraph` switch says that the page is used for social media infographics generation.
-- `path` is just a path to the jade template (corresponds to the file system path).
+- `path` is just a path to the *Jade* template (corresponds to the file system path).
 
 Now, run the build and make sure both templates are rendering correctly by
 opening them in the browser. You should see something like this:
