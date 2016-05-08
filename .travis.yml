@@ -1,13 +1,10 @@
-language:
-  - node_js
+sudo: required
 
 services:
   - docker
 
-before_script:
-  - ./run.sh npm install
-
 script:
+  - ./run.sh npm install
   - ./run.sh gulp clean
   - ./run.sh gulp build --environment live
   - ./run.sh gulp deploy --environment live
