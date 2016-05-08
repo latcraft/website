@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/latcraft/website.svg?branch=master)](https://travis-ci.org/latcraft/website)
 
 # LatCraft website sources
 
@@ -96,6 +97,10 @@ opening them in the browser. You should see something like this:
 - Run `./run.sh gulp build --environment live`, to build the website for production.
 - Run `./run.sh gulp deploy --environment live`, to deploy.
 - Visit <http://latcraft.lv> and have fun!
+
+```
+Deployment to production is performed automatically by Travis CI upon push to master.
+```
 
 ### Check list before deployment to production
 
