@@ -45,3 +45,4 @@ jscoverage_lib/
 temp/
 www
 .vagrant
+*.iml
