@@ -1,1033 +1,1035 @@
 [
-  {
-    "theme": "Soft Skills",
-    "desc": "Did you know that about 80% of your career success is due to Soft Skills and Emotional Intelligence? Technical skills are not enough. Join us to learn how to manage your time and finally get things done, how to turn emotional feedback into a constructive discussion, how to start thinking out of the box, and achieve more!",
-    "month": "June 2016",
-    "date": "7 June, 2016",
-    "time": "18:30",
-    "announced": true,
-    "endTime": "21:00",
-    "maps": "https://www.google.lv/maps/place/Microsoft+Latvia+Sia/@56.9518346,24.1135864,17z/data=!3m1!4b1!4m2!3m1!1s0x46eecfd1895509f1:0x87193c3b2eaf2d7c?hl=en",
-    "venue": "Zala iela 1, Microsoft Latvia telpas",
-    "schedule": [
-      {
-        "type": "start",
+    {
+        "announced": true,
+        "date": "7 June, 2016",
+        "desc": "Did you know that about 80% of your career success is due to Soft Skills and Emotional Intelligence? Technical skills are not enough. Join us to learn how to manage your time and finally get things done, how to turn emotional feedback into a constructive discussion, how to start thinking out of the box, and achieve more!",
+        "endTime": "21:00",
+        "eventbriteEventId": "25775301621",
+        "maps": "https://www.google.lv/maps/place/Microsoft+Latvia+Sia/@56.9518346,24.1135864,17z/data=!3m1!4b1!4m2!3m1!1s0x46eecfd1895509f1:0x87193c3b2eaf2d7c?hl=en",
+        "month": "June 2016",
+        "schedule": [
+            {
+                "time": "18:30",
+                "title": "Event Opening",
+                "type": "start"
+            },
+            {
+                "bio": "Engagement Director, Idea Port Riga",
+                "description": "The fundamentals of time and task management are well known to everybody. Still majority of us does not succeed in managing tasks, deadlines and schedules in the long run. Why personal efficiency methods are not working? How to make them working for you? How does our brain maintain the activities, wishes and emotions we have? What you should do in order to overcome the procrastination? Ljubov will provide her answers to these questions, as well as share her life hacks.",
+                "img": "img/speakers/ljubovbezhan.png",
+                "name": "Ljubov Be\u017ean",
+                "time": "18:40",
+                "title": "Facilitating the Zoo in Your Head, or How to Get Things Done",
+                "type": "speech"
+            },
+            {
+                "time": "19:10",
+                "title": "Coffee Break",
+                "type": "break"
+            },
+            {
+                "bio": "Business Development Manager at Diatom Enterprises",
+                "description": "Have you ever been verbally attacked by someone? Have you ever heard something like \"You always miss the deadlines!\" or \"Your code is a mess!\"? Spend 40 minutes with me and learn how to turn such statements into your advantage!",
+                "img": "img/speakers/darjakrizska.png",
+                "name": "Darja Krizska",
+                "time": "19:25",
+                "title": "Verbal Judo",
+                "twitter": "Darjucis",
+                "type": "speech"
+            },
+            {
+                "time": "20:05",
+                "title": "Coffee Break",
+                "type": "break"
+            },
+            {
+                "bio": "CEO at Atlas",
+                "description": "During the presentation, you will hear the real life experience how to transform boring work through the divergent thinking into incredible, breathtaking work. You will find out how to use your creativity to implement impossible ideas to your work in a short time. Moreover, you will learn to take the initiative and to make mistakes without fair. Most complex problems have a solution; sometimes we just have to think about them in a different way.",
+                "img": "img/speakers/alexfridman.png",
+                "name": "Alex Fridman",
+                "time": "20:15",
+                "title": "Pimp My Brain",
+                "twitter": "fridman_alex",
+                "type": "speech"
+            },
+            {
+                "time": "20:55",
+                "title": "Closing Note",
+                "type": "finish"
+            }
+        ],
+        "theme": "Soft Skills",
+        "tickets": "http://www.eventbrite.com/e/latcraft-soft-skills-tickets-25775301621",
         "time": "18:30",
-        "title": "Event Opening"
-      },
-      {
-        "name": "Ljubov Bežan",
-        "type": "speech",
-        "time": "18:40",
-        "bio": "Engagement Director, Idea Port Riga",
-        "title": "Facilitating the Zoo in Your Head, or How to Get Things Done",
-        "description": "The fundamentals of time and task management are well known to everybody. Still majority of us does not succeed in managing tasks, deadlines and schedules in the long run. Why personal efficiency methods are not working? How to make them working for you? How does our brain maintain the activities, wishes and emotions we have? What you should do in order to overcome the procrastination? Ljubov will provide her answers to these questions, as well as share her life hacks.",
-        "img": "img/speakers/ljubovbezhan.png"
-      },
-      {
-        "type": "break",
-        "time": "19:10",
-        "title": "Coffee Break"
-      },
-      {
-        "name": "Darja Krizska",
-        "type": "speech",
-        "time": "19:25",
-        "bio": "Business Development Manager at Diatom Enterprises",
-        "twitter": "Darjucis",
-        "title": "Verbal Judo",
-        "description": "Have you ever been verbally attacked by someone? Have you ever heard something like \"You always miss the deadlines!\" or \"Your code is a mess!\"? Spend 40 minutes with me and learn how to turn such statements into your advantage!",
-        "img": "img/speakers/darjakrizska.png"
-      },
-      {
-        "type": "break",
-        "time": "20:05",
-        "title": "Coffee Break"
-      },
-      {
-        "name": "Alex Fridman",
-        "type": "speech",
-        "time": "20:15",
-        "bio": "CEO at Atlas",
-        "title": "Pimp My Brain",
-        "twitter": "fridman_alex",
-        "description": "During the presentation, you will hear the real life experience how to transform boring work through the divergent thinking into incredible, breathtaking work. You will find out how to use your creativity to implement impossible ideas to your work in a short time. Moreover, you will learn to take the initiative and to make mistakes without fair. Most complex problems have a solution; sometimes we just have to think about them in a different way.",
-        "img": "img/speakers/alexfridman.png"
-      },
-      {
-        "type": "finish",
-        "time": "20:55",
-        "title": "Closing Note"
-      }
-    ]
-  },
-  {
-    "theme": "Agile Retrospectives",
-    "desc": "Let's dive into understanding and improving effectiveness of agile retrospectives with interactive workshops by two active Scrum practitioners: Angel Diaz-Maroto (Agile Coach) and Alexey Krivitsky (Certified Scrum Trainer). Everyone will participate in the action!",
-    "month": "May 2016",
-    "date": "5 May, 2016",
-    "time": "18:30",
-    "announced": true,
-    "endTime": "21:00",
-    "maps": "https://www.google.lv/maps/place/Microsoft+Latvia+Sia/@56.9518346,24.1135864,17z/data=!3m1!4b1!4m2!3m1!1s0x46eecfd1895509f1:0x87193c3b2eaf2d7c?hl=en",
-    "tickets": "https://www.eventbrite.com/e/latcraft-agile-retrospectives-tickets-25071939847",
-    "eventbriteEventId": "25071939847",
-    "venue": "Zala iela 1, Microsoft Latvia telpas",
-    "schedule": [
-      {
-        "type": "start",
-        "time": "18:50",
-        "title": "Event Opening"
-      },
-      {
-        "name": "Alexey Krivitsky",
-        "type": "speech",
-        "time": "19:00",
-        "bio": "Certified Scrum Trainer",
-        "twitter": "alexeykri",
-        "title": "Deepening Agile Retrospectives",
-        "presentation" : "http://www.slideshare.net/krivitsky/agile-retrospective-kickstarter-riga",
-        "description": "Despite of all the ocean of information on this topic, there still seems to be a big gap between the wisdom that is in the books and what people actually do in office meeting rooms under a lit sign: \"Don't enter. Retrospective on air\".This session will provide details to the 16 exercises of the Retrospective Cheat Sheet allowing you to build a good number of retrospective agendas varying the exercises based on the team mood, size and setup.",
-        "img": "img/speakers/alexey_krivitsky.jpg"
-      },
-      {
-        "type": "break",
-        "time": "19:50",
-        "title": "Coffee Break"
-      },
-      {
-        "name": "Angel Diaz-Maroto Alvarez",
-        "type": "speech",
-        "time": "20:00",
-        "bio": "Agile Coach",
-        "twitter": "adiazmaroto",
-        "title": "Non-Violent Communication Dancefloors to manage team conflicts",
-        "description": "Retrospectives are one of the most powerful concepts in Agile and often one of the most difficult ceremonies to facilitate. The reason is that with Retrospectives we’re trying to put together the concept of Kaizen continuous improvement and the leverage of team coaching. In other to take advantage of this powerful idea, powerful skills and maturity are needed both for teams and facilitators. Furthermore, is critical to differentiate between Kaizen and a team coaching process. In this session I’ll start going through both concepts separately: team kaizen and team coaching. The goal is to get the audience understanding more in depth the core concepts behind retrospectives so they can go beyond the ceremony and explore how to evolve their needed competences and retrospective structure to the next level.",
-        "img": "img/speakers/angel.jpeg"
-      },
-      {
-        "type": "finish",
-        "time": "20:55",
-        "title": "Closing Note"
-      }
-    ]
-  },
-  {
-    "theme": "Infrastructure as Code!",
-    "desc": "Let's investigate Infrastructure as Code (IaC) forefront - how to express the configuration, production and deployment infrastructure in executable and repeatable form, what tools are suitable for that purpose, best and worst practices - all covered.",
-    "month": "April 2016",
-    "date": "12 April, 2016",
-    "time": "18:30",
-    "announced": true,
-    "endTime": "21:00",
-    "maps": "https://www.google.lv/maps/place/Microsoft+Latvia+Sia/@56.9518346,24.1135864,17z/data=!3m1!4b1!4m2!3m1!1s0x46eecfd1895509f1:0x87193c3b2eaf2d7c?hl=en",
-    "tickets": "http://www.eventbrite.com/e/latcraft-infrastructure-as-code-tickets-24390082393",
-    "eventbriteEventId": "24390082393",
-    "venue": "Zala iela 1, Microsoft Latvia telpas",
-    "schedule": [
-      {
-        "type": "start",
+        "venue": "Zala iela 1, Microsoft Latvia telpas"
+    },
+    {
+        "announced": true,
+        "date": "5 May, 2016",
+        "desc": "Let's dive into understanding and improving effectiveness of agile retrospectives with interactive workshops by two active Scrum practitioners: Angel Diaz-Maroto (Agile Coach) and Alexey Krivitsky (Certified Scrum Trainer). Everyone will participate in the action!",
+        "endTime": "21:00",
+        "eventbriteEventId": "25071939847",
+        "maps": "https://www.google.lv/maps/place/Microsoft+Latvia+Sia/@56.9518346,24.1135864,17z/data=!3m1!4b1!4m2!3m1!1s0x46eecfd1895509f1:0x87193c3b2eaf2d7c?hl=en",
+        "month": "May 2016",
+        "schedule": [
+            {
+                "time": "18:50",
+                "title": "Event Opening",
+                "type": "start"
+            },
+            {
+                "bio": "Certified Scrum Trainer",
+                "description": "Despite of all the ocean of information on this topic, there still seems to be a big gap between the wisdom that is in the books and what people actually do in office meeting rooms under a lit sign: \"Don't enter. Retrospective on air\".This session will provide details to the 16 exercises of the Retrospective Cheat Sheet allowing you to build a good number of retrospective agendas varying the exercises based on the team mood, size and setup.",
+                "img": "img/speakers/alexey_krivitsky.jpg",
+                "name": "Alexey Krivitsky",
+                "presentation": "http://www.slideshare.net/krivitsky/agile-retrospective-kickstarter-riga",
+                "time": "19:00",
+                "title": "Deepening Agile Retrospectives",
+                "twitter": "alexeykri",
+                "type": "speech"
+            },
+            {
+                "time": "19:50",
+                "title": "Coffee Break",
+                "type": "break"
+            },
+            {
+                "bio": "Agile Coach",
+                "description": "Retrospectives are one of the most powerful concepts in Agile and often one of the most difficult ceremonies to facilitate. The reason is that with Retrospectives we\u2019re trying to put together the concept of Kaizen continuous improvement and the leverage of team coaching. In other to take advantage of this powerful idea, powerful skills and maturity are needed both for teams and facilitators. Furthermore, is critical to differentiate between Kaizen and a team coaching process. In this session I\u2019ll start going through both concepts separately: team kaizen and team coaching. The goal is to get the audience understanding more in depth the core concepts behind retrospectives so they can go beyond the ceremony and explore how to evolve their needed competences and retrospective structure to the next level.",
+                "img": "img/speakers/angel.jpeg",
+                "name": "Angel Diaz-Maroto Alvarez",
+                "time": "20:00",
+                "title": "Non-Violent Communication Dancefloors to manage team conflicts",
+                "twitter": "adiazmaroto",
+                "type": "speech"
+            },
+            {
+                "time": "20:55",
+                "title": "Closing Note",
+                "type": "finish"
+            }
+        ],
+        "theme": "Agile Retrospectives",
+        "tickets": "https://www.eventbrite.com/e/latcraft-agile-retrospectives-tickets-25071939847",
         "time": "18:30",
-        "title": "Event Opening"
-      },
-      {
-        "name": "Andrey Adamovich",
-        "type": "speech",
-        "time": "18:40",
-        "bio": "Founder at Aestas/IT",
-        "twitter": "codingandrey",
-        "title": "Patterns for Infrastructure-as-Code",
-        "description": "One of the ways to describe software architecture is to express its configuration in executable and therefore repeatable form – infrastructure as code. Software configuration has a variety of frequently appearing patterns and ready-made abstractions to better communicate the intent of the architecture described in the form of infrastructure as code. The intent of this presentation is to provide summary of such patterns.",
-        "presentation" : "https://speakerdeck.com/latcraft/patterns-for-infrastructure-as-code",
-        "video": "https://www.youtube.com/watch?v=29sRejfM8iQ",
-        "img": "img/speakers/adamovich.jpeg"
-      },
-      {
-        "type": "break",
-        "time": "19:20",
-        "title": "Coffee Break"
-      },
-      {
-        "name": "Eduards Sizovs",
-        "type": "speech",
-        "time": "19:35",
-        "bio": "Software Development Coach",
-        "twitter": "eduardsi",
-        "title": "Terraform for Babushkas",
-        "description": "In this quickie, Eduards will explain what Terraform is all about and will show how to build and evolve Amazon Web Services infrastructure using this great tool.",
-        "video": "https://www.youtube.com/watch?v=AsQEb06FNNw",
-        "img": "img/speakers/eduardsi.jpg"
-      },
-      {
-        "type": "break",
-        "time": "19:50",
-        "title": "Coffee Break"
-      },
-      {
-        "name": "Yevhen Duma",
-        "type": "speech",
-        "time": "20:05",
-        "bio": "Lead DevOps Specialist at Visma Labs",
-        "title": "10+ Deploys per Day",
-        "description": "Yevhen will show he has built a system that keeps your code and infrastructure in Git, deploys a Windows-based project to AWS via Octopus Deployment, and describe lessons he learned during that journey.",
-        "presentation" : "https://speakerdeck.com/latcraft/10-plus-deploys-per-day",
-        "video": "https://www.youtube.com/watch?v=4GnGxm__Gy4",
-        "img": "img/speakers/duma.png"
-      },
-      {
-        "type": "finish",
-        "time": "20:45",
-        "title": "Closing Note"
-      }
-    ]
-  },
-  {
-    "theme": "Software Architecture Panel",
-    "desc": "This time, we decided to try a totally different format - 100% interactive, 2-hour panel discussion with lots of questions varying from career development and motivation; to the latest trends in software architecture, personal f%ckups and lessons learned. Four rock-star software architects. Different companies, background and opinions.",
-    "month": "March 2016",
-    "date": "10 March, 2016",
-    "time": "18:30",
-    "announced": true,
-    "endTime": "20:30",
-    "maps": "https://www.google.lv/maps/place/Microsoft+Latvia+Sia/@56.9518346,24.1135864,17z/data=!3m1!4b1!4m2!3m1!1s0x46eecfd1895509f1:0x87193c3b2eaf2d7c?hl=en",
-    "tickets": "http://www.eventbrite.com/tickets-external?eid=22418068045&amp;ref=etckt&amp;v=2",
-    "eventbriteEventId": "22418068045",
-    "venue": "Zala iela 1, Microsoft Latvia telpas",
-    "schedule": [
-      {
-        "type": "start",
+        "venue": "Zala iela 1, Microsoft Latvia telpas"
+    },
+    {
+        "announced": true,
+        "date": "12 April, 2016",
+        "desc": "Let's investigate Infrastructure as Code (IaC) forefront - how to express the configuration, production and deployment infrastructure in executable and repeatable form, what tools are suitable for that purpose, best and worst practices - all covered.",
+        "endTime": "21:00",
+        "eventbriteEventId": "24390082393",
+        "maps": "https://www.google.lv/maps/place/Microsoft+Latvia+Sia/@56.9518346,24.1135864,17z/data=!3m1!4b1!4m2!3m1!1s0x46eecfd1895509f1:0x87193c3b2eaf2d7c?hl=en",
+        "month": "April 2016",
+        "schedule": [
+            {
+                "time": "18:30",
+                "title": "Event Opening",
+                "type": "start"
+            },
+            {
+                "bio": "Founder at Aestas/IT",
+                "description": "One of the ways to describe software architecture is to express its configuration in executable and therefore repeatable form \u2013 infrastructure as code. Software configuration has a variety of frequently appearing patterns and ready-made abstractions to better communicate the intent of the architecture described in the form of infrastructure as code. The intent of this presentation is to provide summary of such patterns.",
+                "img": "img/speakers/adamovich.jpeg",
+                "name": "Andrey Adamovich",
+                "presentation": "https://speakerdeck.com/latcraft/patterns-for-infrastructure-as-code",
+                "time": "18:40",
+                "title": "Patterns for Infrastructure-as-Code",
+                "twitter": "codingandrey",
+                "type": "speech",
+                "video": "https://www.youtube.com/watch?v=29sRejfM8iQ"
+            },
+            {
+                "time": "19:20",
+                "title": "Coffee Break",
+                "type": "break"
+            },
+            {
+                "bio": "Software Development Coach",
+                "description": "In this quickie, Eduards will explain what Terraform is all about and will show how to build and evolve Amazon Web Services infrastructure using this great tool.",
+                "img": "img/speakers/eduardsi.jpg",
+                "name": "Eduards Sizovs",
+                "time": "19:35",
+                "title": "Terraform for Babushkas",
+                "twitter": "eduardsi",
+                "type": "speech",
+                "video": "https://www.youtube.com/watch?v=AsQEb06FNNw"
+            },
+            {
+                "time": "19:50",
+                "title": "Coffee Break",
+                "type": "break"
+            },
+            {
+                "bio": "Lead DevOps Specialist at Visma Labs",
+                "description": "Yevhen will show he has built a system that keeps your code and infrastructure in Git, deploys a Windows-based project to AWS via Octopus Deployment, and describe lessons he learned during that journey.",
+                "img": "img/speakers/duma.png",
+                "name": "Yevhen Duma",
+                "presentation": "https://speakerdeck.com/latcraft/10-plus-deploys-per-day",
+                "time": "20:05",
+                "title": "10+ Deploys per Day",
+                "type": "speech",
+                "video": "https://www.youtube.com/watch?v=4GnGxm__Gy4"
+            },
+            {
+                "time": "20:45",
+                "title": "Closing Note",
+                "type": "finish"
+            }
+        ],
+        "theme": "Infrastructure as Code!",
+        "tickets": "http://www.eventbrite.com/e/latcraft-infrastructure-as-code-tickets-24390082393",
         "time": "18:30",
-        "title": "Event Opening"
-      },
-      {
-        "name": "Dmitry Buzdin",
-        "type": "speech",
+        "venue": "Zala iela 1, Microsoft Latvia telpas"
+    },
+    {
+        "announced": true,
+        "date": "10 March, 2016",
+        "desc": "This time, we decided to try a totally different format - 100% interactive, 2-hour panel discussion with lots of questions varying from career development and motivation; to the latest trends in software architecture, personal f%ckups and lessons learned. Four rock-star software architects. Different companies, background and opinions.",
+        "endTime": "20:30",
+        "eventbriteEventId": "22418068045",
+        "maps": "https://www.google.lv/maps/place/Microsoft+Latvia+Sia/@56.9518346,24.1135864,17z/data=!3m1!4b1!4m2!3m1!1s0x46eecfd1895509f1:0x87193c3b2eaf2d7c?hl=en",
+        "month": "March 2016",
+        "schedule": [
+            {
+                "time": "18:30",
+                "title": "Event Opening",
+                "type": "start"
+            },
+            {
+                "bio": "Software Architect at Neueda",
+                "description": "Dmitry is a coding architect specializing in large-scale Java, Web, CI, Test Automation and Agile development. He has experience in banking, insurance and telecom industries. He is Java User Group Latvia and Test Automation Club co-founder and producer of Riga Dev Days conference. Dmitry leads a crowd of serial software craftsmen in Neueda, Riga working on the next generation of test automation tools.",
+                "img": "img/speakers/buzdin.jpg",
+                "name": "Dmitry Buzdin",
+                "time": "18:30",
+                "title": "Participant I",
+                "twitter": "buzdin",
+                "type": "speech"
+            },
+            {
+                "time": "19:20",
+                "title": "Coffee Break",
+                "type": "break"
+            },
+            {
+                "bio": "Independent Consultant",
+                "description": "Experienced software architect with entrepreneur mindset who enjoys building products - from idea to working software. ex. CIO of 4finance, ex. CTO of BuyerDeck",
+                "img": "img/speakers/ilgvars.jpg",
+                "name": "Ilgvars Jecis",
+                "time": "18:30",
+                "title": "Participant II",
+                "twitter": "",
+                "type": "speech"
+            },
+            {
+                "time": "19:55",
+                "title": "Coffee Break",
+                "type": "break"
+            },
+            {
+                "bio": "CTO at Clusterpoint",
+                "description": "IT system architect with 10 year experience in data search and retrieval technologies, parallel computing and natural language processing. Jurgis co-founded Clusterpoint in 2006. Prior to that he spent 6 years managing a team that was building a large-scale internet crawling and search technology.",
+                "img": "img/speakers/jurgiscl.jpg",
+                "name": "Jurgis Orups",
+                "time": "18:30",
+                "title": "Participant III",
+                "twitter": "jurgisorups",
+                "type": "speech"
+            },
+            {
+                "bio": "Senior Dev @ Kayako UK",
+                "description": "Software Architect, Web Application Developer, Project manager who loves to connect business and reality of web development through agile. Fan of Ember.js.",
+                "img": "img/speakers/zavacky.jpg",
+                "name": "Ruslan Zavacky",
+                "time": "18:30",
+                "title": "Participant IV",
+                "twitter": "ruslanzavacky",
+                "type": "speech"
+            },
+            {
+                "bio": "Consultant @ Sizovs.net",
+                "description": "Eduards is a hands-on architect and software development coach who helps awesome teams around the globe become more awesome \u2013 work smarter, run faster and enjoy the journey. He leads Latvian Software Craftsmanship Community, organises DevTernity \u2013 the biggest software craftsmanship conference in Baltics, blogs, speaks, and even sleeps. Sometimes.",
+                "img": "img/speakers/eduardsi.jpg",
+                "name": "Eduards Sizovs",
+                "time": "18:30",
+                "title": "Moderator",
+                "twitter": "eduardsi",
+                "type": "speech"
+            },
+            {
+                "time": "20:45",
+                "title": "Closing Note",
+                "type": "finish"
+            }
+        ],
+        "theme": "Software Architecture Panel",
+        "tickets": "http://www.eventbrite.com/tickets-external?eid=22418068045&amp;ref=etckt&amp;v=2",
         "time": "18:30",
-        "bio": "Software Architect at Neueda",
-        "twitter": "buzdin",
-        "title": "Participant I",
-        "description": "Dmitry is a coding architect specializing in large-scale Java, Web, CI, Test Automation and Agile development. He has experience in banking, insurance and telecom industries. He is Java User Group Latvia and Test Automation Club co-founder and producer of Riga Dev Days conference. Dmitry leads a crowd of serial software craftsmen in Neueda, Riga working on the next generation of test automation tools.",
-        "img": "img/speakers/buzdin.jpg"
-      },
-      {
-        "type": "break",
-        "time": "19:20",
-        "title": "Coffee Break"
-      },
-      {
-        "name": "Ilgvars Jecis",
-        "type": "speech",
+        "venue": "Zala iela 1, Microsoft Latvia telpas"
+    },
+    {
+        "announced": false,
+        "date": "2 February, 2016",
+        "desc": "Let's open new year by covering topics that are tightly related to software craftsmanship and professionalism. How to behave professionally? How to cure 'Agile hangover'? How to advance your career? How to choose tools properly and avoid falling into tool-hype trap? Let's address these questions together!",
+        "endTime": "21:00",
+        "eventbriteEventId": "20823521714",
+        "maps": "https://www.google.lv/maps/place/Microsoft+Latvia+Sia/@56.9518346,24.1135864,17z/data=!3m1!4b1!4m2!3m1!1s0x46eecfd1895509f1:0x87193c3b2eaf2d7c?hl=en",
+        "month": "February 2016",
+        "schedule": [
+            {
+                "time": "18:30",
+                "title": "Event Opening",
+                "type": "start"
+            },
+            {
+                "bio": "Software Developer at Sky",
+                "description": "As part of the software craftsmanship community we want to deliver great results (and have fun with it). There are so many tools out there that could help you craft the best software (and have fun with it)! Choosing your tools is as hard if not harder than building it. We shall talk about how to balance the stakeholders' interests, the team's interests, your personal desires and even give something back to the community when picking the tools you use.",
+                "img": "img/speakers/ababkina.jpg",
+                "name": "Alla Babkina",
+                "time": "18:40",
+                "title": "Tools: How Not to Shoot Yourself In the Foot",
+                "twitter": "allababkina",
+                "type": "speech"
+            },
+            {
+                "time": "19:40",
+                "title": "Coffee Break",
+                "type": "break"
+            },
+            {
+                "bio": "Consultant @ Sizovs.net",
+                "description": "Meet Johnny - a full-stack developer with 5+ years of experience under the belt, M.Sc degree and 'get sh%t done fast' mentality. Although Johnny possess exceptional technical skills, Milton - his manager, doesn't give him promotion, no matter how hard Johnny tried and how many late nights he has spent coding. Together with Johnny you will walk the thorny road to his remarkable career; the road full of struggles, discoveries and actions that may or will influence your professional life.",
+                "img": "img/speakers/eduardsi.jpg",
+                "name": "Eduards Sizovs",
+                "time": "19:55",
+                "title": "Beyond Software Craftsmanship",
+                "twitter": "eduardsi",
+                "type": "speech"
+            },
+            {
+                "time": "20:45",
+                "title": "Closing Note",
+                "type": "finish"
+            }
+        ],
+        "theme": "Software Craftsmanship",
+        "tickets": "http://www.eventbrite.com/tickets-external?eid=20823521714&amp;ref=etckt&amp;v=2",
         "time": "18:30",
-        "bio": "Independent Consultant",
-        "twitter": "",
-        "title": "Participant II",
-        "description": "Experienced software architect with entrepreneur mindset who enjoys building products - from idea to working software. ex. CIO of 4finance, ex. CTO of BuyerDeck",
-        "img": "img/speakers/ilgvars.jpg"
-      },
-      {
-        "type": "break",
-        "time": "19:55",
-        "title": "Coffee Break"
-      },
-      {
-        "name": "Jurgis Orups",
-        "type": "speech",
+        "venue": "Zala iela 1, Microsoft Latvia telpas"
+    },
+    {
+        "announced": true,
+        "date": "3 November, 2015",
+        "desc": "This time, we decided to dedicate an event to some of the greatest Latvian startups made in Latvia. Let's check out how they started, the hard ways they got at their beginnings, as well as their grow process, and where thy are today.",
+        "endTime": "21:30",
+        "eventbriteEventId": "18712838604",
+        "maps": "https://www.google.lv/maps/place/Microsoft+Latvia+Sia/@56.9518346,24.1135864,17z/data=!3m1!4b1!4m2!3m1!1s0x46eecfd1895509f1:0x87193c3b2eaf2d7c?hl=en",
+        "month": "November 2015",
+        "schedule": [
+            {
+                "time": "18:30",
+                "title": "Event Opening",
+                "type": "start"
+            },
+            {
+                "bio": "CTO of Clusterpoint",
+                "description": "This session will describe the insights behind Latvian database technology vendor Clusterpoint efforts to build global database-as-a-service. Jurgis will cover the path of the Clusterpoint technology evolution from building the first nation-wide search engine to recently launched Clusterpoint 4.0 version with Javascript processing right inside the database, which has already been highly appreciated by developers in several tech events in USA.",
+                "img": "img/speakers/jurgiscl.jpg",
+                "name": "Jurgis Orups",
+                "presentation": "https://speakerdeck.com/latcraft/building-and-growing-database-a-case-study-by-clusterpoint",
+                "time": "18:40",
+                "title": "Building and Growing Database - A Case Study by Clusterpoint",
+                "twitter": "jurgisorups",
+                "type": "speech",
+                "video": "https://www.youtube.com/watch?v=sy2ZQJLquoY"
+            },
+            {
+                "time": "19:05",
+                "title": "Coffee Break",
+                "type": "break"
+            },
+            {
+                "bio": "CEO of FROONT",
+                "description": "FROONT is the application for 90% running in the front-end. In this presentation you'll find an explanation how FROONT implements orchestration of data storage (MongoDB, SQLite), back-end services (Flask) and browser with the help of BackboneJS, HTML5 and other modern client-side technologies. We\u2019ll also explain the reasoning behind technological choices, share our mistakes and pitfalls on the way, so others can avoid them.",
+                "img": "img/speakers/saindijsruluks.png",
+                "name": "Sandijs Ruluks",
+                "presentation": "",
+                "time": "19:20",
+                "title": "Building heavy front-end web apps - The story of FROONT.",
+                "twitter": "ruluks",
+                "type": "speech",
+                "video": "https://www.youtube.com/watch?v=uKWWedQZStY"
+            },
+            {
+                "time": "19:45",
+                "title": "Coffee Break",
+                "type": "break"
+            },
+            {
+                "bio": "Software Engineer",
+                "description": "BuyerDeck is a small startup trying to change the way complex B2B sales are done. In this short talk Andrejs will describe what's under the hood of BuyerDeck - how it's built, what technologies and tools are used and what challenges faced. And Andrejs will share his personal experience of what does it mean to be software engineer at startup.",
+                "img": "img/speakers/andreygrave.png",
+                "name": "Andrey Grave",
+                "presentation": "https://speakerdeck.com/latcraft/buyerdeck-inside-out",
+                "time": "19:50",
+                "title": "BuyerDeck inside out",
+                "twitter": "BuyerDeck",
+                "type": "speech",
+                "video": "https://www.youtube.com/watch?v=uYJhqZoSTqg"
+            },
+            {
+                "time": "20:15",
+                "title": "Closing Note",
+                "type": "finish"
+            }
+        ],
+        "theme": "Made in Latvia",
+        "tickets": "https://www.eventbrite.com/e/latcraft-java-tickets-18712838604",
         "time": "18:30",
-        "bio": "CTO at Clusterpoint",
-        "twitter": "jurgisorups",
-        "title": "Participant III",
-        "description": "IT system architect with 10 year experience in data search and retrieval technologies, parallel computing and natural language processing. Jurgis co-founded Clusterpoint in 2006. Prior to that he spent 6 years managing a team that was building a large-scale internet crawling and search technology.",
-        "img": "img/speakers/jurgiscl.jpg"
-      },
-      {
-        "name": "Ruslan Zavacky",
-        "type": "speech",
+        "venue": "Zala iela 1, Microsoft Latvia telpas"
+    },
+    {
+        "announced": false,
+        "date": "6 October, 2015",
+        "desc": "JVM is the most widely used runtime in the world and Java is the most popular programming language. Let's learn how to craft well-structured Java applications, how to make Java applications reactive by diving into RxJava and see what performance tuning tools JVM offers.",
+        "month": "October 2015",
+        "schedule": [
+            {
+                "time": "18:30",
+                "title": "Event Opening",
+                "type": "start"
+            },
+            {
+                "bio": "Dev and Trainer @ C.T.Co",
+                "description": "Reactive programming is a new big thing for a couple of years now, but it also shrouded with a distrust as any new technology with mindblowing concepts. Lets pretend together that you didn't hear about Reactive and start learning it from scratch!",
+                "img": "img/speakers/abu.png",
+                "name": "Alexey Buzdin",
+                "presentation": "https://speakerdeck.com/latcraft/reactive-4tw",
+                "time": "18:40",
+                "title": "Reactive 4TW!",
+                "twitter": "AlexeyBuzdin",
+                "type": "speech",
+                "video": "https://www.youtube.com/watch?v=uoYTDs0dLhw"
+            },
+            {
+                "time": "19:15",
+                "title": "Coffee Break",
+                "type": "break"
+            },
+            {
+                "bio": "Founder @ Aestas/IT",
+                "description": "Monitoring your production JVMs is extremely important. Though, not always you have a luxury of having direct access to production servers, which suffer from performance peaks, memory leaks or concurrency issues. Not always you are able to catch JVM issues without an ability to debug the code in-place. There are quite many tools that can help analyzing performance issues of your JVMs based on real-time monitoring data as well as on logs available only post-mortem. This presentation will give an overview of these tools.",
+                "img": "img/speakers/adamovich.jpeg",
+                "name": "Andrey Adamovich",
+                "presentation": "https://speakerdeck.com/latcraft/need-for-speed-tools-for-jvm-tuning",
+                "time": "19:30",
+                "title": "Need for speed: tools for JVM tuning",
+                "twitter": "CodingAndrey",
+                "type": "speech",
+                "video": "https://www.youtube.com/watch?v=h0GttvkeQcg"
+            },
+            {
+                "time": "19:55",
+                "title": "Coffee Break",
+                "type": "break"
+            },
+            {
+                "bio": "Sizovs.net",
+                "description": "Software developers spend most of their time working with code on literal level. Unfortunately, vast amount of design flaws hides behind hundreds of interrelated packages, classes and methods, destroying your system deliberately. In this talk will supply you with knowledge necessary to manage complexity of your logical design from theoretical, practical and tooling perspectives. Time to keep architecture in predictable and manageable state!",
+                "img": "img/speakers/eduardsi.jpg",
+                "name": "Eduards Sizovs",
+                "presentation": "https://speakerdeck.com/latcraft/architecting-well-structured-java-applications",
+                "time": "20:10",
+                "title": "Architecting well-structured Java applications",
+                "twitter": "eduardsi",
+                "type": "speech",
+                "video": "https://www.youtube.com/watch?v=99VFdX1WS7o"
+            },
+            {
+                "time": "20:55",
+                "title": "Closing Note",
+                "type": "finish"
+            }
+        ],
+        "theme": "Java",
         "time": "18:30",
-        "bio": "Senior Dev @ Kayako UK",
-        "twitter": "ruslanzavacky",
-        "title": "Participant IV",
-        "description": "Software Architect, Web Application Developer, Project manager who loves to connect business and reality of web development through agile. Fan of Ember.js.",
-        "img": "img/speakers/zavacky.jpg"
-      },
-      {
-        "name": "Eduards Sizovs",
-        "type": "speech",
+        "venue": "Zala iela 1, Microsoft Latvia telpas"
+    },
+    {
+        "announced": false,
+        "date": "14 September, 2015",
+        "desc": "Let's talk about BigData - how BigData can serve for entertaiment services and help you build service like Shazam, what is the role of SQL and NoSQL databases in BigData and how can you build a real time architecture with huge amount of data using Kafka and Storm.",
+        "month": "September 2015",
+        "schedule": [
+            {
+                "time": "18:30",
+                "title": "Event Opening",
+                "type": "start"
+            },
+            {
+                "bio": "",
+                "description": "Everybody talks that NoSQL is cool! It says absolutely nothing. Let's take a concrete NoSQL database (Cassandra). Check what's inside and compare with a concrete SQL database (MySQL). Then try to make some real conclusions. Interested? Come to this talk.",
+                "img": "img/speakers/maximzakharenkov.png",
+                "name": "Maxim Zakharenkov",
+                "presentation": "https://speakerdeck.com/latcraft/terminator-vs-bruce-lee-or-cassandra-vs-mysql",
+                "time": "18:40",
+                "title": "Terminator vs Bruce Lee or Cassandra vs MySQL",
+                "type": "speech",
+                "video": "https://www.youtube.com/watch?v=3bT_3zOKHk8"
+            },
+            {
+                "time": "19:15",
+                "title": "Coffee Break",
+                "type": "break"
+            },
+            {
+                "bio": "Senior Software Engineer @ Vertex IT",
+                "description": "This presentation is going to discuss how to develop real-time data processing system with such technologies as Kafka and Storm. The first part of the presentation will give a high-level overview of the real-time data processing and what is Lambda architecture. The second part will dive into a lot of specifics and give advice on how to put this into practice effectively.",
+                "img": "img/speakers/kirilmenshikov.png",
+                "name": "Kiril Menshikov",
+                "presentation": "https://speakerdeck.com/latcraft/a-real-time-architecture-with-kafka-and-storm",
+                "time": "19:30",
+                "title": "A real-time architecture with Kafka & Storm",
+                "twitter": "kiril",
+                "type": "speech",
+                "video": "https://www.youtube.com/watch?v=uzjXMPB8T-Q"
+            },
+            {
+                "time": "20:05",
+                "title": "Coffee Break",
+                "type": "break"
+            },
+            {
+                "bio": "",
+                "description": "Over 500 million people have identified a playing song with Shazam. From obscure remixes to the latest hits and more - Shazam links what you hear to the greater Web. Get a glimpse into the challenges faced when sourcing content for one of the world's most popular apps.",
+                "img": "img/speakers/chriswillmore.png",
+                "name": "Chris Willmore",
+                "presentation": "",
+                "time": "20:20",
+                "title": "Big Music with Shazam",
+                "type": "speech",
+                "video": ""
+            },
+            {
+                "time": "20:55",
+                "title": "Closing Note",
+                "type": "finish"
+            }
+        ],
+        "theme": "BigData",
         "time": "18:30",
-        "bio": "Consultant @ Sizovs.net",
-        "twitter": "eduardsi",
-        "title": "Moderator",
-        "description": "Eduards is a hands-on architect and software development coach who helps awesome teams around the globe become more awesome – work smarter, run faster and enjoy the journey. He leads Latvian Software Craftsmanship Community, organises DevTernity – the biggest software craftsmanship conference in Baltics, blogs, speaks, and even sleeps. Sometimes.",
-        "img": "img/speakers/eduardsi.jpg"
-      },
-      {
-        "type": "finish",
-        "time": "20:45",
-        "title": "Closing Note"
-      }
-    ]
-  },
-  {
-    "theme": "Software Craftsmanship",
-    "desc": "Let's open new year by covering topics that are tightly related to software craftsmanship and professionalism. How to behave professionally? How to cure 'Agile hangover'? How to advance your career? How to choose tools properly and avoid falling into tool-hype trap? Let's address these questions together!",
-    "month": "February 2016",
-    "date": "2 February, 2016",
-    "time": "18:30",
-    "announced": false,
-    "endTime": "21:00",
-    "maps": "https://www.google.lv/maps/place/Microsoft+Latvia+Sia/@56.9518346,24.1135864,17z/data=!3m1!4b1!4m2!3m1!1s0x46eecfd1895509f1:0x87193c3b2eaf2d7c?hl=en",
-    "tickets": "http://www.eventbrite.com/tickets-external?eid=20823521714&amp;ref=etckt&amp;v=2",
-    "eventbriteEventId": "20823521714",
-    "venue": "Zala iela 1, Microsoft Latvia telpas",
-    "schedule": [
-      {
-        "type": "start",
+        "venue": "Zala iela 1, Microsoft Latvia telpas"
+    },
+    {
+        "announced": false,
+        "date": "4 August, 2015",
+        "desc": "Let's leave technical stuff for a day and concentrate on things (mostly) no one is talking about, things that play major role in your professional life - the way we think, the way we behave and the way we market ourselves. Come and extend your knowledge beyond software and get closer to better and complete professional life.",
+        "month": "August 2015",
+        "schedule": [
+            {
+                "time": "18:30",
+                "title": "Event Opening",
+                "type": "start"
+            },
+            {
+                "bio": "Independent Change Management Consultant",
+                "description": "The second half of the last century brought us \u201cSystems Thinking\u201d - a proven approach for developing solutions to messy situations that often seem like intractable dilemmas. In this talk Silvija will reveal what Systems Thinking is all about and how it can be applied in our daily life.",
+                "img": "img/speakers/silvijaavota.png",
+                "name": "Silvija Avota",
+                "presentation": "https://speakerdeck.com/latcraft/systems-thinking",
+                "time": "18:40",
+                "title": "Thinking in Systems",
+                "type": "speech",
+                "video": "https://www.youtube.com/watch?v=vEvtC3wTAhk"
+            },
+            {
+                "time": "19:15",
+                "title": "Coffee Break",
+                "type": "break"
+            },
+            {
+                "bio": "CEO at Atlas",
+                "description": "Seller thinking plays key role in achieving your goals - successful career, better environment, independence, happy family or all of them. If you want to become most well paid specialist and learn how to make offers others can't resist - welcome on board!",
+                "img": "img/speakers/alexfridman.png",
+                "name": "Alex Fridman",
+                "presentation": "https://speakerdeck.com/latcraft/sales-101-chasing-dreams",
+                "time": "19:30",
+                "title": "Sales 101",
+                "twitter": "AlexFridman77",
+                "type": "speech",
+                "video": "https://www.youtube.com/watch?v=sKe-qYxlB4w"
+            },
+            {
+                "time": "20:05",
+                "title": "Coffee Break",
+                "type": "break"
+            },
+            {
+                "bio": "Psychologist, Psychotherapist @ Miervidi",
+                "description": "There is strong evidence base from neurosciences, health care, education and organisations systems that mindfulness is powerful tool for enhancing well-being, self-regulation and emotional intelligence, personal and professional effectiveness. Indra will reveal the mindfulness concept and practical applications for stress regulation in personal life and professional environment.",
+                "img": "img/speakers/indram.png",
+                "name": "Indra Majore-D\u016b\u0161ele",
+                "presentation": "https://speakerdeck.com/latcraft/mindfulness",
+                "time": "20:20",
+                "title": "Mindfulness",
+                "type": "speech",
+                "video": "https://www.youtube.com/watch?v=F-RLFrE0HV0"
+            },
+            {
+                "time": "20:55",
+                "title": "Closing Note",
+                "type": "finish"
+            }
+        ],
+        "theme": "Beyond Software",
         "time": "18:30",
-        "title": "Event Opening"
-      },
-      {
-        "name": "Alla Babkina",
-        "type": "speech",
-        "time": "18:40",
-        "bio": "Software Developer at Sky",
-        "twitter": "allababkina",
-        "title": "Tools: How Not to Shoot Yourself In the Foot",
-        "description": "As part of the software craftsmanship community we want to deliver great results (and have fun with it). There are so many tools out there that could help you craft the best software (and have fun with it)! Choosing your tools is as hard if not harder than building it. We shall talk about how to balance the stakeholders' interests, the team's interests, your personal desires and even give something back to the community when picking the tools you use.",
-        "img": "img/speakers/ababkina.jpg"
-      },
-      {
-        "type": "break",
-        "time": "19:40",
-        "title": "Coffee Break"
-      },
-      {
-        "name": "Eduards Sizovs",
-        "type": "speech",
-        "time": "19:55",
-        "bio": "Consultant @ Sizovs.net",
-        "twitter": "eduardsi",
-        "title": "Beyond Software Craftsmanship",
-        "description": "Meet Johnny - a full-stack developer with 5+ years of experience under the belt, M.Sc degree and 'get sh%t done fast' mentality. Although Johnny possess exceptional technical skills, Milton - his manager, doesn't give him promotion, no matter how hard Johnny tried and how many late nights he has spent coding. Together with Johnny you will walk the thorny road to his remarkable career; the road full of struggles, discoveries and actions that may or will influence your professional life.",
-        "img": "img/speakers/eduardsi.jpg"
-      },
-      {
-        "type": "finish",
-        "time": "20:45",
-        "title": "Closing Note"
-      }
-    ]
-  },
-  {
-    "theme": "Made in Latvia",
-    "desc": "This time, we decided to dedicate an event to some of the greatest Latvian startups made in Latvia. Let's check out how they started, the hard ways they got at their beginnings, as well as their grow process, and where thy are today.",
-    "month": "November 2015",
-    "date": "3 November, 2015",
-    "time": "18:30",
-    "announced": true,
-    "endTime": "21:30",
-    "maps": "https://www.google.lv/maps/place/Microsoft+Latvia+Sia/@56.9518346,24.1135864,17z/data=!3m1!4b1!4m2!3m1!1s0x46eecfd1895509f1:0x87193c3b2eaf2d7c?hl=en",
-    "tickets": "https://www.eventbrite.com/e/latcraft-java-tickets-18712838604",
-    "eventbriteEventId": "18712838604",
-    "venue": "Zala iela 1, Microsoft Latvia telpas",
-    "schedule": [
-      {
-        "type": "start",
+        "venue": "Zala iela 1, Microsoft Latvia telpas"
+    },
+    {
+        "announced": false,
+        "classes": "extended_event",
+        "date": "7 July, 2015",
+        "desc": "Mobile is booming! Consumers all around the world are adopting smart devices at an astounding pace, opening up more and more opportunities to engage in new ways \u2013 changing the way we interact, entertain, educate and shop. Let's see what experts can teach us!",
+        "month": "July 2015",
+        "schedule": [
+            {
+                "time": "18:30",
+                "title": "Event Opening",
+                "type": "start"
+            },
+            {
+                "bio": "UX and Mobile Lead @ C.T.Co",
+                "description": "Your idea for an app worth nothing. Nobody needs app alone, people are too spoiled today and they want products, not apps. UX, UI, development, support website, tutorials, promo videos, regular updates and support \u2013 these are all the parts of a product. Are you ready for that?",
+                "img": "img/speakers/popov.png",
+                "name": "Vasiliy Popov",
+                "presentation": "",
+                "time": "18:40",
+                "title": "Nobody Wants Your New &%#+\u00a4\u00a7 App!",
+                "type": "speech",
+                "video": ""
+            },
+            {
+                "time": "19:15",
+                "title": "Coffee Break",
+                "type": "break"
+            },
+            {
+                "bio": "Android Guy @ Ask.fm",
+                "description": "Jovche\u2019s gonna talk about technical and organisational issues and mistakes done by the local brands like Ask.fm and Fabula during mobile product development, and ways to avoid them by his personal experience.",
+                "img": "img/speakers/jovmit.png",
+                "name": "Jovche Mitrejcevski",
+                "presentation": "",
+                "time": "19:20",
+                "title": "10 Things To Avoid When Building Mobile Application",
+                "twitter": "jovchem",
+                "type": "speech",
+                "video": ""
+            },
+            {
+                "time": "19:40",
+                "title": "Coffee Break",
+                "type": "break"
+            },
+            {
+                "bio": "Mobile Dev Manager @ C.T.Co",
+                "description": "Andrey will give a brief history of wearables and their current state, discuss current market state and volume and finally share ideas about future trends of this very hot market and what might come next.",
+                "img": "img/speakers/andreypo.jpg",
+                "name": "Andrey Podshibyakin",
+                "presentation": "",
+                "time": "19:45",
+                "title": "Wearables - Before, Now and After",
+                "type": "speech",
+                "video": ""
+            },
+            {
+                "time": "20:20",
+                "title": "Coffee Break",
+                "type": "break"
+            },
+            {
+                "bio": "Dev and Trainer @ C.T.Co",
+                "description": "Android is a great piece of machinery as a platform, but one thing it which it fails hard is its API. In his short talk Alexey will nag about some brain exploading APIs that he stumble upon during his experience with Android. Expect some brain teasers, quizes and fun trivia.",
+                "img": "img/speakers/abu.png",
+                "name": "Alexey Buzdin",
+                "presentation": "",
+                "time": "20:25",
+                "title": "Android WAT",
+                "twitter": "AlexeyBuzdin",
+                "type": "speech",
+                "video": ""
+            },
+            {
+                "time": "20:50",
+                "title": "Closing Note",
+                "type": "finish"
+            }
+        ],
+        "theme": "Mobile All The Way Down",
         "time": "18:30",
-        "title": "Event Opening"
-      },
-      {
-        "name": "Jurgis Orups",
-        "type": "speech",
-        "time": "18:40",
-        "bio": "CTO of Clusterpoint",
-        "twitter": "jurgisorups",
-        "title": "Building and Growing Database - A Case Study by Clusterpoint",
-        "description": "This session will describe the insights behind Latvian database technology vendor Clusterpoint efforts to build global database-as-a-service. Jurgis will cover the path of the Clusterpoint technology evolution from building the first nation-wide search engine to recently launched Clusterpoint 4.0 version with Javascript processing right inside the database, which has already been highly appreciated by developers in several tech events in USA.",
-        "img": "img/speakers/jurgiscl.jpg",
-        "presentation": "https://speakerdeck.com/latcraft/building-and-growing-database-a-case-study-by-clusterpoint",
-        "video": "https://www.youtube.com/watch?v=sy2ZQJLquoY"
-      },
-      {
-        "type": "break",
-        "time": "19:05",
-        "title": "Coffee Break"
-      },
-      {
-        "name": "Sandijs Ruluks",
-        "type": "speech",
-        "time": "19:20",
-        "bio": "CEO of FROONT",
-        "twitter": "ruluks",
-        "title": "Building heavy front-end web apps - The story of FROONT.",
-        "description": "FROONT is the application for 90% running in the front-end. In this presentation you'll find an explanation how FROONT implements orchestration of data storage (MongoDB, SQLite), back-end services (Flask) and browser with the help of BackboneJS, HTML5 and other modern client-side technologies. We’ll also explain the reasoning behind technological choices, share our mistakes and pitfalls on the way, so others can avoid them.",
-        "img": "img/speakers/saindijsruluks.png",
-        "presentation": "",
-        "video": "https://www.youtube.com/watch?v=uKWWedQZStY"
-      },
-      {
-        "type": "break",
-        "time": "19:45",
-        "title": "Coffee Break"
-      },
-      {
-        "name": "Andrey Grave",
-        "type": "speech",
-        "time": "19:50",
-        "bio": "Software Engineer",
-        "twitter": "BuyerDeck",
-        "title": "BuyerDeck inside out",
-        "description": "BuyerDeck is a small startup trying to change the way complex B2B sales are done. In this short talk Andrejs will describe what's under the hood of BuyerDeck - how it's built, what technologies and tools are used and what challenges faced. And Andrejs will share his personal experience of what does it mean to be software engineer at startup.",
-        "img": "img/speakers/andreygrave.png",
-        "presentation": "https://speakerdeck.com/latcraft/buyerdeck-inside-out",
-        "video": "https://www.youtube.com/watch?v=uYJhqZoSTqg"
-      },
-      {
-        "type": "finish",
-        "time": "20:15",
-        "title": "Closing Note"
-      }
-    ]
-  },
-{
-    "theme": "Java",
-    "desc": "JVM is the most widely used runtime in the world and Java is the most popular programming language. Let's learn how to craft well-structured Java applications, how to make Java applications reactive by diving into RxJava and see what performance tuning tools JVM offers.",
-    "month": "October 2015",
-    "date": "6 October, 2015",
-    "time": "18:30",
-    "announced": false,
-    "venue": "Zala iela 1, Microsoft Latvia telpas",
-    "schedule": [
-      {
-        "type": "start",
+        "venue": "Zala iela 1, Microsoft Latvia telpas"
+    },
+    {
+        "announced": false,
+        "date": "9 June, 2015",
+        "desc": "Let's talk about Ops, DevOps and Continuous Delivery without hype - how hard DevOps adoption in enterprise organisation is, what goes wrong with Continuous Delivery, why do we have package managers zoo and what can we do about it.",
+        "month": "June 2015",
+        "schedule": [
+            {
+                "time": "18:30",
+                "title": "Event Opening",
+                "type": "start"
+            },
+            {
+                "bio": "Nordics DevOps Lead @ Accenture",
+                "description": "Hopefully everyone has enough of presentations 'What is DevOps?'. Let's talk about real stuff - what are DevOps issues and struggle in enterprise life. I'll give you few ideas and several simple steps what covers it all.",
+                "img": "img/speakers/uldis.jpg",
+                "name": "Uldis Karlovs-Karlovskis",
+                "presentation": "https://speakerdeck.com/latcraft/devops-if-it-hurts-do-it-more-often",
+                "time": "18:40",
+                "title": "DevOps: If It Hurts, Do It Often",
+                "twitter": "nrciam",
+                "type": "speech",
+                "video": "https://www.youtube.com/watch?v=fZlEQS-55-M"
+            },
+            {
+                "time": "19:15",
+                "title": "Coffe Break",
+                "type": "break"
+            },
+            {
+                "bio": "Sizovs.net",
+                "description": "Continuous Delivery is still trendy and everyone wants to get there, but there are so many walls you have to break and nerves to spoil! In this talk Eduards will present real-world battle stories of continuous delivery adoption, 8 underlooked things that tend to go wrong and what practices can you apply in order to survive.",
+                "img": "img/speakers/eduardsi.jpg",
+                "name": "Eduards Sizovs",
+                "presentation": "https://speakerdeck.com/latcraft/8-things-that-make-continuous-delivery-go-nuts",
+                "time": "19:30",
+                "title": "8 Things That Make Continuous Delivery Go Nuts ",
+                "twitter": "eduardsi",
+                "type": "speech",
+                "video": "https://www.youtube.com/watch?v=QV9QkMIlaKE"
+            },
+            {
+                "time": "20:10",
+                "title": "Coffe Break",
+                "type": "break"
+            },
+            {
+                "bio": "Founder @ Aestas/IT",
+                "description": "Packages are everywhere in software development. Every ecosystem, every operating system, every programming language brings in a 'new way of managing dependent libraries and packages. What are they? Are they that much different? Why can't we have a universal package manager? Should you create yet another package manager? This presentation is based on the experience of strugling through managing dependencies in different ecosystems and gives some interesting findings.",
+                "img": "img/speakers/adamovich.jpeg",
+                "name": "Andrey Adamovich",
+                "presentation": "https://speakerdeck.com/latcraft/story-of-package-managers",
+                "time": "20:20",
+                "title": "The Story Of Package Managers",
+                "twitter": "CodingAndrey",
+                "type": "speech",
+                "video": "https://www.youtube.com/watch?v=UNvyBlwMY9M"
+            },
+            {
+                "time": "20:45",
+                "title": "Closing Note",
+                "type": "finish"
+            }
+        ],
+        "theme": "Operations and DevOps",
         "time": "18:30",
-        "title": "Event Opening"
-      },
-      {
-        "name": "Alexey Buzdin",
-        "type": "speech",
-        "twitter": "AlexeyBuzdin",
-        "time": "18:40",
-        "bio": "Dev and Trainer @ C.T.Co",
-        "title": "Reactive 4TW!",
-        "description": "Reactive programming is a new big thing for a couple of years now, but it also shrouded with a distrust as any new technology with mindblowing concepts. Lets pretend together that you didn't hear about Reactive and start learning it from scratch!",
-        "img": "img/speakers/abu.png",
-        "presentation": "https://speakerdeck.com/latcraft/reactive-4tw",
-        "video": "https://www.youtube.com/watch?v=uoYTDs0dLhw"
-      },
-      {
-        "type": "break",
-        "time": "19:15",
-        "title": "Coffee Break"
-      },
-      {
-        "name": "Andrey Adamovich",
-        "type": "speech",
-        "time": "19:30",
-        "bio": "Founder @ Aestas/IT",
-        "twitter": "CodingAndrey",
-        "title": "Need for speed: tools for JVM tuning",
-        "description": "Monitoring your production JVMs is extremely important. Though, not always you have a luxury of having direct access to production servers, which suffer from performance peaks, memory leaks or concurrency issues. Not always you are able to catch JVM issues without an ability to debug the code in-place. There are quite many tools that can help analyzing performance issues of your JVMs based on real-time monitoring data as well as on logs available only post-mortem. This presentation will give an overview of these tools.",
-        "img": "img/speakers/adamovich.jpeg",
-        "presentation": "https://speakerdeck.com/latcraft/need-for-speed-tools-for-jvm-tuning",
-        "video": "https://www.youtube.com/watch?v=h0GttvkeQcg"
-      },
-      {
-        "type": "break",
-        "time": "19:55",
-        "title": "Coffee Break"
-      },
-      {
-        "name": "Eduards Sizovs",
-        "type": "speech",
-        "time": "20:10",
-        "bio": "Sizovs.net",
-        "twitter": "eduardsi",
-        "title": "Architecting well-structured Java applications",
-        "description": "Software developers spend most of their time working with code on literal level. Unfortunately, vast amount of design flaws hides behind hundreds of interrelated packages, classes and methods, destroying your system deliberately. In this talk will supply you with knowledge necessary to manage complexity of your logical design from theoretical, practical and tooling perspectives. Time to keep architecture in predictable and manageable state!",
-        "img": "img/speakers/eduardsi.jpg",
-        "presentation": "https://speakerdeck.com/latcraft/architecting-well-structured-java-applications",
-        "video": "https://www.youtube.com/watch?v=99VFdX1WS7o"
-      },
-      {
-        "type": "finish",
-        "time": "20:55",
-        "title": "Closing Note"
-      }
-    ]
-  },
-{
-    "theme": "BigData",
-    "desc": "Let's talk about BigData - how BigData can serve for entertaiment services and help you build service like Shazam, what is the role of SQL and NoSQL databases in BigData and how can you build a real time architecture with huge amount of data using Kafka and Storm.",
-    "month": "September 2015",
-    "date": "14 September, 2015",
-    "time": "18:30",
-    "announced": false,
-    "venue": "Zala iela 1, Microsoft Latvia telpas",
-    "schedule": [
-      {
-        "type": "start",
+        "venue": "Zala iela 1, Microsoft Latvia telpas"
+    },
+    {
+        "announced": false,
+        "date": "5 May, 2015",
+        "desc": "Let's talk about data and NoSQL - how does data panorama looks like nowadays, why should you care about NoSQL and market-leading solutions like ElasticSearch.",
+        "month": "May 2015",
+        "schedule": [
+            {
+                "time": "18:30",
+                "title": "Event Opening",
+                "type": "start"
+            },
+            {
+                "bio": "ex-CTO @ Ask.fm",
+                "description": "In this presentation Valery will briefly describe types of NoSQL storages available today, their pros and cons and use cases. As an example you will see how to model Twitter Feed using different storage types..",
+                "img": "img/speakers/valery.png",
+                "name": "Valery Vishnyakov",
+                "presentation": "https://speakerdeck.com/latcraft/a-gentle-introduction-to-nosql",
+                "time": "18:45",
+                "title": "A Gentle introduction to NoSQL",
+                "twitter": "balepcdev",
+                "type": "speech",
+                "video": "https://www.youtube.com/watch?v=0zoJcNnIJ6U"
+            },
+            {
+                "time": "19:30",
+                "title": "Coffe Break",
+                "type": "break"
+            },
+            {
+                "bio": "Architect @ Neueda Riga",
+                "description": "Software development has changed. There is no standard database technology to use anymore. If you know SQL perfectly, it will not be sufficient to stay qualified in 2015. This session will explain how to pick the most appropriate database for your next project, reveal common misconceptions about SQL and NoSQL and provide listeners with a rough idea where it is all heading to. The talk is based on personal experience of making the shift from fitting square pegs into round holes to stopping worrying and embracing the change.",
+                "img": "img/speakers/buzdin.jpg",
+                "name": "Dmitry Buzdin",
+                "presentation": "https://speakerdeck.com/latcraft/should-you-be-worrying-about-not-knowing-nosql-yet",
+                "time": "19:45",
+                "title": "Should You Be Worrying About Not Knowing NoSQL Yet",
+                "twitter": "buzdin",
+                "type": "speech",
+                "video": "https://www.youtube.com/watch?v=4p-Fgo99mw8"
+            },
+            {
+                "time": "20:30",
+                "title": "Coffe Break",
+                "type": "break"
+            },
+            {
+                "bio": "Architect @ Intexsys",
+                "description": "Advanced search capabilities are becoming mandatory for web application of any size. In this talk Ruslan will present the industry-leading solution - ElasticSearch. Let\u2019s see what functionality does it offer and how you can tame it for your needs!",
+                "img": "img/speakers/zavacky.jpeg",
+                "name": "Ruslan Zavacky",
+                "presentation": "https://speakerdeck.com/latcraft/you-know-for-search",
+                "time": "20:45",
+                "title": "You Know, For Search",
+                "twitter": "RuslanZavacky",
+                "type": "speech",
+                "video": "https://www.youtube.com/watch?v=wzq1CK-oAds"
+            },
+            {
+                "time": "21:30",
+                "title": "Closing Note",
+                "type": "finish"
+            }
+        ],
+        "theme": "NoSQL and Data",
         "time": "18:30",
-        "title": "Event Opening"
-      },
-      {
-        "name": "Maxim Zakharenkov",
-        "type": "speech",
-        "time": "18:40",
-        "bio": "",
-        "title": "Terminator vs Bruce Lee or Cassandra vs MySQL",
-        "description": "Everybody talks that NoSQL is cool! It says absolutely nothing. Let's take a concrete NoSQL database (Cassandra). Check what's inside and compare with a concrete SQL database (MySQL). Then try to make some real conclusions. Interested? Come to this talk.",
-        "img": "img/speakers/maximzakharenkov.png",
-        "presentation": "https://speakerdeck.com/latcraft/terminator-vs-bruce-lee-or-cassandra-vs-mysql",
-        "video": "https://www.youtube.com/watch?v=3bT_3zOKHk8"
-      },
-      {
-        "type": "break",
-        "time": "19:15",
-        "title": "Coffee Break"
-      },
-      {
-        "name": "Kiril Menshikov",
-        "type": "speech",
-        "time": "19:30",
-        "twitter": "kiril",
-        "bio": "Senior Software Engineer @ Vertex IT",
-        "title": "A real-time architecture with Kafka & Storm",
-        "description": "This presentation is going to discuss how to develop real-time data processing system with such technologies as Kafka and Storm. The first part of the presentation will give a high-level overview of the real-time data processing and what is Lambda architecture. The second part will dive into a lot of specifics and give advice on how to put this into practice effectively.",
-        "img": "img/speakers/kirilmenshikov.png",
-        "presentation": "https://speakerdeck.com/latcraft/a-real-time-architecture-with-kafka-and-storm",
-        "video": "https://www.youtube.com/watch?v=uzjXMPB8T-Q"
-      },
-      {
-        "type": "break",
-        "time": "20:05",
-        "title": "Coffee Break"
-      },
-      {
-        "name": "Chris Willmore",
-        "type": "speech",
-        "time": "20:20",
-        "bio": "",
-        "title": "Big Music with Shazam",
-        "description": "Over 500 million people have identified a playing song with Shazam. From obscure remixes to the latest hits and more - Shazam links what you hear to the greater Web. Get a glimpse into the challenges faced when sourcing content for one of the world's most popular apps.",
-        "img": "img/speakers/chriswillmore.png",
-        "presentation": "",
-        "video": ""
-      },
-      {
-        "type": "finish",
-        "time": "20:55",
-        "title": "Closing Note"
-      }
-    ]
-  },
-{
-    "theme": "Beyond Software",
-    "desc": "Let's leave technical stuff for a day and concentrate on things (mostly) no one is talking about, things that play major role in your professional life - the way we think, the way we behave and the way we market ourselves. Come and extend your knowledge beyond software and get closer to better and complete professional life.",
-    "month": "August 2015",
-    "date": "4 August, 2015",
-    "time": "18:30",
-    "announced": false,
-    "venue": "Zala iela 1, Microsoft Latvia telpas",
-    "schedule": [
-      {
-        "type": "start",
+        "venue": "Zala iela 1, Microsoft Latvia telpas"
+    },
+    {
+        "announced": false,
+        "classes": "amazon",
+        "date": "9 April, 2015",
+        "desc": "Amazon Web Services is the best cloud platform available on the market. LatCraft is probably the most visited IT user group in the country. Experts from Luxembourg, United Kingdom, Czech Republic and Latvia are gathering in Riga in order to share their knowledge, success recipes and war stories with you. 5 amazing speakers. Spectacular talks. Rocking AWS. ",
+        "logo": "img/amazon.png",
+        "month": "Apr 2015",
+        "schedule": [
+            {
+                "time": "16:00",
+                "title": "Event Opening",
+                "type": "start"
+            },
+            {
+                "bio": "Solution Architect at AWS",
+                "description": "Improve, validate, iterate. Current development practices promote avoiding waste - a challenging task, especially in a traditional infrastructure. With programmatic control over your environment Amazon Web Services lets you optimize the infrastructure as needed and treat it as another versionable aspect of your application. In this session we'll look at how both start-ups and enterprises use AWS to increase their rate of innovation and continuously deliver new functionality to users in a cost efficient way.",
+                "img": "img/speakers/elwin.png",
+                "name": "Martin Elwin",
+                "presentation": "",
+                "time": "16:15",
+                "title": "Lean in the Cloud",
+                "twitter": "elvvin",
+                "type": "speech",
+                "video": "https://www.youtube.com/watch?v=a96yMHy0Tp0"
+            },
+            {
+                "time": "17:00",
+                "title": "Coffe Break",
+                "type": "break"
+            },
+            {
+                "bio": "Sys. Engineer at 4Finance",
+                "description": "Do you believe it\u2019s possible to quickly build a cluster that allows you to work with a datacenter like it\u2019s a single pool of resources? In this practical session Jakub will show how to build scalable, fault-tolerant cluster from scratch with minimal effort and maximal gain.",
+                "img": "img/speakers/veverkaj.png",
+                "name": "Jakub Veverka",
+                "presentation": "",
+                "time": "17:15",
+                "title": "Building scalable cluster with AWS, CoreOS and Mesos",
+                "twitter": "velkyk",
+                "type": "speech",
+                "video": "https://www.youtube.com/watch?v=F7hntPlFcOE"
+            },
+            {
+                "time": "18:00",
+                "title": "Coffe Break",
+                "type": "break"
+            },
+            {
+                "bio": "Sys. Admin at Ask.fm",
+                "description": "Everyone keeps telling about how AWeSome Amazon Web Services are. How they are all about elasticity, simplicity and scalability. But we all know that nothing is perfect in this world, except Chuck Norris. So what about the dark side? The talk will be about some nice tricks you can do with AWS, some things you can not do with AWS, and some things you can do, but with tears, pain and swearing.",
+                "img": "img/speakers/pavluchenkov.png",
+                "name": "Juris Pavlyuchenkov",
+                "presentation": "",
+                "time": "18:15",
+                "title": "AWS: the good, the bad, the ugly, and the use case",
+                "twitter": "jurispv",
+                "type": "speech",
+                "video": "https://www.youtube.com/watch?v=_w1PJI4vZVU"
+            },
+            {
+                "time": "19:00",
+                "title": "Coffe Break",
+                "type": "break"
+            },
+            {
+                "bio": "Solution Architect at AWS",
+                "description": "Developers are always looking for ways of improving their efficiency. Over the last years container technology has become an increasingly popular way of managing application packaging and deployments, however handling many containers running on many machines has its own set of challenges. The recently announced Amazon EC2 Container Service aims to simplify the management of running containers in a cluster of EC2 instances. In this session the initial feature set of the service will be introduced we'll go through a demo of common operations.",
+                "img": "img/speakers/johan.png",
+                "name": "Johan Waernulf",
+                "presentation": "",
+                "time": "19:30",
+                "title": "Docker at Scale",
+                "twitter": "tubajohan",
+                "type": "speech",
+                "video": "https://www.youtube.com/watch?v=ptn2D_2-iuc"
+            },
+            {
+                "bio": "BigData Guy at Cloudreach",
+                "description": "We\u2019ve all heard Big Data pouring out of the press over the last years and frankly, are probably all sick of it. The term is probably one of the most successful buzzwords of our industry to date. Why is that? This session will aim to shine a light on the enigma by introducing example use cases we\u2019ve worked with our clients. We\u2019ll walk through the AWS toolset for Data Management and introduce concrete architectures and the good, the bad, and the ugly sides of them. This isn\u2019t your mother\u2019s MySQL sharding...",
+                "img": "img/speakers/ilkka.png",
+                "name": "Ilkka Turunen",
+                "presentation": "",
+                "time": "20:15",
+                "title": "Big Data or Big Marketing",
+                "twitter": "IlkkaTurunen",
+                "type": "speech",
+                "video": "https://www.youtube.com/watch?v=Gp3Q151OyI4"
+            },
+            {
+                "time": "21:00",
+                "title": "Closing Note",
+                "type": "finish"
+            }
+        ],
+        "theme": "AWS Day by LatCraft",
+        "time": "16:00 - 21:00",
+        "venue": "Maskavas 12-K1, Spikeri facilities, entrance via Caf\u00e9 Dali"
+    },
+    {
+        "announced": false,
+        "date": "3 March, 2015",
+        "desc": "There are cool programming languages available that are not yet mainstream, but deserves significant attention. Come over and learn more about sharp programming languages such as Rust, Golang and Erlang.",
+        "month": "Mar 2015",
+        "schedule": [
+            {
+                "bio": "Galeo Consulting",
+                "description": "Every chef now and then uses pinch of his secret spices to make a dish somewhat special and exquisite. This talk will provide introduction into nature of Rust sweetness and will answer to most important questions: Why and When does it make our dishes better? We will iterate over small code snippets and take a look How strong typing and functional thinking can be applied to low level system programming.",
+                "img": "img/speakers/maslov.png",
+                "name": "Leonids Maslovs",
+                "presentation": "https://speakerdeck.com/latcraft/the-sweet-flavour-of-rust",
+                "title": "The Sweet Flavour of Rust",
+                "twitter": "leonardinius",
+                "type": "speech",
+                "video": ""
+            },
+            {
+                "bio": "C.T.Co",
+                "description": "This talk will guide you through the core concepts of the Go. We will cover the type system, memory model, packaging and of course the famous concurrency primitives of the language: goroutines and channels. Small working code snippets will be available on the github for immediate coding experience.",
+                "img": "img/speakers/ressin.png",
+                "name": "Anatoly Ressin",
+                "presentation": "https://speakerdeck.com/latcraft/the-way-to-go",
+                "title": "The Way to Go",
+                "twitter": "artazor",
+                "type": "speech",
+                "video": ""
+            },
+            {
+                "bio": "Rubylight",
+                "description": "This talk is devoted to giving overall insight on some fundamental problems on how we perceive and perform development of modern software and suggesting plausible cure in Erlang adoption. It has never been easier to address many of never-ending issues with parallel, distributed and fault tolerant computing. Get to know the Erlang-way of fighting against complexity of software world before those problems catch you unprepared!",
+                "img": "img/speakers/savelyev.png",
+                "name": "Jurijs Saveljevs",
+                "presentation": "https://speakerdeck.com/latcraft/there-is-always-erlang",
+                "title": "There is always Erlang",
+                "twitter": "jsaveljevs",
+                "type": "speech",
+                "video": ""
+            }
+        ],
+        "theme": "Programming Languages You Should Know About",
         "time": "18:30",
-        "title": "Event Opening"
-      },
-      {
-        "name": "Silvija Avota",
-        "type": "speech",
-        "time": "18:40",
-        "bio": "Independent Change Management Consultant",
-        "title": "Thinking in Systems",
-        "description": "The second half of the last century brought us “Systems Thinking” - a proven approach for developing solutions to messy situations that often seem like intractable dilemmas. In this talk Silvija will reveal what Systems Thinking is all about and how it can be applied in our daily life.",
-        "img": "img/speakers/silvijaavota.png",
-        "presentation": "https://speakerdeck.com/latcraft/systems-thinking",
-        "video": "https://www.youtube.com/watch?v=vEvtC3wTAhk"
-      },
-      {
-        "type": "break",
-        "time": "19:15",
-        "title": "Coffee Break"
-      },
-      {
-        "name": "Alex Fridman",
-        "type": "speech",
-        "time": "19:30",
-        "bio": "CEO at Atlas",
-        "twitter": "AlexFridman77",
-        "title": "Sales 101",
-        "description": "Seller thinking plays key role in achieving your goals - successful career, better environment, independence, happy family or all of them. If you want to become most well paid specialist and learn how to make offers others can't resist - welcome on board!",
-        "img": "img/speakers/alexfridman.png",
-        "presentation": "https://speakerdeck.com/latcraft/sales-101-chasing-dreams",
-        "video": "https://www.youtube.com/watch?v=sKe-qYxlB4w"
-      },
-      {
-        "type": "break",
-        "time": "20:05",
-        "title": "Coffee Break"
-      },
-      {
-        "name": "Indra Majore-Dūšele",
-        "type": "speech",
-        "time": "20:20",
-        "bio": "Psychologist, Psychotherapist @ Miervidi",
-        "title": "Mindfulness",
-        "description": "There is strong evidence base from neurosciences, health care, education and organisations systems that mindfulness is powerful tool for enhancing well-being, self-regulation and emotional intelligence, personal and professional effectiveness. Indra will reveal the mindfulness concept and practical applications for stress regulation in personal life and professional environment.",
-        "img": "img/speakers/indram.png",
-        "presentation": "https://speakerdeck.com/latcraft/mindfulness",
-        "video": "https://www.youtube.com/watch?v=F-RLFrE0HV0"
-      },
-      {
-        "type": "finish",
-        "time": "20:55",
-        "title": "Closing Note"
-      }
-    ]
-  },
-  {
-    "theme": "Mobile All The Way Down",
-    "desc": "Mobile is booming! Consumers all around the world are adopting smart devices at an astounding pace, opening up more and more opportunities to engage in new ways – changing the way we interact, entertain, educate and shop. Let's see what experts can teach us!",
-    "month": "July 2015",
-    "classes": "extended_event",
-    "date": "7 July, 2015",
-    "time": "18:30",
-    "announced": false,
-    "venue": "Zala iela 1, Microsoft Latvia telpas",
-    "schedule": [
-      {
-        "type": "start",
+        "venue": "Zala iela 1"
+    },
+    {
+        "announced": false,
+        "date": "3 February, 2015",
+        "desc": "We'd love to spend 24/7 in code, but software development is all about people. We will talk about teams, people, what makes them tick and what should you do to become a great team player.",
+        "month": "Feb 2015",
+        "schedule": [
+            {
+                "bio": "BuyerDeck",
+                "description": "Andrey will share his experience and discoveries on the topic of Growing Teams. What does it take to grow a team? What environment facilitates team growth? What distinguishes great teams? What can kill teams? What are characteristics of great team member? And some more.",
+                "img": "img/speakers/andrey-grave.jpg",
+                "name": "Andrey Grave",
+                "presentation": "https://speakerdeck.com/latcraft/growing-teams-notes-of-an-amateur-team-gardener",
+                "title": "Growing Teams: Notes of an Amateur Team Gardener",
+                "twitter": "BuyerDeck",
+                "type": "speech",
+                "video": "https://www.youtube.com/watch?v=6jm_SGdbIF4"
+            },
+            {
+                "bio": "Mobile Lead at Ask.fm",
+                "description": "Romans will talk about a developer's journey from college to senior developer. What is wrong with our education? What is wrong with our expectations? Roman will share his idea of the focus points on our path to success as a person and as an industry.",
+                "img": "img/speakers/romans-karpelcevs.png",
+                "name": "Romans Karpelcevs ",
+                "presentation": "https://speakerdeck.com/latcraft/from-zero-to-hero",
+                "title": "From Zero to Hero",
+                "twitter": "cvbk",
+                "type": "speech",
+                "video": "https://www.youtube.com/watch?v=L0QzklRDI7k"
+            },
+            {
+                "bio": "Citadele Banka",
+                "description": "Having worked both as developer and as team manager, Aleksej will share his experiences with team, personal and process aspects that facilitate or inhibit productivity. What makes one successful in the eyes of others? How is efectiveness developed and maintained? These and related questions are important to any conscious software craftsman.",
+                "img": "img/speakers/aleksejs-truhans.jpg",
+                "name": "Aleksejs Truhans",
+                "presentation": "https://speakerdeck.com/latcraft/team-and-personal-effectiveness",
+                "title": "A Personal Journey Into Human and Team Effectiveness",
+                "type": "speech",
+                "video": "https://www.youtube.com/watch?v=Gz0s8j3nboU"
+            }
+        ],
+        "theme": "Team and Personal Effectiveness",
         "time": "18:30",
-        "title": "Event Opening"
-      },
-      {
-        "name": "Vasiliy Popov",
-        "type": "speech",
-        "time": "18:40",
-        "bio": "UX and Mobile Lead @ C.T.Co",
-        "title": "Nobody Wants Your New &%#+¤§ App!",
-        "description": "Your idea for an app worth nothing. Nobody needs app alone, people are too spoiled today and they want products, not apps. UX, UI, development, support website, tutorials, promo videos, regular updates and support – these are all the parts of a product. Are you ready for that?",
-        "img": "img/speakers/popov.png",
-        "presentation": "",
-        "video": ""
-      },
-      {
-        "type": "break",
-        "time": "19:15",
-        "title": "Coffee Break"
-      },
-      {
-        "name": "Jovche Mitrejcevski",
-        "type": "speech",
-        "time": "19:20",
-        "bio": "Android Guy @ Ask.fm",
-        "twitter": "jovchem",
-        "title": "10 Things To Avoid When Building Mobile Application",
-        "description": "Jovche’s gonna talk about technical and organisational issues and mistakes done by the local brands like Ask.fm and Fabula during mobile product development, and ways to avoid them by his personal experience.",
-        "img": "img/speakers/jovmit.png",
-        "presentation": "",
-        "video": ""
-      },
-      {
-        "type": "break",
-        "time": "19:40",
-        "title": "Coffee Break"
-      },
-      {
-        "name": "Andrey Podshibyakin",
-        "type": "speech",
-        "time": "19:45",
-        "bio": "Mobile Dev Manager @ C.T.Co",
-        "title": "Wearables - Before, Now and After",
-        "description": "Andrey will give a brief history of wearables and their current state, discuss current market state and volume and finally share ideas about future trends of this very hot market and what might come next.",
-        "img": "img/speakers/andreypo.jpg",
-        "presentation": "",
-        "video": ""
-      },
-      {
-        "type": "break",
-        "time": "20:20",
-        "title": "Coffee Break"
-      },
-      {
-        "name": "Alexey Buzdin",
-        "type": "speech",
-        "time": "20:25",
-        "bio": "Dev and Trainer @ C.T.Co",
-        "twitter": "AlexeyBuzdin",
-        "title": "Android WAT",
-        "description": "Android is a great piece of machinery as a platform, but one thing it which it fails hard is its API. In his short talk Alexey will nag about some brain exploading APIs that he stumble upon during his experience with Android. Expect some brain teasers, quizes and fun trivia.",
-        "img": "img/speakers/abu.png",
-        "presentation": "",
-        "video": ""
-      },
-      {
-        "type": "finish",
-        "time": "20:50",
-        "title": "Closing Note"
-      }
-    ]
-  },
-  {
-    "theme": "Operations and DevOps",
-    "desc": "Let's talk about Ops, DevOps and Continuous Delivery without hype - how hard DevOps adoption in enterprise organisation is, what goes wrong with Continuous Delivery, why do we have package managers zoo and what can we do about it.",
-    "month": "June 2015",
-    "date": "9 June, 2015",
-    "time": "18:30",
-    "announced": false,
-    "venue": "Zala iela 1, Microsoft Latvia telpas",
-    "schedule": [
-      {
-        "type": "start",
+        "venue": "Zala iela 1"
+    },
+    {
+        "announced": false,
+        "date": "6 January, 2015",
+        "desc": "Learn what does it mean to lead the way and what true leaders expect from their peers. Come over to hear deep insights from guys that went long path towards becoming Chiefs.",
+        "month": "Jan 2015",
+        "schedule": [
+            {
+                "bio": "CIO at E-Global Holding",
+                "description": "Maris will share his empirical findings from two very distinct perspectives of IT Specialist and CIO - how kicking some ice is related to to literally breaking speed limits while going to work, which [just as a side effect] - leads to earning a lot more money too.",
+                "img": "img/speakers/maris-veiders.jpg",
+                "name": "M\u0101ris Veide",
+                "presentation": "https://speakerdeck.com/latcraft/epiphany-from-a-specialist-as-worst-cio-ever",
+                "title": "Epiphany From A Specialist As Worst CIO Ever",
+                "twitter": "marisveide",
+                "type": "speech",
+                "video": "https://www.youtube.com/watch?v=CeVR2q8O9gU"
+            },
+            {
+                "bio": "Founder at eazyBi",
+                "description": "Raimonds has been CTO for large software development company and now is CEO/CTO of a small startup. He will talk about several topics and compare from his experience what has been common and what different in large and small teams.",
+                "img": "img/speakers/raimonds-simanovskis.jpg",
+                "name": "Raimonds Simanovskis",
+                "presentation": "https://speakerdeck.com/latcraft/building-technical-competence",
+                "title": "Building Technical Competence",
+                "twitter": "rsim",
+                "type": "speech",
+                "video": "https://www.youtube.com/watch?v=gsdJ5kgKdco"
+            },
+            {
+                "bio": "IT Manager at 4finance",
+                "description": "Jakub will reveal how not to get killed when a developer becomes a manager. What happens, when you become a manager? How do you organize teams, workspace? How do you help people? How do you deal with politics, communication? And much more.",
+                "img": "img/speakers/jakub-nabrdalik.jpg",
+                "name": "Jakub Nabrdalik",
+                "presentation": "https://speakerdeck.com/latcraft/game-of-throneware",
+                "title": "Game Of Throneware",
+                "twitter": "jnabrdalik",
+                "type": "speech",
+                "video": "https://www.youtube.com/watch?v=gsdJ5kgKdco"
+            }
+        ],
+        "theme": "CIO and CTO lessons learned",
         "time": "18:30",
-        "title": "Event Opening"
-      },
-      {
-        "name": "Uldis Karlovs-Karlovskis",
-        "type": "speech",
-        "time": "18:40",
-        "bio": "Nordics DevOps Lead @ Accenture",
-        "twitter": "nrciam",
-        "title": "DevOps: If It Hurts, Do It Often",
-        "description": "Hopefully everyone has enough of presentations 'What is DevOps?'. Let's talk about real stuff - what are DevOps issues and struggle in enterprise life. I'll give you few ideas and several simple steps what covers it all.",
-        "img": "img/speakers/uldis.jpg",
-        "presentation": "https://speakerdeck.com/latcraft/devops-if-it-hurts-do-it-more-often",
-        "video": "https://www.youtube.com/watch?v=fZlEQS-55-M"
-      },
-      {
-        "type": "break",
-        "time": "19:15",
-        "title": "Coffe Break"
-      },
-      {
-        "name": "Eduards Sizovs",
-        "type": "speech",
-        "time": "19:30",
-        "bio": "Sizovs.net",
-        "twitter": "eduardsi",
-        "title": "8 Things That Make Continuous Delivery Go Nuts ",
-        "description": "Continuous Delivery is still trendy and everyone wants to get there, but there are so many walls you have to break and nerves to spoil! In this talk Eduards will present real-world battle stories of continuous delivery adoption, 8 underlooked things that tend to go wrong and what practices can you apply in order to survive.",
-        "img": "img/speakers/eduardsi.jpg",
-        "presentation": "https://speakerdeck.com/latcraft/8-things-that-make-continuous-delivery-go-nuts",
-        "video": "https://www.youtube.com/watch?v=QV9QkMIlaKE"
-      },
-      {
-        "type": "break",
-        "time": "20:10",
-        "title": "Coffe Break"
-      },
-      {
-        "name": "Andrey Adamovich",
-        "type": "speech",
-        "time": "20:20",
-        "bio": "Founder @ Aestas/IT",
-        "twitter": "CodingAndrey",
-        "title": "The Story Of Package Managers",
-        "description": "Packages are everywhere in software development. Every ecosystem, every operating system, every programming language brings in a 'new way of managing dependent libraries and packages. What are they? Are they that much different? Why can't we have a universal package manager? Should you create yet another package manager? This presentation is based on the experience of strugling through managing dependencies in different ecosystems and gives some interesting findings.",
-        "img": "img/speakers/adamovich.jpeg",
-        "presentation": "https://speakerdeck.com/latcraft/story-of-package-managers",
-        "video": "https://www.youtube.com/watch?v=UNvyBlwMY9M"
-      },
-      {
-        "type": "finish",
-        "time": "20:45",
-        "title": "Closing Note"
-      }
-    ]
-  },
-  {
-    "theme": "NoSQL and Data",
-    "desc": "Let's talk about data and NoSQL - how does data panorama looks like nowadays, why should you care about NoSQL and market-leading solutions like ElasticSearch.",
-    "month": "May 2015",
-    "date": "5 May, 2015",
-    "time": "18:30",
-    "announced": false,
-    "venue": "Zala iela 1, Microsoft Latvia telpas",
-    "schedule": [
-      {
-        "type": "start",
-        "time": "18:30",
-        "title": "Event Opening"
-      },
-      {
-        "name": "Valery Vishnyakov",
-        "type": "speech",
-        "time": "18:45",
-        "bio": "ex-CTO @ Ask.fm",
-        "twitter": "balepcdev",
-        "title": "A Gentle introduction to NoSQL",
-        "description": "In this presentation Valery will briefly describe types of NoSQL storages available today, their pros and cons and use cases. As an example you will see how to model Twitter Feed using different storage types..",
-        "img": "img/speakers/valery.png",
-        "presentation": "https://speakerdeck.com/latcraft/a-gentle-introduction-to-nosql",
-        "video": "https://www.youtube.com/watch?v=0zoJcNnIJ6U"
-      },
-      {
-        "type": "break",
-        "time": "19:30",
-        "title": "Coffe Break"
-      },
-      {
-        "name": "Dmitry Buzdin",
-        "type": "speech",
-        "time": "19:45",
-        "bio": "Architect @ Neueda Riga",
-        "twitter": "buzdin",
-        "title": "Should You Be Worrying About Not Knowing NoSQL Yet",
-        "description": "Software development has changed. There is no standard database technology to use anymore. If you know SQL perfectly, it will not be sufficient to stay qualified in 2015. This session will explain how to pick the most appropriate database for your next project, reveal common misconceptions about SQL and NoSQL and provide listeners with a rough idea where it is all heading to. The talk is based on personal experience of making the shift from fitting square pegs into round holes to stopping worrying and embracing the change.",
-        "img": "img/speakers/buzdin.jpg",
-        "presentation": "https://speakerdeck.com/latcraft/should-you-be-worrying-about-not-knowing-nosql-yet",
-        "video": "https://www.youtube.com/watch?v=4p-Fgo99mw8"
-      },
-      {
-        "type": "break",
-        "time": "20:30",
-        "title": "Coffe Break"
-      },
-      {
-        "name": "Ruslan Zavacky",
-        "type": "speech",
-        "time": "20:45",
-        "bio": "Architect @ Intexsys",
-        "twitter": "RuslanZavacky",
-        "title": "You Know, For Search",
-        "description": "Advanced search capabilities are becoming mandatory for web application of any size. In this talk Ruslan will present the industry-leading solution - ElasticSearch. Let’s see what functionality does it offer and how you can tame it for your needs!",
-        "img": "img/speakers/zavacky.jpeg",
-        "presentation": "https://speakerdeck.com/latcraft/you-know-for-search",
-        "video": "https://www.youtube.com/watch?v=wzq1CK-oAds"
-      },
-      {
-        "type": "finish",
-        "time": "21:30",
-        "title": "Closing Note"
-      }
-    ]
-  },
-  {
-    "theme": "AWS Day by LatCraft",
-    "classes": "amazon",
-    "desc": "Amazon Web Services is the best cloud platform available on the market. LatCraft is probably the most visited IT user group in the country. Experts from Luxembourg, United Kingdom, Czech Republic and Latvia are gathering in Riga in order to share their knowledge, success recipes and war stories with you. 5 amazing speakers. Spectacular talks. Rocking AWS. ",
-    "month": "Apr 2015",
-    "date": "9 April, 2015",
-    "logo": "img/amazon.png",
-    "time": "16:00 - 21:00",
-    "announced": false,
-    "venue": "Maskavas 12-K1, Spikeri facilities, entrance via Café Dali",
-    "schedule": [
-      {
-        "type": "start",
-        "time": "16:00",
-        "title": "Event Opening"
-      },
-      {
-        "name": "Martin Elwin",
-        "type": "speech",
-        "bio": "Solution Architect at AWS",
-        "twitter": "elvvin",
-        "time": "16:15",
-        "title": "Lean in the Cloud",
-        "description": "Improve, validate, iterate. Current development practices promote avoiding waste - a challenging task, especially in a traditional infrastructure. With programmatic control over your environment Amazon Web Services lets you optimize the infrastructure as needed and treat it as another versionable aspect of your application. In this session we'll look at how both start-ups and enterprises use AWS to increase their rate of innovation and continuously deliver new functionality to users in a cost efficient way.",
-        "img": "img/speakers/elwin.png",
-        "presentation": "",
-        "video": "https://www.youtube.com/watch?v=a96yMHy0Tp0"
-      },
-      {
-        "type": "break",
-        "time": "17:00",
-        "title": "Coffe Break"
-      },
-      {
-        "name": "Jakub Veverka",
-        "type": "speech",
-        "bio": "Sys. Engineer at 4Finance",
-        "twitter": "velkyk",
-        "time": "17:15",
-        "title": "Building scalable cluster with AWS, CoreOS and Mesos",
-        "description": "Do you believe it’s possible to quickly build a cluster that allows you to work with a datacenter like it’s a single pool of resources? In this practical session Jakub will show how to build scalable, fault-tolerant cluster from scratch with minimal effort and maximal gain.",
-        "img": "img/speakers/veverkaj.png",
-        "presentation": "",
-        "video": "https://www.youtube.com/watch?v=F7hntPlFcOE"
-      },
-      {
-        "type": "break",
-        "time": "18:00",
-        "title": "Coffe Break"
-      },
-      {
-        "name": "Juris Pavlyuchenkov",
-        "type": "speech",
-        "bio": "Sys. Admin at Ask.fm",
-        "twitter": "jurispv",
-        "time": "18:15",
-        "title": "AWS: the good, the bad, the ugly, and the use case",
-        "description": "Everyone keeps telling about how AWeSome Amazon Web Services are. How they are all about elasticity, simplicity and scalability. But we all know that nothing is perfect in this world, except Chuck Norris. So what about the dark side? The talk will be about some nice tricks you can do with AWS, some things you can not do with AWS, and some things you can do, but with tears, pain and swearing.",
-        "img": "img/speakers/pavluchenkov.png",
-        "presentation": "",
-        "video": "https://www.youtube.com/watch?v=_w1PJI4vZVU"
-      },
-      {
-        "type": "break",
-        "time": "19:00",
-        "title": "Coffe Break"
-      },
-      {
-        "name": "Johan Waernulf",
-        "type": "speech",
-        "bio": "Solution Architect at AWS",
-        "twitter": "tubajohan",
-        "time": "19:30",
-        "title": "Docker at Scale",
-        "description": "Developers are always looking for ways of improving their efficiency. Over the last years container technology has become an increasingly popular way of managing application packaging and deployments, however handling many containers running on many machines has its own set of challenges. The recently announced Amazon EC2 Container Service aims to simplify the management of running containers in a cluster of EC2 instances. In this session the initial feature set of the service will be introduced we'll go through a demo of common operations.",
-        "img": "img/speakers/johan.png",
-        "presentation": "",
-        "video": "https://www.youtube.com/watch?v=ptn2D_2-iuc"
-      },
-      {
-        "name": "Ilkka Turunen",
-        "type": "speech",
-        "bio": "BigData Guy at Cloudreach",
-        "twitter": "IlkkaTurunen",
-        "time": "20:15",
-        "title": "Big Data or Big Marketing",
-        "description": "We’ve all heard Big Data pouring out of the press over the last years and frankly, are probably all sick of it. The term is probably one of the most successful buzzwords of our industry to date. Why is that? This session will aim to shine a light on the enigma by introducing example use cases we’ve worked with our clients. We’ll walk through the AWS toolset for Data Management and introduce concrete architectures and the good, the bad, and the ugly sides of them. This isn’t your mother’s MySQL sharding...",
-        "img": "img/speakers/ilkka.png",
-        "presentation": "",
-        "video": "https://www.youtube.com/watch?v=Gp3Q151OyI4"
-      },
-      {
-        "type": "finish",
-        "time": "21:00",
-        "title": "Closing Note"
-      }
-    ]
-  },
-  {
-    "theme": "Programming Languages You Should Know About",
-    "desc": "There are cool programming languages available that are not yet mainstream, but deserves significant attention. Come over and learn more about sharp programming languages such as Rust, Golang and Erlang.",
-    "month": "Mar 2015",
-    "date": "3 March, 2015",
-    "time": "18:30",
-    "announced": false,
-    "venue": "Zala iela 1",
-    "schedule": [
-      {
-        "name": "Leonids Maslovs",
-        "type": "speech",
-        "bio": "Galeo Consulting",
-        "twitter": "leonardinius",
-        "title": "The Sweet Flavour of Rust",
-        "description": "Every chef now and then uses pinch of his secret spices to make a dish somewhat special and exquisite. This talk will provide introduction into nature of Rust sweetness and will answer to most important questions: Why and When does it make our dishes better? We will iterate over small code snippets and take a look How strong typing and functional thinking can be applied to low level system programming.",
-        "img": "img/speakers/maslov.png",
-        "presentation": "https://speakerdeck.com/latcraft/the-sweet-flavour-of-rust",
-        "video": ""
-      },
-      {
-        "name": "Anatoly Ressin",
-        "type": "speech",
-        "bio": "C.T.Co",
-        "twitter": "artazor",
-        "title": "The Way to Go",
-        "description": "This talk will guide you through the core concepts of the Go. We will cover the type system, memory model, packaging and of course the famous concurrency primitives of the language: goroutines and channels. Small working code snippets will be available on the github for immediate coding experience.",
-        "img": "img/speakers/ressin.png",
-        "presentation": "https://speakerdeck.com/latcraft/the-way-to-go",
-        "video": ""
-      },
-      {
-        "name": "Jurijs Saveljevs",
-        "type": "speech",
-        "bio": "Rubylight",
-        "twitter": "jsaveljevs",
-        "title": "There is always Erlang",
-        "description": "This talk is devoted to giving overall insight on some fundamental problems on how we perceive and perform development of modern software and suggesting plausible cure in Erlang adoption. It has never been easier to address many of never-ending issues with parallel, distributed and fault tolerant computing. Get to know the Erlang-way of fighting against complexity of software world before those problems catch you unprepared!",
-        "img": "img/speakers/savelyev.png",
-        "presentation": "https://speakerdeck.com/latcraft/there-is-always-erlang",
-        "video": ""
-      }
-    ]
-  },
-  {
-    "theme": "Team and Personal Effectiveness",
-    "desc": "We'd love to spend 24/7 in code, but software development is all about people. We will talk about teams, people, what makes them tick and what should you do to become a great team player.",
-    "month": "Feb 2015",
-    "date": "3 February, 2015",
-    "time": "18:30",
-    "announced": false,
-    "venue": "Zala iela 1",
-    "schedule": [
-      {
-        "name": "Andrey Grave",
-        "type": "speech",
-        "bio": "BuyerDeck",
-        "twitter": "BuyerDeck",
-        "title": "Growing Teams: Notes of an Amateur Team Gardener",
-        "description": "Andrey will share his experience and discoveries on the topic of Growing Teams. What does it take to grow a team? What environment facilitates team growth? What distinguishes great teams? What can kill teams? What are characteristics of great team member? And some more.",
-        "img": "img/speakers/andrey-grave.jpg",
-        "presentation": "https://speakerdeck.com/latcraft/growing-teams-notes-of-an-amateur-team-gardener",
-        "video": "https://www.youtube.com/watch?v=6jm_SGdbIF4"
-      },
-      {
-        "name": "Romans Karpelcevs ",
-        "type": "speech",
-        "bio": "Mobile Lead at Ask.fm",
-        "twitter": "cvbk",
-        "title": "From Zero to Hero",
-        "description": "Romans will talk about a developer's journey from college to senior developer. What is wrong with our education? What is wrong with our expectations? Roman will share his idea of the focus points on our path to success as a person and as an industry.",
-        "img": "img/speakers/romans-karpelcevs.png",
-        "presentation": "https://speakerdeck.com/latcraft/from-zero-to-hero",
-        "video": "https://www.youtube.com/watch?v=L0QzklRDI7k"
-      },
-      {
-        "name": "Aleksejs Truhans",
-        "type": "speech",
-        "bio": "Citadele Banka",
-        "title": "A Personal Journey Into Human and Team Effectiveness",
-        "description": "Having worked both as developer and as team manager, Aleksej will share his experiences with team, personal and process aspects that facilitate or inhibit productivity. What makes one successful in the eyes of others? How is efectiveness developed and maintained? These and related questions are important to any conscious software craftsman.",
-        "img": "img/speakers/aleksejs-truhans.jpg",
-        "presentation": "https://speakerdeck.com/latcraft/team-and-personal-effectiveness",
-        "video": "https://www.youtube.com/watch?v=Gz0s8j3nboU"
-      }
-    ]
-  },
-  {
-    "theme": "CIO and CTO lessons learned",
-    "desc": "Learn what does it mean to lead the way and what true leaders expect from their peers. Come over to hear deep insights from guys that went long path towards becoming Chiefs.",
-    "month": "Jan 2015",
-    "date": "6 January, 2015",
-    "time": "18:30",
-    "announced": false,
-    "venue": "Zala iela 1",
-    "schedule": [
-      {
-        "name": "Māris Veide",
-        "type": "speech",
-        "bio": "CIO at E-Global Holding",
-        "twitter": "marisveide",
-        "title": "Epiphany From A Specialist As Worst CIO Ever",
-        "description": "Maris will share his empirical findings from two very distinct perspectives of IT Specialist and CIO - how kicking some ice is related to to literally breaking speed limits while going to work, which [just as a side effect] - leads to earning a lot more money too.",
-        "img": "img/speakers/maris-veiders.jpg",
-        "presentation": "https://speakerdeck.com/latcraft/epiphany-from-a-specialist-as-worst-cio-ever",
-        "video": "https://www.youtube.com/watch?v=CeVR2q8O9gU"
-      },
-      {
-        "name": "Raimonds Simanovskis",
-        "type": "speech",
-        "bio": "Founder at eazyBi",
-        "twitter": "rsim",
-        "title": "Building Technical Competence",
-        "description": "Raimonds has been CTO for large software development company and now is CEO/CTO of a small startup. He will talk about several topics and compare from his experience what has been common and what different in large and small teams.",
-        "img": "img/speakers/raimonds-simanovskis.jpg",
-        "presentation": "https://speakerdeck.com/latcraft/building-technical-competence",
-        "video": "https://www.youtube.com/watch?v=gsdJ5kgKdco"
-      },
-      {
-        "name": "Jakub Nabrdalik",
-        "type": "speech",
-        "bio": "IT Manager at 4finance",
-        "twitter": "jnabrdalik",
-        "title": "Game Of Throneware",
-        "description": "Jakub will reveal how not to get killed when a developer becomes a manager. What happens, when you become a manager? How do you organize teams, workspace? How do you help people? How do you deal with politics, communication? And much more.",
-        "img": "img/speakers/jakub-nabrdalik.jpg",
-        "presentation": "https://speakerdeck.com/latcraft/game-of-throneware",
-        "video": "https://www.youtube.com/watch?v=gsdJ5kgKdco"
-      }
-    ]
-  }
+        "venue": "Zala iela 1"
+    }
 ]
