@@ -14,6 +14,11 @@
     "schedule": [
       {
         "type": "start",
+        "time": "18:30",
+        "title": "Networking"
+      },
+      {
+        "type": "start",
         "time": "18:50",
         "title": "Event Opening"
       },
@@ -40,7 +45,7 @@
         "bio": "Agile Coach",
         "twitter": "adiazmaroto",
         "title": "Non-Violent Communication Dancefloors to manage team conflicts",
-        "description": "Retrospectives are one of the most powerful concepts in Agile and often one of the most difficult ceremonies to facilitate. The reason is that with Retrospectives we’re trying to put together the concept of Kaizen continuous improvement and the leverage of team coaching. In other to take advantage of this powerful idea, powerful skills and maturity are needed both for teams and facilitators. Furthermore, is critical to differentiate between Kaizen and a team coaching process. In this session I’ll start going through both concepts separately: team kaizen and team coaching. The goal is to get the audience understanding more in depth the core concepts behind retrospectives so they can go beyond the ceremony and explore how to evolve their needed competences and retrospective structure to the next level.",
+        "description": "Retrospectives are one of the most powerful concepts in Agile and often one of the most difficult ceremonies to facilitate. The reason is that with Retrospectives we're trying to put together the concept of Kaizen continuous improvement and the leverage of team coaching. In other to take advantage of this powerful idea, powerful skills and maturity are needed both for teams and facilitators. Furthermore, is critical to differentiate between Kaizen and a team coaching process. In this session I'll start going through both concepts separately: team kaizen and team coaching. The goal is to get the audience understanding more in depth the core concepts behind retrospectives so they can go beyond the ceremony and explore how to evolve their needed competences and retrospective structure to the next level.",
         "img": "img/speakers/angel.jpeg"
       },
       {
