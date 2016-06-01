@@ -58,6 +58,17 @@
                 "type": "finish"
             }
         ],
+        "announcements": [
+            {
+                "desc": "Our friends Citadele are looking or a <a href=\"http://www.likeit.lv/job/as-citadele-banka/java-developer-java-izstradatajs-a/4394\">Java Developer</a> and <a href=\"http://www.likeit.lv/job/as-citadele-banka/oracledwh-izstradatajs-a/4268\">Oracle/DWH Developer</a>"
+            },
+            {
+                "desc": "Organisations face different challenges when implementing DevOps initiatives. Learn principles of DevOps and tools that help reach full automation of infrastructure provisioning and software delivery at 2-day <a href=\"http://devchampions.com/training/xa/\">eXtreme Automation/DevOps Masterclass</a>"
+            },
+            {
+                "desc": "In 2016, Java code must look differently. Learn how to write expressive, concise and elegant Java 8 code by attending <a href=\"http://devchampions.com/training/java/\">Effective Coding Principles and Patterns in Java 8</a>"
+            }
+        ],
         "theme": "Soft Skills",
         "tickets": "http://www.eventbrite.com/e/latcraft-soft-skills-tickets-25775301621",
         "time": "18:30",
