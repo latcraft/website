@@ -79,7 +79,7 @@
         "theme": "Soft Skills",
         "tickets": "http://www.eventbrite.com/e/latcraft-soft-skills-tickets-25775301621",
         "time": "18:30",
-        "venue": "Zala iela 1, Microsoft Latvia telpas"
+        "venue": "Zala iela 1, Microsoft Latvia"
     },
     {
         "announced": true,
@@ -130,7 +130,7 @@
         "theme": "Agile Retrospectives",
         "tickets": "https://www.eventbrite.com/e/latcraft-agile-retrospectives-tickets-25071939847",
         "time": "18:30",
-        "venue": "Zala iela 1, Microsoft Latvia telpas"
+        "venue": "Zala iela 1, Microsoft Latvia"
     },
     {
         "announced": true,
@@ -199,7 +199,7 @@
         "theme": "Infrastructure as Code!",
         "tickets": "http://www.eventbrite.com/e/latcraft-infrastructure-as-code-tickets-24390082393",
         "time": "18:30",
-        "venue": "Zala iela 1, Microsoft Latvia telpas"
+        "venue": "Zala iela 1, Microsoft Latvia"
     },
     {
         "announced": true,
@@ -284,7 +284,7 @@
         "theme": "Software Architecture Panel",
         "tickets": "http://www.eventbrite.com/tickets-external?eid=22418068045&amp;ref=etckt&amp;v=2",
         "time": "18:30",
-        "venue": "Zala iela 1, Microsoft Latvia telpas"
+        "venue": "Zala iela 1, Microsoft Latvia"
     },
     {
         "announced": false,
@@ -334,7 +334,7 @@
         "theme": "Software Craftsmanship",
         "tickets": "http://www.eventbrite.com/tickets-external?eid=20823521714&amp;ref=etckt&amp;v=2",
         "time": "18:30",
-        "venue": "Zala iela 1, Microsoft Latvia telpas"
+        "venue": "Zala iela 1, Microsoft Latvia"
     },
     {
         "announced": true,
@@ -405,7 +405,7 @@
         "theme": "Made in Latvia",
         "tickets": "https://www.eventbrite.com/e/latcraft-java-tickets-18712838604",
         "time": "18:30",
-        "venue": "Zala iela 1, Microsoft Latvia telpas"
+        "venue": "Zala iela 1, Microsoft Latvia"
     },
     {
         "announced": false,
@@ -472,7 +472,7 @@
         ],
         "theme": "Java",
         "time": "18:30",
-        "venue": "Zala iela 1, Microsoft Latvia telpas"
+        "venue": "Zala iela 1, Microsoft Latvia"
     },
     {
         "announced": false,
@@ -537,7 +537,7 @@
         ],
         "theme": "BigData",
         "time": "18:30",
-        "venue": "Zala iela 1, Microsoft Latvia telpas"
+        "venue": "Zala iela 1, Microsoft Latvia"
     },
     {
         "announced": false,
@@ -602,7 +602,7 @@
         ],
         "theme": "Beyond Software",
         "time": "18:30",
-        "venue": "Zala iela 1, Microsoft Latvia telpas"
+        "venue": "Zala iela 1, Microsoft Latvia"
     },
     {
         "announced": false,
@@ -685,7 +685,7 @@
         ],
         "theme": "Mobile All The Way Down",
         "time": "18:30",
-        "venue": "Zala iela 1, Microsoft Latvia telpas"
+        "venue": "Zala iela 1, Microsoft Latvia"
     },
     {
         "announced": false,
@@ -752,7 +752,7 @@
         ],
         "theme": "Operations and DevOps",
         "time": "18:30",
-        "venue": "Zala iela 1, Microsoft Latvia telpas"
+        "venue": "Zala iela 1, Microsoft Latvia"
     },
     {
         "announced": false,
@@ -819,7 +819,7 @@
         ],
         "theme": "NoSQL and Data",
         "time": "18:30",
-        "venue": "Zala iela 1, Microsoft Latvia telpas"
+        "venue": "Zala iela 1, Microsoft Latvia"
     },
     {
         "announced": false,
@@ -961,7 +961,7 @@
         ],
         "theme": "Programming Languages You Should Know About",
         "time": "18:30",
-        "venue": "Zala iela 1"
+        "venue": "Zala iela 1, Microsoft Latvia"
     },
     {
         "announced": false,
@@ -1004,7 +1004,7 @@
         ],
         "theme": "Team and Personal Effectiveness",
         "time": "18:30",
-        "venue": "Zala iela 1"
+        "venue": "Zala iela 1, Microsoft Latvia"
     },
     {
         "announced": false,
@@ -1048,6 +1048,6 @@
         ],
         "theme": "CIO and CTO lessons learned",
         "time": "18:30",
-        "venue": "Zala iela 1"
+        "venue": "Zala iela 1, Microsoft Latvia"
     }
 ]
