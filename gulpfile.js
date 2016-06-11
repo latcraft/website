@@ -17,7 +17,7 @@ var gulp = require('gulp'),
 	util = require('gulp-util'),
 	gm = require('gulp-gm'),
 	deploy = require('gulp-gh-pages'),
-	localScreenshots = require('gulp-local-screenshots'),
+	// localScreenshots = require('gulp-local-screenshots'),
 	sitemap = require('gulp-sitemap');
 
 var env = util.env.environment ? util.env.environment : "local"
@@ -143,21 +143,20 @@ gulp.task('watch', function() {
     gulp.watch(['video/*'], ['video']);
 });
 
-gulp.task('screens', ['copy', 'imagemin', 'fonts', 'sass'], function () {
-	return gulp.src(publicDir + '/*/**.html')
-  		.pipe(localScreenshots({
-        path: publicDir + '/',
-        folder: publicDir + '/img',
-        type: 'png',
-        suffix: 'shot',
-        width: ['1300']
-   		}))
-  		.pipe(gulp.dest(publicDir + '/img'));
-});
-
+// gulp.task('screens', ['copy', 'imagemin', 'fonts', 'sass'], function () {
+// 	return gulp.src(publicDir + '/*/**.html')
+//   		.pipe(localScreenshots({
+//         path: publicDir + '/',
+//         folder: publicDir + '/img',
+//         type: 'png',
+//         suffix: 'shot',
+//         width: ['1300']
+//    		}))
+//   		.pipe(gulp.dest(publicDir + '/img'));
+// });
 
 gulp.task('build', function() {
-	gulp.start('fonts', 'sass', 'jade', 'uglify', 'imagemin', 'video', 'copy', 'screens');
+	gulp.start('fonts', 'sass', 'jade', 'uglify', 'imagemin', 'video', 'copy' /*, 'screens'*/);
 }); 
 
 gulp.task('stage', function () {
