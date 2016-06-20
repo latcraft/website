@@ -64,34 +64,34 @@ $(document).ready(function() {
 	});
 
 	// fetch one tweet
-	var tweetConfig = {
-		"id": '558200865941909504',
-		"domId": 'twitter-feed',
-		"maxTweets": 3,
-		"enableLinks": true
-	};
-	twitterFetcher.fetch(tweetConfig);
+	// var tweetConfig = {
+	//	"id": '558200865941909504',
+	//	"domId": 'twitter-feed',
+	//	"maxTweets": 3,
+	//	"enableLinks": true
+	// };
+	// twitterFetcher.fetch(tweetConfig);
 
 
 	// get flickr
-	var flickrURL = "http://api.flickr.com/services/feeds/photos_public.gne?ids=128548450@N05&format=json&jsoncallback=?";
-	$.getJSON(flickrURL, function(data){
-		var imageCollection = "";
+	// var flickrURL = "http://api.flickr.com/services/feeds/photos_public.gne?ids=128548450@N05&format=json&jsoncallback=?";
+	// $.getJSON(flickrURL, function(data){
+	//	var imageCollection = "";
+	//
+	//	imageCollection += '<ul>';
+	//	for (var item in data.items) {
+	//		if(item == 16) break;
+	//
+	//		var width = data.items[item].description.match(/width=["']([0-9]+)["']/)[1];
+	//		var height = data.items[item].description.match(/height=["']([0-9]+)["']/)[1];
+	//
+	//		if(height > width) continue;
+	//		imageCollection += '<li><img src="' + data.items[item].media.m + '" alt="' + data.items[item].title + '"></li>';
+	//	}
+	//	imageCollection += '</ul>';
 
-		imageCollection += '<ul>';
-		for (var item in data.items) {
-			if(item == 16) break;
-
-			var width = data.items[item].description.match(/width=["']([0-9]+)["']/)[1];
-			var height = data.items[item].description.match(/height=["']([0-9]+)["']/)[1];
-
-			if(height > width) continue;
-			imageCollection += '<li><img src="' + data.items[item].media.m + '" alt="' + data.items[item].title + '"></li>';
-		}
-		imageCollection += '</ul>';
-
-		$("#flickr-feed").append(imageCollection);
-	});
+	//	$("#flickr-feed").append(imageCollection);
+	// });
 
 
 	// digest subscription
