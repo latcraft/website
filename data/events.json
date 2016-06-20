@@ -1,7 +1,7 @@
 [
     {
 
-        "announced": true,
+        "announced": false,
         "date": "7 June, 2016",
         "desc": "Did you know that about 80% of your career success is due to Soft Skills and Emotional Intelligence? Technical skills are not enough. Join us to learn how to manage your time and finally get things done, how to turn emotional feedback into a constructive discussion, how to start thinking out of the box, and achieve more!",
         "endTime": "21:00",
@@ -85,7 +85,7 @@
         "venue": "Zala iela 1, Microsoft Latvia"
     },
     {
-        "announced": true,
+        "announced": false,
         "date": "5 May, 2016",
         "desc": "Let's dive into understanding and improving effectiveness of agile retrospectives with interactive workshops by two active Scrum practitioners: Angel Diaz-Maroto (Agile Coach) and Alexey Krivitsky (Certified Scrum Trainer). Everyone will participate in the action!",
         "endTime": "21:00",
@@ -136,7 +136,7 @@
         "venue": "Zala iela 1, Microsoft Latvia"
     },
     {
-        "announced": true,
+        "announced": false,
         "date": "12 April, 2016",
         "desc": "Let's investigate Infrastructure as Code (IaC) forefront - how to express the configuration, production and deployment infrastructure in executable and repeatable form, what tools are suitable for that purpose, best and worst practices - all covered.",
         "endTime": "21:00",
@@ -205,7 +205,7 @@
         "venue": "Zala iela 1, Microsoft Latvia"
     },
     {
-        "announced": true,
+        "announced": false,
         "date": "10 March, 2016",
         "desc": "This time, we decided to try a totally different format - 100% interactive, 2-hour panel discussion with lots of questions varying from career development and motivation; to the latest trends in software architecture, personal f%ckups and lessons learned. Four rock-star software architects. Different companies, background and opinions.",
         "endTime": "20:30",
@@ -340,7 +340,7 @@
         "venue": "Zala iela 1, Microsoft Latvia"
     },
     {
-        "announced": true,
+        "announced": false,
         "date": "3 November, 2015",
         "desc": "This time, we decided to dedicate an event to some of the greatest Latvian startups made in Latvia. Let's check out how they started, the hard ways they got at their beginnings, as well as their grow process, and where thy are today.",
         "endTime": "21:30",
