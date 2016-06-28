@@ -1,6 +1,6 @@
 [
     {
-        "announced": false,
+        "announced": true,
         "announcements": [
             {
                 "description": "Organisations face different challenges when implementing DevOps initiatives. Learn principles of DevOps and tools that help reach full automation of infrastructure provisioning and software delivery at 2-day <a href=\"http://devchampions.com/training/xa/\">eXtreme Automation/DevOps Masterclass</a>.",
@@ -12,7 +12,7 @@
             }
         ],
         "date": "7 July, 2016",
-        "desc": "This time we decided to organize workshop around probably the most mentioned technology in last 3 years. Let's play with Docker in July! Fully Hands-on! Laptop required! Limited places!",
+        "desc": "This time we decided to organize a workshop around probably the most mentioned technology in last 3 years. Let's play with Docker in July! Fully Hands-on! Laptop is required! Limited places!",
         "endTime": "21:00",
         "eventbriteEventId": "26308622799",
         "maps": "https://www.google.lv/maps/place/Kronvalda+bulv%C4%81ris+3,+Centra+rajons,+R%C4%ABga,+LV-1010/@56.9550172,24.1000566,17z/data=!3m1!4b1!4m5!3m4!1s0x46eecfdb19593ebd:0x3dcbbc39646177b8!8m2!3d56.9550143!4d24.1022506",
