@@ -156,7 +156,8 @@ $(document).ready(function() {
 	// google map
 	var overlay;
 	function initialize() {
-	    var myLatLng = new google.maps.LatLng(56.959081,24.114304);
+	    // var myLatLng = new google.maps.LatLng(56.959081,24.114304); // Microsoft
+	    var myLatLng = new google.maps.LatLng(56.9550172,24.1000566); // Visma
 
 	    var mapOptions = {
 	        zoom: 15,
