@@ -1,4 +1,77 @@
 [
+
+        "announced": false,
+        "date": "7 July, 2016",
+        "desc": "Let's play with Docker this time! Fully Hands-on! Laptop required! Limited places!",
+        "endTime": "21:00",
+        "maps": "https://www.google.lv/maps/place/Kronvalda+bulv%C4%81ris+3,+Centra+rajons,+R%C4%ABga,+LV-1010/@56.9550172,24.1000566,17z/data=!3m1!4b1!4m5!3m4!1s0x46eecfdb19593ebd:0x3dcbbc39646177b8!8m2!3d56.9550143!4d24.1022506",
+        "month": "July 2016",
+        "schedule": [
+            {
+                "time": "18:30",
+                "title": "Event Opening",
+                "type": "start"
+            },
+            {
+                "bio": "Founder at Aestas/IT",
+                "description": "Extreme automator and software craftsman. Dev that likes Ops.",
+                "img": "img/speakers/adamovich.jpeg",
+                "name": "Andrey Adamovich",
+                "time": "18:40",
+                "title": "Coach I",
+                "twitter": "codingandrey",
+                "type": "speech"
+            },
+            {
+                "time": "19:10",
+                "title": "Coffee Break",
+                "type": "break"
+            },
+            {
+                "bio": "Galeo Consulting",
+                "description": "IT consultant and automation evangelist identities trapped in one human body.",
+                "img": "img/speakers/maslov.png",
+                "name": "Leonids Maslovs",
+                "time": "18:40",
+                "title": "Coach II",
+                "twitter": "leonardinius",
+                "type": "speech"
+            },
+            {
+                "time": "20:05",
+                "title": "Coffee Break",
+                "type": "break"
+            },
+            {
+                "bio": "Software Development Coach",
+                "description": "Software delivery guy, community builder and technology explorer.",
+                "img": "img/speakers/eduardsi.jpg",
+                "name": "Eduards Sizovs",
+                "time": "18:40",
+                "title": "Coach III",
+                "twitter": "eduardsi",
+                "type": "speech"
+            },
+            {
+                "time": "20:55",
+                "title": "Closing Note",
+                "type": "finish"
+            }
+        ],
+        "announcements": [
+            {
+                "description": "Organisations face different challenges when implementing DevOps initiatives. Learn principles of DevOps and tools that help reach full automation of infrastructure provisioning and software delivery at 2-day <a href=\"http://devchampions.com/training/xa/\">eXtreme Automation/DevOps Masterclass</a>.",
+                "img": "img/newsletter/training.png"
+            },
+            {
+                "description": "In 2016, Java code must look differently. Learn how to write expressive, concise and elegant Java 8 code by attending <a href=\"http://devchampions.com/training/java/\">Effective Coding Principles and Patterns in Java 8</a>.",
+                "img": "img/newsletter/training.png"
+            }
+        ],
+        "theme": "Docker 101",
+        "time": "18:30",
+        "venue": "Kronvalda bulvaris 3/5, Visma Labs"
+    },
     {
 
         "announced": false,
