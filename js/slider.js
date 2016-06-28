@@ -83,7 +83,7 @@ $(document).ready(function() {
 		if($this.hasClass('next')) {
 			if(curSlide == 0) return;			
 			curSlide--;
-			moveHolder(sliderHolder, (9 - curSlide) * -10);	
+			moveHolder(sliderHolder, (49 - curSlide) * -2);	
 			
 			// checks if there is no where to slide
 			if(curSlide == 0) $this.addClass('inactive');		
@@ -91,7 +91,7 @@ $(document).ready(function() {
 		} else {
 			if(curSlide == totalSlides - 1) return;
 			curSlide++;
-			moveHolder(sliderHolder, (9 - curSlide) * -10);
+			moveHolder(sliderHolder, (49 - curSlide) * -2);
 			
 			// add class inactive if last slide
 			if(curSlide == totalSlides - 1) $this.addClass('inactive');							
