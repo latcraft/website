@@ -1,9 +1,20 @@
 [
     {
         "announced": false,
+        "announcements": [
+            {
+                "description": "Organisations face different challenges when implementing DevOps initiatives. Learn principles of DevOps and tools that help reach full automation of infrastructure provisioning and software delivery at 2-day <a href=\"http://devchampions.com/training/xa/\">eXtreme Automation/DevOps Masterclass</a>.",
+                "img": "img/newsletter/training.png"
+            },
+            {
+                "description": "In 2016, Java code must look differently. Learn how to write expressive, concise and elegant Java 8 code by attending <a href=\"http://devchampions.com/training/java/\">Effective Coding Principles and Patterns in Java 8</a>.",
+                "img": "img/newsletter/training.png"
+            }
+        ],
         "date": "7 July, 2016",
         "desc": "This time we decided to organize workshop around probably the most mentioned technology in last 3 years. Let's play with Docker in July! Fully Hands-on! Laptop required! Limited places!",
         "endTime": "21:00",
+        "eventbriteEventId": "26308622799",
         "maps": "https://www.google.lv/maps/place/Kronvalda+bulv%C4%81ris+3,+Centra+rajons,+R%C4%ABga,+LV-1010/@56.9550172,24.1000566,17z/data=!3m1!4b1!4m5!3m4!1s0x46eecfdb19593ebd:0x3dcbbc39646177b8!8m2!3d56.9550143!4d24.1022506",
         "month": "July 2016",
         "schedule": [
@@ -58,7 +69,18 @@
                 "type": "finish"
             }
         ],
+        "theme": "Docker 101",
+        "tickets": "http://www.eventbrite.com/e/latcraft-docker-101-tickets-26308622799",
+        "time": "18:30",
+        "venue": "Kronvalda bulvaris 3/5, Visma Labs"
+    },
+    {
+        "announced": false,
         "announcements": [
+            {
+                "description": "Our friends from Citadele are looking for a <a href=\"http://www.likeit.lv/job/as-citadele-banka/java-developer-java-izstradatajs-a/4394\">Java Developer</a> and <a href=\"http://www.likeit.lv/job/as-citadele-banka/oracledwh-izstradatajs-a/4268\">Oracle/DWH Developer</a>.",
+                "img": "img/newsletter/job.png"
+            },
             {
                 "description": "Organisations face different challenges when implementing DevOps initiatives. Learn principles of DevOps and tools that help reach full automation of infrastructure provisioning and software delivery at 2-day <a href=\"http://devchampions.com/training/xa/\">eXtreme Automation/DevOps Masterclass</a>.",
                 "img": "img/newsletter/training.png"
@@ -68,13 +90,6 @@
                 "img": "img/newsletter/training.png"
             }
         ],
-        "theme": "Docker 101",
-        "time": "18:30",
-        "venue": "Kronvalda bulvaris 3/5, Visma Labs"
-    },
-    {
-
-        "announced": false,
         "date": "7 June, 2016",
         "desc": "Did you know that about 80% of your career success is due to Soft Skills and Emotional Intelligence? Technical skills are not enough. Join us to learn how to manage your time and finally get things done, how to turn emotional feedback into a constructive discussion, how to start thinking out of the box, and achieve more!",
         "endTime": "21:00",
@@ -92,11 +107,11 @@
                 "description": "The fundamentals of time and task management are well known to everybody. Still majority of us does not succeed in managing tasks, deadlines and schedules in the long run. Why personal efficiency methods are not working? How to make them working for you? How does our brain maintain the activities, wishes and emotions we have? What you should do in order to overcome the procrastination? Ljubov will provide her answers to these questions, as well as share her life hacks.",
                 "img": "img/speakers/ljubovbezhan.png",
                 "name": "Ljubov Be\u017ean",
+                "presentation": "http://www.slideshare.net/latcraft/facilitating-the-zoo-in-your-head-or-how-to-get-things-done",
                 "time": "18:40",
                 "title": "Facilitating the Zoo in Your Head, or How to Get Things Done",
-                "presentation": "http://www.slideshare.net/latcraft/facilitating-the-zoo-in-your-head-or-how-to-get-things-done",
-                "video": "https://www.youtube.com/watch?v=CB701pcnP-A",
-                "type": "speech"
+                "type": "speech",
+                "video": "https://www.youtube.com/watch?v=CB701pcnP-A"
             },
             {
                 "time": "19:10",
@@ -107,13 +122,13 @@
                 "bio": "Business Development Manager at Diatom Enterprises",
                 "description": "Have you ever been verbally attacked by someone? Have you ever heard something like \"You always miss the deadlines!\" or \"Your code is a mess!\"? Spend 40 minutes with me and learn how to turn such statements into your advantage!",
                 "img": "img/speakers/darjakrizska.png",
-                "presentation": "http://www.slideshare.net/latcraft/verbal-judo-62962857",
-                "video": "https://www.youtube.com/watch?v=GmedwnMxfK0",
                 "name": "Darja Krizska",
+                "presentation": "http://www.slideshare.net/latcraft/verbal-judo-62962857",
                 "time": "19:25",
                 "title": "Verbal Judo",
                 "twitter": "Darjucis",
-                "type": "speech"
+                "type": "speech",
+                "video": "https://www.youtube.com/watch?v=GmedwnMxfK0"
             },
             {
                 "time": "20:05",
@@ -124,32 +139,18 @@
                 "bio": "CEO at Atlas",
                 "description": "During the presentation, you will hear the real life experience how to transform boring work through the divergent thinking into incredible, breathtaking work. You will find out how to use your creativity to implement impossible ideas to your work in a short time. Moreover, you will learn to take the initiative and to make mistakes without fair. Most complex problems have a solution; sometimes we just have to think about them in a different way.",
                 "img": "img/speakers/alexfridman.png",
-                "presentation": "http://www.slideshare.net/latcraft/pimp-my-brain",
-                "video": "https://www.youtube.com/watch?v=LhRsR-G5mU8",
                 "name": "Alex Fridman",
+                "presentation": "http://www.slideshare.net/latcraft/pimp-my-brain",
                 "time": "20:15",
                 "title": "Pimp My Brain",
                 "twitter": "fridman_alex",
-                "type": "speech"
+                "type": "speech",
+                "video": "https://www.youtube.com/watch?v=LhRsR-G5mU8"
             },
             {
                 "time": "20:55",
                 "title": "Closing Note",
                 "type": "finish"
-            }
-        ],
-        "announcements": [
-            {
-                "description": "Our friends from Citadele are looking for a <a href=\"http://www.likeit.lv/job/as-citadele-banka/java-developer-java-izstradatajs-a/4394\">Java Developer</a> and <a href=\"http://www.likeit.lv/job/as-citadele-banka/oracledwh-izstradatajs-a/4268\">Oracle/DWH Developer</a>.",
-                "img": "img/newsletter/job.png"
-            },
-            {
-                "description": "Organisations face different challenges when implementing DevOps initiatives. Learn principles of DevOps and tools that help reach full automation of infrastructure provisioning and software delivery at 2-day <a href=\"http://devchampions.com/training/xa/\">eXtreme Automation/DevOps Masterclass</a>.",
-                "img": "img/newsletter/training.png"
-            },
-            {
-                "description": "In 2016, Java code must look differently. Learn how to write expressive, concise and elegant Java 8 code by attending <a href=\"http://devchampions.com/training/java/\">Effective Coding Principles and Patterns in Java 8</a>.",
-                "img": "img/newsletter/training.png"
             }
         ],
         "theme": "Soft Skills",
@@ -1035,8 +1036,8 @@
                 "video": ""
             }
         ],
-        "theme": "Programming Languages You Should Know About",
         "short-theme": "Programming Languages",
+        "theme": "Programming Languages You Should Know About",
         "time": "18:30",
         "venue": "Zala iela 1, Microsoft Latvia"
     },
