@@ -22,8 +22,7 @@ var gulp = require('gulp'),
 
 var env = util.env.environment ? util.env.environment : "local"
 
-var news = require('./data/news.json'),
-	events = require('./data/events.json'),
+var events = require('./data/events.json'),
 	challenges = require('./data/challenges.json');
 	environment = require('./env/' + (env ? env : "local") + '/configuration.json')
 
