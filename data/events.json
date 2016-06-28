@@ -1,6 +1,7 @@
 [
     {
         "announced": true,
+        "videStreaming": false,
         "announcements": [
             {
                 "description": "Organisations face different challenges when implementing DevOps initiatives. Learn principles of DevOps and tools that help reach full automation of infrastructure provisioning and software delivery at 2-day <a href=\"http://devchampions.com/training/xa/\">eXtreme Automation/DevOps Masterclass</a>.",
