@@ -74,7 +74,7 @@
         "tickets": "http://www.eventbrite.com/e/latcraft-made-in-latvia-tickets-26698834934",
         "time": "18:30",
         "venue": "Kronvalda bulvaris 3/5, Visma Labs",
-        "videStreaming": false
+        "videStreaming": true
     },
     {
         "announced": false,
