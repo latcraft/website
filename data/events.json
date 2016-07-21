@@ -1,7 +1,6 @@
 [
     {
         "announced": true,
-        "videStreaming": false,
         "announcements": [
             {
                 "description": "DevTernity 2016 has been announced and it's two times bigger now! Don't forget to <a href=\"http://devternity.com\">grab your early-bird ticket</a>!",
@@ -19,7 +18,7 @@
         "date": "3 August, 2016",
         "desc": "Proud to be made in Latvia! August event is all about local success stories. From small ideas up to the worldwide markets - learn how locals actually did it! Don't say that you have to live in the big city to become BIG!",
         "endTime": "21:00",
-        "eventbriteEventId": "",
+        "eventbriteEventId": "26698834934",
         "maps": "https://www.google.lv/maps/place/Kronvalda+bulv%C4%81ris+3,+Centra+rajons,+R%C4%ABga,+LV-1010/@56.9550172,24.1000566,17z/data=!3m1!4b1!4m5!3m4!1s0x46eecfdb19593ebd:0x3dcbbc39646177b8!8m2!3d56.9550143!4d24.1022506",
         "month": "August 2016",
         "schedule": [
@@ -44,7 +43,7 @@
             },
             {
                 "bio": "CTO at Mintos",
-                "description": "Success stories aren’t born overnight, success comes with hours of hard team work, persistence, and innovative ideas. During my speech, I will share our experience of building Mintos, the Top 3 peer to peer lending marketplace in Continental Europe.",
+                "description": "Success stories aren\u2019t born overnight, success comes with hours of hard team work, persistence, and innovative ideas. During my speech, I will share our experience of building Mintos, the Top 3 peer to peer lending marketplace in Continental Europe.",
                 "img": "img/speakers/martinseglitis.jpg",
                 "name": "Martins Eglitis",
                 "time": "19:25",
@@ -72,13 +71,13 @@
             }
         ],
         "theme": "Made in Latvia",
-        "tickets": "",
+        "tickets": "http://www.eventbrite.com/e/latcraft-made-in-latvia-tickets-26698834934",
         "time": "18:30",
-        "venue": "Kronvalda bulvaris 3/5, Visma Labs"
+        "venue": "Kronvalda bulvaris 3/5, Visma Labs",
+        "videStreaming": false
     },
     {
         "announced": false,
-        "videStreaming": false,
         "announcements": [
             {
                 "description": "Organisations face different challenges when implementing DevOps initiatives. Learn principles of DevOps and tools that help reach full automation of infrastructure provisioning and software delivery at 2-day <a href=\"http://devchampions.com/training/xa/\">eXtreme Automation/DevOps Masterclass</a>.",
@@ -106,10 +105,10 @@
                 "description": "Extreme automator and software craftsman. Dev that likes Ops.",
                 "img": "img/speakers/adamovich.jpeg",
                 "name": "Andrey Adamovich",
+                "presentation": "http://www.slideshare.net/aestasit/latcraft-docker-101",
                 "time": "18:40",
                 "title": "Coach I",
                 "twitter": "codingandrey",
-                "presentation": "http://www.slideshare.net/aestasit/latcraft-docker-101",
                 "type": "speech"
             },
             {
@@ -122,10 +121,10 @@
                 "description": "IT consultant and automation evangelist identities trapped in one human body.",
                 "img": "img/speakers/maslov.png",
                 "name": "Leonids Maslovs",
+                "presentation": "http://www.slideshare.net/aestasit/latcraft-docker-101",
                 "time": "18:40",
                 "title": "Coach II",
                 "twitter": "leonardinius",
-                "presentation": "http://www.slideshare.net/aestasit/latcraft-docker-101",
                 "type": "speech"
             },
             {
@@ -138,10 +137,10 @@
                 "description": "Software delivery guy, community builder and technology explorer.",
                 "img": "img/speakers/eduardsi.jpg",
                 "name": "Eduards Sizovs",
+                "presentation": "http://www.slideshare.net/aestasit/latcraft-docker-101",
                 "time": "18:40",
                 "title": "Coach III",
                 "twitter": "eduardsi",
-                "presentation": "http://www.slideshare.net/aestasit/latcraft-docker-101",
                 "type": "speech"
             },
             {
@@ -153,7 +152,8 @@
         "theme": "Docker 101",
         "tickets": "http://www.eventbrite.com/e/latcraft-docker-101-tickets-26308622799",
         "time": "18:30",
-        "venue": "Kronvalda bulvaris 3/5, Visma Labs"
+        "venue": "Kronvalda bulvaris 3/5, Visma Labs",
+        "videStreaming": false
     },
     {
         "announced": false,
