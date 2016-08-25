@@ -15,6 +15,86 @@
                 "img": "img/newsletter/training.png"
             }
         ],
+        "date": "6 September, 2016",
+        "desc": "LatCraft goes Javanese! Our September event is devoted to building and testing stuff in Java — one of the most popular programming language and platform in the world. See how to make your tests shine using Spock framework, understand the principles of Mutation Testing and grasp Java 8 features for writing type-safe code.",
+        "endTime": "21:00",
+        "eventbriteEventId": "",
+        "maps": "https://www.google.lv/maps/place/Republikas+Laukums+2A,+Centra+rajons,+Rīga,+LV-1010/@56.9536058,24.0977563,841m/data=!3m2!1e3!4b1!4m5!3m4!1s0x46eecfdba4d31723:0x5f4b46a47834b061!8m2!3d56.9536058!4d24.099945",
+        "month": "September 2016",
+        "schedule": [
+            {
+                "time": "18:30",
+                "title": "Event Opening",
+                "type": "start"
+            },
+            {
+                "bio": "CTO @ Neueda Technologies",
+                "description": "Type safety is considered to be a trend this year. It helps to catch mistakes during compilation time and enables powerful auto-completion in IDE. Lets explore to what extent we can push type safety in Java 8! Dmitry will live code a simple framework in Java 8 using lambdas, method references, generics, dynamic proxies and a bit of reflection magic. All that in 33 minutes. You will learn how future frameworks can evolve to enhance type-safety and how these advanced approaches could be used in your code.",
+                "img": "img/speakers/buzdin.png",
+                "name": "Dmitry Buzdin",
+                "time": "18:40",
+                "title": "Type-safe Java 8 framework in 33 minutes",
+                "type": "speech",
+                "presentation": ""
+            },
+            {
+                "time": "19:20",
+                "title": "Coffee Break",
+                "type": "break"
+            },
+            {
+                "bio": "Software Developer @ WIX",
+                "description": "Nobody argues these days that unit tests are useful and provide valuable feedback about your code. But who watches the watchmen? Or, in other words, who is testing tests themselves? Let's talk about test code quality, code coverage and introduce mutation based testing techniques. Ideas behind mutation testing are nothing new in academic world, but only now become recognized by software developers while programming their production systems. This talk will look into how mutation testing can be used to improve your test-driven development cycle and will try to answer if existing tooling is mature enough to be used while coding your daily tasks.",
+                "img": "img/speakers/vaidas_pilkauskas.png",
+                "name": "Vaidas Pilkauskas",
+                "time": "19:30",
+                "title": "Can You Trust Your Tests?",
+                "type": "speech",
+                "presentation": ""
+            },
+            {
+                "time": "20:10",
+                "title": "Coffee Break",
+                "type": "break"
+            },
+            {
+                "bio": "CTO & Software Craftsman @ Codearte",
+                "description": "JUnit has been around for over a decade. Enhanced with Mockito and AssertJ it still can be used to write decent automatic tests, however, there is a better way. Thanks to Spock Framework tests/specifications can be written faster in shorter and more readable form. During my talk I will present 7 opinionated reasons why it is worth learning Spock to bring your automatic tests to the next level. This presentation is targeted at Java developers who care about writing automatic tests (all of us?) and for some reasons haven't decided to give Spock a shot yet.",
+                "img": "img/speakers/marcin_zajaczkowski.png",
+                "name": "Marcin Zajączkowski",
+                "time": "20:20",
+                "title": "7 Reasons Why Bother Learning Spock",
+                "type": "speech",
+                "presentation": ""
+            },
+            {
+                "time": "20:55",
+                "title": "Closing Note",
+                "type": "finish"
+            }
+        ],
+        "theme": "Made in Java",
+        "tickets": "",
+        "time": "18:30",
+        "venue": "Republikas laukums 2A, AS \"Citadele banka\"",
+        "videoStreaming": true
+    },
+    {
+        "announced": false,
+        "announcements": [
+            {
+                "description": "DevTernity 2016 has been announced and it's two times bigger now! Don't forget to <a href=\"http://devternity.com\">grab your early-bird ticket</a>!",
+                "img": "img/newsletter/devternity.png"
+            },
+            {
+                "description": "Organisations face different challenges when implementing DevOps initiatives. Learn principles of DevOps and tools that help reach full automation of infrastructure provisioning and software delivery at 2-day <a href=\"http://devchampions.com/training/xa/\">eXtreme Automation/DevOps Masterclass</a>.",
+                "img": "img/newsletter/training.png"
+            },
+            {
+                "description": "In 2016, Java code must look differently. Learn how to write expressive, concise and elegant Java 8 code by attending <a href=\"http://devchampions.com/training/java/\">Effective Coding Principles and Patterns in Java 8</a>.",
+                "img": "img/newsletter/training.png"
+            }
+        ],
         "date": "3 August, 2016",
         "desc": "Proud to be made in Latvia! August event is all about local success stories. From small ideas up to the worldwide markets - learn how locals actually did it! Don't say that you have to live in the big city to become BIG! ",
         "endTime": "21:00",
