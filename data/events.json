@@ -30,7 +30,7 @@
             {
                 "bio": "CTO @ Neueda Technologies",
                 "description": "Type safety is considered to be a trend this year. It helps to catch mistakes during compilation time and enables powerful auto-completion in IDE. Lets explore to what extent we can push type safety in Java 8! Dmitry will live code a simple framework in Java 8 using lambdas, method references, generics, dynamic proxies and a bit of reflection magic. All that in 33 minutes. You will learn how future frameworks can evolve to enhance type-safety and how these advanced approaches could be used in your code.",
-                "img": "img/speakers/buzdin.png",
+                "img": "img/speakers/buzdin.jpg",
                 "name": "Dmitry Buzdin",
                 "presentation": "",
                 "time": "18:40",
