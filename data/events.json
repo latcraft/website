@@ -16,10 +16,10 @@
             }
         ],
         "date": "6 September, 2016",
-        "desc": "LatCraft goes Javanese! Our September event is devoted to building and testing stuff in Java — one of the most popular programming language and platform in the world. See how to make your tests shine using Spock framework, understand the principles of Mutation Testing and grasp Java 8 features for writing type-safe code.",
+        "desc": "LatCraft goes Javanese! Our September event is devoted to building and testing stuff in Java \u2014 one of the most popular programming language and platform in the world. See how to make your tests shine using Spock framework, understand the principles of Mutation Testing and grasp Java 8 features for writing type-safe code.",
         "endTime": "21:00",
-        "eventbriteEventId": "",
-        "maps": "https://www.google.lv/maps/place/Republikas+Laukums+2A,+Centra+rajons,+Rīga,+LV-1010/@56.9536058,24.0977563,841m/data=!3m2!1e3!4b1!4m5!3m4!1s0x46eecfdba4d31723:0x5f4b46a47834b061!8m2!3d56.9536058!4d24.099945",
+        "eventbriteEventId": "27323695910",
+        "maps": "https://www.google.lv/maps/place/Republikas+Laukums+2A,+Centra+rajons,+R\u012bga,+LV-1010/@56.9536058,24.0977563,841m/data=!3m2!1e3!4b1!4m5!3m4!1s0x46eecfdba4d31723:0x5f4b46a47834b061!8m2!3d56.9536058!4d24.099945",
         "month": "September 2016",
         "schedule": [
             {
@@ -32,10 +32,10 @@
                 "description": "Type safety is considered to be a trend this year. It helps to catch mistakes during compilation time and enables powerful auto-completion in IDE. Lets explore to what extent we can push type safety in Java 8! Dmitry will live code a simple framework in Java 8 using lambdas, method references, generics, dynamic proxies and a bit of reflection magic. All that in 33 minutes. You will learn how future frameworks can evolve to enhance type-safety and how these advanced approaches could be used in your code.",
                 "img": "img/speakers/buzdin.png",
                 "name": "Dmitry Buzdin",
+                "presentation": "",
                 "time": "18:40",
                 "title": "Type-safe Java 8 framework in 33 minutes",
-                "type": "speech",
-                "presentation": ""
+                "type": "speech"
             },
             {
                 "time": "19:20",
@@ -47,10 +47,10 @@
                 "description": "Nobody argues these days that unit tests are useful and provide valuable feedback about your code. But who watches the watchmen? Or, in other words, who is testing tests themselves? Let's talk about test code quality, code coverage and introduce mutation based testing techniques. Ideas behind mutation testing are nothing new in academic world, but only now become recognized by software developers while programming their production systems. This talk will look into how mutation testing can be used to improve your test-driven development cycle and will try to answer if existing tooling is mature enough to be used while coding your daily tasks.",
                 "img": "img/speakers/vaidas_pilkauskas.png",
                 "name": "Vaidas Pilkauskas",
+                "presentation": "",
                 "time": "19:30",
                 "title": "Can You Trust Your Tests?",
-                "type": "speech",
-                "presentation": ""
+                "type": "speech"
             },
             {
                 "time": "20:10",
@@ -61,11 +61,11 @@
                 "bio": "CTO & Software Craftsman @ Codearte",
                 "description": "JUnit has been around for over a decade. Enhanced with Mockito and AssertJ it still can be used to write decent automatic tests, however, there is a better way. Thanks to Spock Framework tests/specifications can be written faster in shorter and more readable form. During my talk I will present 7 opinionated reasons why it is worth learning Spock to bring your automatic tests to the next level. This presentation is targeted at Java developers who care about writing automatic tests (all of us?) and for some reasons haven't decided to give Spock a shot yet.",
                 "img": "img/speakers/marcin_zajaczkowski.png",
-                "name": "Marcin Zajączkowski",
+                "name": "Marcin Zaj\u0105czkowski",
+                "presentation": "",
                 "time": "20:20",
                 "title": "7 Reasons Why Bother Learning Spock",
-                "type": "speech",
-                "presentation": ""
+                "type": "speech"
             },
             {
                 "time": "20:55",
@@ -74,7 +74,7 @@
             }
         ],
         "theme": "Made in Java",
-        "tickets": "",
+        "tickets": "http://www.eventbrite.com/e/latcraft-made-in-java-tickets-27323695910",
         "time": "18:30",
         "venue": "Republikas laukums 2A, AS \"Citadele banka\"",
         "videoStreaming": true
@@ -109,13 +109,13 @@
             },
             {
                 "bio": "Founder of eazyBI",
-                "description": "eazyBI is an easy-to-use business intelligence web application. I will talk about a different startup story of eazyBI – how to build a profitable, growing, international niche business without a venture capital, without a big team, without an office and without millions of users.",
+                "description": "eazyBI is an easy-to-use business intelligence web application. I will talk about a different startup story of eazyBI \u2013 how to build a profitable, growing, international niche business without a venture capital, without a big team, without an office and without millions of users.",
                 "img": "img/speakers/raimonds-simanovskis.jpg",
                 "name": "Raimonds Simanovskis",
+                "presentation": "http://www.slideshare.net/latcraft/eazybi-a-different-startup-story",
                 "time": "18:40",
                 "title": "eazyBI - a Different Start-Up Story",
-                "type": "speech",
-                "presentation": "http://www.slideshare.net/latcraft/eazybi-a-different-startup-story"
+                "type": "speech"
             },
             {
                 "time": "19:10",
@@ -127,10 +127,10 @@
                 "description": "Success stories aren\u2019t born overnight, success comes with hours of hard team work, persistence, and innovative ideas. During my speech, I will share our experience of building Mintos, the Top 3 peer to peer lending marketplace in Continental Europe.",
                 "img": "img/speakers/martinseglitis.jpg",
                 "name": "Martins Eglitis",
+                "presentation": "http://www.slideshare.net/latcraft/finance-meets-technology-building-a-fintech-startup",
                 "time": "19:25",
                 "title": "Finance meets technology: building a fintech startup",
-                "type": "speech",
-                "presentation": "http://www.slideshare.net/latcraft/finance-meets-technology-building-a-fintech-startup"
+                "type": "speech"
             },
             {
                 "time": "20:05",
@@ -142,10 +142,10 @@
                 "description": "We are living in the \"era\" of start-ups and business incubators where individuals with an idea in their arsenal are desperate for an investment. I would like to share a story about the journey with a different path taken. A story of what it means to grow from one guy in a living room to a stable and successful business without a dime of external investment. We are small yet powerful - nine people are taking good care of more than 1.5M users worldwide.",
                 "img": "img/speakers/mihailmakienko.jpg",
                 "name": "Mihail Makijenko",
+                "presentation": "http://www.slideshare.net/latcraft/journey-from-a-living-room-to-15m-users-worldwide",
                 "time": "20:15",
                 "title": "Journey from Living Room to 1.5M Users Worldwide",
-                "type": "speech",
-                "presentation": "http://www.slideshare.net/latcraft/journey-from-a-living-room-to-15m-users-worldwide"
+                "type": "speech"
             },
             {
                 "time": "20:55",
