@@ -158,8 +158,8 @@ $(document).ready(function() {
 	function initialize() {
 	    // var myLatLng = new google.maps.LatLng(56.959081,24.114304); // Microsoft
 		// var myLatLng = new google.maps.LatLng(56.9550172,24.1000566); // Visma
-	    var myLatLng = new google.maps.LatLng(56.9536058,24.0977563); // Citadele
-
+	    var myLatLng = new google.maps.LatLng(56.9536087,24.0977563); // Citadele
+                                                  
 	    var mapOptions = {
 	        zoom: 15,
 	        center: myLatLng,
