@@ -9270,34 +9270,34 @@ $(document).ready(function() {
 	});
 
 	// fetch one tweet
-	var tweetConfig = {
-		"id": '558200865941909504',
-		"domId": 'twitter-feed',
-		"maxTweets": 3,
-		"enableLinks": true
-	};
-	twitterFetcher.fetch(tweetConfig);
+	// var tweetConfig = {
+	//	"id": '558200865941909504',
+	//	"domId": 'twitter-feed',
+	//	"maxTweets": 3,
+	//	"enableLinks": true
+	// };
+	// twitterFetcher.fetch(tweetConfig);
 
 
 	// get flickr
-	var flickrURL = "http://api.flickr.com/services/feeds/photos_public.gne?ids=128548450@N05&format=json&jsoncallback=?";
-	$.getJSON(flickrURL, function(data){
-		var imageCollection = "";
+	// var flickrURL = "http://api.flickr.com/services/feeds/photos_public.gne?ids=128548450@N05&format=json&jsoncallback=?";
+	// $.getJSON(flickrURL, function(data){
+	//	var imageCollection = "";
+	//
+	//	imageCollection += '<ul>';
+	//	for (var item in data.items) {
+	//		if(item == 16) break;
+	//
+	//		var width = data.items[item].description.match(/width=["']([0-9]+)["']/)[1];
+	//		var height = data.items[item].description.match(/height=["']([0-9]+)["']/)[1];
+	//
+	//		if(height > width) continue;
+	//		imageCollection += '<li><img src="' + data.items[item].media.m + '" alt="' + data.items[item].title + '"></li>';
+	//	}
+	//	imageCollection += '</ul>';
 
-		imageCollection += '<ul>';
-		for (var item in data.items) {
-			if(item == 16) break;
-
-			var width = data.items[item].description.match(/width=["']([0-9]+)["']/)[1];
-			var height = data.items[item].description.match(/height=["']([0-9]+)["']/)[1];
-
-			if(height > width) continue;
-			imageCollection += '<li><img src="' + data.items[item].media.m + '" alt="' + data.items[item].title + '"></li>';
-		}
-		imageCollection += '</ul>';
-
-		$("#flickr-feed").append(imageCollection);
-	});
+	//	$("#flickr-feed").append(imageCollection);
+	// });
 
 
 	// digest subscription
@@ -9362,7 +9362,8 @@ $(document).ready(function() {
 	// google map
 	var overlay;
 	function initialize() {
-	    var myLatLng = new google.maps.LatLng(56.959081,24.114304);
+	    // var myLatLng = new google.maps.LatLng(56.959081,24.114304); // Microsoft
+	    var myLatLng = new google.maps.LatLng(56.9550172,24.1000566); // Visma
 
 	    var mapOptions = {
 	        zoom: 15,
@@ -9472,7 +9473,7 @@ $(document).ready(function() {
 		if($this.hasClass('next')) {
 			if(curSlide == 0) return;			
 			curSlide--;
-			moveHolder(sliderHolder, (9 - curSlide) * -10);	
+			moveHolder(sliderHolder, (49 - curSlide) * -2);	
 			
 			// checks if there is no where to slide
 			if(curSlide == 0) $this.addClass('inactive');		
@@ -9480,7 +9481,7 @@ $(document).ready(function() {
 		} else {
 			if(curSlide == totalSlides - 1) return;
 			curSlide++;
-			moveHolder(sliderHolder, (9 - curSlide) * -10);
+			moveHolder(sliderHolder, (49 - curSlide) * -2);
 			
 			// add class inactive if last slide
 			if(curSlide == totalSlides - 1) $this.addClass('inactive');							

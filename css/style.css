@@ -1235,17 +1235,17 @@ section#events .carousel {
   position: relative; }
 
 section#events .holder {
-  width: 1000%;
+  width: 5000%;
   position: relative;
   overflow: hidden;
-  -webkit-transform: translate3d(-90%, 0px, 0px);
-          transform: translate3d(-90%, 0px, 0px); }
+  -webkit-transform: translate3d(-98%, 0px, 0px);
+          transform: translate3d(-98%, 0px, 0px); }
 
 section#events .slide {
   display: block;
   overflow: hidden;
   float: right;
-  width: 10%;
+  width: 2%;
   position: relative; }
   section#events .slide .container {
     position: relative;

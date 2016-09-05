@@ -1,7 +1,259 @@
 [
     {
-
         "announced": true,
+        "announcements": [
+            {
+                "description": "DevTernity 2016 has been announced and it's two times bigger now! Don't forget to <a href=\"http://devternity.com\">grab your early-bird ticket</a>!",
+                "img": "img/newsletter/devternity.png"
+            },
+            {
+                "description": "Organisations face different challenges when implementing DevOps initiatives. Learn principles of DevOps and tools that help reach full automation of infrastructure provisioning and software delivery at 2-day <a href=\"http://devchampions.com/training/xa/\">eXtreme Automation/DevOps Masterclass</a>.",
+                "img": "img/newsletter/training.png"
+            },
+            {
+                "description": "In 2016, Java code must look differently. Learn how to write expressive, concise and elegant Java 8 code by attending <a href=\"http://devchampions.com/training/java/\">Effective Coding Principles and Patterns in Java 8</a>.",
+                "img": "img/newsletter/training.png"
+            }
+        ],
+        "date": "6 September, 2016",
+        "desc": "LatCraft goes Javanese! Our September event is devoted to building and testing stuff in Java \u2014 one of the most popular programming language and platform in the world. See how to make your tests shine using Spock framework, understand the principles of Mutation Testing and grasp Java 8 features for writing type-safe code.",
+        "endTime": "21:00",
+        "eventbriteEventId": "27323695910",
+        "maps": "https://www.google.lv/maps/place/Republikas+Laukums+2A,+Centra+rajons,+R\u012bga,+LV-1010/@56.9536058,24.0977563,841m/data=!3m2!1e3!4b1!4m5!3m4!1s0x46eecfdba4d31723:0x5f4b46a47834b061!8m2!3d56.9536058!4d24.099945",
+        "month": "September 2016",
+        "schedule": [
+            {
+                "time": "18:30",
+                "title": "Event Opening",
+                "type": "start"
+            },
+            {
+                "bio": "CTO @ Neueda Technologies",
+                "description": "Type safety is considered to be a trend this year. It helps to catch mistakes during compilation time and enables powerful auto-completion in IDE. Lets explore to what extent we can push type safety in Java 8! Dmitry will live code a simple framework in Java 8 using lambdas, method references, generics, dynamic proxies and a bit of reflection magic. All that in 33 minutes. You will learn how future frameworks can evolve to enhance type-safety and how these advanced approaches could be used in your code.",
+                "img": "img/speakers/buzdin.jpg",
+                "name": "Dmitry Buzdin",
+                "presentation": "",
+                "time": "18:40",
+                "title": "Type-safe Java 8 framework in 33 minutes",
+                "type": "speech"
+            },
+            {
+                "time": "19:20",
+                "title": "Coffee Break",
+                "type": "break"
+            },
+            {
+                "bio": "Software Developer @ WIX",
+                "description": "Nobody argues these days that unit tests are useful and provide valuable feedback about your code. But who watches the watchmen? Or, in other words, who is testing tests themselves? Let's talk about test code quality, code coverage and introduce mutation based testing techniques. Ideas behind mutation testing are nothing new in academic world, but only now become recognized by software developers while programming their production systems. This talk will look into how mutation testing can be used to improve your test-driven development cycle and will try to answer if existing tooling is mature enough to be used while coding your daily tasks.",
+                "img": "img/speakers/vaidas_pilkauskas.png",
+                "name": "Vaidas Pilkauskas",
+                "presentation": "",
+                "time": "19:30",
+                "title": "Can You Trust Your Tests?",
+                "type": "speech"
+            },
+            {
+                "time": "20:10",
+                "title": "Coffee Break",
+                "type": "break"
+            },
+            {
+                "bio": "CTO & Software Craftsman @ Codearte",
+                "description": "JUnit has been around for over a decade. Enhanced with Mockito and AssertJ it still can be used to write decent automatic tests, however, there is a better way. Thanks to Spock Framework tests/specifications can be written faster in shorter and more readable form. During my talk I will present 7 opinionated reasons why it is worth learning Spock to bring your automatic tests to the next level. This presentation is targeted at Java developers who care about writing automatic tests (all of us?) and for some reasons haven't decided to give Spock a shot yet.",
+                "img": "img/speakers/marcin_zajaczkowski.png",
+                "name": "Marcin Zaj\u0105czkowski",
+                "presentation": "",
+                "time": "20:20",
+                "title": "7 Reasons Why Bother Learning Spock",
+                "type": "speech"
+            },
+            {
+                "time": "20:55",
+                "title": "Closing Note",
+                "type": "finish"
+            }
+        ],
+        "theme": "Made in Java",
+        "tickets": "http://www.eventbrite.com/e/latcraft-made-in-java-tickets-27323695910",
+        "time": "18:30",
+        "venue": "Republikas laukums 2A, AS \"Citadele banka\"",
+        "videoStreaming": true
+    },
+    {
+        "announced": false,
+        "announcements": [
+            {
+                "description": "DevTernity 2016 has been announced and it's two times bigger now! Don't forget to <a href=\"http://devternity.com\">grab your early-bird ticket</a>!",
+                "img": "img/newsletter/devternity.png"
+            },
+            {
+                "description": "Organisations face different challenges when implementing DevOps initiatives. Learn principles of DevOps and tools that help reach full automation of infrastructure provisioning and software delivery at 2-day <a href=\"http://devchampions.com/training/xa/\">eXtreme Automation/DevOps Masterclass</a>.",
+                "img": "img/newsletter/training.png"
+            },
+            {
+                "description": "In 2016, Java code must look differently. Learn how to write expressive, concise and elegant Java 8 code by attending <a href=\"http://devchampions.com/training/java/\">Effective Coding Principles and Patterns in Java 8</a>.",
+                "img": "img/newsletter/training.png"
+            }
+        ],
+        "date": "3 August, 2016",
+        "desc": "Proud to be made in Latvia! August event is all about local success stories. From small ideas up to the worldwide markets - learn how locals actually did it! Don't say that you have to live in the big city to become BIG! ",
+        "endTime": "21:00",
+        "eventbriteEventId": "26698834934",
+        "maps": "https://www.google.lv/maps/place/Kronvalda+bulv%C4%81ris+3,+Centra+rajons,+R%C4%ABga,+LV-1010/@56.9550172,24.1000566,17z/data=!3m1!4b1!4m5!3m4!1s0x46eecfdb19593ebd:0x3dcbbc39646177b8!8m2!3d56.9550143!4d24.1022506",
+        "month": "August 2016",
+        "schedule": [
+            {
+                "time": "18:30",
+                "title": "Event Opening",
+                "type": "start"
+            },
+            {
+                "bio": "Founder of eazyBI",
+                "description": "eazyBI is an easy-to-use business intelligence web application. I will talk about a different startup story of eazyBI \u2013 how to build a profitable, growing, international niche business without a venture capital, without a big team, without an office and without millions of users.",
+                "img": "img/speakers/raimonds-simanovskis.jpg",
+                "name": "Raimonds Simanovskis",
+                "presentation": "http://www.slideshare.net/latcraft/eazybi-a-different-startup-story",
+                "time": "18:40",
+                "title": "eazyBI - a Different Start-Up Story",
+                "type": "speech"
+            },
+            {
+                "time": "19:10",
+                "title": "Coffee Break",
+                "type": "break"
+            },
+            {
+                "bio": "CTO at Mintos",
+                "description": "Success stories aren\u2019t born overnight, success comes with hours of hard team work, persistence, and innovative ideas. During my speech, I will share our experience of building Mintos, the Top 3 peer to peer lending marketplace in Continental Europe.",
+                "img": "img/speakers/martinseglitis.jpg",
+                "name": "Martins Eglitis",
+                "presentation": "http://www.slideshare.net/latcraft/finance-meets-technology-building-a-fintech-startup",
+                "time": "19:25",
+                "title": "Finance meets technology: building a fintech startup",
+                "type": "speech"
+            },
+            {
+                "time": "20:05",
+                "title": "Coffee Break",
+                "type": "break"
+            },
+            {
+                "bio": "CEO at visualcomposer.io",
+                "description": "We are living in the \"era\" of start-ups and business incubators where individuals with an idea in their arsenal are desperate for an investment. I would like to share a story about the journey with a different path taken. A story of what it means to grow from one guy in a living room to a stable and successful business without a dime of external investment. We are small yet powerful - nine people are taking good care of more than 1.5M users worldwide.",
+                "img": "img/speakers/mihailmakienko.jpg",
+                "name": "Mihail Makijenko",
+                "presentation": "http://www.slideshare.net/latcraft/journey-from-a-living-room-to-15m-users-worldwide",
+                "time": "20:15",
+                "title": "Journey from Living Room to 1.5M Users Worldwide",
+                "type": "speech"
+            },
+            {
+                "time": "20:55",
+                "title": "Closing Note",
+                "type": "finish"
+            }
+        ],
+        "theme": "Made in Latvia",
+        "tickets": "http://www.eventbrite.com/e/latcraft-made-in-latvia-tickets-26698834934",
+        "time": "18:30",
+        "venue": "Kronvalda bulvaris 3/5, Visma Labs",
+        "videoStreaming": true
+    },
+    {
+        "announced": false,
+        "announcements": [
+            {
+                "description": "Organisations face different challenges when implementing DevOps initiatives. Learn principles of DevOps and tools that help reach full automation of infrastructure provisioning and software delivery at 2-day <a href=\"http://devchampions.com/training/xa/\">eXtreme Automation/DevOps Masterclass</a>.",
+                "img": "img/newsletter/training.png"
+            },
+            {
+                "description": "In 2016, Java code must look differently. Learn how to write expressive, concise and elegant Java 8 code by attending <a href=\"http://devchampions.com/training/java/\">Effective Coding Principles and Patterns in Java 8</a>.",
+                "img": "img/newsletter/training.png"
+            }
+        ],
+        "date": "7 July, 2016",
+        "desc": "This time we decided to organize a workshop around probably the most mentioned technology in last 3 years. Let's play with Docker in July! Fully Hands-on! Laptop is required! Limited places!",
+        "endTime": "21:00",
+        "eventbriteEventId": "26308622799",
+        "maps": "https://www.google.lv/maps/place/Kronvalda+bulv%C4%81ris+3,+Centra+rajons,+R%C4%ABga,+LV-1010/@56.9550172,24.1000566,17z/data=!3m1!4b1!4m5!3m4!1s0x46eecfdb19593ebd:0x3dcbbc39646177b8!8m2!3d56.9550143!4d24.1022506",
+        "month": "July 2016",
+        "schedule": [
+            {
+                "time": "18:30",
+                "title": "Event Opening",
+                "type": "start"
+            },
+            {
+                "bio": "Software Delivery Expert",
+                "description": "Extreme automator and software craftsman. Dev that likes Ops.",
+                "img": "img/speakers/adamovich.jpeg",
+                "name": "Andrey Adamovich",
+                "presentation": "http://www.slideshare.net/aestasit/latcraft-docker-101",
+                "time": "18:40",
+                "title": "Coach I",
+                "twitter": "codingandrey",
+                "type": "speech"
+            },
+            {
+                "time": "19:10",
+                "title": "Coffee Break",
+                "type": "break"
+            },
+            {
+                "bio": "Architect at Galeo Consulting",
+                "description": "IT consultant and automation evangelist identities trapped in one human body.",
+                "img": "img/speakers/maslov.png",
+                "name": "Leonids Maslovs",
+                "presentation": "http://www.slideshare.net/aestasit/latcraft-docker-101",
+                "time": "18:40",
+                "title": "Coach II",
+                "twitter": "leonardinius",
+                "type": "speech"
+            },
+            {
+                "time": "20:05",
+                "title": "Coffee Break",
+                "type": "break"
+            },
+            {
+                "bio": "Software Development Coach",
+                "description": "Software delivery guy, community builder and technology explorer.",
+                "img": "img/speakers/eduardsi.jpg",
+                "name": "Eduards Sizovs",
+                "presentation": "http://www.slideshare.net/aestasit/latcraft-docker-101",
+                "time": "18:40",
+                "title": "Coach III",
+                "twitter": "eduardsi",
+                "type": "speech"
+            },
+            {
+                "time": "20:55",
+                "title": "Closing Note",
+                "type": "finish"
+            }
+        ],
+        "theme": "Docker 101",
+        "tickets": "http://www.eventbrite.com/e/latcraft-docker-101-tickets-26308622799",
+        "time": "18:30",
+        "venue": "Kronvalda bulvaris 3/5, Visma Labs",
+        "videoStreaming": false
+    },
+    {
+        "announced": false,
+        "announcements": [
+            {
+                "description": "Our friends from Citadele are looking for a <a href=\"http://www.likeit.lv/job/as-citadele-banka/java-developer-java-izstradatajs-a/4394\">Java Developer</a> and <a href=\"http://www.likeit.lv/job/as-citadele-banka/oracledwh-izstradatajs-a/4268\">Oracle/DWH Developer</a>.",
+                "img": "img/newsletter/job.png"
+            },
+            {
+                "description": "Organisations face different challenges when implementing DevOps initiatives. Learn principles of DevOps and tools that help reach full automation of infrastructure provisioning and software delivery at 2-day <a href=\"http://devchampions.com/training/xa/\">eXtreme Automation/DevOps Masterclass</a>.",
+                "img": "img/newsletter/training.png"
+            },
+            {
+                "description": "In 2016, Java code must look differently. Learn how to write expressive, concise and elegant Java 8 code by attending <a href=\"http://devchampions.com/training/java/\">Effective Coding Principles and Patterns in Java 8</a>.",
+                "img": "img/newsletter/training.png"
+            }
+        ],
         "date": "7 June, 2016",
         "desc": "Did you know that about 80% of your career success is due to Soft Skills and Emotional Intelligence? Technical skills are not enough. Join us to learn how to manage your time and finally get things done, how to turn emotional feedback into a constructive discussion, how to start thinking out of the box, and achieve more!",
         "endTime": "21:00",
@@ -19,11 +271,11 @@
                 "description": "The fundamentals of time and task management are well known to everybody. Still majority of us does not succeed in managing tasks, deadlines and schedules in the long run. Why personal efficiency methods are not working? How to make them working for you? How does our brain maintain the activities, wishes and emotions we have? What you should do in order to overcome the procrastination? Ljubov will provide her answers to these questions, as well as share her life hacks.",
                 "img": "img/speakers/ljubovbezhan.png",
                 "name": "Ljubov Be\u017ean",
+                "presentation": "http://www.slideshare.net/latcraft/facilitating-the-zoo-in-your-head-or-how-to-get-things-done",
                 "time": "18:40",
                 "title": "Facilitating the Zoo in Your Head, or How to Get Things Done",
-                "presentation": "http://www.slideshare.net/latcraft/facilitating-the-zoo-in-your-head-or-how-to-get-things-done",
-                "video": "https://www.youtube.com/watch?v=CB701pcnP-A",
-                "type": "speech"
+                "type": "speech",
+                "video": "https://www.youtube.com/watch?v=CB701pcnP-A"
             },
             {
                 "time": "19:10",
@@ -34,13 +286,13 @@
                 "bio": "Business Development Manager at Diatom Enterprises",
                 "description": "Have you ever been verbally attacked by someone? Have you ever heard something like \"You always miss the deadlines!\" or \"Your code is a mess!\"? Spend 40 minutes with me and learn how to turn such statements into your advantage!",
                 "img": "img/speakers/darjakrizska.png",
-                "presentation": "http://www.slideshare.net/latcraft/verbal-judo-62962857",
-                "video": "https://www.youtube.com/watch?v=GmedwnMxfK0",
                 "name": "Darja Krizska",
+                "presentation": "http://www.slideshare.net/latcraft/verbal-judo-62962857",
                 "time": "19:25",
                 "title": "Verbal Judo",
                 "twitter": "Darjucis",
-                "type": "speech"
+                "type": "speech",
+                "video": "https://www.youtube.com/watch?v=GmedwnMxfK0"
             },
             {
                 "time": "20:05",
@@ -51,32 +303,18 @@
                 "bio": "CEO at Atlas",
                 "description": "During the presentation, you will hear the real life experience how to transform boring work through the divergent thinking into incredible, breathtaking work. You will find out how to use your creativity to implement impossible ideas to your work in a short time. Moreover, you will learn to take the initiative and to make mistakes without fair. Most complex problems have a solution; sometimes we just have to think about them in a different way.",
                 "img": "img/speakers/alexfridman.png",
-                "presentation": "http://www.slideshare.net/latcraft/pimp-my-brain",
-                "video": "https://www.youtube.com/watch?v=LhRsR-G5mU8",
                 "name": "Alex Fridman",
+                "presentation": "http://www.slideshare.net/latcraft/pimp-my-brain",
                 "time": "20:15",
                 "title": "Pimp My Brain",
                 "twitter": "fridman_alex",
-                "type": "speech"
+                "type": "speech",
+                "video": "https://www.youtube.com/watch?v=LhRsR-G5mU8"
             },
             {
                 "time": "20:55",
                 "title": "Closing Note",
                 "type": "finish"
-            }
-        ],
-        "announcements": [
-            {
-                "description": "Our friends from Citadele are looking for a <a href=\"http://www.likeit.lv/job/as-citadele-banka/java-developer-java-izstradatajs-a/4394\">Java Developer</a> and <a href=\"http://www.likeit.lv/job/as-citadele-banka/oracledwh-izstradatajs-a/4268\">Oracle/DWH Developer</a>.",
-                "img": "img/newsletter/job.png"
-            },
-            {
-                "description": "Organisations face different challenges when implementing DevOps initiatives. Learn principles of DevOps and tools that help reach full automation of infrastructure provisioning and software delivery at 2-day <a href=\"http://devchampions.com/training/xa/\">eXtreme Automation/DevOps Masterclass</a>.",
-                "img": "img/newsletter/training.png"
-            },
-            {
-                "description": "In 2016, Java code must look differently. Learn how to write expressive, concise and elegant Java 8 code by attending <a href=\"http://devchampions.com/training/java/\">Effective Coding Principles and Patterns in Java 8</a>.",
-                "img": "img/newsletter/training.png"
             }
         ],
         "theme": "Soft Skills",
@@ -85,7 +323,7 @@
         "venue": "Zala iela 1, Microsoft Latvia"
     },
     {
-        "announced": true,
+        "announced": false,
         "date": "5 May, 2016",
         "desc": "Let's dive into understanding and improving effectiveness of agile retrospectives with interactive workshops by two active Scrum practitioners: Angel Diaz-Maroto (Agile Coach) and Alexey Krivitsky (Certified Scrum Trainer). Everyone will participate in the action!",
         "endTime": "21:00",
@@ -136,7 +374,7 @@
         "venue": "Zala iela 1, Microsoft Latvia"
     },
     {
-        "announced": true,
+        "announced": false,
         "date": "12 April, 2016",
         "desc": "Let's investigate Infrastructure as Code (IaC) forefront - how to express the configuration, production and deployment infrastructure in executable and repeatable form, what tools are suitable for that purpose, best and worst practices - all covered.",
         "endTime": "21:00",
@@ -205,7 +443,7 @@
         "venue": "Zala iela 1, Microsoft Latvia"
     },
     {
-        "announced": true,
+        "announced": false,
         "date": "10 March, 2016",
         "desc": "This time, we decided to try a totally different format - 100% interactive, 2-hour panel discussion with lots of questions varying from career development and motivation; to the latest trends in software architecture, personal f%ckups and lessons learned. Four rock-star software architects. Different companies, background and opinions.",
         "endTime": "20:30",
@@ -340,7 +578,7 @@
         "venue": "Zala iela 1, Microsoft Latvia"
     },
     {
-        "announced": true,
+        "announced": false,
         "date": "3 November, 2015",
         "desc": "This time, we decided to dedicate an event to some of the greatest Latvian startups made in Latvia. Let's check out how they started, the hard ways they got at their beginnings, as well as their grow process, and where thy are today.",
         "endTime": "21:30",
@@ -962,8 +1200,8 @@
                 "video": ""
             }
         ],
-        "theme": "Programming Languages You Should Know About",
         "short-theme": "Programming Languages",
+        "theme": "Programming Languages You Should Know About",
         "time": "18:30",
         "venue": "Zala iela 1, Microsoft Latvia"
     },
