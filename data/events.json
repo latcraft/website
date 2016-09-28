@@ -29,7 +29,7 @@
                 "img": "img/speakers/albert.png",
                 "name": "Albert Businskis",
                 "time": "18:40",
-                "title": "IT-jutsu : Mind Efficiency and Creativity for Ninjas",
+                "title": "IT-jitsu : Mind Efficiency and Creativity for Ninjas",
                 "type": "speech"
             },
             {
@@ -57,6 +57,7 @@
                 "img": "img/speakers/alexfridman.png",
                 "name": "Alex Fridman",
                 "time": "20:15",
+                "twitter": "fridman_alex",
                 "title": "iCAN",
                 "type": "speech"
             },
