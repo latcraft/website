@@ -1,6 +1,6 @@
 [
     {
-        "announced": false,
+        "announced": true,
         "announcements": [
             {
                 "description": "DevTernity 2016 has been announced and it's two times bigger now! Don't forget to <a href=\"http://devternity.com\">grab your early-bird ticket</a>!",
@@ -66,7 +66,7 @@
         "tickets": "http://www.eventbrite.com/e/latcraft-self-awareness-tickets-28234735855",
         "time": "18:30",
         "venue": "Kronvalda bulvaris 3/5, Visma Labs",
-        "videoStreaming": false
+        "videoStreaming": true
     },
     {
         "announced": false,
