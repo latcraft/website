@@ -48,7 +48,7 @@
             },
             {
                 "bio": "CEO at Atlas",
-                "description": "Inspiring presentation about yourself, that will blow your mind. This speech is about you, your life, success and delight of living. You will hear scratchy questions and beautiful answers. Nothing will bother you anymore, nothing will stop you from building your own gorgeous world! No matter how smart, talented, driven, or passionate you are, don’t stand on the same place! Push yourself forward! Trust yourself and just do it! Your success depends only on you! Don't agree to accept what critics say; be prepared to silence them by doing great what they think is impossible! New ideas and inspiration is what you will take away home after this talk. Are you a CAN, or you CAN do it?",
+                "description": "Inspiring presentation about yourself, that will blow your mind. This speech is about you, your life, success and delight of living. You will hear scratchy questions and beautiful answers. Nothing will bother you anymore, nothing will stop you from building your own gorgeous world! No matter how smart, talented, driven, or passionate you are, don't stand on the same place! Push yourself forward! Trust yourself and just do it! Your success depends only on you! Don't agree to accept what critics say; be prepared to silence them by doing great what they think is impossible! New ideas and inspiration is what you will take away home after this talk. Are you a CAN, or you CAN do it?",
                 "img": "img/speakers/alexfridman.png",
                 "name": "Alex Fridman",
                 "time": "20:15",
@@ -129,7 +129,7 @@
                 "description": "JUnit has been around for over a decade. Enhanced with Mockito and AssertJ it still can be used to write decent automatic tests, however, there is a better way. Thanks to Spock Framework tests/specifications can be written faster in shorter and more readable form. During my talk I will present 7 opinionated reasons why it is worth learning Spock to bring your automatic tests to the next level. This presentation is targeted at Java developers who care about writing automatic tests (all of us?) and for some reasons haven't decided to give Spock a shot yet.",
                 "img": "img/speakers/marcin_zajaczkowski.png",
                 "name": "Marcin Zaj\u0105czkowski",
-                "presentation": "",
+                "presentation": "https://speakerdeck.com/szpak/7-reasons-why-bother-learning-spock",
                 "time": "20:20",
                 "title": "7 Reasons Why Bother Learning Spock",
                 "type": "speech"
