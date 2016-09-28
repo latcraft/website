@@ -10,6 +10,7 @@
         "date": "4 October, 2016",
         "desc": "Self-awareness is understanding your personality, behaviors, habits, emotional reactions, motivations, and thought processes. Many studies and facts say that self-awareness is extremely important for our successful career. Let's see how can we boost self-awareness, practice mindful living and benefit from it.",
         "endTime": "21:00",
+        "eventbriteEventId": "28234735855",
         "maps": "https://www.google.lv/maps/place/Kronvalda+bulv%C4%81ris+3,+Centra+rajons,+R%C4%ABga,+LV-1010/@56.9550172,24.1000566,17z/data=!3m1!4b1!4m5!3m4!1s0x46eecfdb19593ebd:0x3dcbbc39646177b8!8m2!3d56.9550143!4d24.1022506",
         "month": "August 2016",
         "schedule": [
@@ -62,6 +63,7 @@
             }
         ],
         "theme": "Self-awareness",
+        "tickets": "http://www.eventbrite.com/e/latcraft-self-awareness-tickets-28234735855",
         "time": "18:30",
         "venue": "Kronvalda bulvaris 3/5, Visma Labs",
         "videoStreaming": false
