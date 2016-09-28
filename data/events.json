@@ -3,6 +3,10 @@
         "announced": true,
         "announcements": [
             {
+                "description": "Welcome our new sponsors! LatCraft is now backed by <a href="http://www.likeit.lv/employer/as-citadele-banka/164">Citadele</a> and <a href="http://www.cv.lv/darba-sludinajumi/accenture">Accenture</a> looking for new colleagues to join their teams!",
+                "img": "img/newsletter/job.png"
+            },
+            {
                 "description": "DevTernity 2016 has been announced and it's two times bigger now! Don't forget to <a href=\"http://devternity.com\">grab your early-bird ticket</a>!",
                 "img": "img/newsletter/devternity.png"
             }
@@ -49,7 +53,7 @@
             },
             {
                 "bio": "CEO at Atlas",
-                "description": "Inspiring presentation about yourself, that will blow your mind. This speech is about you, your life, success and delight of living. You will hear scratchy questions and beautiful answers. Nothing will bother you anymore, nothing will stop you from building your own gorgeous world! No matter how smart, talented, driven, or passionate you are, don't stand on the same place! Push yourself forward! Trust yourself and just do it! Your success depends only on you! Don't agree to accept what critics say; be prepared to silence them by doing great what they think is impossible! New ideas and inspiration is what you will take away home after this talk. Are you a CAN, or you CAN do it?",
+                "description": "Inspiring presentation about yourself, that will blow your mind. This speech is about you, your life, success and delight of living. You will hear scratchy questions and beautiful answers. Nothing will bother you anymore, nothing will stop you from building your own gorgeous world! Are you a CAN, or you CAN do it?",
                 "img": "img/speakers/alexfridman.png",
                 "name": "Alex Fridman",
                 "time": "20:15",
