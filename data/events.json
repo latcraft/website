@@ -1,6 +1,73 @@
 [
     {
-        "announced": true,
+        "announced": false,
+        "announcements": [
+            {
+                "description": "DevTernity 2016 has been announced and it's two times bigger now! Don't forget to <a href=\"http://devternity.com\">grab your early-bird ticket</a>!",
+                "img": "img/newsletter/devternity.png"
+            }
+        ],
+        "date": "4 October, 2016",
+        "desc": "Self-awareness is understanding your personality, behaviors, habits, emotional reactions, motivations, and thought processes. Many studies and facts say that self-awareness is extremely important for our successful career. Let's see how can we boost self-awareness, practice mindful living and benefit from it.",
+        "endTime": "21:00",
+        "maps": "https://www.google.lv/maps/place/Kronvalda+bulv%C4%81ris+3,+Centra+rajons,+R%C4%ABga,+LV-1010/@56.9550172,24.1000566,17z/data=!3m1!4b1!4m5!3m4!1s0x46eecfdb19593ebd:0x3dcbbc39646177b8!8m2!3d56.9550143!4d24.1022506",
+        "month": "August 2016",
+        "schedule": [
+            {
+                "time": "18:30",
+                "title": "Event Opening",
+                "type": "start"
+            },
+            {
+                "bio": "Yoga & Meditation teacher, software developer at Squalio",
+                "description": "Albert (Garuda) will talk about productivity, state of genius and life balance.  He'll share some Yoga and Ninjutsu knowledge applied to IT and Software Development. Real ninjas are concerned about their efficiency. They're using the best tools, training deadly techniques and sometimes changing the world with a single sword strike. Or a single line of code? The basis underneath soft skills and technical skills is nothing new in the Universe. Let's get inspired a bit!",
+                "img": "img/speakers/albert.png",
+                "name": "Albert Businskis",
+                "time": "18:40",
+                "title": "T-jutsu : Mind Efficiency and Creativity for Ninjas",
+                "type": "speech"
+            },
+            {
+                "time": "19:10",
+                "title": "Coffee Break",
+                "type": "break"
+            },
+            {
+                "bio": "Operations Manager at Visma Labs, Coach & Meditation Guide",
+                "description": "Imagine writing random pieces of code that will integrate in different solution and you are totally blind to those solutions, their APIs and sometimes even why you are writing the code, maybe just cause you feel angry... Sound like a mess? Your brain is exactly like a computer, and your teams, customers and societies like a computer system, literally storing code with triggers, and Programming frameworks through which those programs change... Roland will give a glimpse on some of the fundamentals of this system. Basics building blocks for your human and social development career.",
+                "img": "img/speakers/roland.png",
+                "name": "Roland Abou Younes",
+                "time": "19:25",
+                "title": "Know your System, Stop Sailing Adhoc",
+                "type": "speech"
+            },
+            {
+                "time": "20:05",
+                "title": "Coffee Break",
+                "type": "break"
+            },
+            {
+                "bio": "CEO at Atlas",
+                "description": "Inspiring presentation about yourself, that will blow your mind. This speech is about you, your life, success and delight of living. You will hear scratchy questions and beautiful answers. Nothing will bother you anymore, nothing will stop you from building your own gorgeous world! No matter how smart, talented, driven, or passionate you are, don’t stand on the same place! Push yourself forward! Trust yourself and just do it! Your success depends only on you! Don't agree to accept what critics say; be prepared to silence them by doing great what they think is impossible! New ideas and inspiration is what you will take away home after this talk. Are you a CAN, or you CAN do it?",
+                "img": "img/speakers/alexfridman.png",
+                "name": "Alex Fridman",
+                "time": "20:15",
+                "title": "iCAN",
+                "type": "speech"
+            },
+            {
+                "time": "20:55",
+                "title": "Closing Note",
+                "type": "finish"
+            }
+        ],
+        "theme": "Self-awareness",
+        "time": "18:30",
+        "venue": "Kronvalda bulvaris 3/5, Visma Labs",
+        "videoStreaming": false
+    },
+    {
+        "announced": false,
         "announcements": [
             {
                 "description": "DevTernity 2016 has been announced and it's two times bigger now! Don't forget to <a href=\"http://devternity.com\">grab your early-bird ticket</a>!",
