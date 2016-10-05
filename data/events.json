@@ -30,6 +30,7 @@
                 "name": "Albert Businskis",
                 "time": "18:40",
                 "title": "IT-jitsu : Mind Efficiency and Creativity for Ninjas",
+                "presentation": "http://www.slideshare.net/latcraft/itjutsu-mind-effieciency-and-creativity-for-ninjas",
                 "type": "speech"
             },
             {
@@ -43,6 +44,7 @@
                 "img": "img/speakers/roland.png",
                 "name": "Roland Abou Younes",
                 "time": "19:25",
+                "presentation": "http://www.slideshare.net/latcraft/know-your-system-stop-sailing-adhoc",
                 "title": "Know your System, Stop Sailing Adhoc",
                 "type": "speech"
             },
@@ -57,6 +59,7 @@
                 "img": "img/speakers/alexfridman.png",
                 "name": "Alex Fridman",
                 "time": "20:15",
+                "presentation": "http://www.slideshare.net/latcraft/ican-66749113",
                 "twitter": "fridman_alex",
                 "title": "iCAN",
                 "type": "speech"
@@ -106,7 +109,8 @@
                 "description": "Type safety is considered to be a trend this year. It helps to catch mistakes during compilation time and enables powerful auto-completion in IDE. Lets explore to what extent we can push type safety in Java 8! Dmitry will live code a simple framework in Java 8 using lambdas, method references, generics, dynamic proxies and a bit of reflection magic. All that in 33 minutes. You will learn how future frameworks can evolve to enhance type-safety and how these advanced approaches could be used in your code.",
                 "img": "img/speakers/buzdin.jpg",
                 "name": "Dmitry Buzdin",
-                "presentation": "",
+                "presentation": "https://github.com/buzdin/java8-lambda",
+                "video": "https://www.youtube.com/watch?v=zUSwveYVuWg",
                 "time": "18:40",
                 "title": "Type-safe Java 8 framework in 33 minutes",
                 "type": "speech"
@@ -121,7 +125,8 @@
                 "description": "Nobody argues these days that unit tests are useful and provide valuable feedback about your code. But who watches the watchmen? Or, in other words, who is testing tests themselves? Let's talk about test code quality, code coverage and introduce mutation based testing techniques. Ideas behind mutation testing are nothing new in academic world, but only now become recognized by software developers while programming their production systems. This talk will look into how mutation testing can be used to improve your test-driven development cycle and will try to answer if existing tooling is mature enough to be used while coding your daily tasks.",
                 "img": "img/speakers/vaidas_pilkauskas.png",
                 "name": "Vaidas Pilkauskas",
-                "presentation": "",
+                "presentation": "http://www.slideshare.net/latcraft/can-you-trust-your-tests-66748890",
+                "video": "https://www.youtube.com/watch?v=6hbVpw-Li9o",
                 "time": "19:30",
                 "title": "Can You Trust Your Tests?",
                 "type": "speech"
@@ -136,8 +141,9 @@
                 "description": "JUnit has been around for over a decade. Enhanced with Mockito and AssertJ it still can be used to write decent automatic tests, however, there is a better way. Thanks to Spock Framework tests/specifications can be written faster in shorter and more readable form. During my talk I will present 7 opinionated reasons why it is worth learning Spock to bring your automatic tests to the next level. This presentation is targeted at Java developers who care about writing automatic tests (all of us?) and for some reasons haven't decided to give Spock a shot yet.",
                 "img": "img/speakers/marcin_zajaczkowski.png",
                 "name": "Marcin Zaj\u0105czkowski",
-                "presentation": "https://speakerdeck.com/szpak/7-reasons-why-bother-learning-spock",
+                "presentation": "http://www.slideshare.net/latcraft/7-reasons-why-bother-learning-spock",
                 "time": "20:20",
+                "video": "https://www.youtube.com/watch?v=idght3_Pdlo",
                 "title": "7 Reasons Why Bother Learning Spock",
                 "type": "speech"
             },
