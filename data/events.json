@@ -77,6 +77,8 @@
         "tickets": "http://www.eventbrite.com/e/latcraft-self-awareness-tickets-28234735855",
         "time": "18:30",
         "venue": "Kronvalda bulvaris 3/5, Visma Labs",
+        "capacity": 80,
+        "venueId": 15861354,
         "videoStreaming": true
     },
     {
@@ -160,6 +162,8 @@
         "tickets": "http://www.eventbrite.com/e/latcraft-made-in-java-tickets-27323695910",
         "time": "18:30",
         "venue": "Republikas laukums 2A, AS \"Citadele banka\"",
+        "capacity": 120,
+        "venueId": 11694908,
         "videoStreaming": true
     },
     {
@@ -243,6 +247,8 @@
         "tickets": "http://www.eventbrite.com/e/latcraft-made-in-latvia-tickets-26698834934",
         "time": "18:30",
         "venue": "Kronvalda bulvaris 3/5, Visma Labs",
+        "capacity": 80,
+        "venueId": 15861354,
         "videoStreaming": true
     },
     {
@@ -322,6 +328,8 @@
         "tickets": "http://www.eventbrite.com/e/latcraft-docker-101-tickets-26308622799",
         "time": "18:30",
         "venue": "Kronvalda bulvaris 3/5, Visma Labs",
+        "capacity": 50,
+        "venueId": 15861354,
         "videoStreaming": false
     },
     {
