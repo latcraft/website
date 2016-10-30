@@ -43,11 +43,6 @@
                 "type": "speech"
             },
             {
-                "time": "19:20",
-                "title": "Coffee Break",
-                "type": "break"
-            },
-            {
                 "bio": "Solution architect at Also Cloud",
                 "description": "Filips Jelisejevs has more than 7 years of double experience with Clouds - both building platform for selling Cloud Services and running said platform in different Clouds. And yet, he still admits to have no good answer to what is Cloud.",
                 "img": "img/speakers/philipjelisejev.png",
@@ -56,11 +51,6 @@
                 "title": "Participant II",
                 "twitter": "kreisaisjelis",
                 "type": "speech"
-            },
-            {
-                "time": "19:55",
-                "title": "Coffee Break",
-                "type": "break"
             },
             {
                 "bio": "Lead DevOps Specialist at Visma Labs",
@@ -90,6 +80,16 @@
                 "title": "Moderator",
                 "twitter": "codingandrey",
                 "type": "speech"
+            },
+            {
+                "time": "19:20",
+                "title": "Coffee Break",
+                "type": "break"
+            },
+            {
+                "time": "19:55",
+                "title": "Coffee Break",
+                "type": "break"
             },
             {
                 "time": "20:45",
