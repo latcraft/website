@@ -1,0 +1,13 @@
+<p><strong><span style="font-size: x-large;">${event.theme}</span></strong></p>
+<p><span style="font-size: medium;">${event.desc}<br /></span></p>
+<p><span style="font-size: medium;"><span style="line-height: 1.6em;">Grab your ticket, bring colleagues and&nbsp;</span><strong style="line-height: 1.6em;">spread a word</strong><span style="line-height: 1.6em;">!</span></span></p>
+<p><span style="font-size: medium; line-height: 25.6000003814697px;">Meetup will take place in ${event.venue}.&nbsp;</span></p>
+<p>&nbsp;</p>
+<p><span style="font-size: x-large;"><strong>Agenda</strong></span></p>
+<% event.schedule.each { entry -> %>
+<% if (entry.type == 'speech') { %>
+<p><span style="font-size: medium;"><span style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;"><strong style="line-height: 1.6em;">${entry.time}&nbsp;<span style="color: #ff6600;">${entry.title}</span></strong></span><span style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; line-height: 1.6em;">&nbsp;by</span><strong style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: medium; line-height: 1.6em;">&nbsp;${entry.name},&nbsp;<strong style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: medium; line-height: 1.6em;"><span style="line-height: 1.6em;"><strong><span style="color: #4d4d4d; font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; font-size: 14px; line-height: 18px; background-color: #edeff0;">${entry.bio}</span></strong></span></strong></strong></span><br /></p>
+<p><span style="font-size: medium;">${entry.description}<br /></span></p>
+<% } else { %>
+<p><span style="font-size: medium;"><span style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;"><strong style="line-height: 1.6em;"><strong style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: medium; line-height: 1.6em;">${entry.time}&nbsp;<span style="color: #ff6600;">${entry.title}</span></strong></strong></span></span></p>
+<% }} %>

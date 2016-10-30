@@ -1,0 +1,12 @@
+<p><strong><span style="font-size: x-large;">${event.theme}</span></strong></p>
+<p><span style="font-size: medium;">${event.desc}<br /></span></p>
+<p><span style="font-size: medium;"><strong>Workshop will be led by:</strong></span></p>
+<ul>
+<% event.schedule.each { entry -> %>
+<% if (entry.type == 'speech') { %>
+<li><span style="font-size: medium;"><strong style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: medium; line-height: 1.6em;">&nbsp;${entry.name},&nbsp;<strong style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: medium; line-height: 1.6em;"><span style="line-height: 1.6em;"><strong><span style="color: #4d4d4d; font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; font-size: 10px; line-height: 16px;">${entry.description}</span></strong></span></strong></strong></span><br /></li>
+<% }} %>
+</ul>
+<p><span style="font-size: medium;"><span style="line-height: 1.6em;">Grab your ticket, bring colleagues and&nbsp;</span><strong style="line-height: 1.6em;">spread a word</strong><span style="line-height: 1.6em;">!</span></span></p>
+<p><span style="font-size: medium; line-height: 25.6000003814697px;"><span style="color: #ff6600;">WARNING:</span> Meetup will take place at a different location this time:&nbsp;</span></p>
+<p><span style="font-size: medium; line-height: 25.6000003814697px;"><span style="color: #ffffff;">WARNING:</span> ${event.venue}.&nbsp;</span></p>
