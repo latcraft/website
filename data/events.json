@@ -20,6 +20,14 @@
             }
         ],
         "capacity": 120,
+        "cards": {
+            "event-normal_event_card_v1-20161108": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-normal_event_card_v1-20161108.png",
+            "event-normal_event_card_v2-20161108": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-normal_event_card_v2-20161108.png",
+            "event-normal_event_facebook_background-20161108": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-normal_event_facebook_background-20161108.png",
+            "event-workshop_event_card_v1-20161108": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-workshop_event_card_v1-20161108.png",
+            "event-workshop_event_card_v2-20161108": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-workshop_event_card_v2-20161108.png",
+            "event-workshop_facebook_background-20161108": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-workshop_facebook_background-20161108.png"
+        },
         "date": "8 November, 2016",
         "desc": "Gazzillion cloud providers let you deliver your applications and infrastructure faster and often at lower costs. This time at LatCraft, we would like to have a discussion with varios cloud experts around benefits and pitfalls of cloud platforms, is it worth investing into private cloud or public clouds offer all you need, and what is cloud after all.",
         "endTime": "21:00",
@@ -34,6 +42,9 @@
             },
             {
                 "bio": "DevOps team lead at Accenture",
+                "cards": {
+                    "event-speaker_card_v1-20161108-anton_kaspiarovich": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-speaker_card_v1-20161108-anton_kaspiarovich.png"
+                },
                 "description": "Anton is currently working on a DevOps Platform As A Service, developing reusable components and delivery patterns with infrastructure in a cloud for various technologies.",
                 "img": "img/speakers/kasperovich.jpg",
                 "name": "Anton Kaspiarovich",
@@ -44,6 +55,9 @@
             },
             {
                 "bio": "Solution architect at Also Cloud",
+                "cards": {
+                    "event-speaker_card_v1-20161108-filips_jelisejevs": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-speaker_card_v1-20161108-filips_jelisejevs.png"
+                },
                 "description": "Filips Jelisejevs has more than 7 years of double experience with Clouds - both building platform for selling Cloud Services and running said platform in different Clouds. And yet, he still admits to have no good answer to what is Cloud.",
                 "img": "img/speakers/philipjelisejev.png",
                 "name": "Filips Jelisejevs",
@@ -54,6 +68,9 @@
             },
             {
                 "bio": "Lead DevOps Specialist at Visma Labs",
+                "cards": {
+                    "event-speaker_card_v1-20161108-yevhen_duma": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-speaker_card_v1-20161108-yevhen_duma.png"
+                },
                 "description": "Yevhen will show he has built a system that keeps your code and infrastructure in Git, deploys a Windows-based project to AWS via Octopus Deployment, and describe lessons he learned during that journey.",
                 "img": "img/speakers/duma.png",
                 "name": "Yevhen Duma",
@@ -63,6 +80,9 @@
             },
             {
                 "bio": "Consultant @ Sizovs.net",
+                "cards": {
+                    "event-speaker_card_v1-20161108-eduards_sizovs": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-speaker_card_v1-20161108-eduards_sizovs.png"
+                },
                 "description": "Eduards is a hands-on architect and software development coach who helps awesome teams around the globe become more awesome \u2013 work smarter, run faster and enjoy the journey. He leads Latvian Software Craftsmanship Community, organises DevTernity \u2013 the biggest software craftsmanship conference in Baltics, blogs, speaks, and even sleeps. Sometimes.",
                 "img": "img/speakers/eduardsi.jpg",
                 "name": "Eduards Sizovs",
@@ -73,6 +93,9 @@
             },
             {
                 "bio": "Software Delivery Expert",
+                "cards": {
+                    "event-speaker_card_v1-20161108-andrey_adamovich": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-speaker_card_v1-20161108-andrey_adamovich.png"
+                },
                 "description": "Extreme automator and software craftsman. Dev that likes Ops.",
                 "img": "img/speakers/adamovich.jpeg",
                 "name": "Andrey Adamovich",
