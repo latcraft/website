@@ -81,8 +81,7 @@ gulp.task('jade', function() {
  //        throw new Error("--environment property is missing (possible values: local, stage, live")
 	// }
 
-	var news = require('./data/news.json'),
-		events = require('./data/events.json'),
+	var events = require('./data/events.json'),
 		challenges = require('./data/challenges.json');
 		// environment = require('./env/' + env + '/host.json')
 
@@ -91,7 +90,6 @@ gulp.task('jade', function() {
 	    .pipe(jade({
 	    	pretty: true,
 	    	locals: {
-	    		"news": news, 	
 	    		"events": events, 	
 	    		"challenges": challenges,
 	    		"env": environment	
