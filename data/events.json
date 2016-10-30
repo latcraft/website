@@ -19,9 +19,11 @@
                 "img": "img/newsletter/devternity.png"
             }
         ],
+        "capacity": 120,
         "date": "8 November, 2016",
         "desc": "Gazzillion cloud providers let you deliver your applications and infrastructure faster and often at lower costs. This time at LatCraft, we would like to have a discussion with varios cloud experts around benefits and pitfalls of cloud platforms, is it worth investing into private cloud or public clouds offer all you need, and what is cloud after all.",
         "endTime": "21:00",
+        "eventbriteEventId": "28988077119",
         "maps": "https://www.google.lv/maps/place/Microsoft+Latvia+Sia/@56.9518346,24.1135864,17z/data=!3m1!4b1!4m2!3m1!1s0x46eecfd1895509f1:0x87193c3b2eaf2d7c?hl=en",
         "month": "November 2016",
         "schedule": [
@@ -96,9 +98,9 @@
             }
         ],
         "theme": "Cloud Platform Panel",
+        "tickets": "https://www.eventbrite.com/e/latcraft-cloud-platform-panel-tickets-28988077119",
         "time": "18:30",
         "venue": "Zala iela 1, Microsoft Latvia",
-        "capacity": 120,
         "venueId": 8525599,
         "videoStreaming": true
     },
@@ -114,6 +116,7 @@
                 "img": "img/newsletter/devternity.png"
             }
         ],
+        "capacity": 80,
         "date": "4 October, 2016",
         "desc": "Self-awareness is understanding your personality, behaviors, habits, emotional reactions, motivations, and thought processes. Many studies and facts say that self-awareness is extremely important for our successful career. Let's see how can we boost self-awareness, practice mindful living and benefit from it.",
         "endTime": "21:00",
@@ -131,9 +134,9 @@
                 "description": "Albert (Garuda) will talk about productivity, state of genius and life balance.  He'll share some Yoga and Ninjutsu knowledge applied to IT and Software Development. Real ninjas are concerned about their efficiency. They're using the best tools, training deadly techniques and sometimes changing the world with a single sword strike. Or a single line of code? The basis underneath soft skills and technical skills is nothing new in the Universe. Let's get inspired a bit!",
                 "img": "img/speakers/albert.png",
                 "name": "Albert Businskis",
+                "presentation": "http://www.slideshare.net/latcraft/itjutsu-mind-effieciency-and-creativity-for-ninjas",
                 "time": "18:40",
                 "title": "IT-jitsu : Mind Efficiency and Creativity for Ninjas",
-                "presentation": "http://www.slideshare.net/latcraft/itjutsu-mind-effieciency-and-creativity-for-ninjas",
                 "type": "speech",
                 "video": "https://www.youtube.com/watch?v=CRHlJ80sWjE"
             },
@@ -147,8 +150,8 @@
                 "description": "Imagine writing random pieces of code that will integrate in different solutions and you are totally blind to those solutions, their APIs and sometimes even why you are writing the code... Sound like a mess? Your brain acts exactly like a computer, and your teams, customers and communities are like a computer system, literally, storing code with triggers, and programming frameworks through which those programs change... Roland will give a glimpse on some of the fundamentals of this system. Basic building blocks for your human and social development career.",
                 "img": "img/speakers/roland.png",
                 "name": "Roland Abou Younes",
-                "time": "19:25",
                 "presentation": "http://www.slideshare.net/latcraft/know-your-system-stop-sailing-adhoc",
+                "time": "19:25",
                 "title": "Know your System, Stop Sailing Adhoc",
                 "type": "speech",
                 "video": "https://www.youtube.com/watch?v=Gm_DBVSyhvc"
@@ -163,10 +166,10 @@
                 "description": "Inspiring presentation about yourself, that will blow your mind. This speech is about you, your life, success and delight of living. You will hear scratchy questions and beautiful answers. Nothing will bother you anymore, nothing will stop you from building your own gorgeous world! Are you a CAN, or you CAN do it?",
                 "img": "img/speakers/alexfridman.png",
                 "name": "Alex Fridman",
-                "time": "20:15",
                 "presentation": "http://www.slideshare.net/latcraft/ican-66749113",
-                "twitter": "fridman_alex",
+                "time": "20:15",
                 "title": "iCAN",
+                "twitter": "fridman_alex",
                 "type": "speech",
                 "video": "https://www.youtube.com/watch?v=TIcrP3NDJ2w"
             },
@@ -180,7 +183,6 @@
         "tickets": "http://www.eventbrite.com/e/latcraft-self-awareness-tickets-28234735855",
         "time": "18:30",
         "venue": "Kronvalda bulvaris 3/5, Visma Labs",
-        "capacity": 80,
         "venueId": 15861354,
         "videoStreaming": true
     },
@@ -200,6 +202,7 @@
                 "img": "img/newsletter/training.png"
             }
         ],
+        "capacity": 120,
         "date": "6 September, 2016",
         "desc": "LatCraft goes Javanese! Our September event is devoted to building and testing stuff in Java \u2014 one of the most popular programming language and platform in the world. See how to make your tests shine using Spock framework, understand the principles of Mutation Testing and grasp Java 8 features for writing type-safe code.",
         "endTime": "21:00",
@@ -218,10 +221,10 @@
                 "img": "img/speakers/buzdin.jpg",
                 "name": "Dmitry Buzdin",
                 "presentation": "https://github.com/buzdin/java8-lambda",
-                "video": "https://www.youtube.com/watch?v=zUSwveYVuWg",
                 "time": "18:40",
                 "title": "Type-safe Java 8 framework in 33 minutes",
-                "type": "speech"
+                "type": "speech",
+                "video": "https://www.youtube.com/watch?v=zUSwveYVuWg"
             },
             {
                 "time": "19:20",
@@ -234,10 +237,10 @@
                 "img": "img/speakers/vaidas_pilkauskas.png",
                 "name": "Vaidas Pilkauskas",
                 "presentation": "http://www.slideshare.net/latcraft/can-you-trust-your-tests-66748890",
-                "video": "https://www.youtube.com/watch?v=6hbVpw-Li9o",
                 "time": "19:30",
                 "title": "Can You Trust Your Tests?",
-                "type": "speech"
+                "type": "speech",
+                "video": "https://www.youtube.com/watch?v=6hbVpw-Li9o"
             },
             {
                 "time": "20:10",
@@ -251,9 +254,9 @@
                 "name": "Marcin Zaj\u0105czkowski",
                 "presentation": "http://www.slideshare.net/latcraft/7-reasons-why-bother-learning-spock",
                 "time": "20:20",
-                "video": "https://www.youtube.com/watch?v=idght3_Pdlo",
                 "title": "7 Reasons Why Bother Learning Spock",
-                "type": "speech"
+                "type": "speech",
+                "video": "https://www.youtube.com/watch?v=idght3_Pdlo"
             },
             {
                 "time": "20:55",
@@ -265,7 +268,6 @@
         "tickets": "http://www.eventbrite.com/e/latcraft-made-in-java-tickets-27323695910",
         "time": "18:30",
         "venue": "Republikas laukums 2A, AS \"Citadele banka\"",
-        "capacity": 120,
         "venueId": 11694908,
         "videoStreaming": true
     },
@@ -285,6 +287,7 @@
                 "img": "img/newsletter/training.png"
             }
         ],
+        "capacity": 80,
         "date": "3 August, 2016",
         "desc": "Proud to be made in Latvia! August event is all about local success stories. From small ideas up to the worldwide markets - learn how locals actually did it! Don't say that you have to live in the big city to become BIG! ",
         "endTime": "21:00",
@@ -306,7 +309,7 @@
                 "time": "18:40",
                 "title": "eazyBI - a Different Start-Up Story",
                 "type": "speech",
-                "video": "https://www.youtube.com/watch?v=WhO56Uns7Mg"  
+                "video": "https://www.youtube.com/watch?v=WhO56Uns7Mg"
             },
             {
                 "time": "19:10",
@@ -350,7 +353,6 @@
         "tickets": "http://www.eventbrite.com/e/latcraft-made-in-latvia-tickets-26698834934",
         "time": "18:30",
         "venue": "Kronvalda bulvaris 3/5, Visma Labs",
-        "capacity": 80,
         "venueId": 15861354,
         "videoStreaming": true
     },
@@ -366,6 +368,7 @@
                 "img": "img/newsletter/training.png"
             }
         ],
+        "capacity": 50,
         "date": "7 July, 2016",
         "desc": "This time we decided to organize a workshop around probably the most mentioned technology in last 3 years. Let's play with Docker in July! Fully Hands-on! Laptop is required! Limited places!",
         "endTime": "21:00",
@@ -431,7 +434,6 @@
         "tickets": "http://www.eventbrite.com/e/latcraft-docker-101-tickets-26308622799",
         "time": "18:30",
         "venue": "Kronvalda bulvaris 3/5, Visma Labs",
-        "capacity": 50,
         "venueId": 15861354,
         "videoStreaming": false
     },
