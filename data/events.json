@@ -71,7 +71,7 @@
                 "cards": {
                     "event-speaker_card_v1-20161108-yevhen_duma": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-speaker_card_v1-20161108-yevhen_duma.png"
                 },
-                "description": "Yevhen will show he has built a system that keeps your code and infrastructure in Git, deploys a Windows-based project to AWS via Octopus Deployment, and describe lessons he learned during that journey.",
+                "description": "Yevhen is a AWS Certified Solutions Architect Assosiate. His main task at Visma is migration application to AWS",
                 "img": "img/speakers/duma.png",
                 "name": "Yevhen Duma",
                 "time": "18:30",
