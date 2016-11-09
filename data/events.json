@@ -1,6 +1,6 @@
 [
     {
-        "announced": true,
+        "announced": false,
         "classes": "extended_event",
         "announcements": [
             {
@@ -55,7 +55,8 @@
                 "time": "18:30",
                 "title": "Participant I",
                 "twitter": "iniweb",
-                "type": "speech"
+                "type": "speech",
+                "video": "https://www.facebook.com/karpelcev/videos/g.680949738668161/1496509313697483/?type=2" 
             },
             {
                 "bio": "Solution architect at Also Cloud",
@@ -69,7 +70,8 @@
                 "time": "18:30",
                 "title": "Participant II",
                 "twitter": "kreisaisjelis",
-                "type": "speech"
+                "type": "speech",
+                "video": "https://www.facebook.com/karpelcev/videos/g.680949738668161/1496509313697483/?type=2" 
             },
             {
                 "bio": "Lead DevOps Specialist at Visma Labs",
@@ -82,7 +84,8 @@
                 "name": "Yevhen Duma",
                 "time": "18:30",
                 "title": "Participant III",
-                "type": "speech"
+                "type": "speech",
+                "video": "https://www.facebook.com/karpelcev/videos/g.680949738668161/1496509313697483/?type=2" 
             },
             {
                 "bio": "Consultant @ Sizovs.net",
@@ -96,7 +99,8 @@
                 "time": "18:30",
                 "title": "Participant IV",
                 "twitter": "eduardsi",
-                "type": "speech"
+                "type": "speech",
+                "video": "https://www.facebook.com/karpelcev/videos/g.680949738668161/1496509313697483/?type=2" 
             },
             {
                 "bio": "Software Delivery Expert",
@@ -110,7 +114,8 @@
                 "time": "18:30",
                 "title": "Moderator",
                 "twitter": "codingandrey",
-                "type": "speech"
+                "type": "speech",
+                "video": "https://www.facebook.com/karpelcev/videos/g.680949738668161/1496509313697483/?type=2" 
             },
             {
                 "time": "19:20",
