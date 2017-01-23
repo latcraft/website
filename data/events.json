@@ -2,7 +2,7 @@
     {
         "announced": "true",
         "announcements": [
-
+            
         ],
         "capacity": 60,
         "cards": {
@@ -30,6 +30,10 @@
             },
             {
                 "bio": "Full stack developer at meduza.io",
+                "cards": {
+                    "event-speaker_card_v1-20170207-boris_goriachev": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-speaker_card_v1-20170207-boris_goriachev.png",
+                    "event-speaker_card_v2-20170207-boris_goriachev": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-speaker_card_v2-20170207-boris_goriachev.png"
+                },
                 "description": "Boris Goriachev is full stack developer at meduza.io",
                 "img": "img/speakers/boris_goriachev.jpg",
                 "name": "Boris Goriachev",
