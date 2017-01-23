@@ -15,7 +15,7 @@
             "event-workshop_facebook_background_v1-20161108": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-workshop_facebook_background_v1-20161108.png"
         },
         "date": "7 February, 2017",
-        "desc": "Workshop on Elixir/Phoenix to develop "Battleship" game yourself. Getting started with elixir and phoenix, tips on why and how to start using it, hands on game development, state processes and bidirectional commutations via phoenix channels.",
+        "desc": "Workshop on Elixir/Phoenix to develop Battleship game yourself. Getting started with elixir and phoenix, tips on why and how to start using it, hands on game development, state processes and bidirectional commutations via phoenix channels.",
         "endTime": "21:30",
         "eventbriteEventId": "28988077119",
         "maps": "https://www.google.lv/maps/place/Microsoft+Latvia+Sia/@56.9518346,24.1135864,17z/data=!3m1!4b1!4m2!3m1!1s0x46eecfd1895509f1:0x87193c3b2eaf2d7c?hl=en",
@@ -39,7 +39,7 @@
                 "title": "Workshop lead",
                 "twitter": "",
                 "type": "workshop",
-                "video": "" 
+                "video": ""
             },
             {
                 "time": "19:20",
@@ -121,7 +121,7 @@
                 "title": "Participant I",
                 "twitter": "iniweb",
                 "type": "speech",
-                "video": "https://www.facebook.com/karpelcev/videos/g.680949738668161/1496509313697483/?type=2" 
+                "video": "https://www.facebook.com/karpelcev/videos/g.680949738668161/1496509313697483/?type=2"
             },
             {
                 "bio": "Solution architect at Also Cloud",
@@ -136,7 +136,7 @@
                 "title": "Participant II",
                 "twitter": "kreisaisjelis",
                 "type": "speech",
-                "video": "https://www.facebook.com/karpelcev/videos/g.680949738668161/1496509313697483/?type=2" 
+                "video": "https://www.facebook.com/karpelcev/videos/g.680949738668161/1496509313697483/?type=2"
             },
             {
                 "bio": "Lead DevOps Specialist at Visma Labs",
@@ -150,7 +150,7 @@
                 "time": "18:30",
                 "title": "Participant III",
                 "type": "speech",
-                "video": "https://www.facebook.com/karpelcev/videos/g.680949738668161/1496509313697483/?type=2" 
+                "video": "https://www.facebook.com/karpelcev/videos/g.680949738668161/1496509313697483/?type=2"
             },
             {
                 "bio": "Consultant @ Sizovs.net",
@@ -165,7 +165,7 @@
                 "title": "Participant IV",
                 "twitter": "eduardsi",
                 "type": "speech",
-                "video": "https://www.facebook.com/karpelcev/videos/g.680949738668161/1496509313697483/?type=2" 
+                "video": "https://www.facebook.com/karpelcev/videos/g.680949738668161/1496509313697483/?type=2"
             },
             {
                 "bio": "Software Delivery Expert",
@@ -180,7 +180,7 @@
                 "title": "Moderator",
                 "twitter": "codingandrey",
                 "type": "speech",
-                "video": "https://www.facebook.com/karpelcev/videos/g.680949738668161/1496509313697483/?type=2" 
+                "video": "https://www.facebook.com/karpelcev/videos/g.680949738668161/1496509313697483/?type=2"
             },
             {
                 "time": "19:20",
@@ -747,7 +747,7 @@
         "date": "10 March, 2016",
         "desc": "This time, we decided to try a totally different format - 100% interactive, 2-hour panel discussion with lots of questions varying from career development and motivation; to the latest trends in software architecture, personal f%ckups and lessons learned. Four rock-star software architects. Different companies, background and opinions.",
         "endTime": "20:30",
-        "classes": "extended_event", 
+        "classes": "extended_event",
         "eventbriteEventId": "22418068045",
         "maps": "https://www.google.lv/maps/place/Microsoft+Latvia+Sia/@56.9518346,24.1135864,17z/data=!3m1!4b1!4m2!3m1!1s0x46eecfd1895509f1:0x87193c3b2eaf2d7c?hl=en",
         "month": "March 2016",
