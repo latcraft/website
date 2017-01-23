@@ -2,6 +2,71 @@
     {
         "announced": false,
         "classes": "extended_event",
+        "announcements": [ ],
+        "capacity": 120,
+        "cards": {
+            "event-normal_event_card_v1-20161108": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-normal_event_card_v1-20161108.png",
+            "event-normal_event_card_v2-20161108": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-normal_event_card_v2-20161108.png",
+            "event-normal_event_card_v3-20161108": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-normal_event_card_v3-20161108.png",
+            "event-normal_event_facebook_background_v1-20161108": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-normal_event_facebook_background_v1-20161108.png",
+            "event-normal_event_facebook_background_v2-20161108": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-normal_event_facebook_background_v2-20161108.png",
+            "event-workshop_event_card_v1-20161108": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-workshop_event_card_v1-20161108.png",
+            "event-workshop_event_card_v2-20161108": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-workshop_event_card_v2-20161108.png",
+            "event-workshop_facebook_background_v1-20161108": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-workshop_facebook_background_v1-20161108.png"
+        },
+        "date": "7 February, 2017",
+        "desc": "Workshop on Elixir/Phoenix to develop "Battleship" game yourself. Getting started with elixir and phoenix, tips on why and how to start using it, hands on game development, state processes and bidirectional commutations via phoenix channels.",
+        "endTime": "21:30",
+        "eventbriteEventId": "28988077119",
+        "maps": "https://www.google.lv/maps/place/Microsoft+Latvia+Sia/@56.9518346,24.1135864,17z/data=!3m1!4b1!4m2!3m1!1s0x46eecfd1895509f1:0x87193c3b2eaf2d7c?hl=en",
+        "month": "February 2017",
+        "schedule": [
+            {
+                "time": "18:30",
+                "title": "Event Opening",
+                "type": "start"
+            },
+            {
+                "bio": "Full stack developer at meduza.io",
+                "cards": {
+                    "event-speaker_card_v1-20161108-anton_kaspiarovich": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-speaker_card_v1-20161108-anton_kaspiarovich.png",
+                    "event-speaker_card_v2-20161108-anton_kaspiarovich": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-speaker_card_v2-20161108-anton_kaspiarovich.png"
+                },
+                "description": "Boris Goriachev is full stack developer at meduza.io",
+                "img": "img/speakers/boris_goriachev.jpg",
+                "name": "Boris Goriachev",
+                "time": "18:30",
+                "title": "Workshop lead",
+                "twitter": "",
+                "type": "workshop",
+                "video": "" 
+            },
+            {
+                "time": "19:20",
+                "title": "Coffee Break",
+                "type": "break"
+            },
+            {
+                "time": "20:10",
+                "title": "Coffee Break",
+                "type": "break"
+            },
+            {
+                "time": "21:00",
+                "title": "Closing Note",
+                "type": "finish"
+            }
+        ],
+        "theme": "Elixir/Phoenix framework workshop",
+        "tickets": "https://www.eventbrite.com/e/latcraft-cloud-platform-panel-tickets-28988077119",
+        "time": "18:30",
+        "venue": "Zala iela 1, Microsoft Latvia",
+        "venueId": 8525599,
+        "videoStreaming": true
+    },
+	{
+        "announced": false,
+        "classes": "extended_event",
         "announcements": [
             {
                 "description": "DevTernity 2016 is one month from now! Don't forget to <a href=\"http://devternity.com\">grab your ticket</a>!",
