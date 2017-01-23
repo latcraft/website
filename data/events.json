@@ -4,7 +4,7 @@
         "announcements": [
 
         ],
-        "capacity": 120,
+        "capacity": 60,
         "cards": {
             "event-normal_event_card_v1-20170207": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-normal_event_card_v1-20170207.png",
             "event-normal_event_card_v2-20170207": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-normal_event_card_v2-20170207.png",
@@ -30,17 +30,13 @@
             },
             {
                 "bio": "Full stack developer at meduza.io",
-                "cards": {
-                    "event-speaker_card_v1-20161108-anton_kaspiarovich": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-speaker_card_v1-20161108-anton_kaspiarovich.png",
-                    "event-speaker_card_v2-20161108-anton_kaspiarovich": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-speaker_card_v2-20161108-anton_kaspiarovich.png"
-                },
                 "description": "Boris Goriachev is full stack developer at meduza.io",
                 "img": "img/speakers/boris_goriachev.jpg",
                 "name": "Boris Goriachev",
                 "time": "18:30",
                 "title": "Workshop on Elixir/Phoenix",
                 "twitter": "",
-                "type": "workshop",
+                "type": "speech",
                 "video": ""
             },
             {
@@ -60,7 +56,7 @@
             }
         ],
         "theme": "Elixir/Phoenix framework workshop",
-        "tickets": "https://www.eventbrite.com/e/latcraft-cloud-platform-panel-tickets-28988077119",
+        "tickets": "",
         "time": "18:30",
         "venue": "Zala iela 1, Microsoft Latvia",
         "venueId": 8525599,
