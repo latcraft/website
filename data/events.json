@@ -1,19 +1,21 @@
 [
     {
         "announced": false,
-        "classes": "extended_event",
-        "announcements": [ ],
+        "announcements": [
+            
+        ],
         "capacity": 120,
         "cards": {
-            "event-normal_event_card_v1-20161108": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-normal_event_card_v1-20161108.png",
-            "event-normal_event_card_v2-20161108": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-normal_event_card_v2-20161108.png",
-            "event-normal_event_card_v3-20161108": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-normal_event_card_v3-20161108.png",
-            "event-normal_event_facebook_background_v1-20161108": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-normal_event_facebook_background_v1-20161108.png",
-            "event-normal_event_facebook_background_v2-20161108": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-normal_event_facebook_background_v2-20161108.png",
-            "event-workshop_event_card_v1-20161108": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-workshop_event_card_v1-20161108.png",
-            "event-workshop_event_card_v2-20161108": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-workshop_event_card_v2-20161108.png",
-            "event-workshop_facebook_background_v1-20161108": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-workshop_facebook_background_v1-20161108.png"
+            "event-normal_event_card_v1-20170207": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-normal_event_card_v1-20170207.png",
+            "event-normal_event_card_v2-20170207": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-normal_event_card_v2-20170207.png",
+            "event-normal_event_card_v3-20170207": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-normal_event_card_v3-20170207.png",
+            "event-normal_event_facebook_background_v1-20170207": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-normal_event_facebook_background_v1-20170207.png",
+            "event-normal_event_facebook_background_v2-20170207": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-normal_event_facebook_background_v2-20170207.png",
+            "event-workshop_event_card_v1-20170207": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-workshop_event_card_v1-20170207.png",
+            "event-workshop_event_card_v2-20170207": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-workshop_event_card_v2-20170207.png",
+            "event-workshop_facebook_background_v1-20170207": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-workshop_facebook_background_v1-20170207.png"
         },
+        "classes": "extended_event",
         "date": "7 February, 2017",
         "desc": "Workshop on Elixir/Phoenix to develop Battleship game yourself. Getting started with elixir and phoenix, tips on why and how to start using it, hands on game development, state processes and bidirectional commutations via phoenix channels.",
         "endTime": "21:30",
@@ -64,9 +66,8 @@
         "venueId": 8525599,
         "videoStreaming": true
     },
-	{
+    {
         "announced": false,
-        "classes": "extended_event",
         "announcements": [
             {
                 "description": "DevTernity 2016 is one month from now! Don't forget to <a href=\"http://devternity.com\">grab your ticket</a>!",
@@ -96,6 +97,7 @@
             "event-workshop_event_card_v2-20161108": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-workshop_event_card_v2-20161108.png",
             "event-workshop_facebook_background_v1-20161108": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-workshop_facebook_background_v1-20161108.png"
         },
+        "classes": "extended_event",
         "date": "8 November, 2016",
         "desc": "Gazzillion cloud providers let you deliver your applications and infrastructure faster and often at lower costs. This time at LatCraft, we would like to have a discussion with varios cloud experts around benefits and pitfalls of cloud platforms, is it worth investing into private cloud or public clouds offer all you need, and what is cloud after all.",
         "endTime": "21:00",
@@ -744,10 +746,10 @@
     },
     {
         "announced": false,
+        "classes": "extended_event",
         "date": "10 March, 2016",
         "desc": "This time, we decided to try a totally different format - 100% interactive, 2-hour panel discussion with lots of questions varying from career development and motivation; to the latest trends in software architecture, personal f%ckups and lessons learned. Four rock-star software architects. Different companies, background and opinions.",
         "endTime": "20:30",
-        "classes": "extended_event",
         "eventbriteEventId": "22418068045",
         "maps": "https://www.google.lv/maps/place/Microsoft+Latvia+Sia/@56.9518346,24.1135864,17z/data=!3m1!4b1!4m2!3m1!1s0x46eecfd1895509f1:0x87193c3b2eaf2d7c?hl=en",
         "month": "March 2016",
