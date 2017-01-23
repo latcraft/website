@@ -19,6 +19,7 @@
         "date": "7 February, 2017",
         "desc": "Workshop on Elixir/Phoenix to develop Battleship game yourself. Getting started with elixir and phoenix, tips on why and how to start using it, hands on game development, state processes and bidirectional commutations via phoenix channels.",
         "endTime": "21:30",
+        "eventbriteEventId": "31425422284",
         "maps": "https://www.google.lv/maps/place/Microsoft+Latvia+Sia/@56.9518346,24.1135864,17z/data=!3m1!4b1!4m2!3m1!1s0x46eecfd1895509f1:0x87193c3b2eaf2d7c?hl=en",
         "month": "February 2017",
         "schedule": [
@@ -59,6 +60,7 @@
             }
         ],
         "theme": "Elixir/Phoenix framework workshop",
+        "tickets": "https://www.eventbrite.com/e/latcraft-elixirphoenix-framework-workshop-tickets-31425422284",
         "time": "18:30",
         "venue": "Zala iela 1, Microsoft Latvia",
         "venueId": 8525599,
