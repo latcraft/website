@@ -1,8 +1,8 @@
 [
     {
-        "announced": false,
+        "announced": true,
         "announcements": [
-            
+
         ],
         "capacity": 120,
         "cards": {
@@ -38,7 +38,7 @@
                 "img": "img/speakers/boris_goriachev.jpg",
                 "name": "Boris Goriachev",
                 "time": "18:30",
-                "title": "Workshop lead",
+                "title": "Workshop on Elixir/Phoenix",
                 "twitter": "",
                 "type": "workshop",
                 "video": ""
