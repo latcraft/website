@@ -17,7 +17,7 @@
         },
         "classes": "extended_event",
         "date": "7 February, 2017",
-        "desc": "Workshop on Elixir/Phoenix to develop Battleship game yourself. Getting started with elixir and phoenix, tips on why and how to start using it, hands on game development, state processes and bidirectional commutations via phoenix channels.",
+        "desc": "Elixir is a modern programming language designed for building scalable and maintainable applications. During this hands-on workshop you will learn why's and how's behind Elixir and develop Battleship game using Phoenix – a web framework written in Elixir. Grab your ticket, bring friends and spread a word!",
         "endTime": "21:30",
         "eventbriteEventId": "31425422284",
         "maps": "https://www.google.lv/maps/place/Microsoft+Latvia+Sia/@56.9518346,24.1135864,17z/data=!3m1!4b1!4m2!3m1!1s0x46eecfd1895509f1:0x87193c3b2eaf2d7c?hl=en",
@@ -34,12 +34,12 @@
                     "event-speaker_card_v1-20170207-boris_goriachev": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-speaker_card_v1-20170207-boris_goriachev.png",
                     "event-speaker_card_v2-20170207-boris_goriachev": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-speaker_card_v2-20170207-boris_goriachev.png"
                 },
-                "description": "Boris Goriachev is full stack developer at meduza.io",
+                "description": "Cool guy. Minimalist. Works as full stack (but mostly backend) developer at meduza.io Riga-based online newspaper and news aggregator in the Russian language. He started as Rails developer, but then felt in love with functional and implemented most of meduza's backend micro-services and public APIs with Elixir.",
                 "img": "img/speakers/boris_goriachev.jpg",
                 "name": "Boris Goriachev",
                 "time": "18:30",
                 "title": "Workshop on Elixir/Phoenix",
-                "twitter": "",
+                "twitter": "jesteracer",
                 "type": "speech",
                 "video": ""
             },
