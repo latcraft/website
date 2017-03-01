@@ -36,63 +36,6 @@ crafted and maintained version. You could obtain it by running `docker pull latc
 
 > You also fuck Docker and run commands directly on your machine. That is – `npm install`, `gulp` etc.
 
-# How to add new event
-
-- Go to `./data/events.json` and add new *JSON* record.
-- Under `./jade/pages/<currentYear>/` create two `.jade` templates with names
-  corresponding to the event name (see examples under `./jade/pages/2015`). 
-  For `Made in Latvia` event you will end up with two templates:
-
-		// madeinlatvia.jade
-		extends ../../layouts/infograph
-		block vars
-			- var eventDate = '3 November, 2015'
-			- var path = '2015/madeinlatvia'
-
-		// madeinlatvia_og.jade
-		extends ../../layouts/infograph
-		block vars
-			- var openGraph = true
-			- var eventDate = '3 November, 2015'
-			- var path = '2015/madeinlatvia'
-
-- `eventDate` is used to locate the event in the *JSON* event collection.
-- `openGraph` switch says that the page is used for social media infographics generation.
-- `path` is just a path to the *Jade* template (corresponds to the file system path).
-
-Now, run the build and make sure both templates are rendering correctly by
-opening them in the browser. You should see something like this:
-
-##### Made in Latvia OpenGraph Infographics
-
-![Made in Latvia OpenGraph Infographics](README/madeinlatvia_og-shot.png)
-
-##### Made in Latvia Event Infographics
-
-![Made in Latvia Event Infographics](README/madeinlatvia-shot.png)
-
-# How to deploy to staging
-
-- Run `./run.sh gulp clean`, to perform clean build.
-- Run `./run.sh gulp build --environment stage`, to build the website for staging.
-- Run `./run.sh gulp deploy --environment stage`, to deploy.
-- Visit <http://stage.latcraft.lv> and have fun!
-
-### Check list before deployment to staging
-
-1. Run the local server and make sure that event page and infographics are
-   rendered correctly by opening them in the browser. For `Made in Latvia`
-   event, URLs are the following:
-
-    - [Event page](localhost:9009/2015/madeinlatvia.html) and
-      [infographics](localhost:9009/img/2015/madeinlatvia-shot.png)
-    - [OpenGraph page](localhost:9009/2015/madeinlatvia_og.html) and
-      [infographics](localhost:9009/img/2015/madeinlatvia_og-shot.png)
-    
-    Pay attention to WebFonts and make sure they are rendered properly.
-
-2. Make sure `Book a Seat` button opens Eventbrite pop-up correctly.
-
 # How to deploy to production
 
 - Run `./run.sh gulp clean`, to perform clean build.
@@ -103,12 +46,4 @@ opening them in the browser. You should see something like this:
 ```
 Deployment to production is performed automatically by Travis CI upon push to master.
 ```
-
-### Check list before deployment to production
-
-1. Go to [OpenGraph Object
-   Debugger](https://developers.facebook.com/tools/debug/og/object/) and make
-   sure event looks great when shared and infographics is present:
-
-    ![FaceBook Share](README/share.png)
 
