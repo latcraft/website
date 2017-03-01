@@ -34,6 +34,8 @@ crafted and maintained version. You could obtain it by running `docker pull latc
 
 - By default website is built for `local` development environment. Adding `--environment stage` or `--environment live` arguments builds the website for `staging` or `production` accordingly.
 
+> You also fuck Docker and run commands directly on your machine. That is – `npm install`, `gulp` etc.
+
 # How to add new event
 
 - Go to `./data/events.json` and add new *JSON* record.
