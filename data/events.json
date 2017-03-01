@@ -12,6 +12,7 @@
         "date": "7 March, 2017",
         "desc": "Machine Learning and AI is among the hottest IT topics. Discover machine learning basics in areas such as natural language processing and robotics. Grab your ticket, bring your friends and spread the word!",
         "endTime": "21:30",
+        "eventbriteEventId": "32472707743",
         "maps": "https://www.google.lv/maps/place/Microsoft+Latvia+Sia/@56.9518346,24.1135864,17z/data=!3m1!4b1!4m2!3m1!1s0x46eecfd1895509f1:0x87193c3b2eaf2d7c?hl=en",
         "month": "March 2017",
         "schedule": [
@@ -76,6 +77,7 @@
             }
         ],
         "theme": "Machine Learning and AI",
+        "tickets": "https://www.eventbrite.com/e/latcraft-machine-learning-and-ai-tickets-32472707743",
         "time": "18:30",
         "venue": "Zala iela 1, Microsoft Latvia",
         "venueId": 8525599,
