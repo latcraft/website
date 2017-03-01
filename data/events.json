@@ -1,16 +1,18 @@
 [
     {
-        "announced": true,
+        "announced": "true",
         "announcements": [
-
+            
         ],
         "capacity": 130,
         "cards": {
+            
         },
         "classes": "extended_event",
         "date": "7 March, 2017",
         "desc": "Machine Learning and AI is among the hottest IT topics. Discover machine learning basics in areas such as natural language processing and robotics. Grab your ticket, bring your friends and spread the word!",
         "endTime": "21:30",
+        "eventbriteEventId": "31425422284",
         "maps": "https://www.google.lv/maps/place/Microsoft+Latvia+Sia/@56.9518346,24.1135864,17z/data=!3m1!4b1!4m2!3m1!1s0x46eecfd1895509f1:0x87193c3b2eaf2d7c?hl=en",
         "month": "March 2017",
         "schedule": [
@@ -22,8 +24,9 @@
             {
                 "bio": "Consultant @ Microsoft Services EMEA / Researcher @ Department of AI and Systems Engineering, RTU",
                 "cards": {
+                    
                 },
-                "description": "Machine Learning is a hot topic in recent years. There are many stories, rumors, and future predictions around machine learning. It looks like everyone has an opinion. In this session, we will start by guiding you through the most interesting recent developments in the world of Machine Learning. We will then look at how machines \"learn\" and give you a quick intro into the exciting world of deep neural networks – perhaps one of the most popular machine learning algorithms today. Finally, we will discuss how you can introduce Machine Learning in your projects.",
+                "description": "Machine Learning is a hot topic in recent years. There are many stories, rumors, and future predictions around machine learning. It looks like everyone has an opinion. In this session, we will start by guiding you through the most interesting recent developments in the world of Machine Learning. We will then look at how machines \"learn\" and give you a quick intro into the exciting world of deep neural networks \u2013 perhaps one of the most popular machine learning algorithms today. Finally, we will discuss how you can introduce Machine Learning in your projects.",
                 "img": "img/speakers/antonsm.jpg",
                 "name": "Antons Mislevics",
                 "time": "18:30",
@@ -37,16 +40,17 @@
                 "type": "break"
             },
             {
-              "bio": "Researched @ Tilde",
-              "cards": {
-              },
-              "description": "In the talk, we will look at what a typical natural language processing (NLP) pipeline of basic NLP tools looks like for the development of applications that have to analyse, extract information from or (try to) understand natural languages. As an application example, we will look at how the different tools help machine translation systems to understand the language and perform better (or more informed) translation. We will also talk about what the challenges are in NLP applications and how they are tackled by higher level NLP tools.",
-              "img": "img/speakers/marcisp.jpg",
-              "name": "Marcis Pinnis",
-              "time": "19:25",
-              "title": "The NLP pipeline in Machine Translation",
-              "type": "speech",
-              "video": ""
+                "bio": "Researched @ Tilde",
+                "cards": {
+                    
+                },
+                "description": "In the talk, we will look at what a typical natural language processing (NLP) pipeline of basic NLP tools looks like for the development of applications that have to analyse, extract information from or (try to) understand natural languages. As an application example, we will look at how the different tools help machine translation systems to understand the language and perform better (or more informed) translation. We will also talk about what the challenges are in NLP applications and how they are tackled by higher level NLP tools.",
+                "img": "img/speakers/marcisp.jpg",
+                "name": "Marcis Pinnis",
+                "time": "19:25",
+                "title": "The NLP pipeline in Machine Translation",
+                "type": "speech",
+                "video": ""
             },
             {
                 "time": "20:15",
@@ -54,16 +58,17 @@
                 "type": "break"
             },
             {
-              "bio": "Software Developer and Entrepreneur",
-              "cards": {
-              },
-              "description": "The presentation will cover two sides of robotics: engineering and computer vision. First part is dedicated to assemblying of robot's parts: actuators, sensors, motors and microcontroller all together. The second part will cover some computer vision topics, like object detection and object tracking, as well as applying machine learning to improve robot vision. And the robot showreel at the end of the presentation.",
-              "img": "img/speakers/valery.png",
-              "name": "Valery Vishnyakov",
-              "time": "20:25",
-              "title": "AI Meets the Real World",
-              "type": "speech",
-              "video": ""
+                "bio": "Software Developer and Entrepreneur",
+                "cards": {
+                    
+                },
+                "description": "The presentation will cover two sides of robotics: engineering and computer vision. First part is dedicated to assemblying of robot's parts: actuators, sensors, motors and microcontroller all together. The second part will cover some computer vision topics, like object detection and object tracking, as well as applying machine learning to improve robot vision. And the robot showreel at the end of the presentation.",
+                "img": "img/speakers/valery.png",
+                "name": "Valery Vishnyakov",
+                "time": "20:25",
+                "title": "AI Meets the Real World",
+                "type": "speech",
+                "video": ""
             },
             {
                 "time": "21:10",
@@ -72,6 +77,7 @@
             }
         ],
         "theme": "Machine Learning and AI",
+        "tickets": "https://www.eventbrite.com/e/latcraft-machine-learning-and-ai-tickets-31425422284",
         "time": "18:30",
         "venue": "Zala iela 1, Microsoft Latvia",
         "venueId": 8525599,
@@ -80,7 +86,7 @@
     {
         "announced": false,
         "announcements": [
-
+            
         ],
         "capacity": 60,
         "cards": {
@@ -95,7 +101,7 @@
         },
         "classes": "extended_event",
         "date": "7 February, 2017",
-        "desc": "Elixir is a modern programming language designed for building scalable and maintainable applications. During this hands-on workshop you will learn 'whys' and 'hows' behind Elixir and develop Battleship game using Phoenix — a web framework written in Elixir. Grab your ticket, bring your friends and spread the word!",
+        "desc": "Elixir is a modern programming language designed for building scalable and maintainable applications. During this hands-on workshop you will learn 'whys' and 'hows' behind Elixir and develop Battleship game using Phoenix \u2014 a web framework written in Elixir. Grab your ticket, bring your friends and spread the word!",
         "endTime": "21:30",
         "eventbriteEventId": "31425422284",
         "maps": "https://www.google.lv/maps/place/Microsoft+Latvia+Sia/@56.9518346,24.1135864,17z/data=!3m1!4b1!4m2!3m1!1s0x46eecfd1895509f1:0x87193c3b2eaf2d7c?hl=en",
@@ -112,7 +118,7 @@
                     "event-speaker_card_v1-20170207-boris_goriachev": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-speaker_card_v1-20170207-boris_goriachev.png",
                     "event-speaker_card_v2-20170207-boris_goriachev": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-speaker_card_v2-20170207-boris_goriachev.png"
                 },
-                "description": "Cool guy. Minimalist. Works as a full stack (but mostly backend) developer at meduza.io — a Riga-based online Russian-language newspaper and news aggregator. Boris started as a Rails developer, but then fell in love with functional programming and implemented most of Meduza's backend micro-services and public APIs with Elixir.",
+                "description": "Cool guy. Minimalist. Works as a full stack (but mostly backend) developer at meduza.io \u2014 a Riga-based online Russian-language newspaper and news aggregator. Boris started as a Rails developer, but then fell in love with functional programming and implemented most of Meduza's backend micro-services and public APIs with Elixir.",
                 "img": "img/speakers/boris_goriachev.jpg",
                 "name": "Boris Goriachev",
                 "time": "18:30",
