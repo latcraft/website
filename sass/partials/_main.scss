@@ -16,12 +16,12 @@ section#modal {
     pointer-events: none;
     display: none;
 
-    @include media($desktop) { 
+    @include media($desktop) {
         display: block;
     }
 
     .close {
-        position: absolute;         
+        position: absolute;
         top: -40px;
         right: 0px;
         font-size: 14px;
@@ -32,7 +32,7 @@ section#modal {
         color: #fff;
         margin: 0 10px 0 0;
 
-        @include media($desktop) { 
+        @include media($desktop) {
             top: -20px;
             right: -20px;
         }
@@ -44,7 +44,7 @@ section#modal {
             display: block;
             height: 2px;
             transition: all 0.4s ease 0s;
-            width: 30px;    
+            width: 30px;
             position: relative;
             top: 19px;
             left: 5px;
@@ -52,7 +52,7 @@ section#modal {
 
             &:nth-child(2) {
                 top: 17px;
-                transform: rotateZ(-45deg);    
+                transform: rotateZ(-45deg);
             }
         }
     }
@@ -81,16 +81,16 @@ section#modal {
             float: left;
         }
 
-        @include media($desktop) { 
+        @include media($desktop) {
             padding: 50px 50px 0 50px;
         }
     }
 
     &.open {
-        pointer-events: auto;        
+        pointer-events: auto;
         opacity: 1;
         visability: visible;
-        animation: anim-open 0.4s;  
+        animation: anim-open 0.4s;
         display: block;
     }
 }
@@ -103,7 +103,7 @@ section#news {
     z-index: 100;
     background: #f5f5f5;
 
-    #news-slider {        
+    #news-slider {
         overflow: hidden;
         text-align: center;
 
@@ -128,21 +128,21 @@ section#news {
         }
 
         .pagination {
-            width: 100%; 
-            overflow: hidden;            
+            width: 100%;
+            overflow: hidden;
 
             ul {
-                list-style: none; 
-                position: relative; 
-                float: left; 
-                display: block; 
-                left: 50%;   
+                list-style: none;
+                position: relative;
+                float: left;
+                display: block;
+                left: 50%;
             }
 
             li {
-                position: relative; 
-                float: left; 
-                display: block; 
+                position: relative;
+                float: left;
+                display: block;
                 right: 50%;
                 margin: 0 5px;
 
@@ -150,8 +150,8 @@ section#news {
                     width: 40px;
                     height: 5px;
                     display: block;
-                    
-                    background: #dedede;                                       
+
+                    background: #dedede;
                     text-indent: -9999px;
                 }
 
@@ -160,7 +160,7 @@ section#news {
                 }
 
                 &.active a {
-                    background: #565656;   
+                    background: #565656;
                 }
             }
         }
@@ -194,7 +194,7 @@ section#news {
         visibility: hidden;
         transition: 0.3s all ease 0s;
 
-        @include media($desktop) { 
+        @include media($desktop) {
             margin-top: 0;
             margin-bottom: 0;
             position: relative;
@@ -214,7 +214,7 @@ section#news {
             margin: 0;
             text-indent: -9999px;
             display: block;
-        }        
+        }
     }
 
     .open {
@@ -247,7 +247,7 @@ section#news {
         width: 100%;
         clear: both;
 
-        @include media($desktop) { 
+        @include media($desktop) {
             float: right;
             width: auto;
             margin: 34px 0;
@@ -263,7 +263,7 @@ section#news {
             margin-bottom: 5px;
             @include span-columns(6 of 12);
 
-            @include media($desktop) { 
+            @include media($desktop) {
                 width: auto;
                 margin: 0;
             }
@@ -285,7 +285,7 @@ section#news {
 
                 @include media($desktop) {
                     color: #fff;
-                    padding: 0 10px;          
+                    padding: 0 10px;
                     background: transparent;
                 }
 
@@ -301,7 +301,7 @@ section#news {
                     background: #3ab278;
                     color: #3ab278;
                     padding: 11px 0;
-        
+
                     span {
                         overflow: hidden;
                         display: inline-block;
@@ -313,7 +313,7 @@ section#news {
                             transition: 0.4s all ease 0s;
                             color: #3ab278;
                             float: left;
-                            font-size: 14px;   
+                            font-size: 14px;
                             line-height: 0.8 !important;
                             padding: 0 1px;
                         }
@@ -351,7 +351,7 @@ section#news {
                         background: #3ab278;
                         color: #3ab278;
                         padding: 0;
-            
+
                         span {
                             overflow: hidden;
                             display: inline-block;
@@ -362,7 +362,7 @@ section#news {
                             i {
                                 color: #111;
                                 float: left;
-                                font-size: 10px;   
+                                font-size: 10px;
                                 line-height: 0.8 !important;
                                 padding: 0 1px;
                             }
@@ -427,7 +427,7 @@ section#news {
     }
 
     &.visible {
-        transform: translate3d(30px, 30px, 0px); 
+        transform: translate3d(30px, 30px, 0px);
 
         @include media($desktop) {
             transform: translate3d(0px, 0px, 0px);
@@ -440,7 +440,7 @@ section#news {
         min-height: 100%;
         width: 100%;
         display: block;
-        overflow: auto;        
+        overflow: auto;
         transition: 0.5s all cubic-bezier(0.7, 0, 0.3, 1) 0s;
 
         .container {
@@ -462,18 +462,18 @@ section#news {
             span {
                 &:first-child {
                     transform: translate3d(0px, 8px, 0px) rotateZ(-45deg);
-                }   
+                }
                 &:nth-child(2) {
                     transform: rotateY(90deg);
                     opacity: 0;
                 }
                 &:last-child {
                     transform: translate3d(0px, -8px, 0px) rotateZ(45deg);
-                }  
+                }
             }
         }
 
-        .container {       
+        .container {
             min-height: auto;
             opacity: 1;
             overflow: visible;
@@ -487,11 +487,11 @@ section#news {
 // --------------------------------------------
 // header
 header#header {
-    display: block;    
+    display: block;
     height: auto;
     width: 100%;
     overflow: hidden;
-    position: relative;    
+    position: relative;
     background: #000;
     background-attachment: fixed;
     background-size: cover;
@@ -522,16 +522,16 @@ header#header {
             display: block;
         }
 
-        @include media($desktop) {            
-            @include span-columns(4);  
+        @include media($desktop) {
+            @include span-columns(4);
 
-            #logo a {             
+            #logo a {
               width: 160px;
               height: 160px;
               margin: 60px auto;
-            }  
+            }
         }
-    } 
+    }
 
     #social-links {
         position: absolute;
@@ -575,7 +575,7 @@ header#header {
         @include span-columns(12 of 12);
         float: left;
         text-align: center;
-        
+
         @include media($desktop) {
             @include span-columns(8);
             float: right;
@@ -609,7 +609,7 @@ header#header {
 
         .spliter {
             line-height: 40px;
-            float: left;            
+            float: left;
             width: 100%;
             text-align: center;
 
@@ -618,7 +618,7 @@ header#header {
                 line-height: 70px;
                 float: none;
                 display: inline-block;
-                margin: 0 10px; 
+                margin: 0 10px;
                 text-align: left;
             }
 
@@ -647,10 +647,10 @@ header#header {
                 margin-bottom: 20px;
 
                 div {
-                    padding: 19px 25px;                    
+                    padding: 19px 25px;
 
                     &:before {
-                        padding: 18px 25px;  
+                        padding: 18px 25px;
                         color: #9e9e9e;
                     }
                 }
@@ -666,8 +666,8 @@ header#header {
 
                 div {
                     padding: 18px 20px;
-                    transition: all 0.4s ease;    
-                    width: 256px;   
+                    transition: all 0.4s ease;
+                    width: 256px;
                     height: 72px;
                     position: absolute;
                     top: 0px;
@@ -688,7 +688,7 @@ header#header {
                             left: -52px;
                             top: -8px;
                             content: "";
-                            transition: all 0.4s ease; 
+                            transition: all 0.4s ease;
                         }
                     }
 
@@ -701,19 +701,19 @@ header#header {
                         text-align: center;
                         opacity: 0;
                         visability: hidden;
-                        color: #757575;                        
-                    }    
+                        color: #757575;
+                    }
 
                     &:before {
-                        padding: 18px 25px;  
-                        color: #9e9e9e;                        
+                        padding: 18px 25px;
+                        color: #9e9e9e;
                     }
-                } 
+                }
 
-                
 
-                @include media($mobile) {            
-                    width: 100%; 
+
+                @include media($mobile) {
+                    width: 100%;
 
                     div {
                         left: 50%;
@@ -738,7 +738,7 @@ header#header {
                         }
 
                         p {
-                            transition: all 0.3s ease 0.25s; 
+                            transition: all 0.3s ease 0.25s;
                             opacity: 1;
                             visability: visible;
                             margin-top: 10px;
@@ -759,14 +759,14 @@ header#header {
 
             span {
                 color: #fff;
-                transition: 0.2s all ease 0s; 
+                transition: 0.2s all ease 0s;
                 font-style: normal;
             }
-            
-            @include media($desktop) {            
+
+            @include media($desktop) {
                 float: left !important;
             }
-        }   
+        }
     }
     .scroll-arrow {
         position: absolute;
@@ -788,10 +788,10 @@ header#header {
         }
 
         &:hover {
-            color: rgba(255, 255, 255, 0.7);   
+            color: rgba(255, 255, 255, 0.7);
         }
 
-        @include media($desktop) {            
+        @include media($desktop) {
             display: block;
         }
     }
@@ -799,7 +799,7 @@ header#header {
 
 // --------------------------------------------
 // video
-#video {    
+#video {
     overflow: hidden;
     position: absolute;
     display: block;
@@ -816,7 +816,7 @@ header#header {
         display: none;
     }
 }
-#header .fallback {    
+#header .fallback {
     overflow: hidden;
     position: absolute;
     display: none;
@@ -846,12 +846,12 @@ header#header {
 section#events {
     .group {
         overflow: hidden;
-        margin: 0 10px 40px 10px;   
+        margin: 0 10px 40px 10px;
 
-        &.amazon {            
+        &.amazon {
             background: #DCAE32;
             background-size: 600px auto;
-            color: #fff;  
+            color: #fff;
             margin: 0 0 40px 0;
 
             p {
@@ -862,8 +862,8 @@ section#events {
                 color: #111;
 
                 &.scroll-button {
-                    font-weight: 700;    
-                }                
+                    font-weight: 700;
+                }
             }
 
             .container {
@@ -880,7 +880,7 @@ section#events {
                 padding: 40px;
                 width: 100%;
 
-                @include media($container) {  
+                @include media($container) {
                     width: 30%;
                 }
             }
@@ -888,10 +888,10 @@ section#events {
             .description{
                 margin: 0;
                 padding: 40px;
-                width: 100%; 
-                background: $amazon;              
+                width: 100%;
+                background: $amazon;
 
-                @include media($container) {  
+                @include media($container) {
                     width: 70%;
                 }
             }
@@ -920,9 +920,9 @@ section#events {
         }
 
         @include span-columns(12 of 12);
-        margin: 0; 
+        margin: 0;
 
-        @include media($phone) {  
+        @include media($phone) {
             @include span-columns(9 of 12);
         }
     }
@@ -930,9 +930,9 @@ section#events {
         overflow: hidden;
         float: right;
 
-        @include span-columns(12 of 12);        
+        @include span-columns(12 of 12);
 
-        @include media($phone) {            
+        @include media($phone) {
             @include span-columns(3 of 12);
             @include omega();
         }
@@ -1007,11 +1007,11 @@ section#events {
             width: 60px;
             height: 60px;
             display: block;
-            border-radius: 50%; 
+            border-radius: 50%;
             background: #dedede;
             display: block;
             float: left;
-            margin: 0 10px 0 0; 
+            margin: 0 10px 0 0;
         }
 
         h5 {
@@ -1022,7 +1022,7 @@ section#events {
 
         span {
             display: block;
-            float: left;    
+            float: left;
         }
     }
 
@@ -1069,13 +1069,13 @@ section#events {
             @include media($phone) {
                 width: 225%;
             }
- 
+
             @include media($desktop) {
                 margin: 0;
             }
 
             li {
-                float: left;            
+                float: left;
                 width: 10%;
                 padding: 0 10px;
 
@@ -1084,7 +1084,7 @@ section#events {
                 }
 
                 p {
-                    font-size: 16px;  
+                    font-size: 16px;
                     line-height: 1.7;
                 }
 
@@ -1096,17 +1096,17 @@ section#events {
                         h5 {
                             color: #800000;
                         }
-                    }    
-                }                
+                    }
+                }
 
                 .button {
                     display: inline-block;
                     float: none;
-                    margin: 0 10px 0 0;  
+                    margin: 0 10px 0 0;
                 }
             }
 
-            &.amazon {    
+            &.amazon {
                 margin: 0 0 40px 0;
 
                 & + .pagination {
@@ -1116,7 +1116,7 @@ section#events {
                 }
             }
 
-            &.extended_event {    
+            &.extended_event {
                 margin: 0 0 40px 0;
 
                 & + .pagination {
@@ -1126,37 +1126,37 @@ section#events {
                 }
             }
 
-        }        
+        }
     }
 
     .pagination {
-        width: 100%; 
+        width: 100%;
         display: block;
         float: left;
         margin: 0;
         overflow: hidden;
         padding: 0 0 40px 0;
 
-        @include media($container) {            
+        @include media($container) {
             display: none;
 
             &.more {
                 display: block;
             }
         }        ul {
-            list-style: none; 
-            position: relative; 
-            float: left; 
-            display: block; 
-            left: 50%;  
-            width: auto; 
+            list-style: none;
+            position: relative;
+            float: left;
+            display: block;
+            left: 50%;
+            width: auto;
         }
 
         li {
-            position: relative; 
-            float: left; 
+            position: relative;
+            float: left;
             width: auto;
-            display: block; 
+            display: block;
             right: 50%;
             margin: 0 5px;
 
@@ -1167,14 +1167,14 @@ section#events {
                 overflow: hidden;
                 display: block;
                 border-radius: 50%;
-                overflow: hidden;                
+                overflow: hidden;
                 text-indent: -9999px;
                 transition: 0.4s all ease 0s;
             }
 
             &.active a {
                 border-color: #565656;
-                background: #565656;   
+                background: #565656;
             }
         }
     }
@@ -1182,11 +1182,11 @@ section#events {
     a.prev.button, a.next.button {
         color: #fff;
         cursor: pointer;
-        text-transform: uppercase;        
+        text-transform: uppercase;
         background: $secondary;
         float: left;
         clear: none;
-        padding: 8px 18px;        
+        padding: 8px 18px;
         position: absolute;
         text-align: center;
         height: auto;
@@ -1196,19 +1196,19 @@ section#events {
         position: relative;
         @include span-columns(6 of 12);
 
-        @include media($container) {            
+        @include media($container) {
             @include span-columns(2 of 12);
         }
 
-        @include media($desktop) {            
-            position: absolute;   
-            width: auto; 
+        @include media($desktop) {
+            position: absolute;
+            width: auto;
             margin: -120px 0 0 0;
             top: 50%;
             height: 240px;
         }
 
-        @include media($desktop) { 
+        @include media($desktop) {
             span {
                 display: none;
             }
@@ -1216,7 +1216,7 @@ section#events {
 
         @include media($desktop) {
             background: #dedede;
-            
+
             &:hover {
                 background: $secondary;
             }
@@ -1231,7 +1231,7 @@ section#events {
             line-height: 1.8;
             padding: 0 10px 0 0;
 
-            @include media($desktop) {            
+            @include media($desktop) {
                 line-height: 240px;
                 font-size: 34px;
             }
@@ -1247,7 +1247,7 @@ section#events {
         float: right;
         @include omega();
 
-        i {            
+        i {
             padding: 0 0 0 10px;
             float: right;
         }
@@ -1262,7 +1262,7 @@ section#speaker {
     position: static;
     background:  #330707 url("../img/speaker-bg.jpg") center no-repeat;
     background-attachment: fixed;
-    background-size: cover;  
+    background-size: cover;
 
     .container {
         position: relative;
@@ -1288,7 +1288,7 @@ section#speaker {
 // --------------------------------------------
 // challenge
 section#challenge {
-    .title {        
+    .title {
         i {
             color: #FED34B;
         }
@@ -1300,7 +1300,7 @@ section#challenge {
         strong {
             color: $base-text;
             font-weight: 700;
-        }   
+        }
 
         @include span-columns(12);
 
@@ -1321,10 +1321,10 @@ section#challenge {
         padding: 40px 20px;
         float: left;
         text-align: center;
-        @include span-columns(12 of 12); 
+        @include span-columns(12 of 12);
 
         @include media($container) {
-            @include span-columns(4 of 12); 
+            @include span-columns(4 of 12);
         }
 
         h3 {
@@ -1338,7 +1338,7 @@ section#challenge {
             transition: 0.2s border-color linear 0s;
             border-bottom: 1px solid #f5f5f5;
         }
-        
+
         @include media($desktop) {
             &:hover {
                 h3 {
@@ -1358,7 +1358,7 @@ section#challenge {
             width: 100%;
 
             a {
-                font-weight: 400;            
+                font-weight: 400;
             }
         }
     }
@@ -1366,7 +1366,7 @@ section#challenge {
     a.prev.button, a.next.button {
         color: #fff;
         cursor: pointer;
-        text-transform: uppercase;        
+        text-transform: uppercase;
         background: $secondary;
         color: #fff;
         padding: 8px 18px;
@@ -1379,21 +1379,21 @@ section#challenge {
         position: relative;
         @include span-columns(6 of 12);
 
-        @include media($container) {            
+        @include media($container) {
             @include span-columns(2 of 12);
         }
 
-        @include media($desktop) {            
-            position: absolute; 
+        @include media($desktop) {
+            position: absolute;
             background: #dedede;
-            width: auto; 
+            width: auto;
             margin: 0;
             bottom: 220px;
 
             &:hover {
                 background: $secondary;
             }
-        }             
+        }
 
         i {
             float: left;
@@ -1410,7 +1410,7 @@ section#challenge {
         float: right;
         right: 0px;
 
-        i {            
+        i {
             padding: 0 0 0 10px;
             float: right;
         }
@@ -1431,7 +1431,7 @@ section#sharing {
         @include span-columns(12 of 12);
 
         @include media($container) {
-            @include span-columns(6); 
+            @include span-columns(6);
         }
     }
     .twitter {
@@ -1464,10 +1464,10 @@ section#sharing {
             top: 50%;
             z-index: 100;
             right: 0;
-            margin: -70px 0 0 0;    
+            margin: -70px 0 0 0;
             width: 100%;
         }
-        
+
 
         h2 {
             color: #fff;
@@ -1512,7 +1512,7 @@ section#sharing {
             .user {
                 float: left;
                 display: block;
-                margin: 0px; 
+                margin: 0px;
 
                 a {
                     color: #111;
@@ -1546,10 +1546,10 @@ section#sharing {
                 width: 100%;
                 line-height: 1.6;
                 overflow: hidden;
-                white-space: pre-wrap; /* css-3 */    
+                white-space: pre-wrap; /* css-3 */
                 white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
-                white-space: -pre-wrap; /* Opera 4-6 */    
-                white-space: -o-pre-wrap; /* Opera 7 */    
+                white-space: -pre-wrap; /* Opera 4-6 */
+                white-space: -o-pre-wrap; /* Opera 7 */
                 word-wrap: break-word; /* Internet Explorer 5.5+ */
 
                 a {
@@ -1563,7 +1563,7 @@ section#sharing {
         }
     }
 
-    #flickr-feed { 
+    #flickr-feed {
         ul {
             width: 100%;
             li {
@@ -1588,7 +1588,7 @@ section#sharing {
 // --------------------------------------------
 // digest
 section#digest {
-    background: $secondary url(../img/digest-bg.png); 
+    background: $secondary url(../img/digest-bg.png);
 
     p {
         text-align: center;
@@ -1600,7 +1600,7 @@ section#digest {
         width: 100%;
         clear: both;
         font-family: $primary-font;
-        font-size: 14px;        
+        font-size: 14px;
         padding: 15px;
         float: left;
         opacity: 0;
@@ -1665,7 +1665,7 @@ section#digest {
 
         @include media($container) {
             @include span-columns(8);
-            @include shift(2);   
+            @include shift(2);
         }
 
         form {
@@ -1731,28 +1731,28 @@ section#sponsors {
         @include shift(0);
 
         @include media($container) {
-            @include span-columns(12);
-            @include shift(0);    
+            @include span-columns(8);
+            @include shift(2);
         }
 
         @include media(960px) {
-            @include span-columns(6);
-            @include shift(3);    
+            @include span-columns(4 of 12);
+            @include shift(4);
         }
 
         li {
-            position: relative;          
-
-            @include span-columns(8 of 12);
-            @include shift(2); 
-
-            @include media($container) {
-                @include span-columns(4 of 12);
-                @include shift(0); 
-            }
+            position: relative;
+            //
+            // @include span-columns(8 of 12);
+            // @include shift(2);
+            //
+            // @include media($container) {
+            //     @include span-columns(4 of 12);
+            //     @include shift(0);
+            // }
 
             img {
-                width: 100%;                
+                width: 100%;
                 height: auto;
                 display: block;
             }
@@ -1764,7 +1764,7 @@ section#sponsors {
         float: left;
         width: 220px;
         height: auto;
-        
+
     }
 
     p {
@@ -1783,10 +1783,10 @@ section#map {
     &.amazon .maptip {
         background: $amazon;
         color: #212121;
-        
+
         &:after {
             border-top-color: $amazon;
-        } 
+        }
     }
 
     .maptip {
@@ -1834,7 +1834,7 @@ section#learn {
         text-align: center;
 
         @include media($container) {
-            margin-bottom: 40px;         
+            margin-bottom: 40px;
         }
     }
     .books {
@@ -1845,7 +1845,7 @@ section#learn {
 
         @include media($container) {
             width: 140px;
-            height: 100px;    
+            height: 100px;
         }
     }
 
@@ -1857,11 +1857,11 @@ section#learn {
         margin-top: -10px;
         position: absolute;
         animation: anim-books 4s -0s cubic-bezier(0.7, 0, 0.3, 1) infinite;
-        width: 90px;     
+        width: 90px;
 
         @include media($container) {
             margin-top: 0px;
-        }   
+        }
 
         &:nth-child(2) {
             margin-left: -30px;
@@ -1932,15 +1932,15 @@ section#learn {
 
         @include media($container) {
             width: 140px;
-            height: 100px;    
-        }   
+            height: 100px;
+        }
 
         .camera {
             position: absolute;
             left: 50%;
             margin-top: 40px;
             margin-left: -35px;
-            display: block; 
+            display: block;
         }
 
         .base {
@@ -1949,14 +1949,14 @@ section#learn {
             background: $primary;
             border-radius: 3px;
             transition: 0.4s background ease 0s;
-        }  
+        }
 
-        .lense {           
-            width: 30px;                
+        .lense {
+            width: 30px;
             height: 20px;
             background: #D32424;
             position: absolute;
-            z-index: -10;            
+            z-index: -10;
             top: 15px;
             left: -25px;
             display: block;
@@ -1971,8 +1971,8 @@ section#learn {
                 display: block;
                 left: 0px;
                 top: -5px;
-                z-index: 10;     
-                transition: 0.4s background ease 0s;           
+                z-index: 10;
+                transition: 0.4s background ease 0s;
             }
         }
 
@@ -2019,35 +2019,35 @@ section#learn {
 
             &.last {
                 width: 44px;
-                height: 44px;                
+                height: 44px;
                 top: -22px;
                 left: 40px;
                 animation: anim-rotate 4s -1s linear infinite;
                 border-radius: 22px;
             }
         }
-        
+
     }
 
     .item {
         @include span-columns(12);
 
         @include media($container) {
-            @include span-columns(6 of 12);     
+            @include span-columns(6 of 12);
         }
         @include media($desktop) {
             a:hover i {
                 color: #111;
-            }      
+            }
 
             a:hover .main {
                 color: $secondary;
-            }     
+            }
 
             &:hover {
-                .omslagrond, .omslag, .rug {                    
+                .omslagrond, .omslag, .rug {
                     border-color: #2F896D;
-                }  
+                }
 
                 .rug {
                     border-top-color: $secondary;
@@ -2055,9 +2055,9 @@ section#learn {
             }
 
             a:hover {
-                .lense:after, .base, .roll {                
+                .lense:after, .base, .roll {
                     background: $secondary;
-                }  
+                }
 
                 .lense, .roll:before {
                     background: #2F896D;
@@ -2071,12 +2071,12 @@ section#learn {
             text-align: center;
             width: 100%;
             color: $base-text;
-            
+
             @include media($container) {
                 text-align: left;
                 float: none;
                 width: auto;
-                margin-left: 140px; 
+                margin-left: 140px;
             }
         }
     }
@@ -2114,7 +2114,7 @@ section#about {
             color: $base-text;
         }
     }
-    
+
     .arrow {
         display: block;
         width: 0;
@@ -2298,9 +2298,9 @@ section#contact {
 footer#footer {
     padding: 40px 0;
 
-    .copyright {        
+    .copyright {
         text-align: center;
         width: 100%;
-        font-size: 1.5rem; 
+        font-size: 1.5rem;
     }
 }
