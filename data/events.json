@@ -25,7 +25,11 @@
                 "time": "18:30",
                 "title": "Edurio's Broccoli Product: How Good Ideas Fail",
                 "type": "speech",
-                "video": ""
+                "video": "",
+                "cards": {
+                    "event-speaker_card_v1-20170404-janis_strods": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-speaker_card_v1-20170404-janis_strods.png",
+                    "event-speaker_card_v2-20170404-janis_strods": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-speaker_card_v2-20170404-janis_strods.png"
+                }
             },
             {
                 "time": "19:10",
@@ -40,7 +44,11 @@
                 "time": "19:20",
                 "title": "4 horsemen of the startup apocalypse",
                 "type": "speech",
-                "video": ""
+                "video": "",
+                "cards": {
+                    "event-speaker_card_v1-20170404-arthur_timofeyeev": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-speaker_card_v1-20170404-arthur_timofeyeev.png",
+                    "event-speaker_card_v2-20170404-arthur_timofeyeev": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-speaker_card_v2-20170404-arthur_timofeyeev.png"
+                }
             },
             {
                 "time": "20:00",
@@ -55,7 +63,11 @@
                 "time": "20:10",
                 "title": "From Tanks to Teslas",
                 "type": "speech",
-                "video": ""
+                "video": "",
+                "cards": {
+                    "event-speaker_card_v1-20170404-valerija_makijenko": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-speaker_card_v1-20170404-valerija_makijenko.png",
+                    "event-speaker_card_v2-20170404-valerija_makijenko": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-speaker_card_v2-20170404-valerija_makijenko.png"
+                }
             },
             {
                 "time": "20:50",
@@ -69,7 +81,17 @@
         "venueId": 8525599,
         "videoStreaming": true,
         "eventbriteEventId": "33248056833",
-        "tickets": "https://www.eventbrite.com/e/latcraft-product-development-tickets-33248056833"
+        "tickets": "https://www.eventbrite.com/e/latcraft-product-development-tickets-33248056833",
+        "cards": {
+            "event-normal_event_card_v1-20170404": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-normal_event_card_v1-20170404.png",
+            "event-normal_event_card_v2-20170404": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-normal_event_card_v2-20170404.png",
+            "event-normal_event_card_v3-20170404": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-normal_event_card_v3-20170404.png",
+            "event-normal_event_facebook_background_v1-20170404": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-normal_event_facebook_background_v1-20170404.png",
+            "event-normal_event_facebook_background_v2-20170404": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-normal_event_facebook_background_v2-20170404.png",
+            "event-workshop_event_card_v1-20170404": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-workshop_event_card_v1-20170404.png",
+            "event-workshop_event_card_v2-20170404": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-workshop_event_card_v2-20170404.png",
+            "event-workshop_facebook_background_v1-20170404": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-workshop_facebook_background_v1-20170404.png"
+        }
     },
     {
         "announced": false,
