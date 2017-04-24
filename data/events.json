@@ -157,25 +157,6 @@
                 "presentation": "https://www.slideshare.net/latcraft/edurios-broccoli-product-how-good-ideas-fail" 
             },
             {
-                "time": "19:10",
-                "title": "Coffee Break",
-                "type": "break"
-            },
-            {
-                "bio": "Product specialist and UX researcher",
-                "cards": {
-                    "event-speaker_card_v1-20170404-arthur_timofeyeev": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-speaker_card_v1-20170404-arthur_timofeyeev.png",
-                    "event-speaker_card_v2-20170404-arthur_timofeyeev": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-speaker_card_v2-20170404-arthur_timofeyeev.png"
-                },
-                "description": "Garage Travel is a community-marketplace for craftsman and creative people to exchange unique experiences, whether it is a tour, workshop or educational course. There are lots of stories on successful experiences, but this story will focus on 4 deadly mistakes you should avoid to conquer the market. Success has many faces and it is nearly impossible to repeat someone\u2019s path, but it is always good to be aware of your enemies.",
-                "img": "img/speakers/arturtimofeev.png",
-                "name": "Arthur Timofeyeev",
-                "time": "19:20",
-                "title": "4 horsemen of the startup apocalypse",
-                "type": "speech",
-                "video": ""
-            },
-            {
                 "time": "20:00",
                 "title": "Coffee Break",
                 "type": "break"
