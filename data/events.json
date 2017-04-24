@@ -2,7 +2,92 @@
     {
         "announced": "true",
         "announcements": [
-            
+
+        ],
+        "capacity": 100,
+        "classes": "extended_event",
+        "date": "3 May, 2017",
+        "desc": "Having a healthy body and mind is an essential part of human well-being. This time, we will cover topics that are crucial and, sometimes, foreign to us – IT professionals. We'll discuss practical aspects of Yoga, bust some of the healty nutrition myths, see EMS fitness in action and practice Krav Maga – the modern self defense. Grab your ticket, bring your friends and spread the word!",
+        "endTime": "21:30",
+        "maps": "https://www.google.lv/maps/place/Microsoft+Latvia+Sia/@56.9518346,24.1135864,17z/data=!3m1!4b1!4m2!3m1!1s0x46eecfd1895509f1:0x87193c3b2eaf2d7c?hl=en",
+        "month": "May 2017",
+        "schedule": [
+            {
+                "time": "18:30",
+                "title": "Event Opening",
+                "type": "start"
+            },
+            {
+                "bio": "",
+                "description": "Nutritional advice nowadays is more available and more controversial than ever before. From vegan smoothie cleanses and gluten-free cookie recipes to fasting at full moon and bodybuilding high protein diets – healthy eating guidelines can be a bit confusing, can’t they? This is a story of a person who had tried them all over a period of 10 years in search for a perfectly healthy diet strategy and the surprising conclusions she came to.",
+                "img": "img/speakers/maraskre.jpg",
+                "name": "Māra Skredele",
+                "time": "18:30",
+                "title": "The Unhealthy Side of Healthy Nutrition: Pitfalls and Lessons",
+                "type": "speech",
+                "video": ""
+            },
+            {
+                "time": "19:10",
+                "title": "Coffee Break",
+                "type": "break"
+            },
+            {
+                "bio": "Founder, Fitness Instructor @ EMS Nation",
+                "description": "EMS Nation is an innovation in the fitness industry. EMS Nation combines the modern technology and scientific facts with electrical muscle stimulation (EMS), in this way you can rich to your best top shape in fastest possible way. A 40-minute training session replaces 4 hours of traditional training sessions at gym. EMS Nation means experiencing innovation.",
+                "img": "img/speakers/raitisda.png",
+                "name": "Raitis Daugelis",
+                "time": "19:10",
+                "title": "EMS – New Generation Fitness",
+                "type": "speech",
+                "video": ""
+            },
+            {
+                "time": "19:40",
+                "title": "Coffee Break",
+                "type": "break"
+            },
+            {
+                "bio": "Yoga instructor @ Pole & Harmony",
+                "description": "Nowadays yoga is one of the most popular ways to take care of the body, but at the same time – one the most misunderstood. During this talk you'll get a clearer idea of yoga and what it can do for your physical and mental wellbeing. No mantras, no chakras – just facts.",
+                "img": "img/speakers/dianamo.png",
+                "name": "Diana Mo",
+                "time": "19:40",
+                "title": "Yoga – DeBugging the Body",
+                "type": "speech",
+                "video": ""
+            },
+            {
+                "time": "20:20",
+                "title": "Coffee Break",
+                "type": "break"
+            },
+            {
+                "bio": "Krav Mava Instructor, Founder @ Drošā Distance",
+                "description": "Ronalds will introduce you to Krav Maga and its principles. After a light warmup and some coordination exercises, you will try a couple of simple Krav Maga techniques. Both men and women allowed! :)",
+                "img": "img/speakers/ronalds.jpg",
+                "name": "Ronalds Seleckis",
+                "time": "20:30",
+                "title": "Krav Maga – Fast, Efficient and Natural Self-Defense",
+                "type": "speech",
+                "video": ""
+            },
+            {
+                "time": "21:00",
+                "title": "Closing Note",
+                "type": "finish"
+            }
+        ],
+        "theme": "Healthy Lifestyle",
+        "time": "18:30",
+        "venue": "Zala iela 1, Microsoft Latvia",
+        "venueId": 8525599,
+        "videoStreaming": true
+    },
+    {
+        "announced": "false",
+        "announcements": [
+
         ],
         "capacity": 130,
         "classes": "extended_event",
@@ -96,7 +181,7 @@
     {
         "announced": false,
         "announcements": [
-            
+
         ],
         "capacity": 130,
         "cards": {
@@ -190,7 +275,7 @@
     {
         "announced": false,
         "announcements": [
-            
+
         ],
         "capacity": 60,
         "cards": {
