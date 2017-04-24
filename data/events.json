@@ -327,7 +327,8 @@
                 "title": "Workshop on Elixir/Phoenix",
                 "twitter": "jesteracer",
                 "type": "speech",
-                "video": ""
+                "code": "https://github.com/jesteracer/latcrft_intro",
+                "presentation" "https://github.com/jesteracer/latcrft_battleshp"
             },
             {
                 "time": "19:20",
