@@ -262,6 +262,7 @@
                 },
                 "description": "In the talk, we will look at what a typical natural language processing (NLP) pipeline of basic NLP tools looks like for the development of applications that have to analyse, extract information from or (try to) understand natural languages. As an application example, we will look at how the different tools help machine translation systems to understand the language and perform better (or more informed) translation. We will also talk about what the challenges are in NLP applications and how they are tackled by higher level NLP tools.",
                 "img": "img/speakers/marcisp.jpg",
+                "presentation": "https://www.slideshare.net/MarcisPinnis/nlp-pipeline-in-machine-translation",
                 "name": "Marcis Pinnis",
                 "time": "19:25",
                 "title": "The NLP pipeline in Machine Translation",
