@@ -2,13 +2,14 @@
     {
         "announced": "true",
         "announcements": [
-
+            
         ],
         "capacity": 100,
         "classes": "extended_event",
         "date": "3 May, 2017",
-        "desc": "Having a healthy body and mind is an essential part of human well-being. This time, we will cover topics that are crucial and, sometimes, foreign to us – IT professionals. We'll discuss practical aspects of Yoga, bust some of the healty nutrition myths, see EMS fitness in action and practice Krav Maga – the modern self defense. Grab your ticket, bring your friends and spread the word!",
+        "desc": "Having a healthy body and mind is an essential part of human well-being. This time, we will cover topics that are crucial and, sometimes, foreign to us \u2013 IT professionals. We'll discuss practical aspects of Yoga, bust some of the healty nutrition myths, see EMS fitness in action and practice Krav Maga \u2013 the modern self defense. Grab your ticket, bring your friends and spread the word!",
         "endTime": "21:30",
+        "eventbriteEventId": "33986894717",
         "maps": "https://www.google.lv/maps/place/Microsoft+Latvia+Sia/@56.9518346,24.1135864,17z/data=!3m1!4b1!4m2!3m1!1s0x46eecfd1895509f1:0x87193c3b2eaf2d7c?hl=en",
         "month": "May 2017",
         "schedule": [
@@ -19,9 +20,9 @@
             },
             {
                 "bio": "",
-                "description": "Nutritional advice nowadays is more available and more controversial than ever before. From vegan smoothie cleanses and gluten-free cookie recipes to fasting at full moon and bodybuilding high protein diets – healthy eating guidelines can be a bit confusing, can’t they? This is a story of a person who had tried them all over a period of 10 years in search for a perfectly healthy diet strategy and the surprising conclusions she came to.",
+                "description": "Nutritional advice nowadays is more available and more controversial than ever before. From vegan smoothie cleanses and gluten-free cookie recipes to fasting at full moon and bodybuilding high protein diets \u2013 healthy eating guidelines can be a bit confusing, can\u2019t they? This is a story of a person who had tried them all over a period of 10 years in search for a perfectly healthy diet strategy and the surprising conclusions she came to.",
                 "img": "img/speakers/maraskre.jpg",
-                "name": "Māra Skredele",
+                "name": "M\u0101ra Skredele",
                 "time": "18:30",
                 "title": "The Unhealthy Side of Healthy Nutrition: Pitfalls and Lessons",
                 "type": "speech",
@@ -38,7 +39,7 @@
                 "img": "img/speakers/raitisda.png",
                 "name": "Raitis Daugelis",
                 "time": "19:10",
-                "title": "EMS – New Generation Fitness",
+                "title": "EMS \u2013 New Generation Fitness",
                 "type": "speech",
                 "video": ""
             },
@@ -49,11 +50,11 @@
             },
             {
                 "bio": "Yoga instructor @ Pole & Harmony",
-                "description": "Nowadays yoga is one of the most popular ways to take care of the body, but at the same time – one the most misunderstood. During this talk you'll get a clearer idea of yoga and what it can do for your physical and mental wellbeing. No mantras, no chakras – just facts.",
+                "description": "Nowadays yoga is one of the most popular ways to take care of the body, but at the same time \u2013 one the most misunderstood. During this talk you'll get a clearer idea of yoga and what it can do for your physical and mental wellbeing. No mantras, no chakras \u2013 just facts.",
                 "img": "img/speakers/dianamo.png",
                 "name": "Diana Mo",
                 "time": "19:40",
-                "title": "Yoga – DeBugging the Body",
+                "title": "Yoga \u2013 DeBugging the Body",
                 "type": "speech",
                 "video": ""
             },
@@ -63,12 +64,12 @@
                 "type": "break"
             },
             {
-                "bio": "Krav Mava Instructor, Founder @ Drošā Distance",
+                "bio": "Krav Mava Instructor, Founder @ Dro\u0161\u0101 Distance",
                 "description": "Ronalds will introduce you to Krav Maga and its principles. After a light warmup and some coordination exercises, you will try a couple of simple Krav Maga techniques. Both men and women allowed! :)",
                 "img": "img/speakers/ronalds.jpg",
                 "name": "Ronalds Seleckis",
                 "time": "20:30",
-                "title": "Krav Maga – Fast, Efficient and Natural Self-Defense",
+                "title": "Krav Maga \u2013 Fast, Efficient and Natural Self-Defense",
                 "type": "speech",
                 "video": ""
             },
@@ -79,6 +80,7 @@
             }
         ],
         "theme": "Healthy Lifestyle",
+        "tickets": "https://www.eventbrite.com/e/latcraft-healthy-lifestyle-tickets-33986894717",
         "time": "18:30",
         "venue": "Zala iela 1, Microsoft Latvia",
         "venueId": 8525599,
@@ -87,13 +89,24 @@
     {
         "announced": "false",
         "announcements": [
-
+            
         ],
         "capacity": 130,
+        "cards": {
+            "event-normal_event_card_v1-20170404": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-normal_event_card_v1-20170404.png",
+            "event-normal_event_card_v2-20170404": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-normal_event_card_v2-20170404.png",
+            "event-normal_event_card_v3-20170404": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-normal_event_card_v3-20170404.png",
+            "event-normal_event_facebook_background_v1-20170404": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-normal_event_facebook_background_v1-20170404.png",
+            "event-normal_event_facebook_background_v2-20170404": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-normal_event_facebook_background_v2-20170404.png",
+            "event-workshop_event_card_v1-20170404": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-workshop_event_card_v1-20170404.png",
+            "event-workshop_event_card_v2-20170404": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-workshop_event_card_v2-20170404.png",
+            "event-workshop_facebook_background_v1-20170404": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-workshop_facebook_background_v1-20170404.png"
+        },
         "classes": "extended_event",
         "date": "4 April, 2017",
         "desc": "Product Development is very important topic in our community. Knowing best practices is a key to successful product and business as a result. Our great speakers will tell stories of both ephemeral success, epic failures and share valuable takeaways to take home with you. Grab your ticket, bring your friends and spread the word!",
         "endTime": "21:30",
+        "eventbriteEventId": "33248056833",
         "maps": "https://www.google.lv/maps/place/Hotel+Mercure+Riga+Centre/@56.9476659,24.1211103,17z/data=!3m1!4b1!4m5!3m4!1s0x46eece2cb098446f:0x4ec855f9f6f64474!8m2!3d56.947663!4d24.123299?hl=en",
         "month": "April 2017",
         "schedule": [
@@ -104,17 +117,17 @@
             },
             {
                 "bio": "Founders and Head of R&D @ Edurio",
+                "cards": {
+                    "event-speaker_card_v1-20170404-janis_strods": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-speaker_card_v1-20170404-janis_strods.png",
+                    "event-speaker_card_v2-20170404-janis_strods": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-speaker_card_v2-20170404-janis_strods.png"
+                },
                 "description": "Edurio provides actionable feedback for school networks, principals, and teachers \u2013 a valuable idea that almost killed the company in 2016. This talk covers why having good ideas might be dangerous and tells Edurio's story of user research: from having ideas to identifying use-cases to a need-driven approach.",
                 "img": "img/speakers/jstrods.png",
                 "name": "Janis Strods",
                 "time": "18:30",
                 "title": "Edurio's Broccoli Product: How Good Ideas Fail",
                 "type": "speech",
-                "video": "",
-                "cards": {
-                    "event-speaker_card_v1-20170404-janis_strods": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-speaker_card_v1-20170404-janis_strods.png",
-                    "event-speaker_card_v2-20170404-janis_strods": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-speaker_card_v2-20170404-janis_strods.png"
-                }
+                "video": ""
             },
             {
                 "time": "19:10",
@@ -123,17 +136,17 @@
             },
             {
                 "bio": "Product specialist and UX researcher",
+                "cards": {
+                    "event-speaker_card_v1-20170404-arthur_timofeyeev": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-speaker_card_v1-20170404-arthur_timofeyeev.png",
+                    "event-speaker_card_v2-20170404-arthur_timofeyeev": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-speaker_card_v2-20170404-arthur_timofeyeev.png"
+                },
                 "description": "Garage Travel is a community-marketplace for craftsman and creative people to exchange unique experiences, whether it is a tour, workshop or educational course. There are lots of stories on successful experiences, but this story will focus on 4 deadly mistakes you should avoid to conquer the market. Success has many faces and it is nearly impossible to repeat someone\u2019s path, but it is always good to be aware of your enemies.",
                 "img": "img/speakers/arturtimofeev.png",
                 "name": "Arthur Timofeyeev",
                 "time": "19:20",
                 "title": "4 horsemen of the startup apocalypse",
                 "type": "speech",
-                "video": "",
-                "cards": {
-                    "event-speaker_card_v1-20170404-arthur_timofeyeev": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-speaker_card_v1-20170404-arthur_timofeyeev.png",
-                    "event-speaker_card_v2-20170404-arthur_timofeyeev": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-speaker_card_v2-20170404-arthur_timofeyeev.png"
-                }
+                "video": ""
             },
             {
                 "time": "20:00",
@@ -142,17 +155,17 @@
             },
             {
                 "bio": "R&D manager @ Visma Enterprise Latvia / Lecturer @ BDA and RTU",
+                "cards": {
+                    "event-speaker_card_v1-20170404-valerija_makijenko": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-speaker_card_v1-20170404-valerija_makijenko.png",
+                    "event-speaker_card_v2-20170404-valerija_makijenko": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-speaker_card_v2-20170404-valerija_makijenko.png"
+                },
                 "description": "Imagine you devoted your career to building military tanks and you are damn good at it. One day Product manager asks you to build Tesla. Yesterday. In this talk, I will share lessons learned from management and development team perspectives on what it takes to build new product in lean startup mode in a classy long-standing IT company.",
                 "img": "img/speakers/makijenko.jpg",
                 "name": "Val\u0113rija Makijenko",
                 "time": "20:10",
                 "title": "From Tanks to Teslas",
                 "type": "speech",
-                "video": "",
-                "cards": {
-                    "event-speaker_card_v1-20170404-valerija_makijenko": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-speaker_card_v1-20170404-valerija_makijenko.png",
-                    "event-speaker_card_v2-20170404-valerija_makijenko": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-speaker_card_v2-20170404-valerija_makijenko.png"
-                }
+                "video": ""
             },
             {
                 "time": "20:50",
@@ -161,27 +174,16 @@
             }
         ],
         "theme": "Product Development",
+        "tickets": "https://www.eventbrite.com/e/latcraft-product-development-tickets-33248056833",
         "time": "18:30",
         "venue": "Elizabetes iela 101, Hotel Mercure Riga Centre",
         "venueId": 19021352,
-        "videoStreaming": true,
-        "eventbriteEventId": "33248056833",
-        "tickets": "https://www.eventbrite.com/e/latcraft-product-development-tickets-33248056833",
-        "cards": {
-            "event-normal_event_card_v1-20170404": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-normal_event_card_v1-20170404.png",
-            "event-normal_event_card_v2-20170404": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-normal_event_card_v2-20170404.png",
-            "event-normal_event_card_v3-20170404": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-normal_event_card_v3-20170404.png",
-            "event-normal_event_facebook_background_v1-20170404": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-normal_event_facebook_background_v1-20170404.png",
-            "event-normal_event_facebook_background_v2-20170404": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-normal_event_facebook_background_v2-20170404.png",
-            "event-workshop_event_card_v1-20170404": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-workshop_event_card_v1-20170404.png",
-            "event-workshop_event_card_v2-20170404": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-workshop_event_card_v2-20170404.png",
-            "event-workshop_facebook_background_v1-20170404": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-workshop_facebook_background_v1-20170404.png"
-        }
+        "videoStreaming": true
     },
     {
         "announced": false,
         "announcements": [
-
+            
         ],
         "capacity": 130,
         "cards": {
@@ -275,7 +277,7 @@
     {
         "announced": false,
         "announcements": [
-
+            
         ],
         "capacity": 60,
         "cards": {
