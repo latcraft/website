@@ -1,14 +1,14 @@
 sudo: required
-
 services:
-  - docker
-
+- docker
 script:
-  - ./run.sh npm install
-  - ./run.sh gulp clean
-  - ./run.sh gulp build --environment live
-  - ./run.sh gulp deploy --environment live
-
+- "./run.sh npm install"
+- "./run.sh gulp clean"
+- "./run.sh gulp build --environment live"
+- "./run.sh gulp deploy --environment live"
 env:
   global:
     secure: cr9fimyQe0hfBgglpOCEz/dIbMN88BotH1n+hBTBi28xMJDHUJjv6CPESZa6L+13ABH55SRvLA6lGVWorD+DCqYrzx+7cLdiBj8DiVEhFLEZuo0/TxP5F6EEzie2SkhrtEaJXpnIUFFRKv1z2qGHnlHLtX/EsjhoLvMbGm7mLcY=
+notifications:
+  slack:
+    secure: Ioj5mSlcpRwfdtznwlnWboY5IbRzSZGy9LWZE1JJaiVh+l5SaWO0pch8s7GXPky1SaTrFDPQ3LOusVvbbSErb1PYbItKqis9QzKjmRO7Ui7X79I0FJzPuPp9K1VNwQ/JyEmbHn7+8+DMsPSQHMeD4mKhrPgfQ1o8trpD6N87xKY=
