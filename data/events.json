@@ -6,14 +6,14 @@
         ],
         "capacity": 100,
         "cards": {
-            "event-normal_event_card_v1-20170503": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-normal_event_card_v1-20170503.png",
-            "event-normal_event_card_v2-20170503": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-normal_event_card_v2-20170503.png",
-            "event-normal_event_card_v3-20170503": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-normal_event_card_v3-20170503.png",
-            "event-normal_event_facebook_background_v1-20170503": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-normal_event_facebook_background_v1-20170503.png",
-            "event-normal_event_facebook_background_v2-20170503": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-normal_event_facebook_background_v2-20170503.png",
-            "event-workshop_event_card_v1-20170503": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-workshop_event_card_v1-20170503.png",
-            "event-workshop_event_card_v2-20170503": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-workshop_event_card_v2-20170503.png",
-            "event-workshop_facebook_background_v1-20170503": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-workshop_facebook_background_v1-20170503.png"
+            "event-normal_event_card_v1-20170502": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-normal_event_card_v1-20170502.png",
+            "event-normal_event_card_v2-20170502": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-normal_event_card_v2-20170502.png",
+            "event-normal_event_card_v3-20170502": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-normal_event_card_v3-20170502.png",
+            "event-normal_event_facebook_background_v1-20170502": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-normal_event_facebook_background_v1-20170502.png",
+            "event-normal_event_facebook_background_v2-20170502": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-normal_event_facebook_background_v2-20170502.png",
+            "event-workshop_event_card_v1-20170502": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-workshop_event_card_v1-20170502.png",
+            "event-workshop_event_card_v2-20170502": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-workshop_event_card_v2-20170502.png",
+            "event-workshop_facebook_background_v1-20170502": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-workshop_facebook_background_v1-20170502.png"
         },
         "classes": "extended_event",
         "date": "3 May, 2017",
@@ -31,8 +31,8 @@
             {
                 "bio": "",
                 "cards": {
-                    "event-speaker_card_v1-20170503-mara_skredele": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-speaker_card_v1-20170503-mara_skredele.png",
-                    "event-speaker_card_v2-20170503-mara_skredele": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-speaker_card_v2-20170503-mara_skredele.png"
+                    "event-speaker_card_v1-20170502-mara_skredele": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-speaker_card_v1-20170502-mara_skredele.png",
+                    "event-speaker_card_v2-20170502-mara_skredele": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-speaker_card_v2-20170502-mara_skredele.png"
                 },
                 "description": "Nutritional advice nowadays is more available and more controversial than ever before. From vegan smoothie cleanses and gluten-free cookie recipes to fasting at full moon and bodybuilding high protein diets \u2013 healthy eating guidelines can be a bit confusing, can\u2019t they? This is a story of a person who had tried them all over a period of 10 years in search for a perfectly healthy diet strategy and the surprising conclusions she came to.",
                 "img": "img/speakers/maraskre.jpg",
@@ -50,8 +50,8 @@
             {
                 "bio": "Founder, Fitness Instructor @ EMS Nation",
                 "cards": {
-                    "event-speaker_card_v1-20170503-raitis_daugelis": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-speaker_card_v1-20170503-raitis_daugelis.png",
-                    "event-speaker_card_v2-20170503-raitis_daugelis": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-speaker_card_v2-20170503-raitis_daugelis.png"
+                    "event-speaker_card_v1-20170502-raitis_daugelis": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-speaker_card_v1-20170502-raitis_daugelis.png",
+                    "event-speaker_card_v2-20170502-raitis_daugelis": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-speaker_card_v2-20170502-raitis_daugelis.png"
                 },
                 "description": "EMS Nation is an innovation in the fitness industry. EMS Nation combines the modern technology and scientific facts with electrical muscle stimulation (EMS), in this way you can rich to your best top shape in fastest possible way. A 40-minute training session replaces 4 hours of traditional training sessions at gym. EMS Nation means experiencing innovation.",
                 "img": "img/speakers/raitisda.png",
@@ -69,8 +69,8 @@
             {
                 "bio": "Yoga instructor @ Pole & Harmony",
                 "cards": {
-                    "event-speaker_card_v1-20170503-diana_mo": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-speaker_card_v1-20170503-diana_mo.png",
-                    "event-speaker_card_v2-20170503-diana_mo": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-speaker_card_v2-20170503-diana_mo.png"
+                    "event-speaker_card_v1-20170502-diana_mo": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-speaker_card_v1-20170502-diana_mo.png",
+                    "event-speaker_card_v2-20170502-diana_mo": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-speaker_card_v2-20170502-diana_mo.png"
                 },
                 "description": "Nowadays yoga is one of the most popular ways to take care of the body, but at the same time \u2013 one the most misunderstood. During this talk you'll get a clearer idea of yoga and what it can do for your physical and mental wellbeing. No mantras, no chakras \u2013 just facts.",
                 "img": "img/speakers/dianamo.png",
@@ -88,8 +88,8 @@
             {
                 "bio": "Krav Maga Instructor, Founder @ Dro\u0161\u0101 Distance",
                 "cards": {
-                    "event-speaker_card_v1-20170503-ronalds_seleckis": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-speaker_card_v1-20170503-ronalds_seleckis.png",
-                    "event-speaker_card_v2-20170503-ronalds_seleckis": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-speaker_card_v2-20170503-ronalds_seleckis.png"
+                    "event-speaker_card_v1-20170502-ronalds_seleckis": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-speaker_card_v1-20170502-ronalds_seleckis.png",
+                    "event-speaker_card_v2-20170502-ronalds_seleckis": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-speaker_card_v2-20170502-ronalds_seleckis.png"
                 },
                 "description": "Ronalds will introduce you to Krav Maga and its principles. After a light warmup and some coordination exercises, you will try a couple of simple Krav Maga techniques. Both men and women allowed! :)",
                 "img": "img/speakers/ronalds.jpg",
@@ -154,7 +154,7 @@
                 "title": "Edurio's Broccoli Product: How Good Ideas Fail",
                 "type": "speech",
                 "video": "https://www.facebook.com/groups/latcraft/permalink/1278226875607108/",
-                "presentation": "https://www.slideshare.net/latcraft/edurios-broccoli-product-how-good-ideas-fail" 
+                "presentation": "https://www.slideshare.net/latcraft/edurios-broccoli-product-how-good-ideas-fail"
             },
             {
                 "time": "20:00",
