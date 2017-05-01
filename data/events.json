@@ -6,7 +6,8 @@
         ],
         "capacity": 100,
         "cards": {
-            "event-normal_event_card_v3-20170503": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-normal_event_card_v3-20170503.png"
+            "event-normal_event_card_v3-20170503": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-normal_event_card_v3-20170503.png",
+            "event-normal_event_card_v2-20170503": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-normal_event_card_v2-20170503.png"
         },
         "classes": "extended_event",
         "date": "3 May, 2017",
