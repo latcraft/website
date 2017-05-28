@@ -35,7 +35,7 @@
                 "title": "Specification by Example",
                 "twitter": "BuyerDeck",
                 "type": "speech",
-                cards : {
+                "cards" : {
                   "event-speaker_card_v2-20170606-andrey_grave" : "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-speaker_card_v2-20170606-andrey_grave.png"
                 }
             },
