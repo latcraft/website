@@ -1,54 +1,58 @@
 [
-  {
-      "announced": "false",
-      "announcements": [
-      ],
-      "capacity": 60,
-      "cards": {
-      },
-      "classes": "extended_event",
-      "date": "6 June, 2017",
-      "month": "June 2017",
-      "theme": "Specification by Example workshop",
-      "time": "18:30",
-      "endTime": "21:30",
-      "venueId": "15861354",
-      "venue": "Visma Labs, 3/5 Kronvalda bulvaris",
-      "maps": "https://www.google.lv/maps/search/Visma+Labs,+3%2F5+Kronvalda+bulvaris/@56.965638,24.0985128,14z/data=!3m1!4b1?hl=en",
-      "videoStreaming": true,
-      "desc": "In this workshop, you will learn Specification by Example – a modern, collaborative technique for crafting lucid requirements and functional tests using BDD. After the workshop, you will have a solid understanding what Specification by Example is about, why and when to use it, how it helps eliminate ambiguity in requirements and build shared understanding within the team. You will also see some tools in action like Cucumber and Spock. Everyone is welcome – developers, QA engineers, product and dev managers! No laptops needed!",
-      "schedule": [
-          {
-              "time": "18:30",
-              "title": "Event Opening",
-              "type": "start"
-          },
-          {
-              "bio": "An independent consultant",
-              "description": "Andrey Grave is software developer with 15 years of software development experience in various organizations, using different technologies and approaches. Andrey is open minded, positive, fun loving guy, who is passionate about software development and believes that software development is true magic of modern times.",
-              "img": "img/speakers/andreygrave.png",
-              "name": "Andrey Grave",
-              "time": "18:30",
-              "title": "Specification by Example",
-              "twitter": "BuyerDeck",
-              "type": "speech"
-          },
-          {
-              "time": "19:30",
-              "title": "Coffee Break",
-              "type": "break"
-          },
-          {
-              "time": "21:00",
-              "title": "Closing Note",
-              "type": "finish"
-          }
-      ]
-  },
-  {
+    {
+        "announced": "true",
+        "announcements": [
+            
+        ],
+        "capacity": 60,
+        "cards": {
+            
+        },
+        "classes": "extended_event",
+        "date": "6 June, 2017",
+        "month": "June 2017",
+        "theme": "Specification by Example workshop",
+        "time": "18:30",
+        "endTime": "21:30",
+        "venueId": "15861354",
+        "venue": "Visma Labs, 3/5 Kronvalda bulvaris",
+        "maps": "https://www.google.lv/maps/search/Visma+Labs,+3%2F5+Kronvalda+bulvaris/@56.965638,24.0985128,14z/data=!3m1!4b1?hl=en",
+        "videoStreaming": true,
+        "desc": "In this workshop, you will learn Specification by Example \u2013 a modern, collaborative technique for crafting lucid requirements and functional tests using BDD. After the workshop, you will have a solid understanding what Specification by Example is about, why and when to use it, how it helps eliminate ambiguity in requirements and build shared understanding within the team. You will also see some tools in action like Cucumber and Spock. Everyone is welcome \u2013 developers, QA engineers, product and dev managers! No laptops needed!",
+        "schedule": [
+            {
+                "time": "18:30",
+                "title": "Event Opening",
+                "type": "start"
+            },
+            {
+                "bio": "An independent consultant",
+                "description": "Andrey Grave is software developer with 15 years of software development experience in various organizations, using different technologies and approaches. Andrey is open minded, positive, fun loving guy, who is passionate about software development and believes that software development is true magic of modern times.",
+                "img": "img/speakers/andreygrave.png",
+                "name": "Andrey Grave",
+                "time": "18:30",
+                "title": "Specification by Example",
+                "twitter": "BuyerDeck",
+                "type": "speech"
+            },
+            {
+                "time": "19:30",
+                "title": "Coffee Break",
+                "type": "break"
+            },
+            {
+                "time": "21:00",
+                "title": "Closing Note",
+                "type": "finish"
+            }
+        ],
+        "eventbriteEventId": "34940583225",
+        "tickets": "https://www.eventbrite.com/e/latcraft-specification-by-example-workshop-tickets-34940583225"
+    },
+    {
         "announced": "false",
         "announcements": [
-
+            
         ],
         "capacity": 100,
         "cards": {
@@ -71,7 +75,7 @@
             {
                 "bio": "",
                 "cards": {
-
+                    
                 },
                 "description": "Nutritional advice nowadays is more available and more controversial than ever before. From vegan smoothie cleanses and gluten-free cookie recipes to fasting at full moon and bodybuilding high protein diets \u2013 healthy eating guidelines can be a bit confusing, can\u2019t they? This is a story of a person who had tried them all over a period of 10 years in search for a perfectly healthy diet strategy and the surprising conclusions she came to.",
                 "img": "img/speakers/maraskre.jpg",
@@ -90,7 +94,7 @@
             {
                 "bio": "Founder, Fitness Instructor @ EMS Nation",
                 "cards": {
-
+                    
                 },
                 "description": "EMS Nation is an innovation in the fitness industry. EMS Nation combines the modern technology and scientific facts with electrical muscle stimulation (EMS), in this way you can rich to your best top shape in fastest possible way. A 40-minute training session replaces 4 hours of traditional training sessions at gym. EMS Nation means experiencing innovation.",
                 "img": "img/speakers/raitisda.png",
@@ -108,7 +112,7 @@
             {
                 "bio": "Yoga instructor @ Pole & Harmony",
                 "cards": {
-
+                    
                 },
                 "description": "Nowadays yoga is one of the most popular ways to take care of the body, but at the same time \u2013 one the most misunderstood. During this talk you'll get a clearer idea of yoga and what it can do for your physical and mental wellbeing. No mantras, no chakras \u2013 just facts.",
                 "img": "img/speakers/dianamo.png",
@@ -127,7 +131,7 @@
             {
                 "bio": "Krav Maga Instructor, Founder @ Dro\u0161\u0101 Distance",
                 "cards": {
-
+                    
                 },
                 "description": "Ronalds will introduce you to Krav Maga and its principles. After a light warmup and some coordination exercises, you will try a couple of simple Krav Maga techniques. Both men and women allowed! :)",
                 "img": "img/speakers/ronalds.jpg",
@@ -153,7 +157,7 @@
     {
         "announced": "false",
         "announcements": [
-
+            
         ],
         "capacity": 130,
         "cards": {
@@ -230,7 +234,7 @@
     {
         "announced": false,
         "announcements": [
-
+            
         ],
         "capacity": 130,
         "cards": {
@@ -327,7 +331,7 @@
     {
         "announced": false,
         "announcements": [
-
+            
         ],
         "capacity": 60,
         "cards": {
