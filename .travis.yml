@@ -12,7 +12,7 @@ script:
 - "./run.sh gulp deploy --environment live"
 env:
   global:
-    secure: cr9fimyQe0hfBgglpOCEz/dIbMN88BotH1n+hBTBi28xMJDHUJjv6CPESZa6L+13ABH55SRvLA6lGVWorD+DCqYrzx+7cLdiBj8DiVEhFLEZuo0/TxP5F6EEzie2SkhrtEaJXpnIUFFRKv1z2qGHnlHLtX/EsjhoLvMbGm7mLcY=
+    secure: "ZEhL7lAizcG4sTx5tBgve2sI4QcpFo7Uj1aZe8Lny7WoxXzGyLV6Eppdj2WQU0OEzfo6Kx8ai+Cpehv4Tldi1zQh65ghg0yprUZKQc/HWlVUbKm2Sk68aKhtFvJLrG1d4lrm1phGCdFmaEXQpRFlKF2cMuCP2KwuQHJLqB/oJhA="
 notifications:
   slack:
     secure: Ioj5mSlcpRwfdtznwlnWboY5IbRzSZGy9LWZE1JJaiVh+l5SaWO0pch8s7GXPky1SaTrFDPQ3LOusVvbbSErb1PYbItKqis9QzKjmRO7Ui7X79I0FJzPuPp9K1VNwQ/JyEmbHn7+8+DMsPSQHMeD4mKhrPgfQ1o8trpD6N87xKY=
