@@ -32,6 +32,7 @@
                 "img": "img/speakers/andreygrave.png",
                 "name": "Andrey Grave",
                 "time": "18:30",
+                "presentation": "https://www.slideshare.net/latcraft/specificationbyexample-workshop-at-latcraft",
                 "title": "Specification by Example",
                 "twitter": "andreygrave",
                 "type": "speech",
