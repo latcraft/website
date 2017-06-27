@@ -1,6 +1,6 @@
 [
     {
-        "announced": "false",
+        "announced": "true",
         "announcements": [
             {
                 "description": "DevTernity 2017 agenda is being secretly prepared. Checkout the first <a href=\"http://devternity.com\">schedule entries</a>!",
@@ -68,17 +68,19 @@
                 "title": "Closing Note",
                 "type": "finish"
             }
-        ]
+        ],
+        "eventbriteEventId": "35736183888",
+        "tickets": "https://www.eventbrite.com/e/latcraft-chatbots-tickets-35736183888"
     },
     {
         "announced": "false",
         "announcements": [
-
+            
         ],
         "capacity": 60,
         "cards": {
-          "event-normal_event_facebook_background_v2-20170606" : "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-normal_event_facebook_background_v2-20170606.png",
-          "event-normal_event_card_v3-20170606" : "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-normal_event_card_v3-20170606.png"
+            "event-normal_event_facebook_background_v2-20170606": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-normal_event_facebook_background_v2-20170606.png",
+            "event-normal_event_card_v3-20170606": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-normal_event_card_v3-20170606.png"
         },
         "date": "6 June, 2017",
         "month": "June 2017",
@@ -106,8 +108,8 @@
                 "title": "Specification by Example",
                 "twitter": "andreygrave",
                 "type": "speech",
-                "cards" : {
-                  "event-speaker_card_v2-20170606-andrey_grave" : "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-speaker_card_v2-20170606-andrey_grave.png"
+                "cards": {
+                    "event-speaker_card_v2-20170606-andrey_grave": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-speaker_card_v2-20170606-andrey_grave.png"
                 }
             },
             {
@@ -127,7 +129,7 @@
     {
         "announced": "false",
         "announcements": [
-
+            
         ],
         "capacity": 100,
         "cards": {
@@ -150,7 +152,7 @@
             {
                 "bio": "",
                 "cards": {
-
+                    
                 },
                 "description": "Nutritional advice nowadays is more available and more controversial than ever before. From vegan smoothie cleanses and gluten-free cookie recipes to fasting at full moon and bodybuilding high protein diets \u2013 healthy eating guidelines can be a bit confusing, can\u2019t they? This is a story of a person who had tried them all over a period of 10 years in search for a perfectly healthy diet strategy and the surprising conclusions she came to.",
                 "img": "img/speakers/maraskre.jpg",
@@ -169,7 +171,7 @@
             {
                 "bio": "Founder, Fitness Instructor @ EMS Nation",
                 "cards": {
-
+                    
                 },
                 "description": "EMS Nation is an innovation in the fitness industry. EMS Nation combines the modern technology and scientific facts with electrical muscle stimulation (EMS), in this way you can rich to your best top shape in fastest possible way. A 40-minute training session replaces 4 hours of traditional training sessions at gym. EMS Nation means experiencing innovation.",
                 "img": "img/speakers/raitisda.png",
@@ -187,7 +189,7 @@
             {
                 "bio": "Yoga instructor @ Pole & Harmony",
                 "cards": {
-
+                    
                 },
                 "description": "Nowadays yoga is one of the most popular ways to take care of the body, but at the same time \u2013 one the most misunderstood. During this talk you'll get a clearer idea of yoga and what it can do for your physical and mental wellbeing. No mantras, no chakras \u2013 just facts.",
                 "img": "img/speakers/dianamo.png",
@@ -206,7 +208,7 @@
             {
                 "bio": "Krav Maga Instructor, Founder @ Dro\u0161\u0101 Distance",
                 "cards": {
-
+                    
                 },
                 "description": "Ronalds will introduce you to Krav Maga and its principles. After a light warmup and some coordination exercises, you will try a couple of simple Krav Maga techniques. Both men and women allowed! :)",
                 "img": "img/speakers/ronalds.jpg",
@@ -232,7 +234,7 @@
     {
         "announced": "false",
         "announcements": [
-
+            
         ],
         "capacity": 130,
         "cards": {
@@ -309,7 +311,7 @@
     {
         "announced": false,
         "announcements": [
-
+            
         ],
         "capacity": 130,
         "cards": {
@@ -406,7 +408,7 @@
     {
         "announced": false,
         "announcements": [
-
+            
         ],
         "capacity": 60,
         "cards": {
