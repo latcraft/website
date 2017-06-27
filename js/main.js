@@ -157,8 +157,8 @@ $(document).ready(function() {
 	var overlay;
 	function initialize() {
 	    // var myLatLng = new google.maps.LatLng(56.947801,24.123290); // Mercure Centre Riga
-	    //var myLatLng = new google.maps.LatLng(56.959081,24.114304); // Microsoft
-	    var myLatLng = new google.maps.LatLng(56.9550172,24.1000566); // Visma
+	    var myLatLng = new google.maps.LatLng(56.959081,24.114304); // Microsoft
+	    // var myLatLng = new google.maps.LatLng(56.9550172,24.1000566); // Visma
 	    // var myLatLng = new google.maps.LatLng(56.953217, 24.100589); // Citadele
 
 	    var mapOptions = {

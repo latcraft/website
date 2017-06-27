@@ -1,6 +1,77 @@
 [
     {
-        "announced": "true",
+        "announced": "false",
+        "announcements": [
+            {
+                "description": "DevTernity 2017 agenda is being secretly prepared. Checkout the first <a href=\"http://devternity.com\">schedule entries</a>!",
+                "img": "img/newsletter/devternity.png"
+            }
+        ],
+        "capacity": 120,
+        "date": "4 July, 2017",
+        "month": "July 2017",
+        "theme": "Chatbots",
+        "time": "18:30",
+        "endTime": "21:30",
+        "venue": "Zala iela 1, Microsoft Latvia",
+        "venueId": 8525599,
+        "maps": "https://www.google.lv/maps/place/Microsoft+Latvia+Sia/@56.9518346,24.1135864,17z/data=!3m1!4b1!4m2!3m1!1s0x46eecfd1895509f1:0x87193c3b2eaf2d7c?hl=en",
+        "videoStreaming": true,
+        "desc": "Chat-based software is becoming the main way of integrating humans and automation components. Let's bots in action, build some, discuss the possibilities. Are humans in danger? Is Skynet becoming a reality?",
+        "schedule": [
+            {
+                "time": "18:30",
+                "title": "Event Opening",
+                "type": "start"
+            },
+            {
+                "bio": "Extreme Automator",
+                "description": "Local software community/meetup management involves a lot of repetitive tasks: event publishing, notifications, statistical reports. Groovy, AWS Lambda, Terraform and Slack appeared to be a good combination to help creating valuable automation scripts and bots integrated into team's chat and ready to help. This presentation will describe building blocks that allow more effective management of Latvian Software Craftsmanship Community.",
+                "img": "img/speakers/adamovich.jpeg",
+                "name": "Andrey Adamovich",
+                "time": "18:40",
+                "title": "Bots at community service",
+                "twitter": "codingandrey",
+                "type": "speech",
+            },
+            {
+                "time": "19:20",
+                "title": "Coffee Break",
+                "type": "break"
+            },
+            {
+                "bio": "Software Development Coach",
+                "description": "In this live-coding session, Eduards will show how to build a full-blown chatbot for Slack. No fluff, just code.",
+                "img": "img/speakers/eduardsi.jpg",
+                "name": "Eduards Sizovs",
+                "time": "19:35",
+                "title": "Chatbot in just 20 minutes",
+                "twitter": "eduardsi",
+                "type": "speech"
+            },
+            {
+                "time": "19:50",
+                "title": "Coffee Break",
+                "type": "break"
+            },
+            {
+                "bio": "Full Stack Developer",
+                "description": "In this presentation, Janis will show us how to gain value of chat bots in service desk and save man-hours on repetitive tasks. We will also discuss lessons learned from the complexities involved in replicating human-to-human experience.",
+                "img": "img/speakers/janiscimbulis.png",
+                "name": "Janis Cimbulis",
+                "time": "20:05",
+                "title": "Customer support: humans or bots?",
+                "type": "speech"
+            },
+            {
+                "time": "20:55",
+                "title": "Closing Note",
+                "type": "finish"
+            }
+        ],
+    },
+    {
+        "announced": "false",
         "announcements": [
 
         ],
@@ -9,7 +80,6 @@
           "event-normal_event_facebook_background_v2-20170606" : "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-normal_event_facebook_background_v2-20170606.png",
           "event-normal_event_card_v3-20170606" : "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-normal_event_card_v3-20170606.png"
         },
-        "classes": "extended_event",
         "date": "6 June, 2017",
         "month": "June 2017",
         "theme": "Specification by Example workshop",
@@ -18,7 +88,7 @@
         "venueId": "15861354",
         "venue": "Visma Labs, 3/5 Kronvalda bulvaris",
         "maps": "https://www.google.lv/maps/search/Visma+Labs,+3%2F5+Kronvalda+bulvaris/@56.965638,24.0985128,14z/data=!3m1!4b1?hl=en",
-        "videoStreaming": true,
+        "videoStreaming": false,
         "desc": "In this workshop, you will learn Specification by Example \u2013 a modern, collaborative technique for crafting lucid requirements and functional tests using BDD. After the workshop, you will have a solid understanding what Specification by Example is about, why and when to use it, how it helps eliminate ambiguity in requirements and build shared understanding within the team. You will also see some tools in action like Cucumber and Spock. Everyone is welcome \u2013 developers, QA engineers, product and dev managers! No laptops needed!",
         "schedule": [
             {
