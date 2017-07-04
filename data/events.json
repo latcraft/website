@@ -25,13 +25,13 @@
                 "type": "start"
             },
             {
-                "bio": "Extreme Automator",
-                "description": "Local software community/meetup management involves a lot of repetitive tasks: event publishing, notifications, statistical reports. Groovy, AWS Lambda, Terraform and Slack appeared to be a good combination to help creating valuable automation scripts and bots integrated into team's chat and ready to help. This presentation will describe building blocks that allow more effective management of Latvian Software Craftsmanship Community.",
-                "img": "img/speakers/adamovich.jpeg",
-                "name": "Andrey Adamovich",
+                "bio": "Full Stack Developer",
+                "description": "In this presentation, Janis will show us how to gain value of chat bots in service desk and save man-hours on repetitive tasks. We will also discuss lessons learned from the complexities involved in replicating human-to-human experience.",
+                "img": "img/speakers/janiscimbulis.png",
+                "name": "Janis Cimbulis",
                 "time": "18:40",
-                "title": "Bots at community service",
-                "twitter": "codingandrey",
+                "title": "Customer support: humans or bots?",
+                "twitter": "cimbisj",
                 "type": "speech"
             },
             {
@@ -55,13 +55,13 @@
                 "type": "break"
             },
             {
-                "bio": "Full Stack Developer",
-                "description": "In this presentation, Janis will show us how to gain value of chat bots in service desk and save man-hours on repetitive tasks. We will also discuss lessons learned from the complexities involved in replicating human-to-human experience.",
-                "img": "img/speakers/janiscimbulis.png",
-                "name": "Janis Cimbulis",
+                "bio": "Extreme Automator",
+                "description": "Local software community/meetup management involves a lot of repetitive tasks: event publishing, notifications, statistical reports. Groovy, AWS Lambda, Terraform and Slack appeared to be a good combination to help creating valuable automation scripts and bots integrated into team's chat and ready to help. This presentation will describe building blocks that allow more effective management of Latvian Software Craftsmanship Community.",
+                "img": "img/speakers/adamovich.jpeg",
+                "name": "Andrey Adamovich",
                 "time": "20:05",
-                "title": "Customer support: humans or bots?",
-                "twitter": "cimbisj",
+                "title": "Bots at community service",
+                "twitter": "codingandrey",
                 "type": "speech"
             },
             {
