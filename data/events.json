@@ -54,7 +54,7 @@
                 "type": "speech"
             },
             {
-                "time": "19:50",
+                "time": "20:20",
                 "title": "Coffee Break",
                 "type": "break"
             },
@@ -63,7 +63,7 @@
                 "description": "Local software community/meetup management involves a lot of repetitive tasks: event publishing, notifications, statistical reports. Groovy, AWS Lambda, Terraform and Slack appeared to be a good combination to help creating valuable automation scripts and bots integrated into team's chat and ready to help.",
                 "img": "img/speakers/adamovich.jpeg",
                 "name": "Andrey Adamovich",
-                "time": "20:05",
+                "time": "20:30",
                 "title": "Bots at community service",
                 "twitter": "codingandrey",
                 "presentation": "https://www.slideshare.net/aestasit/bots-at-community-service-for-latcraft",
@@ -71,7 +71,7 @@
                 "type": "speech"
             },
             {
-                "time": "20:55",
+                "time": "21:05",
                 "title": "Closing Note",
                 "type": "finish"
             }
