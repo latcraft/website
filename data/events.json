@@ -32,6 +32,8 @@
                 "time": "18:40",
                 "title": "Customer support: humans or bots?",
                 "twitter": "cimbisj",
+                "presentation": "https://www.slideshare.net/latcraft/customer-support-humans-or-bots",
+                "video": "https://www.facebook.com/groups/latcraft/permalink/1375273672569094/",
                 "type": "speech"
             },
             {
@@ -47,6 +49,8 @@
                 "time": "19:35",
                 "title": "Chatbot in just 20 minutes",
                 "twitter": "eduardsi",
+                "presentation": "http://bit.ly/20minbot",
+                "video": "https://www.facebook.com/groups/latcraft/permalink/1375273672569094/",
                 "type": "speech"
             },
             {
@@ -56,12 +60,14 @@
             },
             {
                 "bio": "Extreme Automator",
-                "description": "Local software community/meetup management involves a lot of repetitive tasks: event publishing, notifications, statistical reports. Groovy, AWS Lambda, Terraform and Slack appeared to be a good combination to help creating valuable automation scripts and bots integrated into team's chat and ready to help. This presentation will describe building blocks that allow more effective management of Latvian Software Craftsmanship Community.",
+                "description": "Local software community/meetup management involves a lot of repetitive tasks: event publishing, notifications, statistical reports. Groovy, AWS Lambda, Terraform and Slack appeared to be a good combination to help creating valuable automation scripts and bots integrated into team's chat and ready to help.",
                 "img": "img/speakers/adamovich.jpeg",
                 "name": "Andrey Adamovich",
                 "time": "20:05",
                 "title": "Bots at community service",
                 "twitter": "codingandrey",
+                "presentation": "https://www.slideshare.net/aestasit/bots-at-community-service-for-latcraft",
+                "video": "https://www.facebook.com/groups/latcraft/permalink/1375273672569094/",
                 "type": "speech"
             },
             {
