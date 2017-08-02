@@ -1,6 +1,6 @@
 [
     {
-        "announced": "false",
+        "announced": "true",
         "announcements": [
             {
                 "description": "DevTernity 2017 agenda is being secretly prepared. Checkout the first <a href=\"http://devternity.com\">schedule entries</a>!",
@@ -17,7 +17,7 @@
         "venueId": 8525599,
         "maps": "https://www.google.lv/maps/place/Microsoft+Latvia+Sia/@56.9518346,24.1135864,17z/data=!3m1!4b1!4m2!3m1!1s0x46eecfd1895509f1:0x87193c3b2eaf2d7c?hl=en",
         "videoStreaming": true,
-        "desc": "Blockchain is here and we believe that it has an outstanding future. How it is already changing our lives today? Is the World economy shifting to cryptocurrencies? How much can robots do with smart contracts? Let’s discuss the most interesting stuff in our passionate community.",
+        "desc": "Blockchain is here and we believe that it has an outstanding future. How it is already changing our lives today? Is the World economy shifting to cryptocurrencies? How much can robots do with smart contracts? Let\u2019s discuss the most interesting stuff in our passionate community.",
         "schedule": [
             {
                 "time": "18:30",
@@ -26,7 +26,7 @@
             },
             {
                 "bio": "Founder @ Riga Bitcoin Meetup",
-                "description": "From the ancient use of codes and ciphers to today’s ICO bubble, cryptography - the technology used to protect sensitive information, began thousands of years ago. Today, the cumulative knowledge of some of the brightest minds has lead to one of the most controversial inventions of all times - one, which has the potential to impact almost every aspect of our lives, social and economic.",
+                "description": "From the ancient use of codes and ciphers to today\u2019s ICO bubble, cryptography - the technology used to protect sensitive information, began thousands of years ago. Today, the cumulative knowledge of some of the brightest minds has lead to one of the most controversial inventions of all times - one, which has the potential to impact almost every aspect of our lives, social and economic.",
                 "img": "img/speakers/viktorsdubica.jpeg",
                 "name": "Viktors Dubica",
                 "time": "18:40",
@@ -43,7 +43,7 @@
             },
             {
                 "bio": "CTO, Co-Founder @ ChromaWay",
-                "description": "Description: After discovering Bitcoin in 2010, Alex tried a bit of everything: implementing a futures exchange, leading the open source “colored coins” project, writing Ethereum contracts and, finally, making a new private blockchain & smart contract platform. In this talk Alex will explain how various concepts and approaches are connected and inter-related, while also sharing entertaining bits from blockchain tech history.",
+                "description": "Description: After discovering Bitcoin in 2010, Alex tried a bit of everything: implementing a futures exchange, leading the open source \u201ccolored coins\u201d project, writing Ethereum contracts and, finally, making a new private blockchain & smart contract platform. In this talk Alex will explain how various concepts and approaches are connected and inter-related, while also sharing entertaining bits from blockchain tech history.",
                 "img": "img/speakers/alexmizrahi.jpg",
                 "name": "Alex Mizrahi",
                 "time": "19:35",
@@ -58,15 +58,14 @@
                 "title": "Coffee Break",
                 "type": "break"
             },
-            
             {
                 "time": "21:05",
                 "title": "Closing Note",
                 "type": "finish"
             }
         ],
-        "eventbriteEventId": "",
-        "tickets": "",
+        "eventbriteEventId": "36716974459",
+        "tickets": "https://www.eventbrite.com/e/latcraft-blockchain-tickets-36716974459",
         "lanyrd": ""
     },
     {
