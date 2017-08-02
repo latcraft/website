@@ -31,9 +31,9 @@
                 "name": "Viktors Dubica",
                 "time": "18:40",
                 "title": "Cryptocurrencies: the past, the present, and the future",
-                "twitter": "test",
-                "presentation": "test",
-                "video": "test",
+                "twitter": "",
+                "presentation": "",
+                "video": "",
                 "type": "speech"
             },
             {
@@ -48,9 +48,9 @@
                 "name": "Alex Mizrahi",
                 "time": "19:35",
                 "title": "From Bitcoin to smart contracts: a journey through blockchain tech",
-                "twitter": "test",
-                "presentation": "",
-                "video": "",
+                "twitter": "cimbisj",
+                "presentation": "https://www.slideshare.net/latcraft/customer-support-humans-or-bots",
+                "video": "https://www.facebook.com/groups/latcraft/permalink/1375273672569094/",
                 "type": "speech"
             },
             {
