@@ -31,9 +31,9 @@
                 "name": "Viktors Dubica",
                 "time": "18:40",
                 "title": "Cryptocurrencies: the past, the present, and the future",
-                "twitter": "",
-                "presentation": "",
-                "video": "",
+                "twitter": "test",
+                "presentation": "test",
+                "video": "test",
                 "type": "speech"
             },
             {
@@ -48,7 +48,7 @@
                 "name": "Alex Mizrahi",
                 "time": "19:35",
                 "title": "From Bitcoin to smart contracts: a journey through blockchain tech",
-                "twitter": "",
+                "twitter": "test",
                 "presentation": "",
                 "video": "",
                 "type": "speech"
