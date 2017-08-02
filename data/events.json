@@ -29,7 +29,7 @@
                 "description": "From the ancient use of codes and ciphers to today’s ICO bubble, cryptography - the technology used to protect sensitive information, began thousands of years ago. Today, the cumulative knowledge of some of the brightest minds has lead to one of the most controversial inventions of all times - one, which has the potential to impact almost every aspect of our lives, social and economic.",
                 "img": "img/speakers/viktorsdubica.jpeg",
                 "name": "Viktors Dubica",
-                "time": "18:40",
+                "time": "18:200",
                 "title": "Cryptocurrencies: the past, the present, and the future",
                 "twitter": "",
                 "presentation": "",
@@ -46,7 +46,7 @@
                 "description": "Description: After discovering Bitcoin in 2010, Alex tried a bit of everything: implementing a futures exchange, leading the open source “colored coins” project, writing Ethereum contracts and, finally, making a new private blockchain & smart contract platform. In this talk Alex will explain how various concepts and approaches are connected and inter-related, while also sharing entertaining bits from blockchain tech history.",
                 "img": "img/speakers/alexmizrahi.jpg",
                 "name": "Alex Mizrahi",
-                "time": "19:35",
+                "time": "19:30",
                 "title": "From Bitcoin to smart contracts: a journey through blockchain tech",
                 "twitter": "",
                 "presentation": "",
@@ -54,7 +54,7 @@
                 "type": "speech"
             },
             {
-                "time": "20:20",
+                "time": "20:10",
                 "title": "Coffee Break",
                 "type": "break"
             },
@@ -65,9 +65,9 @@
                 "type": "finish"
             }
         ],
-        "eventbriteEventId": "",
-        "tickets": "",
-        "lanyrd": ""
+        "eventbriteEventId": "36716974459",
+        "tickets": "https://www.eventbrite.com/e/latcraft-chatbots-tickets-36716974459",
+        "lanyrd": "http://lanyrd.com/2017/latcraft-blockchain/"
     },
     {
         "announced": "false",
