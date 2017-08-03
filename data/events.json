@@ -58,7 +58,18 @@
                 "title": "Coffee Break",
                 "type": "break"
             },
-            
+            {
+                "bio": "co-founder in Publica, CEO Scandiweb",
+                "description": "ICOs have surpassed $1bn in raised capital in the first half of 2017 and the pace does not seem to slow down despite legal controversy, multiple cases of theft and absence of conventional business models. While, conclusions of whether ICO is a hype, bubble or a viable form of raising the capital are outside of the scope of the workshop, we will discuss the business aspects of it - what are the types of business that attract funds through ICO, what are the types of tokens to issue and related legal risks. What are the jurisdictions that support tokenisation and average costs and timeframe for legal structuring. For the illustration of technology challenges, the case of made in Latvia Tierion ICO platform raising $25m in 30 hours will be presented, while business model and legal aspects will be highlighted using Publica - one of the first companies in Latvia planning an ICO.",
+                "img": "img/speakers/antonssapriko.jpg",
+                "name": "Antons Sapriko",
+                "time": "20:20",
+                "title": "ICO - business, legal and technology challenges",
+                "twitter": "",
+                "presentation": "",
+                "video": "test",
+                "type": "speech"
+            },
             {
                 "time": "21:05",
                 "title": "Closing Note",
