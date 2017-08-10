@@ -25,15 +25,15 @@
                 "type": "start"
             },
             {
-                "bio": "Founder @ Riga Bitcoin Meetup",
+                "bio": "COO @ Paybis.com",
                 "description": "From the ancient use of codes and ciphers to today\u2019s ICO bubble, cryptography - the technology used to protect sensitive information, began thousands of years ago. Today, the cumulative knowledge of some of the brightest minds has lead to one of the most controversial inventions of all times - one, which has the potential to impact almost every aspect of our lives, social and economic.",
-                "img": "img/speakers/viktorsdubica.jpeg",
-                "name": "Viktors Dubica",
+                "img": "img/speakers/vasilenko.png",
+                "name": "Konstantin Vaislenko",
                 "time": "18:30",
-                "title": "Cryptocurrencies: the past, the present, and the future",
-                "twitter": "ViktorsDubica",
-                "presentation": "",
-                "video": "test",
+                "title": "High Level intro to Blockchain",
+                "twitter": "",
+                "presentation": "https://www.slideshare.net/latcraft/high-level-intro-to-blockchain",
+                "video": "",
                 "type": "speech"
             },
             {
@@ -49,8 +49,8 @@
                 "time": "19:30",
                 "title": "From Bitcoin to smart contracts: a journey through blockchain tech",
                 "twitter": "",
-                "presentation": "",
-                "video": "test",
+                "presentation": "https://www.slideshare.net/latcraft/blockchain-tech-the-journey",
+                "video": "",
                 "type": "speech"
             },
             {
@@ -66,8 +66,8 @@
                 "time": "20:20",
                 "title": "ICO - business, legal and technology challenges",
                 "twitter": "asapriko",
-                "presentation": "",
-                "video": "test",
+                "presentation": "https://www.slideshare.net/latcraft/ico-origin-business-legal-tech",
+                "video": "",
                 "type": "speech"
             },
             {
