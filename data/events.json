@@ -31,7 +31,8 @@
                 "title": "Product Driven Engineering & Engineer Driven Product at Taxify",
                 "type": "speech",
                 "tags": [
-                    
+                    "taxi",
+                    "product development"
                 ],
                 "audience": "all"
             },
@@ -49,7 +50,9 @@
                 "title": "Medical Knowledge Bases for Better Healthcare",
                 "type": "speech",
                 "tags": [
-                    
+                    "healthcare",
+                    "knowledge bases",
+                    "analytics"                    
                 ],
                 "audience": "all"
             },
@@ -69,7 +72,7 @@
                 "tags": [
                     "airlines",
                     "booking",
-                    "business logic"
+                    "economics"
                 ],
                 "audience": "all"
             },
