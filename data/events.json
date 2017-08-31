@@ -30,6 +30,7 @@
                 "description": "Taxify uses data-driven prioritization and high level of business awareness among engineers to improve teams efficiency and product quality. At the same time, it focuses on the hiring the best talent to effectively drive improvements in architecture, infrastructure, design and code quality and keep incredible growth, while not trading long-term value for short-term gains. In this talk, Julia will shed light on business and engineering aspects of Taxify.",
                 "img": "img/speakers/julia_karamarenko.png",
                 "name": "Julia Kramarenko",
+                "twitter": "jkramr",
                 "time": "18:40",
                 "title": "Product Driven Engineering & Engineer Driven Product at Taxify",
                 "type": "speech",
