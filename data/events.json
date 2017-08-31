@@ -2,7 +2,10 @@
     {
         "announced": "true",
         "announcements": [
-            
+            {
+                "description": "DevTernity 2017 agenda is 80% ready. Checkout the <a href=\"http://devternity.com\">schedule</a> and book tickets!",
+                "img": "img/newsletter/devternity.png"
+            }            
         ],
         "capacity": 120,
         "date": "5 September, 2017",
