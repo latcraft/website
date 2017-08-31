@@ -7,7 +7,8 @@
         "capacity": 120,
         "date": "5 September, 2017",
         "month": "September 2017",
-        "theme": "Secret event",
+        "theme": "IT Business you've always wondered about",
+        "short-theme": "IT Business",
         "time": "18:30",
         "endTime": "21:00",
         "venue": "Zala iela 1, Microsoft Latvia",
@@ -22,13 +23,12 @@
                 "type": "start"
             },
             {
-                "bio": "Superhero",
-                "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
-                "img": "img/speakers/sh_batman.jpg",
-                "name": "Batman",
+                "bio": "Senior Software Engineer @ Taxify",
+                "description": "In Taxify we use data driven prioritization and high level of business awareness among engineers to improve our teams efficiency and product quality. At the same time we focus on hiring best talents with great leadership skills to ensure engineer independence, unlock potential and be open to innovation, effectively drive improvements in architecture, infrastructure, design and code quality so we would maintain incredible growth, while not trading long term value for short term gains.",
+                "img": "img/speakers/julia_karamarenko.png",
+                "name": "Julia Kramarenko",
                 "time": "18:40",
-                "title": "Sed ut perspiciatis unde omnis",
-                "twitter": "batman",
+                "title": "Product Driven Engineering & Engineer Driven Product at Taxify",
                 "type": "speech",
                 "tags": [
                 ],
@@ -40,13 +40,12 @@
                 "type": "break"
             },
             {
-                "bio": "Spy",
-                "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. ",
-                "img": "img/speakers/sh_blackwidow.jpg",
-                "name": "Black Widow",
+                "bio": "Senior Developer @ INNOFORCE",
+                "description": "In this talk, Arthur will explain various aspects of challenging healthcare problems with anonymized data registries. The what and how of large scale cross organizational data analysis.",
+                "img": "img/speakers/artur_tabachnik.jpg",
+                "name": "Artur Tabachnik",
                 "time": "19:30",
-                "title": "Odio dignissimos ducimus qui blanditiis",
-                "twitter": "thewidow",
+                "title": "Medical Knowledge Bases for Better Healthcare",
                 "type": "speech",
                 "tags": [
                 ],
@@ -58,15 +57,17 @@
                 "type": "break"
             },
             {
-                "bio": "SecretOps",
-                "description": "Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
-                "img": "img/speakers/sh_ironman.jpg",
-                "name": "Tony Stark",
+                "bio": "Development Manager @ PrimeraAir",
+                "description": "Nowadays traveling by plane is more affordable than ever before. Has it always been like that? We are going to look in the past, briefly talk about the ticket price evolution over the last decades, the disruptive appearance of the low cost airlines. After that we are going to take a look at the systems which form the backbone of the commercial aviation, so we can answer the question on what is actually happening under the hood during the ticket purchasing process. What does actually form the price? Does it have anything to do with economics, supply and demand?",
+                "img": "img/speakers/vitaly_sekunov.jpg",
+                "name": "Vitaly Sekunov",
                 "time": "20:20",
-                "title": "Nam libero tempore, cum soluta nobis",
-                "twitter": "tonystark",
+                "title": "The Magnificent World of the Airlines or Behind Buying an Airplane Ticket",
                 "type": "speech",
                 "tags": [
+                   "airlines",
+                   "booking",
+                   "business logic"
                 ],
                 "audience": "all"
             },
