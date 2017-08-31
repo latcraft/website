@@ -29,7 +29,10 @@
                 "time": "18:40",
                 "title": "Sed ut perspiciatis unde omnis",
                 "twitter": "batman",
-                "type": "speech"
+                "type": "speech",
+                "tags": [
+                ],
+                "audience": "all"
             },
             {
                 "time": "19:20",
@@ -44,7 +47,10 @@
                 "time": "19:30",
                 "title": "Odio dignissimos ducimus qui blanditiis",
                 "twitter": "thewidow",
-                "type": "speech"
+                "type": "speech",
+                "tags": [
+                ],
+                "audience": "all"
             },
             {
                 "time": "20:10",
@@ -59,7 +65,10 @@
                 "time": "20:20",
                 "title": "Nam libero tempore, cum soluta nobis",
                 "twitter": "tonystark",
-                "type": "speech"
+                "type": "speech",
+                "tags": [
+                ],
+                "audience": "all"
             },
             {
                 "time": "21:00",
