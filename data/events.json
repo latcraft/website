@@ -1,6 +1,6 @@
 [
     {
-        "announced": "false",
+        "announced": "true",
         "announcements": [
             
         ],
@@ -31,6 +31,7 @@
                 "title": "Product Driven Engineering & Engineer Driven Product at Taxify",
                 "type": "speech",
                 "tags": [
+                    
                 ],
                 "audience": "all"
             },
@@ -48,6 +49,7 @@
                 "title": "Medical Knowledge Bases for Better Healthcare",
                 "type": "speech",
                 "tags": [
+                    
                 ],
                 "audience": "all"
             },
@@ -65,9 +67,9 @@
                 "title": "The Magnificent World of the Airlines or Behind Buying an Airplane Ticket",
                 "type": "speech",
                 "tags": [
-                   "airlines",
-                   "booking",
-                   "business logic"
+                    "airlines",
+                    "booking",
+                    "business logic"
                 ],
                 "audience": "all"
             },
@@ -76,7 +78,9 @@
                 "title": "Closing Note",
                 "type": "finish"
             }
-        ]
+        ],
+        "eventbriteEventId": "37484658623",
+        "tickets": "https://www.eventbrite.com/e/latcraft-it-business-youve-always-wondered-about-tickets-37484658623"
     },
     {
         "announced": "false",
