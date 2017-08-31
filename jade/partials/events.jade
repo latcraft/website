@@ -27,7 +27,7 @@ section#events
 										li 
 											strong facebook live:
 											a(href="https://www.facebook.com/groups/latcraft/videos/") watch
-								if event.announced
+								if event.announced && event.eventbriteEventId
 									a#reserve-seat.button.big book a seat
 
 						ul.speakers(class=event.classes)
