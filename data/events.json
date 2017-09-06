@@ -1,6 +1,6 @@
 [
     {
-        "announced": "true",
+        "announced": "false",
         "announcements": [
             {
                 "description": "DevTernity 2017 agenda is 80% ready. Checkout the <a href=\"http://devternity.com\">schedule</a> and book tickets!",
@@ -34,6 +34,8 @@
                 "time": "18:40",
                 "title": "Product Driven Engineering & Engineer Driven Product at Taxify",
                 "type": "speech",
+                "presentation": "https://www.slideshare.net/latcraft/lat-craft-0509-julia",
+                "video": "https://www.facebook.com/groups/latcraft/permalink/1438352166261244/",
                 "tags": [
                     "taxi",
                     "product development"
@@ -47,12 +49,14 @@
             },
             {
                 "bio": "Senior Developer @ INNOFORCE",
-                "description": "Have you ever wondered how the medical industry works? In this talk, Arthur will reveal how anonymised medical data is stored, collected and analysed, how it is being used to evaluate doctor and hospital performance as well as how advanced reports produced from that data help planning government funding",
+                "description": "Have you ever wondered how the medical industry works? In this talk, Arthur will reveal how anonymised medical data is stored, collected and analysed, how it is being used to evaluate doctor and hospital performance as well as how advanced reports produced from that data help planning government funding.",
                 "img": "img/speakers/artur_tabachnik.jpg",
                 "name": "Artur Tabachnik",
                 "time": "19:30",
                 "title": "Medical Knowledge Bases for Better Healthcare",
                 "type": "speech",
+                "presentation": "https://www.slideshare.net/latcraft/medical-knowledge-bases-for-better-healthcare",
+                "video": "https://www.facebook.com/groups/latcraft/permalink/1438352166261244/",
                 "tags": [
                     "healthcare",
                     "knowledge bases",
@@ -73,6 +77,8 @@
                 "time": "20:20",
                 "title": "The Magnificent World of the Airlines",
                 "type": "speech",
+                "presentation": "https://www.slideshare.net/latcraft/the-magnificent-world-of-the-airlines",
+                "video": "https://www.facebook.com/groups/latcraft/permalink/1438352166261244/",
                 "tags": [
                     "airlines",
                     "booking",
