@@ -1,6 +1,6 @@
 [
     {
-        "announced": "false",
+        "announced": false,
         "announcements": [
             {
                 "description": "DevTernity 2017 agenda is 80% ready. Checkout the <a href=\"http://devternity.com\">schedule</a> and book tickets!",
@@ -96,7 +96,7 @@
         "tickets": "https://www.eventbrite.com/e/latcraft-it-business-youve-always-wondered-about-tickets-37484658623"
     },
     {
-        "announced": "false",
+        "announced": false,
         "announcements": [
             {
                 "description": "DevTernity 2017 agenda is being secretly prepared. Checkout the first <a href=\"http://devternity.com\">schedule entries</a>!",
@@ -177,7 +177,7 @@
         "lanyrd": "http://lanyrd.com/2017/latcraft-august/"
     },
     {
-        "announced": "false",
+        "announced": false,
         "announcements": [
             {
                 "description": "DevTernity 2017 agenda is being secretly prepared. Checkout the first <a href=\"http://devternity.com\">schedule entries</a>!",
@@ -258,7 +258,7 @@
         "lanyrd": "http://lanyrd.com/2017/latcraft-chatbots/"
     },
     {
-        "announced": "false",
+        "announced": false,
         "announcements": [
             
         ],
@@ -312,7 +312,7 @@
         "tickets": "https://www.eventbrite.com/e/latcraft-specification-by-example-workshop-tickets-34940583225"
     },
     {
-        "announced": "false",
+        "announced": false,
         "announcements": [
             
         ],
@@ -417,7 +417,7 @@
         "videoStreaming": true
     },
     {
-        "announced": "false",
+        "announced": false,
         "announcements": [
             
         ],
