@@ -2,10 +2,91 @@
     {
         "announced": false,
         "announcements": [
+            
+        ],
+        "capacity": 120,
+        "date": "3 October, 2017",
+        "month": "October 2017",
+        "theme": "Secret event",
+        "time": "18:30",
+        "endTime": "21:00",
+        "venue": "Zala iela 1, Microsoft",
+        "venueId": 8525599,
+        "maps": "https://www.google.lv/maps/place/Microsoft+Latvia+Sia/@56.9518346,24.1135864,17z/data=!3m1!4b1!4m2!3m1!1s0x46eecfd1895509f1:0x87193c3b2eaf2d7c?hl=en",
+        "videoStreaming": true,
+        "desc": "We are in the process of publishing this event. Details will be announced soon. Stay tuned.",
+        "schedule": [
+            {
+                "time": "18:30",
+                "title": "Event Opening",
+                "type": "start"
+            },
+            {
+                "bio": "Superhero",
+                "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+                "img": "img/speakers/sh_batman.jpg",
+                "name": "Batman",
+                "time": "18:40",
+                "title": "Sed ut perspiciatis unde omnis",
+                "twitter": "batman",
+                "type": "speech",
+                "tags": [
+                    
+                ],
+                "audience": "all"
+            },
+            {
+                "time": "19:20",
+                "title": "Coffee Break",
+                "type": "break"
+            },
+            {
+                "bio": "Spy",
+                "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. ",
+                "img": "img/speakers/sh_blackwidow.jpg",
+                "name": "Black Widow",
+                "time": "19:30",
+                "title": "Odio dignissimos ducimus qui blanditiis",
+                "twitter": "thewidow",
+                "type": "speech",
+                "tags": [
+                    
+                ],
+                "audience": "all"
+            },
+            {
+                "time": "20:10",
+                "title": "Coffee Break",
+                "type": "break"
+            },
+            {
+                "bio": "SecretOps",
+                "description": "Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+                "img": "img/speakers/sh_ironman.jpg",
+                "name": "Tony Stark",
+                "time": "20:20",
+                "title": "Nam libero tempore, cum soluta nobis",
+                "twitter": "tonystark",
+                "type": "speech",
+                "tags": [
+                    
+                ],
+                "audience": "all"
+            },
+            {
+                "time": "21:00",
+                "title": "Closing Note",
+                "type": "finish"
+            }
+        ]
+    },
+    {
+        "announced": false,
+        "announcements": [
             {
                 "description": "DevTernity 2017 agenda is 80% ready. Checkout the <a href=\"http://devternity.com\">schedule</a> and book tickets!",
                 "img": "img/newsletter/devternity.png"
-            }            
+            }
         ],
         "capacity": 120,
         "date": "5 September, 2017",
@@ -60,7 +141,7 @@
                 "tags": [
                     "healthcare",
                     "knowledge bases",
-                    "analytics"                    
+                    "analytics"
                 ],
                 "audience": "all"
             },
