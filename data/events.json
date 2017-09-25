@@ -2,19 +2,19 @@
     {
         "announced": false,
         "announcements": [
-            
+
         ],
         "capacity": 120,
         "date": "3 October, 2017",
         "month": "October 2017",
-        "theme": "Secret event",
+        "theme": "Cloud-Native and Serverless",
         "time": "18:30",
         "endTime": "21:00",
         "venue": "Zala iela 1, Microsoft",
         "venueId": 8525599,
         "maps": "https://www.google.lv/maps/place/Microsoft+Latvia+Sia/@56.9518346,24.1135864,17z/data=!3m1!4b1!4m2!3m1!1s0x46eecfd1895509f1:0x87193c3b2eaf2d7c?hl=en",
         "videoStreaming": true,
-        "desc": "We are in the process of publishing this event. Details will be announced soon. Stay tuned.",
+        "desc": "Going serverless and developing cloud-native applications are some of the hottest topics in our industry today. Learn how you can stop worrying about managing and operating servers or runtimes and start focusing on what truly matters to help your business grow.",
         "schedule": [
             {
                 "time": "18:30",
@@ -22,54 +22,39 @@
                 "type": "start"
             },
             {
-                "bio": "Superhero",
-                "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
-                "img": "img/speakers/sh_batman.jpg",
-                "name": "Batman",
+                "bio": "CIO @ Neotech",
+                "description": "In this talk, I will reveal Neotech's road to Cloud Native – why we have decided to become cloud-native, what goals we were trying to achieve, which decisions have we made and what problems have we discovered. Join if you have started to think about going in this direction and would like to learn from someone, who is already there.",
+                "img": "img/speakers/aleksejs_cibinogins.jpg",
+                "name": "Aleksejs Cibinogins",
                 "time": "18:40",
-                "title": "Sed ut perspiciatis unde omnis",
-                "twitter": "batman",
+                "title": "The Road to Cloud-native and Kubernetes",
+                "twitter": "",
                 "type": "speech",
                 "tags": [
-                    
+                    "kubernetes",
+                    "pipeline",
+                    "demo"
                 ],
                 "audience": "all"
             },
             {
-                "time": "19:20",
+                "time": "19:50",
                 "title": "Coffee Break",
                 "type": "break"
             },
             {
-                "bio": "Spy",
-                "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. ",
-                "img": "img/speakers/sh_blackwidow.jpg",
-                "name": "Black Widow",
-                "time": "19:30",
-                "title": "Odio dignissimos ducimus qui blanditiis",
-                "twitter": "thewidow",
+                "bio": "Director of Engineering @ AgileStacks",
+                "description": "Serverless Architectures and AWS Lambda is probably loudest Cloud service after invention of docker. It frees users from managing servers and allows to write apps with great cost efficiency. However it comes with some important limitations. This talk will focus on AWS Lambda implementation and design. Share tips and tricks and some patterns captured during intensive Serverless Architecture implementation. It will give you some aspects to consider before you decided to introduce Serverless Architecture your project.",
+                "img": "img/speakers/antons_kranga.jpg",
+                "name": "Antons Kranga",
+                "time": "20:00",
+                "title": "Design efficient AWS Lambda for Serverless Architecture",
+                "twitter": "acankr",
                 "type": "speech",
                 "tags": [
-                    
-                ],
-                "audience": "all"
-            },
-            {
-                "time": "20:10",
-                "title": "Coffee Break",
-                "type": "break"
-            },
-            {
-                "bio": "SecretOps",
-                "description": "Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
-                "img": "img/speakers/sh_ironman.jpg",
-                "name": "Tony Stark",
-                "time": "20:20",
-                "title": "Nam libero tempore, cum soluta nobis",
-                "twitter": "tonystark",
-                "type": "speech",
-                "tags": [
-                    
+                    "serverless",
+                    "aws",
+                    "lambda"
                 ],
                 "audience": "all"
             },
@@ -341,7 +326,7 @@
     {
         "announced": false,
         "announcements": [
-            
+
         ],
         "capacity": 60,
         "cards": {
@@ -395,7 +380,7 @@
     {
         "announced": false,
         "announcements": [
-            
+
         ],
         "capacity": 100,
         "cards": {
@@ -418,7 +403,7 @@
             {
                 "bio": "",
                 "cards": {
-                    
+
                 },
                 "description": "Nutritional advice nowadays is more available and more controversial than ever before. From vegan smoothie cleanses and gluten-free cookie recipes to fasting at full moon and bodybuilding high protein diets \u2013 healthy eating guidelines can be a bit confusing, can\u2019t they? This is a story of a person who had tried them all over a period of 10 years in search for a perfectly healthy diet strategy and the surprising conclusions she came to.",
                 "img": "img/speakers/maraskre.jpg",
@@ -437,7 +422,7 @@
             {
                 "bio": "Founder, Fitness Instructor @ EMS Nation",
                 "cards": {
-                    
+
                 },
                 "description": "EMS Nation is an innovation in the fitness industry. EMS Nation combines the modern technology and scientific facts with electrical muscle stimulation (EMS), in this way you can rich to your best top shape in fastest possible way. A 40-minute training session replaces 4 hours of traditional training sessions at gym. EMS Nation means experiencing innovation.",
                 "img": "img/speakers/raitisda.png",
@@ -455,7 +440,7 @@
             {
                 "bio": "Yoga instructor @ Pole & Harmony",
                 "cards": {
-                    
+
                 },
                 "description": "Nowadays yoga is one of the most popular ways to take care of the body, but at the same time \u2013 one the most misunderstood. During this talk you'll get a clearer idea of yoga and what it can do for your physical and mental wellbeing. No mantras, no chakras \u2013 just facts.",
                 "img": "img/speakers/dianamo.png",
@@ -474,7 +459,7 @@
             {
                 "bio": "Krav Maga Instructor, Founder @ Dro\u0161\u0101 Distance",
                 "cards": {
-                    
+
                 },
                 "description": "Ronalds will introduce you to Krav Maga and its principles. After a light warmup and some coordination exercises, you will try a couple of simple Krav Maga techniques. Both men and women allowed! :)",
                 "img": "img/speakers/ronalds.jpg",
@@ -500,7 +485,7 @@
     {
         "announced": false,
         "announcements": [
-            
+
         ],
         "capacity": 130,
         "cards": {
@@ -577,7 +562,7 @@
     {
         "announced": false,
         "announcements": [
-            
+
         ],
         "capacity": 130,
         "cards": {
@@ -674,7 +659,7 @@
     {
         "announced": false,
         "announcements": [
-            
+
         ],
         "capacity": 60,
         "cards": {
