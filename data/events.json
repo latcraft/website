@@ -1,7 +1,8 @@
 [
     {
-        "announced": "false",
+        "announced": false,
         "announcements": [
+            
         ],
         "capacity": 120,
         "date": "8 November, 2017",
@@ -64,7 +65,7 @@
         ]
     },
     {
-        "announced": "false",
+        "announced": false,
         "announcements": [
             
         ],
