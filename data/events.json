@@ -1,6 +1,6 @@
 [
     {
-        "announced": false,
+        "announced": "true",
         "announcements": [
             
         ],
@@ -14,7 +14,7 @@
         "venueId": 8525599,
         "maps": "https://www.google.lv/maps/place/Microsoft+Latvia+Sia/@56.9518346,24.1135864,17z/data=!3m1!4b1!4m2!3m1!1s0x46eecfd1895509f1:0x87193c3b2eaf2d7c?hl=en",
         "videoStreaming": true,
-        "desc": "As you well know microservices is still one of the hottest topics in software development. Hop on the hype train with our expert speakers, as this event is for people interested in designing, deploying and maintaining microservices without sacrificing quality. We'll discuss clean code questions and microservices – a modern approach to architecting applications.",
+        "desc": "As you well know microservices is still one of the hottest topics in software development. Hop on the hype train with our expert speakers, as this event is for people interested in designing, deploying and maintaining microservices without sacrificing quality. We'll discuss clean code questions and microservices \u2013 a modern approach to architecting applications.",
         "schedule": [
             {
                 "time": "18:30",
@@ -23,7 +23,7 @@
             },
             {
                 "bio": "Event Organizer @ Riga Dev Days",
-                "description": "Microservices created quite a buzz in software development. Those are finally being adopted, and a lot of project suffer from that... microservices bring a lot of infrastructure and distributed programming complexity not all organisations can cope with. Question is – is it possible to gradually migrate to microservices architecture without Big Bang/Rewrite From Scratch approach? I would say it is possible, and is a much better idea compared to installing Kubernetes on AWS on day one. This talk is based on practical experience of architecting business applications to scale out and grow up to become micro services one day.",
+                "description": "Microservices created quite a buzz in software development. Those are finally being adopted, and a lot of project suffer from that... microservices bring a lot of infrastructure and distributed programming complexity not all organisations can cope with. Question is \u2013 is it possible to gradually migrate to microservices architecture without Big Bang/Rewrite From Scratch approach? I would say it is possible, and is a much better idea compared to installing Kubernetes on AWS on day one. This talk is based on practical experience of architecting business applications to scale out and grow up to become micro services one day.",
                 "img": "img/speakers/buzdin.jpg",
                 "name": "Dmitry Buzdin",
                 "time": "18:40",
@@ -44,11 +44,11 @@
             },
             {
                 "bio": "Co-founder @ Vilnius JUG",
-                "description": "The concept of clean code is well known by many developers. But if you ask them what it is, many of them mostly talk about software design. While naming and abstractions are very important in code comprehension, this talk is focuses on fundamentally important comprehension factor—code structure.",
+                "description": "The concept of clean code is well known by many developers. But if you ask them what it is, many of them mostly talk about software design. While naming and abstractions are very important in code comprehension, this talk is focuses on fundamentally important comprehension factor\u2014code structure.",
                 "img": "img/speakers/vaidas_pilkauskas.png",
                 "name": "Vaidas Pilkauskas",
                 "time": "19:45",
-                "title": "Let’s talk about CODE!",
+                "title": "Let\u2019s talk about CODE!",
                 "twitter": "liucijus",
                 "type": "speech",
                 "tags": [
@@ -62,7 +62,9 @@
                 "title": "Closing Note",
                 "type": "finish"
             }
-        ]
+        ],
+        "eventbriteEventId": "39513588206",
+        "tickets": "https://www.eventbrite.com/e/latcraft-architecture-code-tickets-39513588206"
     },
     {
         "announced": false,
