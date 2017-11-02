@@ -5,16 +5,16 @@
             
         ],
         "capacity": 120,
-        "date": "5 December, 2017",
-        "month": "December 2017",
-        "theme": "Secret event",
+        "date": "8 November, 2017",
+        "month": "November 2017",
+        "theme": "Architecture & CODE",
         "time": "18:30",
         "endTime": "21:00",
         "venue": "Zala iela 1, Microsoft",
         "venueId": 8525599,
         "maps": "https://www.google.lv/maps/place/Microsoft+Latvia+Sia/@56.9518346,24.1135864,17z/data=!3m1!4b1!4m2!3m1!1s0x46eecfd1895509f1:0x87193c3b2eaf2d7c?hl=en",
         "videoStreaming": true,
-        "desc": "We are in the process of publishing this event. Details will be announced soon. Stay tuned.",
+        "desc": "As you well know microservices is still one of the hottest topics in software development. Hop on the hype train with our expert speakers, as this event is for people interested in designing, deploying and maintaining microservices without sacrificing quality. We'll discuss clean code questions and microservices – a modern approach to architecting applications.",
         "schedule": [
             {
                 "time": "18:30",
@@ -22,59 +22,43 @@
                 "type": "start"
             },
             {
-                "bio": "Superhero",
-                "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
-                "img": "img/speakers/sh_batman.jpg",
-                "name": "Batman",
+                "bio": "Event Organizer @ Riga Dev Days",
+                "description": "Microservices created quite a buzz in software development. Those are finally being adopted, and a lot of project suffer from that... microservices bring a lot of infrastructure and distributed programming complexity not all organisations can cope with. Question is – is it possible to gradually migrate to microservices architecture without Big Bang/Rewrite From Scratch approach? I would say it is possible, and is a much better idea compared to installing Kubernetes on AWS on day one. This talk is based on practical experience of architecting business applications to scale out and grow up to become micro services one day.",
+                "img": "img/speakers/buzdin.jpg",
+                "name": "Dmitry Buzdin",
                 "time": "18:40",
-                "title": "Sed ut perspiciatis unde omnis",
-                "twitter": "batman",
+                "title": "How to grow your own microservice?",
+                "twitter": "buzdin",
                 "type": "speech",
                 "tags": [
-                    
+                    "kubernetes",
+                    "microservices",
+                    "aws"
                 ],
                 "audience": "all"
             },
             {
-                "time": "19:20",
+                "time": "19:35",
                 "title": "Coffee Break",
                 "type": "break"
             },
             {
-                "bio": "Spy",
-                "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. ",
-                "img": "img/speakers/sh_blackwidow.jpg",
-                "name": "Black Widow",
-                "time": "19:30",
-                "title": "Odio dignissimos ducimus qui blanditiis",
-                "twitter": "thewidow",
+                "bio": "Co-founder @ Vilnius JUG",
+                "description": "The concept of clean code is well known by many developers. But if you ask them what it is, many of them mostly talk about software design. While naming and abstractions are very important in code comprehension, this talk is focuses on fundamentally important comprehension factor—code structure.",
+                "img": "img/speakers/vaidas_pilkauskas.png",
+                "name": "Vaidas Pilkauskas",
+                "time": "19:45",
+                "title": "Let’s talk about CODE!",
+                "twitter": "liucijus",
                 "type": "speech",
                 "tags": [
-                    
+                    "code",
+                    "architecture"
                 ],
                 "audience": "all"
             },
             {
-                "time": "20:10",
-                "title": "Coffee Break",
-                "type": "break"
-            },
-            {
-                "bio": "SecretOps",
-                "description": "Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
-                "img": "img/speakers/sh_ironman.jpg",
-                "name": "Tony Stark",
-                "time": "20:20",
-                "title": "Nam libero tempore, cum soluta nobis",
-                "twitter": "tonystark",
-                "type": "speech",
-                "tags": [
-                    
-                ],
-                "audience": "all"
-            },
-            {
-                "time": "21:00",
+                "time": "20:40",
                 "title": "Closing Note",
                 "type": "finish"
             }
