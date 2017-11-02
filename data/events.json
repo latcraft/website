@@ -22,7 +22,7 @@
                 "type": "start"
             },
             {
-                "bio": "Event Organizer @ Riga Dev Days",
+                "bio": "Software Architect",
                 "description": "Microservices created quite a buzz in software development. Those are finally being adopted, and a lot of project suffer from that... microservices bring a lot of infrastructure and distributed programming complexity not all organisations can cope with. Question is \u2013 is it possible to gradually migrate to microservices architecture without Big Bang/Rewrite From Scratch approach? I would say it is possible, and is a much better idea compared to installing Kubernetes on AWS on day one. This talk is based on practical experience of architecting business applications to scale out and grow up to become micro services one day.",
                 "img": "img/speakers/buzdin.jpg",
                 "name": "Dmitry Buzdin",
