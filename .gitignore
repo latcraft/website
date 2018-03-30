@@ -46,3 +46,4 @@ temp/
 www
 .vagrant
 *.iml
+/data/*.txt
