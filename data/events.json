@@ -567,7 +567,6 @@
             "event-workshop_event_card_v2-20170404": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-workshop_event_card_v2-20170404.png",
             "event-workshop_facebook_background_v1-20170404": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-workshop_facebook_background_v1-20170404.png"
         },
-        "classes": "extended_event",
         "date": "4 April, 2017",
         "desc": "Product Development is very important topic in our community. Knowing best practices is a key to successful product and business as a result. Our great speakers will tell stories of both ephemeral success, epic failures and share valuable takeaways to take home with you. Grab your ticket, bring your friends and spread the word!",
         "endTime": "21:00",
@@ -644,7 +643,6 @@
             "event-workshop_event_card_v2-20170307": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-workshop_event_card_v2-20170307.png",
             "event-workshop_facebook_background_v1-20170307": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-workshop_facebook_background_v1-20170307.png"
         },
-        "classes": "extended_event",
         "date": "7 March, 2017",
         "desc": "Machine Learning and AI is among the hottest IT topics. Discover machine learning basics in areas such as natural language processing and robotics. Grab your ticket, bring your friends and spread the word!",
         "endTime": "21:00",
@@ -741,7 +739,6 @@
             "event-workshop_event_card_v2-20170207": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-workshop_event_card_v2-20170207.png",
             "event-workshop_facebook_background_v1-20170207": "https://s3-eu-west-1.amazonaws.com/latcraft-images/event-workshop_facebook_background_v1-20170207.png"
         },
-        "classes": "extended_event",
         "date": "7 February, 2017",
         "desc": "Elixir is a modern programming language designed for building scalable and maintainable applications. During this hands-on workshop you will learn 'whys' and 'hows' behind Elixir and develop Battleship game using Phoenix \u2014 a web framework written in Elixir. Grab your ticket, bring your friends and spread the word!",
         "endTime": "21:00",
